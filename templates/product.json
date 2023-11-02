@@ -82,7 +82,7 @@
           "type": "collapsible-row",
           "settings": {
             "title_text": "Ingredients",
-            "description_text": "<p>List ingredients here.<\/p>",
+            "description_text": "<p>Algae (<em>Fucus vesiculosus<\/em>), freeze-dried lemon fruit (carrier), fish gelatin (capsule shell), freeze-dried fish collagen, vitamin E (D-alpha-tocopherol), anti-caking agent (colloidal silica), tocotrienols (delta and gamma).<\/p>",
             "open_by_default": false
           }
         },
