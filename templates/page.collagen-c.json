@@ -963,7 +963,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -1105,7 +1105,7 @@
         "template--21472665436473__b920341b-4501-44c2-a509-51095d537ed8-column-2"
       ],
       "custom_css": [
-        ".section-multicolumns .section-multicolumn__button:not(:only-child) {margin-top: 12px; margin: 12px 40% 12px 40%;}"
+
       ],
       "settings": {
         "fullwidth": true,
@@ -1144,7 +1144,6 @@
       "block_order": [
         "template--21586456510777__3a44223e-d10e-4244-8fe4-ab2d622fa769-button-1"
       ],
-      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -1204,7 +1203,6 @@
         "template--21586456510777__8e48c025-df5e-455b-b425-a95d07fc9f5d-images-1",
         "template--21586456510777__8e48c025-df5e-455b-b425-a95d07fc9f5d-content-1"
       ],
-      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -1221,6 +1219,80 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "92c4ba19-e844-4ffd-9e45-a28f03e6c0a7": {
+      "type": "image-cards",
+      "blocks": {
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-1": {
+          "type": "card",
+          "settings": {
+            "card_size": "small",
+            "image_aspect_ratio": "auto",
+            "heading": "Colvita Collagen",
+            "heading_tag": "h3",
+            "heading_custom_width": false,
+            "heading_width": 450,
+            "description": "The Colvita Collagen supplement is an abundant source of natural wellness; Containing Pure Marine Tropocollagen, Algae (fucus vesiculosus) extract, Tocotrienols, and Vitamin E. The defining characteristic of Colvita is the lyophilized Native Collagen Hydrate, obtained through a cutting-edge extraction process that maintains its triple helix structure, closely resembling human collagen.",
+            "description_tag": "p",
+            "description_custom_width": false,
+            "description_width": 450,
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        },
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-2": {
+          "type": "card",
+          "settings": {
+            "card_size": "large",
+            "image_aspect_ratio": "auto",
+            "heading": "This is Image card heading",
+            "heading_tag": "h4",
+            "heading_custom_width": false,
+            "heading_width": 450,
+            "description": "This is simple description for Image card.",
+            "description_tag": "s2",
+            "description_custom_width": false,
+            "description_width": 450,
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-1",
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-2"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "vertical_align": "normal",
+        "heading": "The Salve Choice",
+        "heading_tag": "h3",
+        "description": "",
+        "description_tag": "p",
+        "button_text": "Button text",
+        "button_url": "",
+        "button_target": "_self",
+        "button_style": "link",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -1243,6 +1315,7 @@
     "80db4c2a-e290-4b7f-950b-39b90931ade0",
     "b920341b-4501-44c2-a509-51095d537ed8",
     "3a44223e-d10e-4244-8fe4-ab2d622fa769",
-    "8e48c025-df5e-455b-b425-a95d07fc9f5d"
+    "8e48c025-df5e-455b-b425-a95d07fc9f5d",
+    "92c4ba19-e844-4ffd-9e45-a28f03e6c0a7"
   ]
 }
