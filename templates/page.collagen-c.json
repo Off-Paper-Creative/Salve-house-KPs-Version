@@ -1172,7 +1172,7 @@
             "text_2_custom_width": false,
             "text_2_width": 450,
             "text_2_display_order": 0,
-            "button_text": "Become A Member",
+            "button_text": "",
             "button_url": "shopify:\/\/pages\/become-a-member",
             "button_target": "_self",
             "button_style": "outline",
