@@ -267,10 +267,48 @@
             "slide_button_2_custom_width": true,
             "slide_button_2_width": 200
           }
+        },
+        "be019d13-bd0d-4e7f-8a5c-296987bb84bf": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": true,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 40,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/pexels-jennifer-enujiugha-1903611_copy.jpg",
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "left",
+            "slide_heading": "Key Benefits of Collagen Use",
+            "slide_heading_width": 450,
+            "slide_subheading": "Physical Activity and Recovery:",
+            "slide_subheading_width": 450,
+            "slide_description": "* regeneration, restoration, and rebuilding  *Reducing Inflammation *Regenerating connective and cartilage tissue",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Button text",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
         }
       },
       "block_order": [
-        "template--21212521496889__ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f-slide-1"
+        "template--21212521496889__ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f-slide-1",
+        "be019d13-bd0d-4e7f-8a5c-296987bb84bf"
       ],
       "settings": {
         "fullwidth": true,
