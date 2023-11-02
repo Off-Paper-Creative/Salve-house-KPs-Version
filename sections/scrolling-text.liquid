@@ -106,6 +106,21 @@ endif
  %}"><hr class="separator"></div>
 {% endif %}
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    function setScrollingSpeed(speed) {
+      const scrollingText = document.querySelector(".scrolling-text");
+      if (scrollingText) {
+        scrollingText.style.scrollBehavior = `smooth`;
+        scrollingText.style.scrollDuration = `${speed}s`;
+      }
+    }
+
+    const sectionSettings = {{ section.settings | json }};
+    setScrollingSpeed(sectionSettings.scroll_speed);
+  });
+</script>
+
 {% schema %}
 {
   "name": "t:sections.scrolling_text.name",
@@ -315,11 +330,11 @@ endif
       "type": "range",
       "id": "scroll_speed",
       "min": 1,
-      "max": 40,
+      "max": 100,
       "step": 1,
       "unit": "s",
       "label": "Scrolling Speed",
-      "default": 5,
+      "default": 30,
       "info": "Adjust the scrolling speed (in seconds)"
     }
   ],
