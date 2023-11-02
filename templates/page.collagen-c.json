@@ -339,6 +339,62 @@
         "spacing_placement": "1"
       }
     },
+    "d8ee99e1-0385-47b0-8539-bd447806440b": {
+      "type": "image-banner",
+      "blocks": {
+        "0cd35996-7449-4cee-a04b-57fd6eeda287": {
+          "type": "text",
+          "settings": {
+            "banner_text": "COLLAGEN",
+            "banner_text_tag": "h1"
+          }
+        },
+        "cd1fa879-442c-498a-9135-80934ef7518e": {
+          "type": "text",
+          "settings": {
+            "banner_text": "The Rejuvenator",
+            "banner_text_tag": "h6"
+          }
+        },
+        "968ece71-9baa-4096-a37c-dcf15ecbfdbd": {
+          "type": "text",
+          "settings": {
+            "banner_text": "A substance that speeds up a reaction or enables it to proceed under milder conditions.",
+            "banner_text_tag": "p"
+          }
+        }
+      },
+      "block_order": [
+        "0cd35996-7449-4cee-a04b-57fd6eeda287",
+        "cd1fa879-442c-498a-9135-80934ef7518e",
+        "968ece71-9baa-4096-a37c-dcf15ecbfdbd"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height_mobile": "460",
+        "height": "460",
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_overlay": true,
+        "background_overlay_color": "#174248",
+        "background_overlay_opacity": 100,
+        "content_custom_width": true,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "5376337c-03dd-4706-91d3-589e1a897b40": {
       "type": "rich-text",
       "blocks": {
@@ -969,6 +1025,80 @@
         "spacing_placement": "1"
       }
     },
+    "92c4ba19-e844-4ffd-9e45-a28f03e6c0a7": {
+      "type": "image-cards",
+      "blocks": {
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-1": {
+          "type": "card",
+          "settings": {
+            "card_size": "small",
+            "image_aspect_ratio": "auto",
+            "heading": "Colvita Collagen",
+            "heading_tag": "h3",
+            "heading_custom_width": false,
+            "heading_width": 450,
+            "description": "The Colvita Collagen supplement is an abundant source of natural wellness; Containing Pure Marine Tropocollagen, Algae (fucus vesiculosus) extract, Tocotrienols, and Vitamin E. The defining characteristic of Colvita is the lyophilized Native Collagen Hydrate, obtained through a cutting-edge extraction process that maintains its triple helix structure, closely resembling human collagen.",
+            "description_tag": "p",
+            "description_custom_width": false,
+            "description_width": 450,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        },
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-2": {
+          "type": "card",
+          "settings": {
+            "card_size": "large",
+            "image_aspect_ratio": "auto",
+            "heading": "",
+            "heading_tag": "h4",
+            "heading_custom_width": false,
+            "heading_width": 450,
+            "description": "",
+            "description_tag": "s2",
+            "description_custom_width": false,
+            "description_width": 450,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-1",
+        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-2"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "vertical_align": "normal",
+        "heading": "The Salve Choice",
+        "heading_tag": "h3",
+        "description": "",
+        "description_tag": "p",
+        "button_text": "Button text",
+        "button_url": "",
+        "button_target": "_self",
+        "button_style": "link",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "80db4c2a-e290-4b7f-950b-39b90931ade0": {
       "type": "image-with-text",
       "blocks": {
@@ -1223,80 +1353,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "92c4ba19-e844-4ffd-9e45-a28f03e6c0a7": {
-      "type": "image-cards",
-      "blocks": {
-        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-1": {
-          "type": "card",
-          "settings": {
-            "card_size": "small",
-            "image_aspect_ratio": "auto",
-            "heading": "Colvita Collagen",
-            "heading_tag": "h3",
-            "heading_custom_width": false,
-            "heading_width": 450,
-            "description": "The Colvita Collagen supplement is an abundant source of natural wellness; Containing Pure Marine Tropocollagen, Algae (fucus vesiculosus) extract, Tocotrienols, and Vitamin E. The defining characteristic of Colvita is the lyophilized Native Collagen Hydrate, obtained through a cutting-edge extraction process that maintains its triple helix structure, closely resembling human collagen.",
-            "description_tag": "p",
-            "description_custom_width": false,
-            "description_width": 450,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        },
-        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-2": {
-          "type": "card",
-          "settings": {
-            "card_size": "large",
-            "image_aspect_ratio": "auto",
-            "heading": "",
-            "heading_tag": "h4",
-            "heading_custom_width": false,
-            "heading_width": 450,
-            "description": "",
-            "description_tag": "s2",
-            "description_custom_width": false,
-            "description_width": 450,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-1",
-        "template--21586456510777__92c4ba19-e844-4ffd-9e45-a28f03e6c0a7-card-2"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": true,
-        "gap_choice": "level-4",
-        "vertical_align": "normal",
-        "heading": "The Salve Choice",
-        "heading_tag": "h3",
-        "description": "",
-        "description_tag": "p",
-        "button_text": "Button text",
-        "button_url": "",
-        "button_target": "_self",
-        "button_style": "link",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -1306,16 +1362,17 @@
     "image-cards-1",
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146",
     "de2374c2-07ae-47a5-9c0d-30a81b49c1a3",
+    "d8ee99e1-0385-47b0-8539-bd447806440b",
     "5376337c-03dd-4706-91d3-589e1a897b40",
     "0ecd5908-6b3d-44d1-9a84-66ce33276039",
     "a62cfc00-6302-4429-98f0-2f1832393b10",
     "6328d993-f1fc-440d-a6ec-c2e6a2b89af2",
     "f3218aa9-c2cf-44e4-b953-d3049088a320",
     "0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2",
+    "92c4ba19-e844-4ffd-9e45-a28f03e6c0a7",
     "80db4c2a-e290-4b7f-950b-39b90931ade0",
     "b920341b-4501-44c2-a509-51095d537ed8",
     "3a44223e-d10e-4244-8fe4-ab2d622fa769",
-    "8e48c025-df5e-455b-b425-a95d07fc9f5d",
-    "92c4ba19-e844-4ffd-9e45-a28f03e6c0a7"
+    "8e48c025-df5e-455b-b425-a95d07fc9f5d"
   ]
 }
