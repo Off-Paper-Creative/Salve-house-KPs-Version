@@ -279,6 +279,20 @@
             "text": "No Additives",
             "text_tag": "h6"
           }
+        },
+        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9": {
+          "type": "text",
+          "settings": {
+            "text": "Held To European Standards",
+            "text_tag": "h6"
+          }
+        },
+        "074cf9cf-825f-4d4f-8546-7f33222e55ba": {
+          "type": "text",
+          "settings": {
+            "text": "Potent Effective Ingredients",
+            "text_tag": "h6"
+          }
         }
       },
       "block_order": [
@@ -287,7 +301,9 @@
         "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3",
         "9a9907a3-c0b5-4165-a48b-69c76553618f",
         "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936",
-        "f5f40b7b-430d-485c-a9f1-6d720c657148"
+        "f5f40b7b-430d-485c-a9f1-6d720c657148",
+        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9",
+        "074cf9cf-825f-4d4f-8546-7f33222e55ba"
       ],
       "settings": {
         "color_scheme": "scheme-main",
