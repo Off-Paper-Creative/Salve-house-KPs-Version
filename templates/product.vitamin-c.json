@@ -82,7 +82,7 @@
           "type": "collapsible-row",
           "settings": {
             "title_text": "Ingredients",
-            "description_text": "<p>Algae (<em>Fucus vesiculosus<\/em>), freeze-dried lemon fruit (carrier), fish gelatin (capsule shell), freeze-dried fish collagen, vitamin E (D-alpha-tocopherol), anti-caking agent (colloidal silica), tocotrienols (delta and gamma).<\/p>",
+            "description_text": "<p>Bitter orange extract (Citrus aurantium L.) standardized for 40% vitamin C, 15: 1 extract of common buckwheat seeds (Fagopyrum esculentum) standardized for 40% vitamin C, fish gelatin, anti-caking agent (calcium carbonate).<\/p>",
             "open_by_default": false
           }
         },
@@ -221,7 +221,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1",
@@ -248,9 +248,9 @@
             "slide_content_position": "left",
             "slide_content_vertical_align": "center",
             "slide_content_horizontal_align": "left",
-            "slide_heading": "Key Benefits of Collagen Use",
+            "slide_heading": "Benefits Of Vitamin C",
             "slide_heading_width": 450,
-            "slide_subheading": "Physical Activity and Recovery:",
+            "slide_subheading": "It is essential for collagen production, which plays a key role in maintaining the health of blood vessels, bones, and skin.It stimulates collagen biosynthesis, supporting the proper functioning of capillaries, skin, gums, teeth, as well as bones and cartilage.It contributes to a robust immune system.It ensures the optimal function of the nervous and cardiovascular systems by maintaining the proper density and firmness of blood vessel walls.",
             "slide_subheading_width": 450,
             "slide_description": "* regeneration, restoration, and rebuilding  *Reducing Inflammation *Regenerating connective and cartilage tissue",
             "slide_description_width": 450,
@@ -291,6 +291,74 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "0d567868-0349-4419-880d-33586ff723fb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21587732595001__0d567868-0349-4419-880d-33586ff723fb-slide-3": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image": "shopify:\/\/shop_images\/bundle.jpg",
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 1,
+            "slide_image_right_enable": true,
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 100,
+            "slide_content_position": "right",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Effectively Extracted",
+            "slide_heading_width": 450,
+            "slide_subheading": "The most extensive natural origin of vitamin C lies within the shoots of granular plants like buckwheat, typically during their 5-7 days of germination. This is precisely where the vitamin C for C-olway is derived from - directly from nature, found in the sprouting buckwheat and bitter orange. These two plants are now recognized as some of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections.",
+            "slide_subheading_width": 450,
+            "slide_description": "",
+            "slide_description_width": 450,
+            "slide_button_1_text": "",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21587732595001__0d567868-0349-4419-880d-33586ff723fb-slide-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
+        "color_scheme": "scheme-accent",
+        "slideshow_autoplay": false,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -351,7 +419,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -417,7 +485,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -429,6 +497,7 @@
     "main",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
+    "0d567868-0349-4419-880d-33586ff723fb",
     "16c06f9c-6804-4ad2-908c-d94e806857a8",
     "9558248e-813e-41f7-913d-c42b47117244"
   ]
