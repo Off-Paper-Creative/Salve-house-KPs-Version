@@ -6115,7 +6115,7 @@ body:not(.has-layout-margin)
 .whiteSeparator {
 	width: 79vw;
 	height: 2px;
-	background-color: pink;
+	background-color: white;
 	margin: 2rem auto 1rem auto;
 	justify-self: center;
 }
