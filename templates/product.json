@@ -140,101 +140,6 @@
         "spacing_placement": "3"
       }
     },
-    "icon-cards-1": {
-      "type": "icon-cards",
-      "blocks": {
-        "5298aff9-eb6e-41c5-948d-6ae1b19cadd6": {
-          "type": "card",
-          "settings": {
-            "icon": "",
-            "icon_width": 48,
-            "heading": "Scientifically Researched",
-            "heading_tag": "h6",
-            "description": "",
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        },
-        "70746193-54d7-41c8-9e0c-bb046c15d0b0": {
-          "type": "card",
-          "settings": {
-            "icon": "",
-            "icon_width": 48,
-            "heading": "Designed for Optimal Absorption",
-            "heading_tag": "h6",
-            "description": "",
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        },
-        "f6c72aaf-e7f6-4e50-8c47-54085eda2351": {
-          "type": "card",
-          "settings": {
-            "icon": "",
-            "icon_width": 48,
-            "heading": "Sourced In Europe",
-            "heading_tag": "h6",
-            "description": "",
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        },
-        "35bb3994-f970-476c-bc0d-e4e8c487f1a5": {
-          "type": "card",
-          "settings": {
-            "icon": "",
-            "icon_width": 48,
-            "heading": "Transparent +  Integrity",
-            "heading_tag": "h6",
-            "description": "",
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "5298aff9-eb6e-41c5-948d-6ae1b19cadd6",
-        "70746193-54d7-41c8-9e0c-bb046c15d0b0",
-        "f6c72aaf-e7f6-4e50-8c47-54085eda2351",
-        "35bb3994-f970-476c-bc0d-e4e8c487f1a5"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "width": 1020,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-1",
-        "alignment": "center",
-        "heading": "",
-        "heading_tag": "h3",
-        "heading_custom_width": false,
-        "heading_width": 700,
-        "description": "",
-        "description_tag": "p",
-        "description_custom_width": false,
-        "description_width": 700,
-        "columns_count": 4,
-        "gap": true,
-        "gap_choice": "level-6",
-        "separator": true,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-1",
-        "spacing_placement": "1"
-      }
-    },
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435": {
       "type": "scrolling-text",
       "blocks": {
@@ -461,7 +366,6 @@
   "order": [
     "breadcrumbs",
     "main",
-    "icon-cards-1",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
     "9558248e-813e-41f7-913d-c42b47117244"
