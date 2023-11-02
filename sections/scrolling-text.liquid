@@ -55,6 +55,7 @@
   endif
 
     echo ' ' | append: section.settings.color_scheme
+    echo ' ' | append: section.settings.scroll_speed
 %}">
   <div class="section-scrolling-text-container section-container">
     <div class="scrolling-text{% liquid 
@@ -111,7 +112,7 @@ endif
     function setScrollingSpeed(speed) {
       const scrollingText = document.querySelector(".scrolling-text");
       if (scrollingText) {
-        scrollingText.style.scrollBehavior = `smooth`;
+        scrollingText.style.scrollBehavior = "smooth";
         scrollingText.style.scrollDuration = `${speed}s`;
       }
     }
