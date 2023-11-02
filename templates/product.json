@@ -234,7 +234,7 @@
         "template--21212521496889__ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f-slide-1": {
           "type": "slide",
           "settings": {
-            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay": true,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 40,
             "slide_image_overlay": false,
@@ -252,7 +252,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Physical Activity and Recovery:",
             "slide_subheading_width": 450,
-            "slide_description": "* regeneration, restoration, and rebuilding <br> *Reducing Inflammation <br>*Regenerating connective and cartilage tissue",
+            "slide_description": "* regeneration, restoration, and rebuilding  *Reducing Inflammation *Regenerating connective and cartilage tissue",
             "slide_description_width": 450,
             "slide_button_1_text": "Button text",
             "slide_button_1_url": "",
