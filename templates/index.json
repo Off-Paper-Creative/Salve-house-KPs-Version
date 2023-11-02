@@ -1,1 +1,813 @@
-{"sections":{"2a49d6ac-3eee-4e37-8715-5e41613c6641":{"type":"image-banner","settings":{"fullwidth":true,"width":1860,"height_mobile":"600","height":"600","color_scheme":"scheme-accent","inset":true,"inset_choice":"level-1","background_video":"shopify:\/\/files\/videos\/Hero - Salve Supplement House.mp4","background_overlay":false,"background_overlay_color":"#1F2D1F","background_overlay_opacity":40,"content_custom_width":false,"content_width":720,"content_position":"center","content_horizontal_align":"center","separator":false,"separator_width":1,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":false,"spacing_choice":"level-1","spacing_placement":"1"}},"a9968b6e-2fc9-4dd4-b422-c1d46c76c1a8":{"type":"rich-text","blocks":{"919d8974-f1e9-4a9e-8ed2-c7976f217e14":{"type":"heading","settings":{"text":"A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH OUR BODIES","text_tag":"h5","text_custom_width":false,"text_width":700}}},"block_order":["919d8974-f1e9-4a9e-8ed2-c7976f217e14"],"settings":{"fullwidth":false,"width":2000,"color_scheme":"scheme-main","inset":true,"inset_choice":"level-1","alignment":"center","separator":true,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":true,"separator_custom_color":"#966e25","spacing":false,"spacing_choice":"level-1","spacing_placement":"1"}},"0a788bc7-220d-4551-9d33-37998081c2c8":{"type":"scrolling-text","blocks":{"template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-2":{"type":"text","settings":{"text":"LVE HEALTHIER","text_tag":"p2"}},"template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-3":{"type":"text","settings":{"text":"LVE STRONGER","text_tag":"p2"}},"feedf35a-8fe1-4007-b4b3-69ff3db5bc9a":{"type":"text","settings":{"text":"LVE YOUNGER","text_tag":"p2"}},"ba5a194d-7326-4912-b44e-198d2f82bf30":{"type":"text","settings":{"text":"LVE BETTER","text_tag":"p2"}},"22c73cb4-f0a5-40d6-96a7-c5bcd58d5a85":{"type":"text","settings":{"text":"LVE ACTIVE","text_tag":"p2"}}},"block_order":["template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-2","template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-3","feedf35a-8fe1-4007-b4b3-69ff3db5bc9a","ba5a194d-7326-4912-b44e-198d2f82bf30","22c73cb4-f0a5-40d6-96a7-c5bcd58d5a85"],"custom_css":[],"settings":{"color_scheme":"scheme-main","inset":false,"inset_choice":"level-1","splitter_use_custom_width":false,"splitter_custom_width":46,"separator":true,"separator_width":100,"separator_fullwidth":true,"separator_height":1,"separator_use_custom_color":true,"separator_custom_color":"#966e25","spacing":true,"spacing_choice":"level-1","spacing_placement":"2","scroll_speed":17}},"home-multicolumn-1":{"type":"multicolumn","blocks":{"template--15665882857627__home-multicolumn-1-16712114000b50dcfd-0":{"type":"column","settings":{"color_scheme":"scheme-main","inset":true,"inset_choice":"level-3","width":30,"horizontal_align":"flex-end","vertical_align":"flex-start","text_align":"right","image_show":true,"image":"shopify:\/\/shop_images\/pexels-karolina-grabowska-4046659.jpg","image_aspect_ratio":"1\/1","image_custom_width":false,"image_width":300,"image_display_order":0,"text_1":"Collagen Supplement","text_1_tag":"h6","text_1_custom_width":false,"text_1_width":450,"text_1_display_order":0,"text_2":"$400","text_2_tag":"h6","text_2_custom_width":false,"text_2_width":450,"text_2_display_order":0,"button_text":"Learn More","button_url":"shopify:\/\/products\/copy-of-colvita-vitamin-c","button_target":"_self","button_style":"outline","button_display_order":0}},"template--15665882857627__home-multicolumn-1-16712114000b50dcfd-1":{"type":"column","settings":{"color_scheme":"scheme-main","inset":true,"inset_choice":"level-3","width":40,"horizontal_align":"normal","vertical_align":"normal","text_align":"left","image_show":true,"image":"shopify:\/\/shop_images\/Artboard_5.png","image_aspect_ratio":"4\/5","image_custom_width":false,"image_width":300,"image_display_order":1,"text_1":"","text_1_tag":"p","text_1_custom_width":false,"text_1_width":450,"text_1_display_order":0,"text_2":"","text_2_tag":"p","text_2_custom_width":false,"text_2_width":450,"text_2_display_order":0,"button_text":"","button_url":"","button_target":"_self","button_style":"outline","button_display_order":0}},"9426a348-08a6-4b9a-9c99-990b2c22799e":{"type":"column","settings":{"color_scheme":"scheme-main","inset":true,"inset_choice":"level-3","width":30,"horizontal_align":"normal","vertical_align":"flex-start","text_align":"left","image_show":true,"image":"shopify:\/\/shop_images\/pexels-anna-nekrashevich-7215165.jpg","image_aspect_ratio":"1\/1","image_custom_width":false,"image_width":300,"image_display_order":0,"text_1":"Vitamin C Supplement","text_1_tag":"h6","text_1_custom_width":false,"text_1_width":450,"text_1_display_order":0,"text_2":"$400","text_2_tag":"h6","text_2_custom_width":false,"text_2_width":450,"text_2_display_order":0,"button_text":"Learn More","button_url":"shopify:\/\/products\/copy-of-colvita-vitamin-c","button_target":"_self","button_style":"outline","button_display_order":0}}},"block_order":["template--15665882857627__home-multicolumn-1-16712114000b50dcfd-0","template--15665882857627__home-multicolumn-1-16712114000b50dcfd-1","9426a348-08a6-4b9a-9c99-990b2c22799e"],"settings":{"fullwidth":false,"width":2000,"inset":false,"inset_choice":"level-3","gap":true,"gap_choice":"level-4","stack_on_mobile":true,"separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}},"0bfb7428-b525-43d6-9b76-5a250f871b62":{"type":"slideshow","blocks":{"template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3":{"type":"slide","settings":{"slide_image_mobile_overlay":true,"slide_image_mobile_overlay_color":"#1F2D1F","slide_image_mobile_overlay_opacity":100,"slide_image_overlay":true,"slide_image_overlay_color":"#1F2D1F","slide_image_overlay_opacity":100,"slide_image_right_enable":true,"slide_image_right":"shopify:\/\/shop_images\/pexels-nathan-cowley-1300402.jpg","slide_image_right_overlay":false,"slide_image_right_overlay_color":"#1F2D1F","slide_image_right_overlay_opacity":40,"slide_content_position":"left","slide_content_vertical_align":"center","slide_content_horizontal_align":"center","slide_heading":"Held to European standards","slide_heading_width":450,"slide_subheading":"All Salve products must surpass rigorous European regulation & compliance testing.","slide_subheading_width":420,"slide_description":"","slide_description_width":450,"slide_button_1_text":"BECOME A MEMBER","slide_button_1_url":"shopify:\/\/collections\/all","slide_button_1_style":"outline","slide_button_1_target":"_self","slide_button_1_custom_width":true,"slide_button_1_width":200,"slide_button_2_text":"","slide_button_2_url":"","slide_button_2_style":"outline","slide_button_2_target":"_self","slide_button_2_custom_width":true,"slide_button_2_width":200}},"59bcddda-ca71-467f-bb2f-b89102246ea0":{"type":"slide","settings":{"slide_image_mobile_overlay":true,"slide_image_mobile_overlay_color":"#1F2D1F","slide_image_mobile_overlay_opacity":100,"slide_image_overlay":true,"slide_image_overlay_color":"#1F2D1F","slide_image_overlay_opacity":100,"slide_image_right_enable":true,"slide_image_right":"shopify:\/\/shop_images\/pexels-anastasia-shuraeva-8935603_30364bf7-b918-4132-b3a1-99dfcdea6352.jpg","slide_image_right_overlay":false,"slide_image_right_overlay_color":"#1F2D1F","slide_image_right_overlay_opacity":40,"slide_content_position":"left","slide_content_vertical_align":"center","slide_content_horizontal_align":"center","slide_heading":"Formulated To Work With You","slide_heading_width":450,"slide_subheading":"Nurture healthy body function, vitality and sustainable beauty; Inside and out.","slide_subheading_width":420,"slide_description":"","slide_description_width":450,"slide_button_1_text":"BECOME A MEMBER","slide_button_1_url":"shopify:\/\/collections\/all","slide_button_1_style":"outline","slide_button_1_target":"_self","slide_button_1_custom_width":true,"slide_button_1_width":200,"slide_button_2_text":"","slide_button_2_url":"","slide_button_2_style":"outline","slide_button_2_target":"_self","slide_button_2_custom_width":true,"slide_button_2_width":200}},"6fe5c7c6-e356-4576-9e37-7cd146923ef2":{"type":"slide","settings":{"slide_image_mobile_overlay":true,"slide_image_mobile_overlay_color":"#1F2D1F","slide_image_mobile_overlay_opacity":100,"slide_image_overlay":true,"slide_image_overlay_color":"#1F2D1F","slide_image_overlay_opacity":100,"slide_image_right_enable":true,"slide_image_right":"shopify:\/\/shop_images\/pexels-anastasia-shuraeva-8935603_30364bf7-b918-4132-b3a1-99dfcdea6352.jpg","slide_image_right_overlay":false,"slide_image_right_overlay_color":"#1F2D1F","slide_image_right_overlay_opacity":40,"slide_content_position":"left","slide_content_vertical_align":"center","slide_content_horizontal_align":"center","slide_heading":"Vetted, Reviewed & Tested","slide_heading_width":450,"slide_subheading":"A trusted partner in your journey towards comprehensive well-being and beauty. Salve offers a selection of carefully curated, high-quality supplements that guarantee a complete range of effective solutions, leaving no room for compromise.","slide_subheading_width":420,"slide_description":"","slide_description_width":450,"slide_button_1_text":"BECOME A MEMBER","slide_button_1_url":"shopify:\/\/collections\/all","slide_button_1_style":"outline","slide_button_1_target":"_self","slide_button_1_custom_width":true,"slide_button_1_width":200,"slide_button_2_text":"","slide_button_2_url":"","slide_button_2_style":"outline","slide_button_2_target":"_self","slide_button_2_custom_width":true,"slide_button_2_width":200}},"91d9b3eb-a1f9-444e-98cc-a3b967719bd1":{"type":"slide","settings":{"slide_image_mobile_overlay":true,"slide_image_mobile_overlay_color":"#1F2D1F","slide_image_mobile_overlay_opacity":100,"slide_image_overlay":true,"slide_image_overlay_color":"#1F2D1F","slide_image_overlay_opacity":100,"slide_image_right_enable":true,"slide_image_right_overlay":true,"slide_image_right_overlay_color":"#1F2D1F","slide_image_right_overlay_opacity":100,"slide_content_position":"center","slide_content_vertical_align":"center","slide_content_horizontal_align":"center","slide_heading":"Become A Member","slide_heading_width":930,"slide_subheading":"","slide_subheading_width":600,"slide_description":"","slide_description_width":450,"slide_button_1_text":"Start Your Wellness Journey","slide_button_1_url":"shopify:\/\/pages\/become-a-member","slide_button_1_style":"outline","slide_button_1_target":"_self","slide_button_1_custom_width":true,"slide_button_1_width":300,"slide_button_2_text":"Learn More","slide_button_2_url":"shopify:\/\/pages\/become-a-member","slide_button_2_style":"fill","slide_button_2_target":"_self","slide_button_2_custom_width":true,"slide_button_2_width":300}}},"block_order":["template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3","59bcddda-ca71-467f-bb2f-b89102246ea0","6fe5c7c6-e356-4576-9e37-7cd146923ef2","91d9b3eb-a1f9-444e-98cc-a3b967719bd1"],"settings":{"fullwidth":true,"width":1320,"slideshow_height_mobile":"600","slideshow_height":"600","color_scheme":"scheme-accent","slideshow_autoplay":true,"slideshow_transition_interval":8600,"slideshow_loop":true,"slideshow_mouse_drag":true,"slideshow_arrows":true,"slideshow_dots":true,"slideshow_transition_speed":400,"separator":false,"separator_width":100,"separator_fullwidth":true,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}},"f75802bf-311a-49eb-9d38-f82d4d7de68c":{"type":"icon-cards","blocks":{"template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-1":{"type":"card","settings":{"icon":"microscope","icon_width":48,"heading":"Scientifically Researched","heading_tag":"h6","description":"<p>Salve exclusively offers products that are the result of rigorous, evidence-based research.<\/p>","button_text":"","button_url":"","button_target":"_self","button_style":"link"}},"template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-2":{"type":"card","settings":{"icon":"raindrop","icon_width":48,"heading":"Optimal Absorption","heading_tag":"h6","description":"<p>A larger portion of the active ingredient is effectively delivered and taken up by its intended location in your body, ensuring you enjoy an array of benefits.<\/p>","button_text":"","button_url":"","button_target":"_self","button_style":"link"}},"template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-3":{"type":"card","settings":{"icon":"euro","icon_width":48,"heading":"Sourced In Europe","heading_tag":"h6","description":"<p>Each product in our collection is subject to rigorous European compliance testing. We curate only the finest quality supplements, thoroughly examined for their safety and efficacy.<\/p>","button_text":"","button_url":"","button_target":"_self","button_style":"link"}},"7bfc86c0-2711-4518-8ab1-be088e23159d":{"type":"card","settings":{"icon":"plant","icon_width":48,"heading":"transparency + integrity","heading_tag":"h6","description":"<p>All of the manufacturers we work with source ingredients from reputable sources who share our commitment to quality.<\/p>","button_text":"","button_url":"","button_target":"_self","button_style":"link"}}},"block_order":["template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-1","template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-2","template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-3","7bfc86c0-2711-4518-8ab1-be088e23159d"],"settings":{"fullwidth":true,"width":1020,"color_scheme":"scheme-main","inset":false,"inset_choice":"level-2","alignment":"center","heading":"A FULL SPECTRUM OF BENEFITS","heading_tag":"h1","heading_custom_width":false,"heading_width":700,"description":"Salve maintains a deep commitment to helping others live well. Our goal is to redefine your approach to health, beauty, and vitality. We want you to live each day feeling energized, vibrant, and youthful – inside and out. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. When you choose Salve, you are choosing supplements that are:","description_tag":"p","description_custom_width":false,"description_width":700,"columns_count":4,"gap":true,"gap_choice":"level-3","separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}},"100d2bc0-6256-4758-90a2-f26d2dd7e4df":{"type":"image-banner","blocks":{"template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-text-1":{"type":"text","settings":{"banner_text":"Science + Consistency","banner_text_tag":"h2"}},"a6a52636-ccec-49f4-be75-9639f9388829":{"type":"text","settings":{"banner_text":"2 Months of Supplements Delivered To Your Door Every Other Month.","banner_text_tag":"p1"}},"template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-button-1":{"type":"button","settings":{"banner_button_text":"Become A Member","banner_button_url":"","banner_button_target":"_self","banner_button_style":"outline","banner_button_custom_width":false,"banner_button_width":200}}},"block_order":["template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-text-1","a6a52636-ccec-49f4-be75-9639f9388829","template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-button-1"],"settings":{"fullwidth":true,"width":1320,"height_mobile":"600","height":"600","color_scheme":"scheme-accent","inset":true,"inset_choice":"level-3","background_image_mobile":"shopify:\/\/shop_images\/pexels-jennifer-enujiugha-1903611_copy.jpg","background_overlay":true,"background_overlay_color":"#000","background_overlay_opacity":14,"content_custom_width":true,"content_width":720,"content_position":"center","content_horizontal_align":"center","separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}},"0cd02d78-c814-4caa-82b6-5a87dea160fb":{"type":"testimonials","blocks":{"18174aa6-963d-4405-bd01-acbec23feaec":{"type":"testimonial","settings":{"avatar_radius":50,"review":"Choose your desired package and enjoy your products delivered straight to your doorstep every other month.","reviewer":"","reviewer_description":""}},"843b1e46-f22f-4494-b917-14fa6d04007e":{"type":"testimonial","settings":{"avatar_radius":50,"review":"Receive x% off your order each month.","reviewer":"","reviewer_description":""}},"ba1abbf2-9337-40ee-aca0-a429bb4c8fc7":{"type":"testimonial","settings":{"avatar_radius":50,"review":"Enjoy the enhancement in overall well-being, appearance, mobility, and more.","reviewer":"","reviewer_description":""}}},"block_order":["18174aa6-963d-4405-bd01-acbec23feaec","843b1e46-f22f-4494-b917-14fa6d04007e","ba1abbf2-9337-40ee-aca0-a429bb4c8fc7"],"settings":{"fullwidth":true,"width":1320,"color_scheme":"scheme-main","inset":true,"inset_choice":"level-3","heading":"Member Benefits","heading_tag":"h3","description":"As a member, you'll unlock exclusive benefits, receive complimentary gifts, and save on your subscription package. When you join salve, you&#39;re not just purchasing supplements; you&#39;re making an investment in a healthier, more self-assured you.","description_tag":"p","columns_count":3,"gap":true,"gap_choice":"level-4","carousel":false,"per_move":2,"autoplay":false,"interval":4000,"loop":true,"mouse_drag":true,"arrows":true,"dots":false,"speed":400,"separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"2"}},"72f8ac9d-6465-43c9-ab04-fea03a13e692":{"type":"image-banner","blocks":{"template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1":{"type":"text","settings":{"banner_text":"The Collagen + C Bundle","banner_text_tag":"h2"}},"80d6d090-780b-444e-9f67-cf937fbabab1":{"type":"text","settings":{"banner_text":"Vitamin C + Collagen","banner_text_tag":"h6"}},"309c4af3-90ff-47a0-8815-9b37d9f809d6":{"type":"button","settings":{"banner_button_text":"Learn More","banner_button_url":"shopify:\/\/pages\/the-collagen-c-bundle","banner_button_target":"_self","banner_button_style":"fill","banner_button_custom_width":false,"banner_button_width":200}}},"block_order":["template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1","80d6d090-780b-444e-9f67-cf937fbabab1","309c4af3-90ff-47a0-8815-9b37d9f809d6"],"settings":{"fullwidth":true,"width":1320,"height_mobile":"600","height":"600","color_scheme":"scheme-accent","inset":true,"inset_choice":"level-1","background_video":"shopify:\/\/files\/videos\/Collagen-C Bundle.mp4","background_overlay":true,"background_overlay_color":"#FFFFFF","background_overlay_opacity":4,"content_custom_width":true,"content_width":720,"content_position":"center","content_horizontal_align":"center","separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}},"449dfd71-b99b-4c8c-a152-b8069324c04a":{"type":"rich-text","blocks":{"a94677f8-7ef5-46d2-9b71-616d18559793":{"type":"heading","settings":{"text":"A NEW APPROACH ON","text_tag":"h6","text_custom_width":false,"text_width":700}},"6b18d8b3-34b6-46c5-8a50-9a6ca73c0aa2":{"type":"special_heading","settings":{"text":"Health, Vitality & Living Well","text_tag":"s2","text_custom_width":false,"text_width":700}},"a48ecd2b-f4bf-4adb-b664-b02a67ceaaee":{"type":"description","settings":{"text":"Salve Supplement House is more than just a brand. We're your trusted partner in your journey towards comprehensive well-being, beauty, and health. Salve members can rest at ease knowing our products are exactly what they say they are. Our mission is to demystify wellness products, simplify the science, and present you with a curated line of products designed for to work with you. Products designed for optimal absorption, that work in harmony with your body, helping you achieve sustainable health and radiant youth.","text_tag":"p","text_custom_width":true,"text_width":820}},"333ee4cd-23ac-43dd-adc4-c479eb8a9052":{"type":"button","settings":{"button_text":"About Salve","button_url":"shopify:\/\/pages\/about-us","button_target":"_self","button_style":"outline","button_custom_width":false,"button_width":200}}},"block_order":["a94677f8-7ef5-46d2-9b71-616d18559793","6b18d8b3-34b6-46c5-8a50-9a6ca73c0aa2","a48ecd2b-f4bf-4adb-b664-b02a67ceaaee","333ee4cd-23ac-43dd-adc4-c479eb8a9052"],"settings":{"fullwidth":true,"width":1320,"color_scheme":"scheme-main","inset":true,"inset_choice":"level-2","alignment":"center","separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-2","spacing_placement":"1"}},"b9927b16-2442-4334-bfff-2c400483f9bb":{"type":"custom-liquid","settings":{"custom_liquid":"INSTAGRAM GOES HERE"}}},"order":["2a49d6ac-3eee-4e37-8715-5e41613c6641","a9968b6e-2fc9-4dd4-b422-c1d46c76c1a8","0a788bc7-220d-4551-9d33-37998081c2c8","home-multicolumn-1","0bfb7428-b525-43d6-9b76-5a250f871b62","f75802bf-311a-49eb-9d38-f82d4d7de68c","100d2bc0-6256-4758-90a2-f26d2dd7e4df","0cd02d78-c814-4caa-82b6-5a87dea160fb","72f8ac9d-6465-43c9-ab04-fea03a13e692","449dfd71-b99b-4c8c-a152-b8069324c04a","b9927b16-2442-4334-bfff-2c400483f9bb"]}
+{
+  "sections": {
+    "2a49d6ac-3eee-4e37-8715-5e41613c6641": {
+      "type": "image-banner",
+      "settings": {
+        "fullwidth": true,
+        "width": 1860,
+        "height_mobile": "600",
+        "height": "600",
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-1",
+        "background_video": "shopify:\/\/files\/videos\/Hero - Salve Supplement House.mp4",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 40,
+        "content_custom_width": false,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
+        "separator": false,
+        "separator_width": 1,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-1",
+        "spacing_placement": "1"
+      }
+    },
+    "a9968b6e-2fc9-4dd4-b422-c1d46c76c1a8": {
+      "type": "rich-text",
+      "blocks": {
+        "919d8974-f1e9-4a9e-8ed2-c7976f217e14": {
+          "type": "heading",
+          "settings": {
+            "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH OUR BODIES",
+            "text_tag": "h5",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "919d8974-f1e9-4a9e-8ed2-c7976f217e14"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "width": 2000,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-1",
+        "alignment": "center",
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": true,
+        "separator_custom_color": "#966e25",
+        "spacing": false,
+        "spacing_choice": "level-1",
+        "spacing_placement": "1"
+      }
+    },
+    "0a788bc7-220d-4551-9d33-37998081c2c8": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "LVE HEALTHIER",
+            "text_tag": "p2"
+          }
+        },
+        "template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "LVE STRONGER",
+            "text_tag": "p2"
+          }
+        },
+        "feedf35a-8fe1-4007-b4b3-69ff3db5bc9a": {
+          "type": "text",
+          "settings": {
+            "text": "LVE YOUNGER",
+            "text_tag": "p2"
+          }
+        },
+        "ba5a194d-7326-4912-b44e-198d2f82bf30": {
+          "type": "text",
+          "settings": {
+            "text": "LVE BETTER",
+            "text_tag": "p2"
+          }
+        },
+        "22c73cb4-f0a5-40d6-96a7-c5bcd58d5a85": {
+          "type": "text",
+          "settings": {
+            "text": "LVE ACTIVE",
+            "text_tag": "p2"
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-2",
+        "template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-3",
+        "feedf35a-8fe1-4007-b4b3-69ff3db5bc9a",
+        "ba5a194d-7326-4912-b44e-198d2f82bf30",
+        "22c73cb4-f0a5-40d6-96a7-c5bcd58d5a85"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-main",
+        "inset": false,
+        "inset_choice": "level-1",
+        "splitter_use_custom_width": false,
+        "splitter_custom_width": 46,
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": true,
+        "separator_height": 1,
+        "separator_use_custom_color": true,
+        "separator_custom_color": "#966e25",
+        "spacing": true,
+        "spacing_choice": "level-1",
+        "spacing_placement": "2",
+        "scroll_speed": 100
+      }
+    },
+    "home-multicolumn-1": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15665882857627__home-multicolumn-1-16712114000b50dcfd-0": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 30,
+            "horizontal_align": "flex-end",
+            "vertical_align": "flex-start",
+            "text_align": "right",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-4046659.jpg",
+            "image_aspect_ratio": "1\/1",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "Collagen Supplement",
+            "text_1_tag": "h6",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "$400",
+            "text_2_tag": "h6",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "Learn More",
+            "button_url": "shopify:\/\/products\/copy-of-colvita-vitamin-c",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_display_order": 0
+          }
+        },
+        "template--15665882857627__home-multicolumn-1-16712114000b50dcfd-1": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 40,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/Artboard_5.png",
+            "image_aspect_ratio": "4\/5",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 1,
+            "text_1": "",
+            "text_1_tag": "p",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_display_order": 0
+          }
+        },
+        "9426a348-08a6-4b9a-9c99-990b2c22799e": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 30,
+            "horizontal_align": "normal",
+            "vertical_align": "flex-start",
+            "text_align": "left",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/pexels-anna-nekrashevich-7215165.jpg",
+            "image_aspect_ratio": "1\/1",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "Vitamin C Supplement",
+            "text_1_tag": "h6",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "$400",
+            "text_2_tag": "h6",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "Learn More",
+            "button_url": "shopify:\/\/products\/copy-of-colvita-vitamin-c",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_display_order": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15665882857627__home-multicolumn-1-16712114000b50dcfd-0",
+        "template--15665882857627__home-multicolumn-1-16712114000b50dcfd-1",
+        "9426a348-08a6-4b9a-9c99-990b2c22799e"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "width": 2000,
+        "inset": false,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "0bfb7428-b525-43d6-9b76-5a250f871b62": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": true,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/pexels-nathan-cowley-1300402.jpg",
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Held to European standards",
+            "slide_heading_width": 450,
+            "slide_subheading": "All Salve products must surpass rigorous European regulation & compliance testing.",
+            "slide_subheading_width": 420,
+            "slide_description": "",
+            "slide_description_width": 450,
+            "slide_button_1_text": "BECOME A MEMBER",
+            "slide_button_1_url": "shopify:\/\/collections\/all",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        },
+        "59bcddda-ca71-467f-bb2f-b89102246ea0": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": true,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/pexels-anastasia-shuraeva-8935603_30364bf7-b918-4132-b3a1-99dfcdea6352.jpg",
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Formulated To Work With You",
+            "slide_heading_width": 450,
+            "slide_subheading": "Nurture healthy body function, vitality and sustainable beauty; Inside and out.",
+            "slide_subheading_width": 420,
+            "slide_description": "",
+            "slide_description_width": 450,
+            "slide_button_1_text": "BECOME A MEMBER",
+            "slide_button_1_url": "shopify:\/\/collections\/all",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        },
+        "6fe5c7c6-e356-4576-9e37-7cd146923ef2": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": true,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/pexels-anastasia-shuraeva-8935603_30364bf7-b918-4132-b3a1-99dfcdea6352.jpg",
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Vetted, Reviewed & Tested",
+            "slide_heading_width": 450,
+            "slide_subheading": "A trusted partner in your journey towards comprehensive well-being and beauty. Salve offers a selection of carefully curated, high-quality supplements that guarantee a complete range of effective solutions, leaving no room for compromise.",
+            "slide_subheading_width": 420,
+            "slide_description": "",
+            "slide_description_width": 450,
+            "slide_button_1_text": "BECOME A MEMBER",
+            "slide_button_1_url": "shopify:\/\/collections\/all",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        },
+        "91d9b3eb-a1f9-444e-98cc-a3b967719bd1": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": true,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 100,
+            "slide_content_position": "center",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Become A Member",
+            "slide_heading_width": 930,
+            "slide_subheading": "",
+            "slide_subheading_width": 600,
+            "slide_description": "",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Start Your Wellness Journey",
+            "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 300,
+            "slide_button_2_text": "Learn More",
+            "slide_button_2_url": "shopify:\/\/pages\/become-a-member",
+            "slide_button_2_style": "fill",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 300
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3",
+        "59bcddda-ca71-467f-bb2f-b89102246ea0",
+        "6fe5c7c6-e356-4576-9e37-7cd146923ef2",
+        "91d9b3eb-a1f9-444e-98cc-a3b967719bd1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
+        "color_scheme": "scheme-accent",
+        "slideshow_autoplay": true,
+        "slideshow_transition_interval": 8600,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": true,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "f75802bf-311a-49eb-9d38-f82d4d7de68c": {
+      "type": "icon-cards",
+      "blocks": {
+        "template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-1": {
+          "type": "card",
+          "settings": {
+            "icon": "microscope",
+            "icon_width": 48,
+            "heading": "Scientifically Researched",
+            "heading_tag": "h6",
+            "description": "<p>Salve exclusively offers products that are the result of rigorous, evidence-based research.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        },
+        "template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-2": {
+          "type": "card",
+          "settings": {
+            "icon": "raindrop",
+            "icon_width": 48,
+            "heading": "Optimal Absorption",
+            "heading_tag": "h6",
+            "description": "<p>A larger portion of the active ingredient is effectively delivered and taken up by its intended location in your body, ensuring you enjoy an array of benefits.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        },
+        "template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-3": {
+          "type": "card",
+          "settings": {
+            "icon": "euro",
+            "icon_width": 48,
+            "heading": "Sourced In Europe",
+            "heading_tag": "h6",
+            "description": "<p>Each product in our collection is subject to rigorous European compliance testing. We curate only the finest quality supplements, thoroughly examined for their safety and efficacy.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        },
+        "7bfc86c0-2711-4518-8ab1-be088e23159d": {
+          "type": "card",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 48,
+            "heading": "transparency + integrity",
+            "heading_tag": "h6",
+            "description": "<p>All of the manufacturers we work with source ingredients from reputable sources who share our commitment to quality.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-1",
+        "template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-2",
+        "template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-3",
+        "7bfc86c0-2711-4518-8ab1-be088e23159d"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1020,
+        "color_scheme": "scheme-main",
+        "inset": false,
+        "inset_choice": "level-2",
+        "alignment": "center",
+        "heading": "A FULL SPECTRUM OF BENEFITS",
+        "heading_tag": "h1",
+        "heading_custom_width": false,
+        "heading_width": 700,
+        "description": "Salve maintains a deep commitment to helping others live well. Our goal is to redefine your approach to health, beauty, and vitality. We want you to live each day feeling energized, vibrant, and youthful – inside and out. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. When you choose Salve, you are choosing supplements that are:",
+        "description_tag": "p",
+        "description_custom_width": false,
+        "description_width": 700,
+        "columns_count": 4,
+        "gap": true,
+        "gap_choice": "level-3",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "100d2bc0-6256-4758-90a2-f26d2dd7e4df": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-text-1": {
+          "type": "text",
+          "settings": {
+            "banner_text": "Science + Consistency",
+            "banner_text_tag": "h2"
+          }
+        },
+        "a6a52636-ccec-49f4-be75-9639f9388829": {
+          "type": "text",
+          "settings": {
+            "banner_text": "2 Months of Supplements Delivered To Your Door Every Other Month.",
+            "banner_text_tag": "p1"
+          }
+        },
+        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-button-1": {
+          "type": "button",
+          "settings": {
+            "banner_button_text": "Become A Member",
+            "banner_button_url": "",
+            "banner_button_target": "_self",
+            "banner_button_style": "outline",
+            "banner_button_custom_width": false,
+            "banner_button_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-text-1",
+        "a6a52636-ccec-49f4-be75-9639f9388829",
+        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-button-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height_mobile": "600",
+        "height": "600",
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_image_mobile": "shopify:\/\/shop_images\/pexels-jennifer-enujiugha-1903611_copy.jpg",
+        "background_overlay": true,
+        "background_overlay_color": "#000",
+        "background_overlay_opacity": 14,
+        "content_custom_width": true,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "0cd02d78-c814-4caa-82b6-5a87dea160fb": {
+      "type": "testimonials",
+      "blocks": {
+        "18174aa6-963d-4405-bd01-acbec23feaec": {
+          "type": "testimonial",
+          "settings": {
+            "avatar_radius": 50,
+            "review": "Choose your desired package and enjoy your products delivered straight to your doorstep every other month.",
+            "reviewer": "",
+            "reviewer_description": ""
+          }
+        },
+        "843b1e46-f22f-4494-b917-14fa6d04007e": {
+          "type": "testimonial",
+          "settings": {
+            "avatar_radius": 50,
+            "review": "Receive x% off your order each month.",
+            "reviewer": "",
+            "reviewer_description": ""
+          }
+        },
+        "ba1abbf2-9337-40ee-aca0-a429bb4c8fc7": {
+          "type": "testimonial",
+          "settings": {
+            "avatar_radius": 50,
+            "review": "Enjoy the enhancement in overall well-being, appearance, mobility, and more.",
+            "reviewer": "",
+            "reviewer_description": ""
+          }
+        }
+      },
+      "block_order": [
+        "18174aa6-963d-4405-bd01-acbec23feaec",
+        "843b1e46-f22f-4494-b917-14fa6d04007e",
+        "ba1abbf2-9337-40ee-aca0-a429bb4c8fc7"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "heading": "Member Benefits",
+        "heading_tag": "h3",
+        "description": "As a member, you'll unlock exclusive benefits, receive complimentary gifts, and save on your subscription package. When you join salve, you&#39;re not just purchasing supplements; you&#39;re making an investment in a healthier, more self-assured you.",
+        "description_tag": "p",
+        "columns_count": 3,
+        "gap": true,
+        "gap_choice": "level-4",
+        "carousel": false,
+        "per_move": 2,
+        "autoplay": false,
+        "interval": 4000,
+        "loop": true,
+        "mouse_drag": true,
+        "arrows": true,
+        "dots": false,
+        "speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "2"
+      }
+    },
+    "72f8ac9d-6465-43c9-ab04-fea03a13e692": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1": {
+          "type": "text",
+          "settings": {
+            "banner_text": "The Collagen + C Bundle",
+            "banner_text_tag": "h2"
+          }
+        },
+        "80d6d090-780b-444e-9f67-cf937fbabab1": {
+          "type": "text",
+          "settings": {
+            "banner_text": "Vitamin C + Collagen",
+            "banner_text_tag": "h6"
+          }
+        },
+        "309c4af3-90ff-47a0-8815-9b37d9f809d6": {
+          "type": "button",
+          "settings": {
+            "banner_button_text": "Learn More",
+            "banner_button_url": "shopify:\/\/pages\/the-collagen-c-bundle",
+            "banner_button_target": "_self",
+            "banner_button_style": "fill",
+            "banner_button_custom_width": false,
+            "banner_button_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1",
+        "80d6d090-780b-444e-9f67-cf937fbabab1",
+        "309c4af3-90ff-47a0-8815-9b37d9f809d6"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height_mobile": "600",
+        "height": "600",
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-1",
+        "background_video": "shopify:\/\/files\/videos\/Collagen-C Bundle.mp4",
+        "background_overlay": true,
+        "background_overlay_color": "#FFFFFF",
+        "background_overlay_opacity": 4,
+        "content_custom_width": true,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "449dfd71-b99b-4c8c-a152-b8069324c04a": {
+      "type": "rich-text",
+      "blocks": {
+        "a94677f8-7ef5-46d2-9b71-616d18559793": {
+          "type": "heading",
+          "settings": {
+            "text": "A NEW APPROACH ON",
+            "text_tag": "h6",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "6b18d8b3-34b6-46c5-8a50-9a6ca73c0aa2": {
+          "type": "special_heading",
+          "settings": {
+            "text": "Health, Vitality & Living Well",
+            "text_tag": "s2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "a48ecd2b-f4bf-4adb-b664-b02a67ceaaee": {
+          "type": "description",
+          "settings": {
+            "text": "Salve Supplement House is more than just a brand. We're your trusted partner in your journey towards comprehensive well-being, beauty, and health. Salve members can rest at ease knowing our products are exactly what they say they are. Our mission is to demystify wellness products, simplify the science, and present you with a curated line of products designed for to work with you. Products designed for optimal absorption, that work in harmony with your body, helping you achieve sustainable health and radiant youth.",
+            "text_tag": "p",
+            "text_custom_width": true,
+            "text_width": 820
+          }
+        },
+        "333ee4cd-23ac-43dd-adc4-c479eb8a9052": {
+          "type": "button",
+          "settings": {
+            "button_text": "About Salve",
+            "button_url": "shopify:\/\/pages\/about-us",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_custom_width": false,
+            "button_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "a94677f8-7ef5-46d2-9b71-616d18559793",
+        "6b18d8b3-34b6-46c5-8a50-9a6ca73c0aa2",
+        "a48ecd2b-f4bf-4adb-b664-b02a67ceaaee",
+        "333ee4cd-23ac-43dd-adc4-c479eb8a9052"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-2",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-2",
+        "spacing_placement": "1"
+      }
+    },
+    "b9927b16-2442-4334-bfff-2c400483f9bb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "INSTAGRAM GOES HERE"
+      }
+    }
+  },
+  "order": [
+    "2a49d6ac-3eee-4e37-8715-5e41613c6641",
+    "a9968b6e-2fc9-4dd4-b422-c1d46c76c1a8",
+    "0a788bc7-220d-4551-9d33-37998081c2c8",
+    "home-multicolumn-1",
+    "0bfb7428-b525-43d6-9b76-5a250f871b62",
+    "f75802bf-311a-49eb-9d38-f82d4d7de68c",
+    "100d2bc0-6256-4758-90a2-f26d2dd7e4df",
+    "0cd02d78-c814-4caa-82b6-5a87dea160fb",
+    "72f8ac9d-6465-43c9-ab04-fea03a13e692",
+    "449dfd71-b99b-4c8c-a152-b8069324c04a",
+    "b9927b16-2442-4334-bfff-2c400483f9bb"
+  ]
+}
