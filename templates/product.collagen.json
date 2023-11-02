@@ -1,0 +1,435 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "template--15755619565723__main-1672284793b7b17a79-4": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "template--15755619565723__main-1672284793b7b17a79-0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--15755619565723__main-1672284793b7b17a79-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "89eb89a0-d956-47a0-ab3d-bdf41149368e": {
+          "type": "shoppay-banner",
+          "settings": {
+          }
+        },
+        "a6ec1957-2afd-48cb-abcb-88426b624064": {
+          "type": "separator",
+          "settings": {
+            "width": 100,
+            "height": 1
+          }
+        },
+        "template--15755619565723__main-1672284793b7b17a79-2": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "template--15755619565723__main-1672284793b7b17a79-5": {
+          "type": "variant-picker",
+          "settings": {
+          }
+        },
+        "72fda07d-7039-4e1d-a2c7-a5a454662f94": {
+          "type": "buy-buttons",
+          "settings": {
+            "quantity-picker": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "template--15755619565723__main-1672284793b7b17a79-7": {
+          "type": "pickup-availability",
+          "settings": {
+          }
+        },
+        "0d05c380-3849-4441-a916-d2c9d9c1102c": {
+          "type": "separator",
+          "settings": {
+            "width": 100,
+            "height": 1
+          }
+        },
+        "template--15755619565723__main-1672284793b7b17a79-10": {
+          "type": "collapsible-row",
+          "settings": {
+            "title_text": "Recommended Dose",
+            "description_text": "<p><strong>Consume twice a day:<\/strong><br\/>AM: 1 Colvita Capsule + Vitamin C Capsule<br\/>PM: 1 Colvita Capsule<\/p><p>For best results, take these supplements for 4 consecutive months. Recommended for adults only. <\/p>",
+            "open_by_default": true
+          }
+        },
+        "07f943fc-77a9-4701-a8c1-345d2dfd42e8": {
+          "type": "collapsible-row",
+          "settings": {
+            "title_text": "Ingredients",
+            "description_text": "<p>Algae (<em>Fucus vesiculosus<\/em>), freeze-dried lemon fruit (carrier), fish gelatin (capsule shell), freeze-dried fish collagen, vitamin E (D-alpha-tocopherol), anti-caking agent (colloidal silica), tocotrienols (delta and gamma).<\/p>",
+            "open_by_default": false
+          }
+        },
+        "bc7fdf5f-e6be-4a98-bd07-4adcd4413204": {
+          "type": "spacer",
+          "settings": {
+            "height": 30
+          }
+        },
+        "template--15755619565723__main-1672284793b7b17a79-14": {
+          "type": "info-popup",
+          "settings": {
+            "link_text": "Size guide",
+            "page": "",
+            "variant_choice": "Size"
+          }
+        }
+      },
+      "block_order": [
+        "template--15755619565723__main-1672284793b7b17a79-4",
+        "template--15755619565723__main-1672284793b7b17a79-0",
+        "template--15755619565723__main-1672284793b7b17a79-1",
+        "89eb89a0-d956-47a0-ab3d-bdf41149368e",
+        "a6ec1957-2afd-48cb-abcb-88426b624064",
+        "template--15755619565723__main-1672284793b7b17a79-2",
+        "template--15755619565723__main-1672284793b7b17a79-5",
+        "72fda07d-7039-4e1d-a2c7-a5a454662f94",
+        "template--15755619565723__main-1672284793b7b17a79-7",
+        "0d05c380-3849-4441-a916-d2c9d9c1102c",
+        "template--15755619565723__main-1672284793b7b17a79-10",
+        "07f943fc-77a9-4701-a8c1-345d2dfd42e8",
+        "bc7fdf5f-e6be-4a98-bd07-4adcd4413204",
+        "template--15755619565723__main-1672284793b7b17a79-14"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "product_gallery_type": "fade",
+        "product_gallery_arrows": false,
+        "product_gallery_dots": false,
+        "product_gallery_mouse_drag": false,
+        "product_thumbnails_loop": true,
+        "product_thumbnails_arrows": true,
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "3"
+      }
+    },
+    "72d1e1a3-0a7a-4af4-a6ba-17f153544435": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Scientifically Researched",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Designed for Optimal Absorption",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Sourced Exclusively In Europe",
+            "text_tag": "h6"
+          }
+        },
+        "9a9907a3-c0b5-4165-a48b-69c76553618f": {
+          "type": "text",
+          "settings": {
+            "text": "Transparent Processes",
+            "text_tag": "h6"
+          }
+        },
+        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936": {
+          "type": "text",
+          "settings": {
+            "text": "No Filler Ingredients",
+            "text_tag": "h6"
+          }
+        },
+        "f5f40b7b-430d-485c-a9f1-6d720c657148": {
+          "type": "text",
+          "settings": {
+            "text": "No Additives",
+            "text_tag": "h6"
+          }
+        },
+        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9": {
+          "type": "text",
+          "settings": {
+            "text": "Held To European Standards",
+            "text_tag": "h6"
+          }
+        },
+        "074cf9cf-825f-4d4f-8546-7f33222e55ba": {
+          "type": "text",
+          "settings": {
+            "text": "Potent Effective Ingredients",
+            "text_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1",
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2",
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3",
+        "9a9907a3-c0b5-4165-a48b-69c76553618f",
+        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936",
+        "f5f40b7b-430d-485c-a9f1-6d720c657148",
+        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9",
+        "074cf9cf-825f-4d4f-8546-7f33222e55ba"
+      ],
+      "settings": {
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "splitter_use_custom_width": true,
+        "splitter_custom_width": 16,
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1",
+        "scroll_speed": 9
+      }
+    },
+    "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21212521496889__ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f-slide-1": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": true,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 40,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/pexels-jennifer-enujiugha-1903611_copy.jpg",
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "left",
+            "slide_heading": "Key Benefits of Collagen Use",
+            "slide_heading_width": 450,
+            "slide_subheading": "Physical Activity and Recovery:",
+            "slide_subheading_width": 450,
+            "slide_description": "* regeneration, restoration, and rebuilding  *Reducing Inflammation *Regenerating connective and cartilage tissue",
+            "slide_description_width": 450,
+            "slide_button_1_text": "",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521496889__ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f-slide-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1500,
+        "slideshow_height_mobile": "520",
+        "slideshow_height": "600",
+        "color_scheme": "scheme-accent",
+        "slideshow_autoplay": false,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "16c06f9c-6804-4ad2-908c-d94e806857a8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-images-1": {
+          "type": "images",
+          "settings": {
+            "images_gap": true,
+            "images_gap_choice": "level-4",
+            "images_width_split": 50,
+            "images_stack_on_mobile": true,
+            "image_1_aspect_ratio": "auto",
+            "image_2_aspect_ratio": "auto"
+          }
+        },
+        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-content-1": {
+          "type": "content",
+          "settings": {
+            "text_1": "The Salve Choice - Colvita Collagen",
+            "text_1_tag": "s2",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_2": "Colvita stands out as an extraordinary and inherently bioavailable source of the essential \"building\" amino acids vital for collagen, our body's most crucial protein. This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water) and is sourced exclusively in Poland. Unlike conventional animal protein hydrolysates, this method extracts biologically active collagen, marked by an exceptional degree of anabolicity - nearly 100%. This means these amino acids are responsible for constructing our body's systemic collagen.",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_3": "",
+            "text_3_tag": "p",
+            "text_3_custom_width": false,
+            "text_3_width": 450,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-images-1",
+        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-content-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "images_content_width_split": 50,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "9558248e-813e-41f7-913d-c42b47117244": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-special_heading-1": {
+          "type": "special_heading",
+          "settings": {
+            "text": "Fillers, additives, pseudoscience, diluted ingredients, false information...",
+            "text_tag": "s3",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NO LONGER",
+            "text_tag": "h2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-description-1": {
+          "type": "description",
+          "settings": {
+            "text": "Salve Products Are Scientifically Backed Contain Premium Ingredients Formulated to be Highly Bioavailable + MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.",
+            "text_tag": "p1",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_custom_width": false,
+            "button_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-special_heading-1",
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-heading-1",
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-description-1",
+        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-button-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
+    "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
+    "16c06f9c-6804-4ad2-908c-d94e806857a8",
+    "9558248e-813e-41f7-913d-c42b47117244"
+  ]
+}
