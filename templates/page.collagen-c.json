@@ -963,7 +963,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -1105,7 +1105,7 @@
         "template--21472665436473__b920341b-4501-44c2-a509-51095d537ed8-column-2"
       ],
       "custom_css": [
-
+        ".section-multicolumns .section-multicolumn__button:not(:only-child) {margin-top: 12px; margin: 12px 30% 12px 30%;}"
       ],
       "settings": {
         "fullwidth": true,
