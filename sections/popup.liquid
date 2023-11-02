@@ -1,0 +1,111 @@
+
+{%- if request.design_mode -%}
+  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+
+{% liquid 
+
+  assign cookie_name = section.settings.cookie_name
+  assign popup_expiry = section.settings.expiry
+  assign popup_delay = section.settings.delay
+
+%}
+
+
+<popup-modal class="section-popup popup-modal inactive{% liquid 
+    if section.settings.display_position == 'bottom-left'
+        echo ' display-in-corner'
+    endif 
+    if section.settings.image != blank
+        echo ' has-image'
+    endif 
+%}" data-popup-type="onload" data-popup-delay="{{ popup_delay }}" data-popup-expiry="{{ popup_expiry }}" data-popup-cookie-name="{{ cookie_name }}" style="display: none;">
+    <div class="popup-modal__overlay"></div>
+    <div class="popup-modal__inner {{ section.settings.color_scheme }} has-no-padding">
+        <div class="popup-modal__content">
+            {% if section.settings.image != blank %}
+                <div class="section-popup-image">
+                    {{ section.settings.image | image_url: width: 450 | image_tag: loading: 'lazy', alt: section.settings.image.alt | escape }}
+                </div>
+            {% endif %}
+            <div class="section-popup-content">
+            {% if section.settings.text_1 != blank %}
+                {% case section.settings.text_1_tag %}
+                {% when 's1' or 's2' or 's3' %}
+                    <h1 class="section-popup-content__text-1 special-heading-{{ section.settings.text_1_tag }}">{{ section.settings.text_1 }}</h1>
+                {% when 'p1' or 'p2' %}
+                    <p class="section-popup-content__text-1 paragraph-{{ section.settings.text_1_tag }}">{{ section.settings.text_1 }}</p>
+                {% else %}
+                    <{% echo section.settings.text_1_tag %} class="section-popup-content__text-1">{{ section.settings.text_1 }}</{% echo section.settings.text_1_tag %}>
+                {% endcase %}
+            {% endif %}
+
+            {% if section.settings.text_2 != blank %}
+                {% case section.settings.text_2_tag %}
+                {% when 's1' or 's2' or 's3' %}
+                    <h1 class="section-popup-content__text-2 special-heading-{{ section.settings.text_2_tag }}">{{ section.settings.text_2 }}</h1>
+                {% when 'p1' or 'p2' %}
+                    <p class="section-popup-content__text-2 paragraph-{{ section.settings.text_2_tag }}">{{ section.settings.text_2 }}</p>
+                {% else %}
+                    <{% echo section.settings.text_2_tag %} class="section-popup-content__text-2">{{ section.settings.text_2 }}</{% echo section.settings.text_2_tag %}>
+                {% endcase %}
+            {% endif %}
+
+            {% if section.settings.text_3 != blank %}
+                {% case section.settings.text_3_tag %}
+                {% when 's1' or 's2' or 's3' %}
+                    <h1 class="section-popup-content__text-3 special-heading-{{ section.settings.text_3_tag }}">{{ section.settings.text_3 }}</h1>
+                {% when 'p1' or 'p2' %}
+                    <p class="section-popup-content__text-3 paragraph-{{ section.settings.text_3_tag }}">{{ section.settings.text_3 }}</p>
+                {% else %}
+                    <{% echo section.settings.text_3_tag %} class="section-popup-content__text-3">{{ section.settings.text_3 }}</{% echo section.settings.text_3_tag %}>
+                {% endcase %}
+            {% endif %}
+
+            {% if section.settings.type == 'newsletter' %}
+                {% form 'customer', class: 'newsletter-form' %}
+                    <input type="hidden" name="contact[tags]" value="newsletter">
+                    <div class="newsletter-form-email email">
+                    <label class="newsletter-form-email__label" for="NewsletterFormEmail-{{ section.id }}">
+                        <span class="newsletter-form-email__label-text">{{ 'general.newsletter.email' | t }}</span>
+                        <span class="newsletter-form-email__label-icon">{% render 'icon-mail' %}</span>
+                    </label>
+                    <input id="NewsletterFormEmail-{{ section.id }}" type="email" name="contact[email]" placeholder="{{ 'general.newsletter.placeholders.email' | t }}" />
+                    </div>
+                    <button class="newsletter-form-submit submit btn-fill" type="submit">{{ 'general.newsletter.submit' | t }}</button>
+                    {%- if form.errors -%}
+                    <span class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</span>
+                    {%- endif -%}
+                    {%- if form.posted_successfully? -%}
+                    <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{{ 'general.newsletter.notice.success' | t }}</h3>
+                    {%- endif -%}
+                {% endform %}
+
+            {% elsif section.settings.type == 'promotional' %}
+                {% if section.settings.promotional_button_text != blank %}
+                    <a href="{{ section.settings.promotional_button_url | default: '#' }}" class="section-popup-content__button{% liquid 
+                        echo ' btn-' | append: section.settings.promotional_button_style
+
+                    %}" target="{{ section.settings.promotional_button_target }}">{{ section.settings.promotional_button_text }}</a>
+                {% endif %}
+
+            {% endif %}
+
+            {% if section.settings.button_text != blank %}
+                <a href="{{ section.settings.button_url | default: '#' }}" class="section-popup-content__button section-popup-button-close{% liquid 
+                    echo ' btn-' | append: section.settings.button_style
+
+                %}" target="{{ section.settings.button_target }}">{{ section.settings.button_text }}</a>
+            {% endif %}
+            </div>
+        </div>
+        <button class="popup-modal__close">{% render 'icon-close' %}</button>
+    </div>
+</popup-modal>
+
+
+{% schema %}
+{"name":"t:sections.popup.name","limit":1,"settings":[{"type":"header","content":"t:sections.popup.settings.header__cookie.content"},{"type":"text","id":"cookie_name","label":"t:sections.popup.settings.cookie_name.label","default":"popup","info":"t:sections.popup.settings.cookie_name.info"},{"type":"number","id":"expiry","label":"t:sections.popup.settings.expiry.label","default":1,"info":"t:sections.popup.settings.expiry.info"},{"type":"range","id":"delay","min":0,"max":5000,"step":100,"label":"t:sections.popup.settings.delay.label","default":500,"info":"t:sections.popup.settings.delay.info"},{"type":"header","content":"t:sections.popup.settings.header__general.content"},{"type":"select","id":"color_scheme","label":"t:sections.popup.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.popup.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.popup.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.popup.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.popup.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"select","id":"type","label":"t:sections.popup.settings.type.label","options":[{"value":"newsletter","label":"t:sections.popup.settings.type.options.option__0.label"},{"value":"promotional","label":"t:sections.popup.settings.type.options.option__1.label"}]},{"type":"text","id":"promotional_button_text","label":"t:sections.popup.settings.promotional_button_text.label","default":"Shop the sale - 20% Off.","info":"t:sections.popup.settings.promotional_button_text.info"},{"type":"url","id":"promotional_button_url","label":"t:sections.popup.settings.promotional_button_url.label"},{"type":"select","id":"promotional_button_target","label":"t:sections.popup.settings.promotional_button_target.label","options":[{"value":"_self","label":"t:sections.popup.settings.promotional_button_target.options.option__0.label"},{"value":"_blank","label":"t:sections.popup.settings.promotional_button_target.options.option__1.label"}],"default":"_self","info":"t:sections.popup.settings.promotional_button_target.info"},{"type":"select","id":"promotional_button_style","label":"t:sections.popup.settings.promotional_button_style.label","options":[{"value":"outline","label":"t:sections.popup.settings.promotional_button_style.options.option__0.label"},{"value":"fill","label":"t:sections.popup.settings.promotional_button_style.options.option__1.label"},{"value":"link","label":"t:sections.popup.settings.promotional_button_style.options.option__2.label"}],"default":"fill"},{"type":"select","id":"display_position","label":"t:sections.popup.settings.display_position.label","options":[{"value":"center","label":"t:sections.popup.settings.display_position.options.option__0.label"},{"value":"bottom-left","label":"t:sections.popup.settings.display_position.options.option__1.label"}],"default":"center"},{"type":"header","content":"t:sections.popup.settings.header__image.content"},{"type":"image_picker","id":"image","label":"t:sections.popup.settings.image.label","info":"t:sections.popup.settings.image.info"},{"type":"header","content":"t:sections.popup.settings.header__text_1.content"},{"type":"text","id":"text_1","label":"t:sections.popup.settings.text_1.label","default":"Signup for Newsletter"},{"type":"select","id":"text_1_tag","label":"t:sections.popup.settings.text_1_tag.label","options":[{"value":"p","label":"t:sections.popup.settings.text_1_tag.options.option__0.label"},{"value":"p1","label":"t:sections.popup.settings.text_1_tag.options.option__1.label"},{"value":"p2","label":"t:sections.popup.settings.text_1_tag.options.option__2.label"},{"value":"h1","label":"t:sections.popup.settings.text_1_tag.options.option__3.label"},{"value":"h2","label":"t:sections.popup.settings.text_1_tag.options.option__4.label"},{"value":"h3","label":"t:sections.popup.settings.text_1_tag.options.option__5.label"},{"value":"h4","label":"t:sections.popup.settings.text_1_tag.options.option__6.label"},{"value":"h5","label":"t:sections.popup.settings.text_1_tag.options.option__7.label"},{"value":"h6","label":"t:sections.popup.settings.text_1_tag.options.option__8.label"},{"value":"s1","label":"t:sections.popup.settings.text_1_tag.options.option__9.label"},{"value":"s2","label":"t:sections.popup.settings.text_1_tag.options.option__10.label"},{"value":"s3","label":"t:sections.popup.settings.text_1_tag.options.option__11.label"}],"default":"s2"},{"type":"header","content":"t:sections.popup.settings.header__text_2.content"},{"type":"text","id":"text_2","label":"t:sections.popup.settings.text_2.label","default":"We love to send emails whenever, there is ongoing offers & discounts"},{"type":"select","id":"text_2_tag","label":"t:sections.popup.settings.text_2_tag.label","options":[{"value":"p","label":"t:sections.popup.settings.text_2_tag.options.option__0.label"},{"value":"p1","label":"t:sections.popup.settings.text_2_tag.options.option__1.label"},{"value":"p2","label":"t:sections.popup.settings.text_2_tag.options.option__2.label"},{"value":"h1","label":"t:sections.popup.settings.text_2_tag.options.option__3.label"},{"value":"h2","label":"t:sections.popup.settings.text_2_tag.options.option__4.label"},{"value":"h3","label":"t:sections.popup.settings.text_2_tag.options.option__5.label"},{"value":"h4","label":"t:sections.popup.settings.text_2_tag.options.option__6.label"},{"value":"h5","label":"t:sections.popup.settings.text_2_tag.options.option__7.label"},{"value":"h6","label":"t:sections.popup.settings.text_2_tag.options.option__8.label"},{"value":"s1","label":"t:sections.popup.settings.text_2_tag.options.option__9.label"},{"value":"s2","label":"t:sections.popup.settings.text_2_tag.options.option__10.label"},{"value":"s3","label":"t:sections.popup.settings.text_2_tag.options.option__11.label"}],"default":"p"},{"type":"header","content":"t:sections.popup.settings.header__text_3.content"},{"type":"text","id":"text_3","label":"t:sections.popup.settings.text_3.label"},{"type":"select","id":"text_3_tag","label":"t:sections.popup.settings.text_3_tag.label","options":[{"value":"p","label":"t:sections.popup.settings.text_3_tag.options.option__0.label"},{"value":"p1","label":"t:sections.popup.settings.text_3_tag.options.option__1.label"},{"value":"p2","label":"t:sections.popup.settings.text_3_tag.options.option__2.label"},{"value":"h1","label":"t:sections.popup.settings.text_3_tag.options.option__3.label"},{"value":"h2","label":"t:sections.popup.settings.text_3_tag.options.option__4.label"},{"value":"h3","label":"t:sections.popup.settings.text_3_tag.options.option__5.label"},{"value":"h4","label":"t:sections.popup.settings.text_3_tag.options.option__6.label"},{"value":"h5","label":"t:sections.popup.settings.text_3_tag.options.option__7.label"},{"value":"h6","label":"t:sections.popup.settings.text_3_tag.options.option__8.label"},{"value":"s1","label":"t:sections.popup.settings.text_3_tag.options.option__9.label"},{"value":"s2","label":"t:sections.popup.settings.text_3_tag.options.option__10.label"},{"value":"s3","label":"t:sections.popup.settings.text_3_tag.options.option__11.label"}],"default":"p"},{"type":"header","content":"t:sections.popup.settings.header__button.content"},{"type":"text","id":"button_text","label":"t:sections.popup.settings.button_text.label","default":"No thanks"},{"type":"select","id":"button_style","label":"t:sections.popup.settings.button_style.label","options":[{"value":"outline","label":"t:sections.popup.settings.button_style.options.option__0.label"},{"value":"fill","label":"t:sections.popup.settings.button_style.options.option__1.label"},{"value":"link","label":"t:sections.popup.settings.button_style.options.option__2.label"}],"default":"link"}],"presets":[{"name":"Popup"}]}
+{% endschema %}
+

@@ -1,0 +1,281 @@
+{% liquid
+
+
+    assign current_variant = product.selected_or_first_available_variant
+    
+
+    assign has_slider = false
+    assign product_gallery_slider = true
+    assign product_image_count = product.media | size
+
+    if product_image_count > 1 and product_gallery_slider == true and template != 'product.quickview'
+        assign has_slider = true
+    endif
+
+
+%}
+{% if product != blank  %}
+{% if product.media != blank %}
+    <div class="product-media">
+    {% if product_image_count > 0 %}
+        <product-gallery class="product-gallery">
+            <div class="product-gallery-images{% liquid 
+                if has_slider
+                echo ' splide'
+                endif 
+                %}" {% liquid 
+                    
+                    if has_slider
+                        assign product_gallery_data_options = 'data-options={'
+                    
+                        assign product_gallery_data_options = product_gallery_data_options | append: '"type":"' | append: section.settings.product_gallery_type | append: '",'
+                        
+                        assign product_gallery_data_options = product_gallery_data_options | append: '"perPage":"' | append: '1' | append: '",'
+                        assign product_gallery_data_options = product_gallery_data_options | append: '"drag":' | append: section.settings.product_gallery_mouse_drag | append: ','
+                        assign product_gallery_data_options = product_gallery_data_options | append: '"arrows":' | append: section.settings.product_gallery_arrows | append: ','
+                        assign product_gallery_data_options = product_gallery_data_options | append: '"pagination":' | append: section.settings.product_gallery_dots | append: ','
+                        
+                    
+                        assign data_options_count = product_gallery_data_options | size | minus: 1
+                        assign product_gallery_data_options = product_gallery_data_options | slice: 0, data_options_count
+                        assign product_gallery_data_options = product_gallery_data_options | append: '}'
+                    
+                    
+                        echo product_gallery_data_options
+                    endif
+                %}>
+                {% if has_slider %}
+                    {% unless request.design_mode %}
+                        {% if section.settings.product_gallery_arrows %}
+                            <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                {% render 'icon-chevron-down' %}
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                {% render 'icon-chevron-down' %}
+                            </button>
+                            </div>
+                        {% endif %}
+                    {% endunless %}
+                <div class="splide__track">
+                    <ul class="splide__list">
+                {% endif %}
+
+                {% for image in product.media %}
+                    
+                    {% liquid 
+                        assign image_width = image.width
+                        assign image_height = image.height
+                        
+                    %}
+                    <{% liquid 
+                        if has_slider
+                        echo 'li' 
+                        else 
+                        echo 'div'
+                        endif 
+                    %} class="product-gallery-images__image product-gallery-images-image product-gallery-images__image-{{ forloop.index }}{% liquid 
+                    if has_slider
+                        echo ' splide__slide'
+                    endif 
+
+                    if has_slider == false
+                        echo ' product-image-has-variant-ids'
+                    endif
+            
+                    %}" {% liquid 
+                        if has_slider == false
+                            echo 'data-variant-ids="'
+                            for product_image in product.images
+                                if product_image == image
+                                    for variant in product_image.variants
+                                        if forloop.index != 1
+                                            echo ','
+                                        endif
+                                        echo variant.id
+                                    endfor 
+                                endif
+                            endfor 
+                            echo '"'
+                        endif
+                    %}>
+                    {% case image.media_type %}
+                        {% when 'external_video' %}
+                            <product-rich-media class="product-video product-external-video product-rich-media" style="--aspect-ratio: {{ image.aspect_ratio }}">
+                                <div class="product-video__preview product-rich-media-preview">
+                                    {{ image | image_url: width: 1200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                                    {% render 'icon-play.liquid' %}
+                                </div>
+                                <div class="product-video__main product-rich-media-content">
+                                    {{ image | external_video_tag }}
+                                </div>
+                            </product-rich-media>
+        
+                        {% when 'video' %}
+                            <product-rich-media class="product-video product-internal-video product-rich-media" style="--aspect-ratio: {{ image.aspect_ratio }}">
+                                <div class="product-video__preview product-rich-media-preview">
+                                    {{ image | image_url: width: 1200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                                    {% render 'icon-play.liquid' %}
+                                </div>
+                                <div class="product-video__main product-rich-media-content">
+                                    {{ image | video_tag: controls: true }}
+                                </div>
+                            </product-rich-media>
+        
+                        {% when 'model' %}
+                            <product-rich-media class="product-3d-model product-rich-media">
+                                <div class="product-3d-model__preview product-rich-media-preview">
+                                    {{ image | image_url: width: 1200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                                    {% render 'icon-3d-model.liquid' %}
+                                </div>
+                                <div class="product-3d-model__main product-rich-media-content">
+                                    {{ image | model_viewer_tag }}
+                                </div>
+
+                                {%- capture 'data_model_json' -%}
+                                    {{- image | where: 'media_type', 'model' | json -}}
+                                {%- endcapture -%}
+                                <button
+                                    class="product-3d-model__xr-button product-3d-model-xr-button product-xr-button"
+                                    type="button"
+                                    aria-label="{{ 'products.product.xr_button_label' | t }}"
+                                    data-shopify-xr
+                                    data-shopify-model3d-id="{{ image.id }}"
+                                    data-shopify-title="title"
+                                    data-shopify-xr-hidden
+                                    data-shopify-model3d-content="{{- data_model_json | escape -}}"
+                                >
+                                    {% render 'icon-3d-model-thumbnail' %}
+                                    {{ 'products.product.xr_button_label' | t }}
+                                </button>
+                            </product-rich-media>
+                        {% else %}
+                        <a href="{{ image.src | image_url }}" data-pswp-width="{{ image_width }}" 
+                            data-pswp-height="{{ image_height }}">
+                            {{ image | image_url: width: 1200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                        </a>
+                    {% endcase %}
+                    </{% liquid 
+                        if has_slider
+                        echo 'li' 
+                        else 
+                        echo 'div'
+                        endif 
+                    %}>
+                {% endfor %}
+                {% if has_slider %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+            {% if product_image_count > 1 and template != 'product.quickview' %}
+                <div class="product-gallery-thumbnails{% liquid 
+                    if has_slider
+                        echo ' splide'
+                    endif 
+                    %}" {% liquid 
+                    
+                        if has_slider
+                            assign product_thumbnails_data_options = 'data-options={'
+
+                            
+                            assign product_thumbnails_data_options = product_thumbnails_data_options | append: '"rewind":' | append: section.settings.product_thumbnails_loop | append: ','
+                            assign product_thumbnails_data_options = product_thumbnails_data_options | append: '"perPage":' | append: '4' | append: ','
+                            assign product_thumbnails_data_options = product_thumbnails_data_options | append: '"arrows":' | append: section.settings.product_thumbnails_arrows | append: ','
+                            
+                            assign data_options_count = product_thumbnails_data_options | size | minus: 1
+                            assign product_thumbnails_data_options = product_thumbnails_data_options | slice: 0, data_options_count
+                            assign product_thumbnails_data_options = product_thumbnails_data_options | append: '}'
+                        
+                        
+                            echo product_thumbnails_data_options
+                        endif
+                    %}>
+                    {% if has_slider %}
+                        {% unless request.design_mode %}
+                            {% if product_image_count > 4 %}
+                                <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    {% render 'icon-chevron-down' %}
+                                </button>
+                                <button class="splide__arrow splide__arrow--next">
+                                    {% render 'icon-chevron-down' %}
+                                </button>
+                                </div>
+                            {% endif %}
+                        {% endunless %}
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                    {% endif %}
+                    {% for image in product.media %}
+                        <li class="product-gallery-thumbnails-thumbnail product-image-has-variant-ids product-gallery-thumbnails-thumbnail-{{ forloop.index }}{% liquid 
+                            if has_slider
+                            echo ' splide__slide'
+                            endif 
+                
+                            %}" data-variant-ids="{% liquid
+
+                                for product_image in product.images
+                                    
+                                    if product_image == image
+                                        for variant in product_image.variants
+                                            if forloop.index != 1
+                                                echo ','
+                                            endif
+                                            echo variant.id
+                                        endfor 
+                                    endif
+                                endfor 
+
+                             %}">
+                             {% case image.media_type %}
+                                {% when 'external_video' %}
+                                    <span class="product-video product-external-video" style="--aspect-ratio: {{ image.aspect_ratio }}">
+                                        <div class="product-video__preview">
+                                            {{ image | image_url: width: 200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                                            {% render 'icon-play-thumbnail.liquid' %}
+                                        </div>
+                                    </span>
+                
+                                {% when 'video' %}
+                                    <span class="product-video product-internal-video" style="--aspect-ratio: {{ image.aspect_ratio }}">
+                                        <div class="product-video__preview">
+                                            {{ image | image_url: width: 200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                                            {% render 'icon-play-thumbnail.liquid' %}
+                                        </div>
+                                    </span>
+
+                                {% when 'model' %}
+                                    <span class="product-3d-model">
+                                        <div class="product-3d-model__preview">
+                                            {{ image | image_url: width: 200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                                            {% render 'icon-3d-model-thumbnail.liquid' %}
+                                        </div>
+                                    </span>
+                                {% else %}
+                                    <span>
+                                        {{ image | image_url: width: 200 | image_tag: loading: 'lazy', alt: image.alt | escape }}
+                                    </span>
+                            {% endcase %}
+                        </li>
+                    {% endfor %}
+                    {% if has_slider %}
+                            </ul>
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </product-gallery>
+    {% endif %}
+    </div>
+{% endif %}
+{% else %}
+    <div class="product-gallery">
+        <div class="product-gallery-images">
+            <div class="product-gallery-images__image product-gallery-images-image">
+                {{ 'image' | placeholder_svg_tag: 'placeholder placeholder-product' }}
+            </div>
+        </div>
+
+    </div>
+{% endif %}

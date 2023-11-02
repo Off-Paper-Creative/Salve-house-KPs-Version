@@ -1,0 +1,135 @@
+{% comment %}
+    Renders product
+
+    Accepts:
+    - product: {Object} Product object
+    - prefix: {String} Add class prefix to html child element
+
+    Usage:
+    {% render 'section-product-processor',
+      product: product,
+      prefix: 'product'
+    %}
+{% endcomment %}
+
+{% liquid 
+
+
+    assign current_variant = product.selected_or_first_available_variant
+
+
+    if current_variant == product and product.price_varies
+        assign money_price = 'products.product.price.from_price_html' | t: price: money_price
+    endif
+
+    assign colorOptionNames = settings.product_option_swatches_name
+
+    if settings.product_option_swatches_list contains ','
+        assign swatch_values = settings.product_option_swatches_list | strip_newlines | split: ','
+    endif 
+    
+%}
+
+
+{% if product.featured_image != blank %}
+<div class="{{ prefix | default: 'product' }}__image product__image">
+    <a href="{{ product.url }}" title="{{ product.title }}">
+    {% if product.images[1] != blank and settings.collection_show_secondary_image %}
+        <div class="{{ prefix | default: 'product' }}__image-secondary product__image-secondary">
+            {% render 'section-image-processor', image: product.images[1] %}
+        </div>
+    {% endif %}
+    {% render 'section-image-processor', image: product.featured_image %}
+    </a>
+</div>
+{% endif %}
+{% if settings.collection_show_sale %}
+    {% if product.compare_at_price and product.compare_at_price > product.price %}
+        <span class="{{ prefix | default: 'product' }}__sale-badge product__sale-badge">{{ 'products.product.sale_badge' | t }}</span>
+    {% endif %}
+    {% if product.available == false %}
+        <div class="{{ prefix | default: 'product' }}__sold-out-badge product__sold-out-badge sold-out">
+        {{ 'products.product.stock.sold_out' | t }}
+        </div>
+    {% endif %}
+{% endif %}
+{% if settings.collection_show_vendor %}
+    <div class="{{ prefix | default: 'product' }}__vendor product__vendor">
+    {{ product.vendor }}
+    </div>
+{% endif %}
+{% if product.title != blank %}
+<h6 class="{{ prefix | default: 'product' }}__title product__title">
+    <a href="{{ product.url }}" title="{{ product.title }}">
+    {{ product.title }}
+    </a>
+</h6>
+{% endif %}
+{% if product.price != blank and settings.collection_show_price %}
+<p class="{{ prefix | default: 'product' }}__price product__price">
+    {% if product.price_varies %}
+        <span class="{{ prefix | default: 'product' }}__price--varies product__price--varies">{{ 'products.product.from_price_html' | t: price: money_price }}</span>
+    {% endif %}
+    {% if product.compare_at_price  and product.compare_at_price > product.price %}
+        <span class="{{ prefix | default: 'product' }}__price--compare product__price--compare">{{ product.compare_at_price | money }}</span>
+    {% endif %}
+    <span>{{ product.price | money }}</span>
+    {% if current_variant.unit_price_measurement %}
+        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.unit_price' | t }}</span>
+        <span class="product-price-unit">
+            {%- capture unit_price_separator -%}
+            <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'accessibility.unit_price_separator' | t }}&nbsp;</span>
+            {%- endcapture -%}
+            {%- capture unit_price_base_unit -%}
+            <span class="product-price-unit-base" data-price-unit-base>
+                {%- if current_variant.available and current_variant.unit_price_measurement -%}
+                    {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+                        {{- current_variant.unit_price_measurement.reference_value -}}
+                    {%- endif -%}
+                    {{- current_variant.unit_price_measurement.reference_unit -}}
+                {%- endif -%}
+            </span>
+            {%- endcapture -%}
+            <span class="product-price-unit-price" data-price-unit-price>{{ current_variant.unit_price | money }}</span>{{- unit_price_separator -}}{{- unit_price_base_unit -}}
+        </span>
+    {% endif %}
+</p>
+{% endif %}
+
+{% if settings.collection_show_swatches %}
+    {% for option in product.options_with_values %}
+        {% if colorOptionNames contains option.name %}
+
+            <p class="{{ prefix | default: 'product' }}__swatches product__swatches">
+            {% for value in option.values %}
+                
+                <span class="{{ prefix | default: 'product' }}__swatches-swatch product__swatches-swatch" style="{% liquid 
+                    for swatch_value in swatch_values
+                        assign swatch_value_pair = swatch_value | split: ':'
+                        assign swatch_value_pair_name = swatch_value_pair[0] | strip
+
+                        if swatch_value_pair_name == value
+                            if swatch_value_pair[1] contains '.'
+                                assign swatch_url = swatch_value_pair[1] | strip | file_url
+                                assign swatch_color = 'url(' | append: swatch_url | append: ')'
+                            else
+                                assign swatch_color = swatch_value_pair[1]
+                            endif
+                        endif 
+                    endfor 
+
+                    if swatch_color != blank
+                        echo '--product-swatch-value: ' | append: swatch_color
+                    else
+                        echo '--product-swatch-value: ' | append: value
+                    endif
+
+                %}"></span>
+            {% endfor %}
+            </p>
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% if settings.collection_enable_quickview %}
+    <button class="{{ prefix | default: 'product' }}__quickview product__quickview product-quickview btn-outline" data-handle="{{ product.handle }}">{{ 'products.product.quickview' | t }}</button>
+{% endif %}

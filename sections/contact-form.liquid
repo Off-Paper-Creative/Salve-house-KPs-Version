@@ -1,0 +1,181 @@
+{% style %}
+#shopify-section-{{ section.id }} {
+  {% if section.settings.form_custom_width %}
+    --theme-contact-form-form-width: {{ section.settings.form_width | append: 'px' }};
+  {% endif %}
+  
+  {% if section.settings.background_overlay %}
+    --theme-contact-form-overlay-color: {{ section.settings.background_overlay_color }};
+    --theme-contact-form-overlay-opacity: {{ section.settings.background_overlay_opacity | append: '%' }};
+
+  {% endif %}
+
+  {% if section.settings.background_mobile_overlay %}
+    --theme-contact-form-mobile-overlay-color: {{ section.settings.background_mobile_overlay_color }};
+    --theme-contact-form-mobile-overlay-opacity: {{ section.settings.background_mobile_overlay_opacity }};
+
+  {% endif %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+}
+{% endstyle %}
+
+
+{% for block in section.blocks %}
+  {% if block.type == 'text' %}
+
+    {% style %}
+      #shopify-section-{{ section.id }} .block-{{ block.id }}{
+        --theme-contact-form-text-width: {{ block.settings.text_width | append: 'px' }};    
+      }
+    {% endstyle %}
+
+  {% elsif block.type == 'button' %}
+
+    {% style %}
+      #shopify-section-{{ section.id }} .block-{{ block.id }}{
+        --theme-contact-form-button-width: {{ block.settings.button_width }};
+      }
+    {% endstyle %}
+    
+  {% endif %}
+{% endfor %}
+
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+  }
+{% endstyle %}
+
+{% if section.settings.separator %}
+  {% style %}
+  #shopify-section-{{ section.id }} .separator{
+    --theme-section-separator-width: {{ section.settings.separator_width | append: '%' }};
+    --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
+
+    {% if section.settings.separator_use_custom_color %}
+      --theme-section-separator-color: {{ section.settings.separator_custom_color }};
+    {% endif %}
+  }
+  {% endstyle %}
+{% endif %}
+
+{% if section.settings.spacing %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    
+      {% unless section.settings.spacing_placement == '3' %}
+--theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+{% unless section.settings.spacing_placement == '2' %}
+      --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+
+  }
+  {% endstyle %}
+{% endif %}
+
+<div class="section-contact-form{% liquid
+  if section.settings.content_position != blank
+    echo ' content-align-' | append: section.settings.content_position
+  endif 
+
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+  
+  echo ' ' | append: section.settings.color_scheme
+%}">
+  <div class="section-contact-form-background">
+    <div class="section-contact-form-background__desktop">
+      {% if section.settings.background_image != blank %}
+        {% render 'section-image-processor', image: section.settings.background_image %}
+      {% endif %}
+      {% if section.settings.background_overlay %}
+        <div class="section-contact-form-background-overlay"></div>
+      {% endif %}
+    </div>
+    <div class="section-contact-form-background__mobile">
+      {% if section.settings.background_image_mobile != blank %}
+        {% render 'section-image-processor', image: section.settings.background_image_mobile %}
+      {% endif %}
+      {% if section.settings.background_mobile_overlay %}
+        <div class="section-contact-form-background-overlay"></div>
+      {% endif %}
+    </div>
+  </div>
+	<div class="section-contact-form-content section-container">
+		{% for block in section.blocks %}
+			{% case block.type %}
+				{% when 'text' %}
+					{% if block.settings.text != blank %}
+						{% case block.settings.text_tag %}
+							{% when 's1' or 's2' or 's3' %}
+								<h1 class="section-contact-form-text special-heading-{{ block.settings.text_tag }} block-{{ block.id }}">{{ block.settings.text }}</h1>
+              {% when 'p1' or 'p2' %}
+                <p class="section-contact-form-text paragraph-{{ block.settings.text_tag }} block-{{ block.id }}">{{ block.settings.text }}</p>
+							{% else %}
+								<{{ block.settings.text_tag }} class="section-contact-form-text block-{{ block.id }}">{{ block.settings.text }}</{{ block.settings.text_tag }}>
+						{% endcase %}
+					{% endif %}
+				{% when '@app' %}
+					{% render block %}
+        {% when 'liquid' %}
+          <div class="custom-liquid">
+              {{ block.settings.custom_liquid }}
+          </div>
+
+			{% endcase %}
+		{% endfor %}
+		{% form 'contact', class: 'contact-form' %}
+			<div class="contact-form-notice">
+				{% if form.posted_successfully? %} {{ 'sections.contact_form.notice.success' | t }} {% endif %}
+				{{ form.errors | default_errors }}
+			</div>
+			<div class="contact-form-content">
+					<label class="contact-form-label" for="ContactFormName">
+							<span>{{ 'sections.contact_form.name' | t }}</span>
+							<input id="ContactFormName" type="text" name="contact[name]" class="contact-form-name contact-form-input" placeholder="{{ 'sections.contact_form.placeholders.name' | t }}">
+					</label>
+					<label class="contact-form-label" for="ContactFormEmail">
+							<span>{{ 'sections.contact_form.email' | t }}</span>
+							<input id="ContactFormEmail" type="email" name="contact[email]" class="contact-form-email contact-form-input" placeholder="{{ 'sections.contact_form.placeholders.email' | t }}">
+					</label>
+					<label class="contact-form-label" for="ContactFormPhone">
+							<span>{{ 'sections.contact_form.phone' | t }}</span>
+							<input id="ContactFormPhone" type="tel" name="contact[phone]" class="contact-form-phone contact-form-input" placeholder="{{ 'sections.contact_form.placeholders.phone' | t }}">
+					</label>
+					<label class="contact-form-label" for="ContactFormMessage">
+							<span>{{ 'sections.contact_form.message' | t }}</span>
+							<textarea id="ContactFormMessage" rows="10" name="contact[body]" class="contact-form-message contact-form-textarea" placeholder="{{ 'sections.contact_form.placeholders.message' | t }}"></textarea>
+					</label>
+					<button type="submit" class="contact-form-submit btn-fill">{{ 'sections.contact_form.submit' | t }}</button>
+			</div>
+		{% endform %}
+	</div>
+</div>
+{% if section.settings.separator %}
+  <div class="section-separator{% liquid 
+ if section.settings.separator_fullwidth 
+echo ' has-fullwidth'
+endif 
+ %}"><hr class="separator"></div>
+{% endif %}
+
+
+{% schema %}
+{"name":"t:sections.contact_form.name","settings":[{"type":"header","content":"t:sections.contact_form.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.contact_form.settings.fullwidth.label","info":"t:sections.contact_form.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.contact_form.settings.width.label","default":1320,"info":"t:sections.contact_form.settings.width.info"},{"type":"select","id":"color_scheme","label":"t:sections.contact_form.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.contact_form.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.contact_form.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.contact_form.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.contact_form.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.contact_form.settings.inset.label","info":"t:sections.contact_form.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.contact_form.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.contact_form.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.contact_form.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.contact_form.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.contact_form.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.contact_form.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"header","content":"t:sections.contact_form.settings.header__background.content"},{"type":"image_picker","id":"background_image","label":"t:sections.contact_form.settings.background_image.label","info":"t:sections.contact_form.settings.background_image.info"},{"type":"checkbox","id":"background_overlay","label":"t:sections.contact_form.settings.background_overlay.label","default":false},{"type":"color_background","id":"background_overlay_color","label":"t:sections.contact_form.settings.background_overlay_color.label","default":"#1F2D1F","info":"t:sections.contact_form.settings.background_overlay_color.info"},{"type":"range","id":"background_overlay_opacity","min":1,"max":100,"step":1,"unit":"%","label":"t:sections.contact_form.settings.background_overlay_opacity.label","default":100,"info":"t:sections.contact_form.settings.background_overlay_opacity.info"},{"type":"header","content":"t:sections.contact_form.settings.header__background_mobile.content"},{"type":"image_picker","id":"background_image_mobile","label":"t:sections.contact_form.settings.background_image_mobile.label","info":"t:sections.contact_form.settings.background_image_mobile.info"},{"type":"checkbox","id":"background_mobile_overlay","label":"t:sections.contact_form.settings.background_mobile_overlay.label","default":false},{"type":"color_background","id":"background_mobile_overlay_color","label":"t:sections.contact_form.settings.background_mobile_overlay_color.label","default":"#1F2D1F","info":"t:sections.contact_form.settings.background_mobile_overlay_color.info"},{"type":"range","id":"background_mobile_overlay_opacity","min":1,"max":100,"step":1,"unit":"%","label":"t:sections.contact_form.settings.background_mobile_overlay_opacity.label","default":100,"info":"t:sections.contact_form.settings.background_mobile_overlay_opacity.info"},{"type":"header","content":"t:sections.contact_form.settings.header__content.content"},{"type":"select","id":"content_position","label":"t:sections.contact_form.settings.content_position.label","options":[{"value":"left","label":"t:sections.contact_form.settings.content_position.options.option__0.label"},{"value":"center","label":"t:sections.contact_form.settings.content_position.options.option__1.label"},{"value":"right","label":"t:sections.contact_form.settings.content_position.options.option__2.label"}],"default":"center"},{"type":"header","content":"t:sections.contact_form.settings.header__form.content"},{"type":"checkbox","id":"form_custom_width","label":"t:sections.contact_form.settings.form_custom_width.label","default":true},{"type":"range","id":"form_width","min":100,"max":1000,"step":10,"unit":"px","label":"t:sections.contact_form.settings.form_width.label","default":450,"info":"t:sections.contact_form.settings.form_width.info"},{"type":"number","id":"form_order","label":"t:sections.contact_form.settings.form_order.label","default":1,"info":"t:sections.contact_form.settings.form_order.info"},{"type":"header","content":"t:sections.common.settings.header__separator.content"},{"type":"checkbox","id":"separator","label":"t:sections.common.settings.separator.label","info":"t:sections.common.settings.separator.info","default":false},{"type":"range","id":"separator_width","min":1,"max":100,"step":1,"unit":"%","label":"t:sections.common.settings.separator_width.label","default":100,"info":"t:sections.common.settings.separator_width.info"},{"type":"checkbox","id":"separator_fullwidth","label":"t:sections.common.settings.separator_fullwidth.label","default":false},{"type":"range","id":"separator_height","min":1,"max":10,"step":1,"unit":"px","label":"t:sections.common.settings.separator_height.label","default":1,"info":"t:sections.common.settings.separator_height.info"},{"type":"checkbox","id":"separator_use_custom_color","label":"t:sections.common.settings.separator_use_custom_color.label","default":false},{"type":"color","id":"separator_custom_color","label":"t:sections.common.settings.separator_custom_color.label","default":"#DAD3C4"},{"type":"header","content":"t:sections.common.settings.header__spacing.content"},{"type":"checkbox","id":"spacing","label":"t:sections.common.settings.spacing.label","info":"t:sections.common.settings.spacing.info","default":true},{"type":"select","id":"spacing_choice","label":"t:sections.common.settings.spacing_choice.label","options":[{"value":"level-1","label":"t:sections.common.settings.spacing_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.common.settings.spacing_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.common.settings.spacing_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.common.settings.spacing_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.common.settings.spacing_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"spacing_placement","label":"t:sections.common.settings.spacing_placement.label","options":[{"value":"1","label":"t:sections.common.settings.spacing_placement.options.option__0.label"},{"value":"2","label":"t:sections.common.settings.spacing_placement.options.option__1.label"},{"value":"3","label":"t:sections.common.settings.spacing_placement.options.option__2.label"}],"default":"1","info":"t:sections.common.settings.spacing_placement.info"}],"blocks":[{"name":"t:sections.contact_form.blocks.text.name","type":"text","settings":[{"type":"text","id":"text","label":"t:sections.contact_form.blocks.text.settings.text.label","default":"This is Contact form heading"},{"type":"select","id":"text_tag","label":"t:sections.contact_form.blocks.text.settings.text_tag.label","options":[{"value":"p","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__0.label"},{"value":"p1","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__1.label"},{"value":"p2","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__2.label"},{"value":"h1","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__3.label"},{"value":"h2","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__4.label"},{"value":"h3","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__5.label"},{"value":"h4","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__6.label"},{"value":"h5","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__7.label"},{"value":"h6","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__8.label"},{"value":"s1","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__9.label"},{"value":"s2","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__10.label"},{"value":"s3","label":"t:sections.contact_form.blocks.text.settings.text_tag.options.option__11.label"}],"default":"s2"},{"type":"checkbox","id":"text_custom_width","label":"t:sections.contact_form.blocks.text.settings.text_custom_width.label","default":false},{"type":"range","id":"text_width","min":100,"max":1000,"step":10,"unit":"px","label":"t:sections.contact_form.blocks.text.settings.text_width.label","default":370,"info":"t:sections.contact_form.blocks.text.settings.text_width.info"}]},{"type":"@app"},{"name":"t:sections.contact_form.blocks.liquid.name","type":"liquid","settings":[{"type":"liquid","id":"custom_liquid","label":"t:sections.contact_form.blocks.liquid.settings.custom_liquid.label","info":"t:sections.contact_form.blocks.liquid.settings.custom_liquid.info"}]}],"presets":[{"name":"Contact form","blocks":[{"type":"text"},{"type":"text","settings":{"text":"This is simple description for contact form","text_tag":"p1"}}]}]}
+{% endschema %}
+

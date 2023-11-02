@@ -1,0 +1,401 @@
+{% liquid 
+    if section.settings.country_selector or section.settings.language_selector
+      echo 'country-language-selector.css' | asset_url | stylesheet_tag
+    endif
+
+%}
+
+{% if section.settings.country_selector or section.settings.language_selector %}
+  <script src="{{ 'country-language-selector.js' | asset_url }}" defer></script>
+{% endif %}
+
+
+{% if section.settings.logo != blank %}
+    {% style %}
+        :root{
+            --theme-logo-height: {{ section.settings.logo_height | append: "px" }};
+        }
+    {% endstyle %}
+{% endif %}
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+  }
+{% endstyle %}
+
+
+{% if section.settings.separator %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
+
+    {% if section.settings.separator_use_custom_color %}
+      --theme-section-separator-color: {{ section.settings.separator_custom_color }};
+    {% endif %}
+  }
+  {% endstyle %}
+{% endif %}
+
+
+{% style %}
+  #shopify-section-{{ section.id }}{
+    --theme-search-dropdown-offset: {{ section.settings.search_dropdown_offset | append: 'px' }};
+  }
+{% endstyle %}
+
+
+
+<script src="{{ 'header-drawer.js' | asset_url }}" defer></script>
+
+{% liquid
+    
+    assign show_country_selector = false
+    assign show_language_selector = false
+
+    assign menu_card_indexes = ''
+
+    for block in section.blocks
+        if block.type == 'menu_card'
+            assign menu_card_indexes = menu_card_indexes | append: block.settings.menu_card_parent_index | append: '|'
+        endif
+    endfor
+
+    assign menu_card_indexes = menu_card_indexes | split: '|' | uniq
+
+
+    if localization.available_countries.size > 1 and section.settings.country_selector
+        assign show_country_selector = true
+    endif 
+
+
+    if localization.available_languages.size > 1 and section.settings.language_selector
+        assign show_language_selector = true
+    endif 
+
+
+%}
+
+
+<div class="section-header{% liquid 
+    if show_country_selector or show_language_selector
+        echo ' has-localization-selector'
+    endif
+
+
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+  
+  if section.settings.primary_menu_sticky
+    echo ' has-sticky-header'
+  endif
+
+  
+  if section.settings.separator
+    echo ' has-separator'
+  endif
+
+  echo ' ' | append: section.settings.color_scheme
+
+%}">
+    <div class="section-header-container section-container">
+        <div class="section-header-left">
+            
+            <a href="{{ routes.root_url }}" class="section-header-root-link">
+                {% if section.settings.logo != blank %}
+                    {% assign retina_logo_height = section.settings.logo_height | times: 2 | append: "px" %}
+                <div class="section-header-logo">
+                    {{ section.settings.logo | image_url: height: retina_logo_height | image_tag: widths: '50, 100, 150, 200, 250, 300, 400, 500', loading: 'lazy', alt: shop.name | escape }}
+                </div>
+                {% else %}
+                <div class="section-header-shop-name">
+                    {{ shop.name }}
+                </div>
+                {% endif %}
+            </a>
+
+        </div>
+        <div class="section-header-center">
+            {% render 'header-drawer' %}
+
+            <div class="section-header-menus">
+                {% if section.settings.primary_menu != blank %}
+                <nav class="section-header-main-menu">
+                    <ul class="section-header-main-menu-items">
+                        {% for primary_menu_item in section.settings.primary_menu.links %}
+                          {% assign has_mega_menu = false %}
+                          {% assign primary_menu_for_loop_index = forloop.index %}
+                          {% liquid 
+                            if section.blocks != blank
+                              for block in section.blocks
+                                if block.type == 'mega_menu'
+                                  if primary_menu_for_loop_index == block.settings.mega_menu_index
+                                    assign has_mega_menu = true
+                                  endif
+                                endif 
+                              endfor
+                            endif
+                          
+                          %}
+                          <li class="section-header-main-menu-item{% liquid 
+                              if primary_menu_item.links != blank 
+                                  echo ' has-children'
+                              endif 
+                              
+                              if has_mega_menu
+                                echo ' has-megamenu'
+                              endif
+
+                              
+                              %}">
+                              <a href="{{ primary_menu_item.url }}" class="section-header-main-menu-item__link{% liquid 
+                                      if primary_menu_item.current 
+                                          echo ' current' 
+                                      endif 
+                                  %}" {% liquid 
+                                      if primary_menu_item.current 
+                                              echo 'aria-current="page"' 
+                                      endif 
+                                  %}>
+                                  {%liquid
+                                  if section.settings.primary_menu_collection_image_display
+                                      if primary_menu_item.type == "collection_link" and primary_menu_item.object.image
+                                          echo primary_menu_item.object.image | image_url: width: 300 | image_tag: loading: 'lazy', alt: primary_menu_item.object.image.alt | escape
+                                      endif
+                                  endif
+                                  %}
+                                  <span class="section-header-main-menu-item-text">{{ primary_menu_item.title | escape }}</span>
+                                  {% if primary_menu_item.links != blank or has_mega_menu %}
+                                      <span class="section-header-main-menu-item-icon">{% render 'icon-chevron-down' %}</span>
+                                  {% endif %}
+                              </a>
+
+                              {% if primary_menu_item.links != blank or has_mega_menu %}
+                              <ul class="section-header-main-menu-subitems">
+                                  {% for primary_menu_subitem in primary_menu_item.links %}
+                                  <li class="section-header-main-menu-subitem{% liquid 
+                                      if primary_menu_subitem.links != blank 
+                                          echo ' has-children'
+                                      endif 
+                                      %}">
+                                      <a href="{{ primary_menu_subitem.url }}" class="section-header-main-menu-subitem__link{% liquid 
+                                                  if primary_menu_subitem.current 
+                                                      echo ' current' 
+                                                  endif 
+                                              %}" {% liquid 
+                                                  if primary_menu_subitem.current 
+                                                      echo 'aria-current="page"' 
+                                                  endif
+                                          %}>
+                                          {%liquid
+                                          if section.settings.primary_menu_collection_image_display
+                                          if primary_menu_subitem.type == "collection_link" and primary_menu_subitem.object.image
+                                          echo primary_menu_subitem.object.image | image_url: width: 320 | image_tag: loading: 'lazy', alt: primary_menu_subitem.object.image.alt | escape
+                                          endif
+                                          endif
+                                          %}
+                                          <span class="section-header-main-menu-item-text">{{ primary_menu_subitem.title | escape }}</span>
+                                          {% if primary_menu_subitem.links != blank %}
+                                              <span class="section-header-main-menu-item-icon">{% render 'icon-chevron-down' %}</span>
+                                          {% endif %}
+                                      </a>
+                                      {% if primary_menu_subitem.links != blank %}
+                                      <ul class="section-header-main-menu-subitems">
+                                          {% for primary_menu_sub_subitem in primary_menu_subitem.links %}
+                                          <li class="section-header-main-menu-subitem{% liquid 
+                                                          if primary_menu_sub_subitem.links != blank 
+                                                              echo ' has-children'
+                                                          endif 
+                                                          %}">
+                                              <a href="{{ primary_menu_sub_subitem.url }}" class="section-header-main-menu-subitem__link{% liquid 
+                                                      if primary_menu_sub_subitem.current 
+                                                          echo ' current' 
+                                                      endif 
+                                                  %}" {% liquid 
+                                                      if primary_menu_sub_subitem.current
+                                                  echo 'aria-current="page"' 
+                                                  endif 
+                                              %}>
+                                                  {%liquid
+                                                      if section.settings.primary_menu_collection_image_display
+                                                          if primary_menu_sub_subitem.type == "collection_link" and primary_menu_sub_subitem.object.image
+                                                              echo primary_menu_sub_subitem.object.image | image_url: width: 320 | image_tag: loading: 'lazy', alt: primary_menu_sub_subitem.object.image.alt | escape
+                                                          endif
+                                                      endif
+                                                  %}
+                                                  <span class="section-header-main-menu-item-text">{{ primary_menu_sub_subitem.title | escape }}</span>
+                                                  {% if primary_menu_sub_subitem.links != blank %}
+                                                      <span class="section-header-main-menu-item-icon">{% render 'icon-chevron-down' %}</span>
+                                                  {% endif %}
+                                              </a>
+                                          </li>
+                                          {% endfor %}
+                                      </ul>
+                                      {% endif %}
+                                  </li>
+                                  {% endfor %}
+
+                                  {% if section.blocks != blank %}
+                                    {% for block in section.blocks %}
+                                      {% if block.type == 'mega_menu' %}
+                                        {% if primary_menu_for_loop_index == block.settings.mega_menu_index %}
+                                            {% if block.settings.mega_menu_card_1_image != blank %}
+                                              <li class="section-header-main-menu-subitem section-header-main-menu-subitem-card">
+                                                  <div class="section-header-main-menu-card" {{ block.shopify_attributes }}>
+                                                      <div class="section-header-main-menu-card__image">{{ block.settings.mega_menu_card_1_image | image_url: width: 320 | image_tag: loading: 'lazy', alt: block.settings.mega_menu_card_1_image.alt | escape }}</div>
+                                                      <div class="section-header-main-menu-card__title">
+                                                          {% if block.settings.mega_menu_card_1_text != blank %}
+                                                              {% if block.settings.mega_menu_card_1_link != blank %}
+                                                                  <a href="{{ block.settings.mega_menu_card_1_link }}">
+                                                                      <h6>{{ block.settings.mega_menu_card_1_text }}</h6>
+                                                                  </a>
+                                                              {% else %}
+                                                                  <h6>{{ block.settings.mega_menu_card_1_text }}</h6>
+                                                              {% endif %}
+                                                          {% endif %}
+                                                      </div>
+                                                  </div>
+                                              </li>
+                                            {% endif %}
+
+                                            {% if block.settings.mega_menu_card_2_image != blank %}
+                                              <li class="section-header-main-menu-subitem section-header-main-menu-subitem-card">
+                                                  <div class="section-header-main-menu-card" {{ block.shopify_attributes }}>
+                                                      <div class="section-header-main-menu-card__image">{{ block.settings.mega_menu_card_2_image | image_url: width: 320 | image_tag: loading: 'lazy', alt: block.settings.mega_menu_card_2_image.alt | escape }}</div>
+                                                      <div class="section-header-main-menu-card__title">
+                                                          {% if block.settings.mega_menu_card_2_text != blank %}
+                                                              {% if block.settings.mega_menu_card_2_link != blank %}
+                                                                  <a href="{{ block.settings.mega_menu_card_2_link }}">
+                                                                      <h6>{{ block.settings.mega_menu_card_2_text }}</h6>
+                                                                  </a>
+                                                              {% else %}
+                                                                  <h6>{{ block.settings.mega_menu_card_2_text }}</h6>
+                                                              {% endif %}
+                                                          {% endif %}
+                                                      </div>
+                                                  </div>
+                                              </li>
+                                            {% endif %}
+                                        {% endif %}
+                                      {% endif %}
+                                    {% endfor %}
+                                  {% endif %}
+
+                              </ul>
+
+                              {% endif %}
+                          </li>
+
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
+                {% if show_country_selector or show_language_selector %}
+                    <div class="section-header-additional-contents">
+                        {% if section.settings.country_selector %}
+                            <div class="section-header-country-selector">
+                                {% render 'country-selector' %}
+                            </div>
+                        {% endif %}
+                        {% if section.settings.language_selector %}
+                            <div class="section-header-language-selector">
+                                {% render 'language-selector' %}
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="section-header-right">
+            <div class="section-header-icons">
+                {% if shop.customer_accounts_enabled %}
+                    <div class="section-header-icons__account">
+                        {% if customer %}
+                            <a href="{{ routes.account_url }}" class="section-header-icons__account--account">{{ 'customer.account_fallback' | t }}</a>
+                        {% else %}
+                            <a href="{{ routes.account_login_url }}" class="section-header-icons__account--login">{% render 'icon-user' %}</a>
+                        {% endif %} 
+                    </div>
+                {% endif %}
+
+                {% if section.settings.search_icon %}
+                    {% render 'search-dropdown' %}
+                {% endif %}
+
+                {% if section.settings.cart_icon %}
+                    <div class="section-header-icons__cart">
+                        <a href="{{ routes.cart_url }}" class="section-header-cart-drawer-toggle">
+                            <span>{% render 'icon-cart' %}</span>
+                            {% if cart.item_count == 0 %}
+                                <span class="cart-count"></span>
+                            {% else %}
+                                <span class="cart-count">{{ cart.item_count }}</span>
+                            {% endif %}
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": {{ shop.name | json }},
+    {% if section.settings.logo %}
+      "logo": {{ section.settings.logo | image_url: width: section.settings.logo.width | prepend: "https:" | json }},
+    {% endif %}
+    "sameAs": [
+      {{ settings.social_twitter_link | json }},
+      {{ settings.social_facebook_link | json }},
+      {{ settings.social_pinterest_link | json }},
+      {{ settings.social_instagram_link | json }},
+      {{ settings.social_tiktok_link | json }},
+      {{ settings.social_tumblr_link | json }},
+      {{ settings.social_snapchat_link | json }},
+      {{ settings.social_youtube_link | json }},
+      {{ settings.social_vimeo_link | json }}
+    ],
+    "url": {{ request.origin | append: page.url | json }}
+  }
+</script>
+
+{%- if request.page_type == 'index' -%}
+  {% assign potential_action_target = request.origin | append: routes.search_url | append: "?q={search_term_string}" %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": {{ shop.name | json }},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {{ potential_action_target | json }},
+        "query-input": "required name=search_term_string"
+      },
+      "url": {{ request.origin | append: page.url | json }}
+    }
+  </script>
+{%- endif -%}
+
+
+{% schema %}
+{"name":"t:sections.header.name","class":"shopify-header-section","settings":[{"type":"header","content":"t:sections.header.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.header.settings.fullwidth.label","info":"t:sections.header.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.header.settings.width.label","default":1320,"info":"t:sections.header.settings.width.info"},{"type":"select","id":"color_scheme","label":"t:sections.header.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.header.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.header.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.header.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.header.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.header.settings.inset.label","info":"t:sections.header.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.header.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.header.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.header.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.header.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.header.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.header.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"header","content":"t:sections.header.settings.header__logo.content"},{"type":"image_picker","id":"logo","label":"t:sections.header.settings.logo.label","info":"t:sections.header.settings.logo.info"},{"type":"range","id":"logo_height","min":4,"max":200,"step":2,"unit":"px","label":"t:sections.header.settings.logo_height.label","default":24,"info":"t:sections.header.settings.logo_height.info"},{"type":"header","content":"t:sections.header.settings.header__menu.content"},{"type":"link_list","id":"primary_menu","label":"t:sections.header.settings.primary_menu.label","default":"main-menu","info":"t:sections.header.settings.primary_menu.info"},{"type":"header","content":"t:sections.header.settings.header__cart__account.content"},{"type":"checkbox","id":"cart_icon","label":"t:sections.header.settings.cart_icon.label","default":true},{"type":"checkbox","id":"search_icon","label":"t:sections.header.settings.search_icon.label","default":true},{"type":"range","id":"search_dropdown_offset","min":40,"max":240,"step":2,"unit":"px","label":"t:sections.header.settings.search_dropdown_offset.label","default":100,"info":"t:sections.header.settings.search_dropdown_offset.info"},{"type":"header","content":"t:sections.header.settings.header__country__language.content"},{"type":"checkbox","id":"country_selector","label":"t:sections.header.settings.country_selector.label","info":"t:sections.header.settings.country_selector.info","default":true},{"type":"checkbox","id":"language_selector","label":"t:sections.header.settings.language_selector.label","info":"t:sections.header.settings.language_selector.info","default":false},{"type":"header","content":"t:sections.header.settings.header__more_options.content"},{"type":"checkbox","id":"primary_menu_collection_image_display","label":"t:sections.header.settings.primary_menu_collection_image_display.label","default":false,"info":"t:sections.header.settings.primary_menu_collection_image_display.info"},{"type":"checkbox","id":"primary_menu_sticky","label":"t:sections.header.settings.primary_menu_sticky.label","default":false,"info":"t:sections.header.settings.primary_menu_sticky.info"},{"type":"header","content":"t:sections.common.settings.header__separator.content"},{"type":"checkbox","id":"separator","label":"t:sections.common.settings.separator.label","info":"t:sections.common.settings.separator.info","default":false},{"type":"range","id":"separator_height","min":1,"max":10,"step":1,"unit":"px","label":"t:sections.common.settings.separator_height.label","default":1,"info":"t:sections.common.settings.separator_height.info"},{"type":"checkbox","id":"separator_use_custom_color","label":"t:sections.common.settings.separator_use_custom_color.label","default":false},{"type":"color","id":"separator_custom_color","label":"t:sections.common.settings.separator_custom_color.label","default":"#DAD3C4"}],"blocks":[{"name":"t:sections.header.blocks.mega_menu.name","type":"mega_menu","settings":[{"type":"header","content":"t:sections.header.blocks.mega_menu.settings.header__general.content"},{"type":"number","id":"mega_menu_index","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_index.label","default":1,"info":"t:sections.header.blocks.mega_menu.settings.mega_menu_index.info"},{"type":"header","content":"t:sections.header.blocks.mega_menu.settings.header__card_1.content"},{"type":"image_picker","id":"mega_menu_card_1_image","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_1_image.label"},{"type":"text","id":"mega_menu_card_1_text","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_1_text.label"},{"type":"url","id":"mega_menu_card_1_link","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_1_link.label"},{"type":"select","id":"mega_menu_card_1_target","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_1_target.label","options":[{"value":"_self","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_1_target.options.option__0.label"},{"value":"_blank","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_1_target.options.option__1.label"}],"default":"_self","info":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_1_target.info"},{"type":"header","content":"t:sections.header.blocks.mega_menu.settings.header__card_2.content"},{"type":"image_picker","id":"mega_menu_card_2_image","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_2_image.label"},{"type":"text","id":"mega_menu_card_2_text","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_2_text.label"},{"type":"url","id":"mega_menu_card_2_link","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_2_link.label"},{"type":"select","id":"mega_menu_card_2_target","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_2_target.label","options":[{"value":"_self","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_2_target.options.option__0.label"},{"value":"_blank","label":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_2_target.options.option__1.label"}],"default":"_self","info":"t:sections.header.blocks.mega_menu.settings.mega_menu_card_2_target.info"}]}]}
+{% endschema %}
+

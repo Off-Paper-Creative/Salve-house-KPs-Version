@@ -1,0 +1,265 @@
+
+
+<script src="{{ 'filters.js' | asset_url }}" defer></script>
+
+{% liquid 
+    
+    assign display_filters = true
+
+    if template == 'search'
+      assign source = search
+      assign filters = search.filters
+      assign products_count = search.results | size
+      assign sort_by = search.sort_by | default: search.default_sort_by
+
+      unless search.performed
+        assign display_filters = false
+      endunless
+
+      if products_count == 0
+        assign display_filters = false
+      endif
+
+    else
+      assign source = collection
+      assign filters = collection.filters
+      assign products_count = collection.products_count 
+      assign sort_by = collection.sort_by | default: collection.default_sort_by
+    endif 
+%}
+
+
+
+{% liquid 
+                                
+  if settings.product_option_swatches_name contains ','
+      assign swatch_names = settings.product_option_swatches_name | split: ', '
+  else
+      assign swatch_names = settings.product_option_swatches_name | join: ','
+  endif 
+
+  assign swatch_values = settings.product_option_swatches_list | strip_newlines | split: ','
+
+
+%}
+
+{% if display_filters %}
+<facet-filters class="facet-filters" data-id="{{ section.id }}">
+    {% if section_settings.filters %}
+      <div class="facet-filters-filters">
+        <div class="facet-filters-title">
+            {{- 'filters.title' | t -}}
+        </div>
+        <form class="facet-filters-form filter-form">
+            <div class="facet-filters-list">
+            <div class="facet-filters-list-header">
+                <h3 class="facet-filters-list-header__title">{{- 'filters.title' | t -}}</h3>
+            </div>
+            {%- for filter in filters -%}
+                <details class="filter-group">
+                <summary class="filter-group-summary">
+                    <span>{{ filter.label }}</span>
+                    {%- if filter.active_values.size > 0 -%}
+                        <span>({{ filter.active_values.size }})</span>
+                    {%- endif -%}
+                    {%- render 'icon-chevron-down' -%}
+                </summary>
+            
+                <div class="filter-group-display">
+                    {% if filter.type == 'list' %}
+                    <div class="filter-group-display__header">
+                        <span class="filter-group-display__header-selected">{{ 'filters.selected_text' | t: count: filter.active_values.size }}</span>
+            
+                        {%- if filter.active_values.size > 0 -%}
+                        <a href="{{ filter.url_to_remove }}" class="filter-group-display__header-reset">{{ 'filters.reset' | t }}</a>
+                        {%- endif -%}
+                    </div>
+                    {% endif %}
+            
+                    {%- case filter.type -%}
+                    {%- when 'boolean' or 'list' -%}
+                        <ul class="filter-group-display__list">
+                        {%- for filter_value in filter.values -%}
+                            <li class="filter-group-display__list-item">
+                            <label for="Filter-{{ filter.param_name }}-{{ forloop.index }}">
+                                <input type="checkbox"
+                                name="{{ filter_value.param_name }}"
+                                value="{{ filter_value.value }}"
+                                id="Filter-{{ filter.param_name }}-{{ forloop.index }}"
+                                {% if filter_value.active -%}checked{%- endif %}
+                                {% if filter_value.count == 0 and filter_value.active == false -%}disabled{%- endif %}
+                                > 
+
+                                {% for swatch_name in swatch_names %}
+                                    {% assign swatch_color = blank %}
+                                {% if swatch_name == filter.label %}
+                                    <span class="filter-group-display__list-item-swatch product-option-swatch" style="{% liquid 
+
+                                        for swatch_value in swatch_values
+                                            assign swatch_value_pair = swatch_value | split: ':'
+                                            assign swatch_value_pair_name = swatch_value_pair[0] | strip
+                                
+                                            if swatch_value_pair_name == filter_value.value
+                                                if swatch_value_pair[1] contains '.'
+                                                    assign swatch_url = swatch_value_pair[1] | strip | file_url
+                                                    assign swatch_color = 'url(' | append: swatch_url | append: ')'
+                                                else
+                                                    assign swatch_color = swatch_value_pair[1]
+                                                endif
+                                            endif 
+                                        endfor 
+
+                                        if swatch_color != blank
+                                            echo '--product-swatch-value: ' | append: swatch_color
+                                        else
+                                            echo '--product-swatch-value: ' | append: filter_value.value
+                                        endif
+                                    %}">
+                                    </span>
+                                {% endif %}
+                                {% endfor %}
+                                <span>{{ filter_value.label }}</span>
+                                {% render 'icon-check' %}
+                            </label>
+                            </li>
+                        {%- endfor -%}
+                        </ul>
+            
+                        <div class="filter-group-display__submit">
+                        <button type="submit">{{ 'filters.submit' | t }}</button>
+                        </div>
+                    {%- when 'price_range' -%}
+                        {% assign max_price = filter.range_max | money_with_currency %}
+                        <div class="filter-group-display__price-range">
+                        <span>{{ 'filters.high_price_text' | t: max_price: max_price }}</span>
+                        <span class="filter-group-display__price-range-slider-handle filter-group-display__price-range-slider">
+                            <span class="filter-group-display__price-range-slider-handle--min" style="width: 0.5%;"></span>
+                            <span class="filter-group-display__price-range-slider-handle--max" style="width: 99.5%;"></span>
+                            <span class="filter-group-display__price-range-slider-handle--base"></span>
+                        </span>
+                        <div class="filter-group-display__price-range-from">
+                            <label for="Filter-{{ filter.min_value.param_name }}">
+                            <span class="filter-group-display__price-range-label">{{ 'filters.price.from' | t }}</span>
+                            <span class="filter-group-display__price-range-input">
+                                <span>{{ cart.currency.symbol }}</span>
+                
+                                <input name="{{ filter.min_value.param_name }}"
+                                id="Filter-{{ filter.min_value.param_name }}"
+                                {% if filter.min_value.value -%}
+                                    value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
+                                {%- endif %}
+                                type="number"
+                                placeholder="0"
+                                min="0"
+                                max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                                >
+                            </span>
+                            </label>
+                        </div>
+                        <div class="filter-group-display__price-range-to">
+                            <label for="Filter-{{ filter.max_value.param_name }}">
+                            <span class="filter-group-display__price-range-label">{{ 'filters.price.to' | t }}</span>
+                            <span class="filter-group-display__price-range-input">
+                                <span>{{ cart.currency.symbol }}</span>
+            
+                                <input name="{{ filter.max_value.param_name }}"
+                                id="Filter-{{ filter.max_value.param_name }}"
+                                {% if filter.max_value.value -%}
+                                    value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
+                                {%- endif %}
+                                type="number"
+                                placeholder="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                                min="0"
+                                max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                                >
+                            </span>
+                            </label>
+                        </div>
+                        </div>
+            
+                        <div class="filter-group-display__submit">
+                        <button type="submit">{{ 'filters.submit' | t }}</button>
+                        </div>
+                    {%- endcase -%}
+                </div>
+                </details>
+            {%- endfor -%}
+            </div>
+            <div class="active-filters">
+            {% if template == 'search' %}
+                <a href="{{ routes.search_url }}?sort_by={{ search.sort_by }}&q={{ search.terms }}" class="active-filters__clear">{{ 'filters.clear' | t }}</a>
+            {% else %}
+                <a href="{{ collection.url }}?sort_by={{ collection.sort_by }}" class="active-filters__clear">{{ 'filters.clear' | t }}</a>
+            {% endif %}
+        
+            {%- for filter in filters -%}
+                {%- if filter.type == "price_range" -%}
+                {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+                    <a class="active-filters__remove-filter" href="{{ filter.url_to_remove }}">
+                    {%- assign min_value = filter.min_value.value | default: 0 -%}
+                    {%- assign max_value = filter.max_value.value | default: filter.range_max -%}
+                    {{ min_value | money }} - {{ max_value | money }} X
+                    </a>
+                {%- endif -%}
+                {%- else -%}
+                {%- for filter_value in filter.active_values -%}
+                    <a class="active-filters__remove-filter" href="{{ filter_value.url_to_remove }}">
+                    {{ filter_value.label }} 
+                    {% render 'icon-close' %}
+                    </a>
+                {%- endfor -%}
+                {%- endif- %}
+            {%- endfor -%}
+            </div>
+            <button type="submit" class="facet-filters-list-submit">{{ 'filters.submit_all' | t }}</button>
+            <span class="facet-filters-list-close">{% render 'icon-close' %}</span>
+
+        </form>
+      </div>
+    {% endif %}
+
+    {% if section_settings.total_count %}
+        {% if template == 'search' %}
+        <div class="facet-filters-count">{{ 'general.search.results_total' | t: count: products_count }}</div>
+        {% else %}
+        <div class="facet-filters-count">{{ 'products.general.total_html' | t: count: products_count }}</div>
+        {% endif %}
+    {% endif %}
+    
+    {% if section_settings.sorting %}
+        {% if source.sort_options != blank %}
+        <div class="facet-filters-sorting">
+            <div class="facet-filters-sorting-label">{{ 'products.general.sort_by' | t }}</div>
+            <div class="facet-filters-sorting-container">
+                <sorting-dropdown class="facet-filters-sorting-dropdown">
+                <button class="facet-filters-sorting-default">
+                    <span>{%- liquid 
+                        for option in source.sort_options
+                            if option.value == sort_by
+                                echo option.name
+                            endif 
+                        endfor 
+                    -%}</span>
+                    {% render 'icon-chevron-down' %}
+                </button>
+                <ul class="facet-filters-sorting-list">
+                    {%- for option in source.sort_options -%}
+                        <li class="facet-filters-sorting-list__item {% liquid
+                            if option.value == sort_by
+                                echo 'selected'
+                            endif
+                        %}" data-value="{% echo option.value %}">{{ option.name | escape }}</li>
+                    {%- endfor -%}
+                </ul>
+                </sorting-dropdown>
+                <select name="sort_by" class="facet-filters-sorting-select" id="SortBy" aria-describedby="a11y-refresh-page-message">
+                    {%- for option in source.sort_options -%}
+                        <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+                    {%- endfor -%}
+                </select>
+            </div>
+        </div>
+        {% endif %}
+    {% endif %}
+</facet-filters>
+{% endif %}

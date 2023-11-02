@@ -1,0 +1,75 @@
+localization-form .disclosure {
+  position: relative;
+  cursor: pointer;
+}
+localization-form .disclosure__button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  padding: 12px;
+  background-color: var(--theme-secondary-background-color);
+  border-color: var(--theme-secondary-background-color);
+  border-radius: 0;
+  font-size: var(--theme-body-font-size-small);
+  margin-left: auto;
+}
+localization-form .disclosure__button > span {
+  display: flex;
+}
+localization-form .disclosure__button svg {
+  width: 14px;
+  height: 8px;
+}
+localization-form .disclosure__list:not([hidden]) {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  margin-top: -1px;
+  padding: 0 10px;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: var(--theme-body-font-size-small);
+  background-color: var(--theme-secondary-background-color);
+  border: 1px solid;
+  border-color: var(--theme-secondary-background-color);
+  max-height: 400px;
+  overflow-y: scroll;
+  z-index: 9;
+}
+localization-form .disclosure__list.place-above:not([hidden]) {
+  bottom: 0;
+  margin-bottom: 29px;
+}
+localization-form .disclosure__list li {
+  list-style: none;
+  margin-bottom: 0;
+}
+localization-form .disclosure__list a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+localization-form .disclosure__list a:hover {
+  text-decoration: underline;
+}
+localization-form .disclosure__button[aria-expanded=true], localization-form .disclosure__list:not([hidden]) {
+  border-color: var(--theme-border-color-black);
+}
+.scheme-accent localization-form .disclosure__button[aria-expanded=true],
+.scheme-accent localization-form .disclosure__list:not([hidden]),
+.scheme-complementary localization-form .disclosure__button[aria-expanded=true],
+.scheme-complementary localization-form .disclosure__list:not([hidden]) {
+  border-color: var(--theme-secondary-background-color);
+}
+.scheme-accent localization-form .disclosure__button,
+.scheme-complementary localization-form .disclosure__button {
+  background-color: transparent;
+}
+.scheme-accent localization-form .disclosure__list:not([hidden]) {
+  background-color: var(--theme-background-color-accent);
+}
+.scheme-complementary localization-form .disclosure__list:not([hidden]) {
+  background-color: var(--theme-background-color-complementary);
+}

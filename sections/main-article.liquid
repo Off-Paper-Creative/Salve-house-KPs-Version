@@ -1,0 +1,246 @@
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+  }
+{% endstyle %}
+
+
+{% if section.settings.separator %}
+  {% style %}
+  #shopify-section-{{ section.id }} .separator{
+    --theme-section-separator-width: {{ section.settings.separator_width | append: '%' }};
+    --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
+
+    {% if section.settings.separator_use_custom_color %}
+      --theme-section-separator-color: {{ section.settings.separator_custom_color }};
+    {% endif %}
+  }
+  {% endstyle %}
+{% endif %}
+
+{% if section.settings.spacing %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    
+      {% unless section.settings.spacing_placement == '3' %}
+--theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+{% unless section.settings.spacing_placement == '2' %}
+      --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+
+  }
+  {% endstyle %}
+{% endif %}
+
+
+
+
+{% liquid 
+  if blog.comments_enabled?
+    assign number_of_comments = article.comments_count
+
+    if comment and comment.created_at
+      assign number_of_comments = article.comments_count
+    endif 
+  endif 
+%}
+
+
+<article class="article section-article{% liquid 
+
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+  echo ' ' | append: section.settings.color_scheme
+
+%}">
+  <div class="article-container section-container">
+    <div class="article-header">
+      <h1 class="article-title">{{ article.title }}</h1>
+      <div class="article-meta">
+        <span class="article-meta__author"><small>{{ "article.by_text" | t }}</small>{{ article.author }}</span>
+        <span class="article-meta__date">{{ article.published_at | date: '%d %b %Y' }}</span>
+      </div>
+    </div>
+    {% if article.image %}
+      <div class="article-thumbnail">
+        {% render 'section-image-processor', image: article.image %}
+      </div>
+    {% endif %}
+    <div class="article-content">
+      {{ article.content }}
+    </div>
+    <div class="article-footer">
+      <div class="article-tags">
+        <span class="article-tags__title">{{ 'article.tags_label' | t }}</span>
+        <ul class="article-tags__list">
+          {% for tag in article.tags %}
+            <li>{{ tag | link_to_add_tag: tag }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="article-navigation">
+        {% if blog.previous_article != blank %}
+          <a class="article-navigation__prev" href="{{ blog.previous_article.url }}">
+            <span class="article-navigation__prev-label">{{ 'article.navigation.prev' | t }}</span>
+            <span class="article-navigation__prev-title">{{ blog.previous_article.title }}</span>
+          </a>
+        {% endif %}
+        {% if blog.next_article != blank %}
+          <a class="article-navigation__next" href="{{ blog.next_article.url }}">
+            <span class="article-navigation__prev-label">{{ 'article.navigation.next' | t }}</span>
+            <span class="article-navigation__prev-title">{{ blog.next_article.title }}</span>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if blog.comments_enabled? %}
+
+      <div class="article-comments">
+          
+        {% if article.comments_count > 0 %}
+          <div id="comments" class="comments">
+            <h2 class="comments-title">
+                {{ 'article.comments' | t: count: article.comments_count }}
+            </h2>
+            {% paginate article.comments by 5 %}
+              <ul class="comments-list">
+                {% if comment.status == 'pending' and comment.content %}
+                  <li class="comments-list-item comment">
+                    <div class="comments-list-item__text">{{ comment.content }}</div>
+                    <div class="comments-list-item__meta">
+                      <small class="comments-list-item__author">{{ comment.author }}</small>
+                    </div>
+                  </li>
+                {% endif %}
+                {% for comment in article.comments %}
+                  <li class="comments-list-item comment">
+                    <div class="comments-list-item__text">{{ comment.content }}</div>
+                    <div class="comments-list-item__meta">
+                      <small class="comments-list-item__author">{{ comment.author }}</small>
+                      <small class="comments-list-item__date"><span>{{ "article.date_text" | t }}</span>{{ comment.created_at | date: '%d %b %Y' }}</small>
+                    </div>
+                  </li>
+                {% endfor %}
+                {% if paginate.pages > 1 %}
+                  {{ paginate | default_pagination }}
+                {% endif %}
+              </ul>
+            {% endpaginate %}
+          </div>
+        {% endif %}
+        {% form 'new_comment', article %}
+          <div class="comment-form">
+            {% liquid
+              assign post_message = 'article.comments_form.success'
+              if blog.moderated? and comment.status == 'unapproved'
+                assign post_message = 'article.comments_form.success_moderated'
+              endif
+            %}
+
+            <h2>{{ "article.comments_form.title" | t }}</h2>
+            {% if form.errors %}
+              <div class="comment-form-notice" role="status">
+                {{ form.errors | default_errors }}
+              </div>
+            {% elsif form.posted_successfully? %}
+              <div class="comment-form-notice" role="status">
+                {{ post_message | t }}
+              </div>
+            {% endif %}
+            
+            <div class="comment-form__name">
+              <label for="CommentAuthor">{{ 'article.comments_form.name' | t }}</label>
+              <input type="text" name="comment[author]" id="CommentAuthor" placeholder="{{ 'article.comments_form.placeholders.name' | t }}" value="{{ form.author }}" autocapitalize="words">
+            </div>
+            <div class="comment-form__email">
+              <label for="CommentEmail">{{ 'article.comments_form.email' | t }}</label>
+              <input type="email" name="comment[email]" id="CommentEmail" placeholder="{{ 'article.comments_form.placeholders.email' | t }}" value="{{ form.email }}" autocorrect="off" autocapitalize="off">
+            </div>
+            <div class="comment-form__message">
+              <label for="CommentBody">{{ 'article.comments_form.message' | t }}</label>
+              <textarea name="comment[body]" id="CommentBody" placeholder="{{ 'article.comments_form.placeholders.message' | t }}">{{ form.body }}</textarea>
+            </div>
+            {%- if blog.moderated? -%}
+              <div class="comment-form__moderation-text">{{ 'article.comments_form.moderated' | t }}</div>
+            {%- endif -%}
+            <div class="comment-form__submit">
+              <button type="submit">{{ 'article.comments_form.submit' | t }}</button>
+            </div>
+          </div>
+        {% endform %}
+      </div>
+    {% endif %}
+
+  </div>
+</article>
+
+{% if section.settings.separator %}
+  <div class="section-separator{% liquid 
+ if section.settings.separator_fullwidth 
+echo ' has-fullwidth'
+endif 
+ %}"><hr class="separator"></div>
+{% endif %}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "articleBody": {{ article.content | strip_html | json }},
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ request.origin | append: page.url | json }}
+    },
+    "headline": {{ article.title | json }},
+    {% if article.excerpt != blank %}
+      "description": {{ article.excerpt | strip_html | json }},
+    {% endif %}
+    {% if article.image %}
+      "image": [
+        {{ article | image_url: width: article.image.width | prepend: "https:" | json }}
+      ],
+    {% endif %}
+    "datePublished": {{ article.published_at | date: '%Y%m%dT%H:%M:%SZ' | json }},
+    "dateCreated": {{ article.created_at | date: '%Y%m%dT%H:%M:%SZ' | json }},
+    "author": {
+      "@type": "Person",
+      "name": {{ article.author | json }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      {% if settings.share_image %}
+        "logo": {
+          "@type": "ImageObject",
+          "height": {{ settings.share_image.height | json }},
+          "url": {{ settings.share_image | image_url: width: settings.share_image.width | prepend: "https:" | json }},
+          "width": {{ settings.share_image.width | json }}
+        },
+      {% endif %}
+      "name": {{ shop.name | json }}
+    }
+  }
+  </script>
+
+
+{% schema %}
+{"name":"t:sections.main_article.name","settings":[{"type":"header","content":"t:sections.main_article.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.main_article.settings.fullwidth.label","info":"t:sections.main_article.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.main_article.settings.width.label","default":1320,"info":"t:sections.main_article.settings.width.info"},{"type":"select","id":"color_scheme","label":"t:sections.main_article.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.main_article.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.main_article.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.main_article.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.main_article.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.main_article.settings.inset.label","info":"t:sections.main_article.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.main_article.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.main_article.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.main_article.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.main_article.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.main_article.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.main_article.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"header","content":"t:sections.common.settings.header__separator.content"},{"type":"checkbox","id":"separator","label":"t:sections.common.settings.separator.label","info":"t:sections.common.settings.separator.info","default":false},{"type":"range","id":"separator_width","min":1,"max":100,"step":1,"unit":"%","label":"t:sections.common.settings.separator_width.label","default":100,"info":"t:sections.common.settings.separator_width.info"},{"type":"checkbox","id":"separator_fullwidth","label":"t:sections.common.settings.separator_fullwidth.label","default":false},{"type":"range","id":"separator_height","min":1,"max":10,"step":1,"unit":"px","label":"t:sections.common.settings.separator_height.label","default":1,"info":"t:sections.common.settings.separator_height.info"},{"type":"checkbox","id":"separator_use_custom_color","label":"t:sections.common.settings.separator_use_custom_color.label","default":false},{"type":"color","id":"separator_custom_color","label":"t:sections.common.settings.separator_custom_color.label","default":"#DAD3C4"},{"type":"header","content":"t:sections.common.settings.header__spacing.content"},{"type":"checkbox","id":"spacing","label":"t:sections.common.settings.spacing.label","info":"t:sections.common.settings.spacing.info","default":true},{"type":"select","id":"spacing_choice","label":"t:sections.common.settings.spacing_choice.label","options":[{"value":"level-1","label":"t:sections.common.settings.spacing_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.common.settings.spacing_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.common.settings.spacing_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.common.settings.spacing_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.common.settings.spacing_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"spacing_placement","label":"t:sections.common.settings.spacing_placement.label","options":[{"value":"1","label":"t:sections.common.settings.spacing_placement.options.option__0.label"},{"value":"2","label":"t:sections.common.settings.spacing_placement.options.option__1.label"},{"value":"3","label":"t:sections.common.settings.spacing_placement.options.option__2.label"}],"default":"1","info":"t:sections.common.settings.spacing_placement.info"}],"presets":[{"name":"Main article","settings":{"fullwidth":false,"width":1080}}],"enabled_on":{"templates":["article"]}}
+{% endschema %}
+

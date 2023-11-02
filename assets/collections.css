@@ -1,0 +1,128 @@
+:root {
+  --theme-color-dark-gray: #635436;
+  --theme-color-alert-error: #FC4F4F;
+  --theme-body-font-size: clamp(0.875rem, 3.5vw, 1rem);
+  --theme-body-font-size-small: clamp(0.75rem, 3vw, 0.875rem);
+  --theme-body-font-size-large: clamp(1rem, 4vw, 1.125rem);
+  --theme-body-font-size-x-large: clamp(1.125rem, 4.5vw, 1.25rem);
+  --theme-body-letter-spacing: 0.01em;
+  --theme-body-line-height: 1.6;
+  --theme-heading-font-size-h1: 1.75rem;
+  --theme-heading-font-size-h2: 1.5rem;
+  --theme-heading-font-size-h3: 1.375rem;
+  --theme-heading-font-size-h4: 1.25rem;
+  --theme-heading-font-size-h5: 1.125rem;
+  --theme-heading-font-size-h6: 1rem;
+  --theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+  --theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
+  --theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
+  --theme-heading-letter-spacing: -0.02em;
+  --theme-heading-line-height: 1.4;
+  --theme-special-letter-spacing: -0.02em;
+  --theme-special-line-height: 1.2;
+  --theme-layout-margin: clamp(var(--theme-layout-margin-mobile), 5vw, var(--theme-layout-margin-desktop));
+  --theme-button-line-height: 1.2;
+  --theme-button-padding-level-1: calc(var(--theme-button-padding-base) * 2/3) calc(var(--theme-button-padding-base) * 4/3);
+  --theme-button-padding-level-2: var(--theme-button-padding-base) calc(var(--theme-button-padding-base) * 2);
+  --theme-button-padding-level-3: calc(var(--theme-button-padding-base) * 4/3) calc(var(--theme-button-padding-base) * 8/3);
+  --theme-spacing-level-1: calc(var(--theme-spacing-base, 6vh) * 0.5);
+  --theme-spacing-level-2: calc(var(--theme-spacing-base, 6vh) * 0.75);
+  --theme-spacing-level-3: var(--theme-spacing-base, 6vh);
+  --theme-spacing-level-4: calc(var(--theme-spacing-base, 6vh) * 1.25);
+  --theme-spacing-level-5: calc(var(--theme-spacing-base, 6vh) * 1.5);
+  --theme-gap-level-1: clamp(calc(var(--theme-gap-base, var(--theme-gap-base, var(--theme-gap-base, 2rem))) * 0.25), 5vw, calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.25));
+  --theme-gap-level-2: clamp(calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.375), 5vw, calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.5));
+  --theme-gap-level-3: clamp(calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.5), 5vw, calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.75));
+  --theme-gap-level-4: clamp(calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.625), 5vw, var(--theme-gap-base, var(--theme-gap-base, 2rem)));
+  --theme-gap-level-5: clamp(calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.75), 5vw, calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 1.5));
+  --theme-gap-level-6: clamp(calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 0.875), 5vw, calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 2.25));
+  --theme-gap-level-7: clamp(var(--theme-gap-base, var(--theme-gap-base, 2rem)), 5vw, calc(var(--theme-gap-base, var(--theme-gap-base, 2rem)) * 3));
+  --theme-section-content-padding-level-1: clamp( 1rem, 5vw, 1rem);
+  --theme-section-content-padding-level-2: clamp( 1.25rem, 5vw, 1.5rem);
+  --theme-section-content-padding-level-3: clamp( 1.5rem, 5vw, 2rem);
+  --theme-section-content-padding-level-4: clamp( 1.75rem, 5vw, 3rem);
+  --theme-section-content-padding-level-5: clamp( 2rem, 5vw, 4.5rem);
+  --theme-block-content-padding-level-1: clamp( 1rem, 5vw, 1rem);
+  --theme-block-content-padding-level-2: clamp( 1.25rem, 5vw, 1.5rem);
+  --theme-block-content-padding-level-3: clamp( 1.5rem, 5vw, 2rem);
+  --theme-block-content-padding-level-4: clamp( 1.75rem, 5vw, 3rem);
+  --theme-block-content-padding-level-5: clamp( 2rem, 5vw, 4.5rem);
+}
+
+.collections {
+  margin-top: var(--theme-section-spacing-custom-top, var(--theme-section-spacing-top));
+  margin-bottom: var(--theme-section-spacing-custom-bottom, var(--theme-section-spacing-bottom));
+}
+
+.collection-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.collection-list-item {
+  list-style: none;
+}
+
+.collection {
+  list-style: none;
+}
+
+.collection__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: var(--theme-heading-font-size-h5);
+  word-break: break-word;
+  font-weight: var(--theme-font-weight-semibold);
+  letter-spacing: var(--theme-heading-letter-spacing);
+  font-variation-settings: "wght" var(--theme-font-weight-semibold);
+}
+
+.collection__title a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.collection__title a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.collection__image {
+  margin-bottom: 12px;
+}
+
+.collection__image a {
+  display: flex;
+  overflow: hidden;
+}
+
+.collection__image img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1);
+  transition: all 0.4s ease;
+}
+
+.collection__image:hover img {
+  transform: scale(1.02);
+}
+
+.collection.has-no-thumbnail .collection__image a {
+  aspect-ratio: 1;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 767px) {
+  .collection-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

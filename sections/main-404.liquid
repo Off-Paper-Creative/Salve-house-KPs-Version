@@ -1,0 +1,118 @@
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.height_mobile != 'auto' %}
+      --theme-404-content-height-mobile: {{ section.settings.height_mobile | append: 'px' }};
+    {% endif %}
+
+    {% if section.settings.height != 'auto' %}
+      --theme-404-content-height-desktop: {{ section.settings.height | append: 'px' }};
+    {% endif %}
+  }
+{% endstyle %}
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+  }
+{% endstyle %}
+
+{% for block in section.blocks %}
+  {% if block.type == 'text' %}
+
+  {% elsif block.type == 'button' %}
+
+    {% style %}
+      #shopify-section-{{ section.id }} .block-{{ block.id }}{
+        --theme-404-button-width: {{ block.settings.banner_button_width | append: 'px' }};
+      }
+    {% endstyle %}
+    
+  {% endif %}
+{% endfor %}
+
+{% if section.settings.spacing %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    
+      {% unless section.settings.spacing_placement == '3' %}
+--theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+{% unless section.settings.spacing_placement == '2' %}
+      --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+
+  }
+  {% endstyle %}
+{% endif %}
+
+
+
+{% assign blocks_count = section.blocks | size %}
+
+
+<div class="main-404 section-404{% liquid
+    if section.settings.content_position != blank
+      echo ' content-align-' | append: section.settings.content_position
+    endif 
+  
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+    echo ' ' | append: section.settings.color_scheme
+  %}">
+  <div class="main-404-container section-container">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'text' %}
+          {% if block.settings.text != blank %}
+            {% case block.settings.text_tag %}
+              {% when 's1' or 's2' or 's3' %}
+                <h1 class="main-404-text special-heading-{{ block.settings.text_tag }} block-{% echo block.id %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h1>
+              {% when 'p1' or 'p2' %}
+                <p class="main-404-text paragraph-{{ block.settings.text_tag }} block-{% echo block.id %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+              {% else %}
+                <{{ block.settings.text_tag }} class="main-404-text block-{% echo block.id %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</{{ block.settings.text_tag }}>
+            {% endcase %}
+          {% endif %}
+        {% when 'button' %}
+          {% if block.settings.button_text != blank %}
+            <a href="{{ block.settings.button_url | default: '#' }}" class="main-404-button block-{% echo block.id %}{% liquid 
+                echo ' btn-' | append: block.settings.button_style
+
+                if block.settings.button_custom_width
+                  echo ' has-custom-width'
+                endif
+
+            %}" {{ block.shopify_attributes }}>{{ block.settings.button_text }}</a>
+          {% endif %}
+        {% when '@app' %}
+          {% render block %}
+        {% when 'liquid' %}
+          <div class="custom-liquid">
+              {{ block.settings.custom_liquid }}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+{"name":"t:sections.404.name","limit":1,"settings":[{"type":"header","content":"t:sections.404.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.404.settings.fullwidth.label","info":"t:sections.404.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.404.settings.width.label","default":1320,"info":"t:sections.404.settings.width.info"},{"type":"select","id":"color_scheme","label":"t:sections.404.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.404.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.404.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.404.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.404.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.404.settings.inset.label","info":"t:sections.404.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.404.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.404.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.404.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.404.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.404.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.404.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"height_mobile","label":"t:sections.404.settings.height_mobile.label","options":[{"value":"400","label":"t:sections.404.settings.height_mobile.options.option__0.label"},{"value":"460","label":"t:sections.404.settings.height_mobile.options.option__1.label"},{"value":"520","label":"t:sections.404.settings.height_mobile.options.option__2.label"},{"value":"600","label":"t:sections.404.settings.height_mobile.options.option__3.label"},{"value":"680","label":"t:sections.404.settings.height_mobile.options.option__4.label"},{"value":"780","label":"t:sections.404.settings.height_mobile.options.option__5.label"},{"value":"900","label":"t:sections.404.settings.height_mobile.options.option__6.label"},{"value":"auto","label":"t:sections.404.settings.height_mobile.options.option__7.label"}],"default":"520"},{"type":"select","id":"height","label":"t:sections.404.settings.height.label","options":[{"value":"400","label":"t:sections.404.settings.height.options.option__0.label"},{"value":"460","label":"t:sections.404.settings.height.options.option__1.label"},{"value":"520","label":"t:sections.404.settings.height.options.option__2.label"},{"value":"600","label":"t:sections.404.settings.height.options.option__3.label"},{"value":"680","label":"t:sections.404.settings.height.options.option__4.label"},{"value":"780","label":"t:sections.404.settings.height.options.option__5.label"},{"value":"900","label":"t:sections.404.settings.height.options.option__6.label"},{"value":"auto","label":"t:sections.404.settings.height.options.option__7.label"}],"default":"520"},{"type":"select","id":"content_position","label":"t:sections.404.settings.content_position.label","options":[{"value":"left","label":"t:sections.404.settings.content_position.options.option__0.label"},{"value":"center","label":"t:sections.404.settings.content_position.options.option__1.label"},{"value":"right","label":"t:sections.404.settings.content_position.options.option__2.label"}],"default":"center"},{"type":"header","content":"t:sections.common.settings.header__spacing.content"},{"type":"checkbox","id":"spacing","label":"t:sections.common.settings.spacing.label","info":"t:sections.common.settings.spacing.info","default":true},{"type":"select","id":"spacing_choice","label":"t:sections.common.settings.spacing_choice.label","options":[{"value":"level-1","label":"t:sections.common.settings.spacing_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.common.settings.spacing_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.common.settings.spacing_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.common.settings.spacing_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.common.settings.spacing_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"spacing_placement","label":"t:sections.common.settings.spacing_placement.label","options":[{"value":"1","label":"t:sections.common.settings.spacing_placement.options.option__0.label"},{"value":"2","label":"t:sections.common.settings.spacing_placement.options.option__1.label"},{"value":"3","label":"t:sections.common.settings.spacing_placement.options.option__2.label"}],"default":"1","info":"t:sections.common.settings.spacing_placement.info"}],"blocks":[{"name":"t:sections.404.blocks.text.name","type":"text","settings":[{"type":"text","id":"text","label":"t:sections.404.blocks.text.settings.text.label","default":"The Essential Dresses for Women"},{"type":"select","id":"text_tag","label":"t:sections.404.blocks.text.settings.text_tag.label","options":[{"value":"p","label":"t:sections.404.blocks.text.settings.text_tag.options.option__0.label"},{"value":"p1","label":"t:sections.404.blocks.text.settings.text_tag.options.option__1.label"},{"value":"p2","label":"t:sections.404.blocks.text.settings.text_tag.options.option__2.label"},{"value":"h1","label":"t:sections.404.blocks.text.settings.text_tag.options.option__3.label"},{"value":"h2","label":"t:sections.404.blocks.text.settings.text_tag.options.option__4.label"},{"value":"h3","label":"t:sections.404.blocks.text.settings.text_tag.options.option__5.label"},{"value":"h4","label":"t:sections.404.blocks.text.settings.text_tag.options.option__6.label"},{"value":"h5","label":"t:sections.404.blocks.text.settings.text_tag.options.option__7.label"},{"value":"h6","label":"t:sections.404.blocks.text.settings.text_tag.options.option__8.label"},{"value":"s1","label":"t:sections.404.blocks.text.settings.text_tag.options.option__9.label"},{"value":"s2","label":"t:sections.404.blocks.text.settings.text_tag.options.option__10.label"},{"value":"s3","label":"t:sections.404.blocks.text.settings.text_tag.options.option__11.label"}],"default":"p"},{"type":"range","id":"text_width","min":10,"max":100,"step":1,"unit":"%","label":"t:sections.404.blocks.text.settings.text_width.label","default":100,"info":"t:sections.404.blocks.text.settings.text_width.info"}]},{"name":"t:sections.404.blocks.button.name","type":"button","settings":[{"type":"text","id":"button_text","label":"t:sections.404.blocks.button.settings.button_text.label","default":"Back to home"},{"type":"url","id":"button_url","label":"t:sections.404.blocks.button.settings.button_url.label","default":"\/"},{"type":"select","id":"button_style","label":"t:sections.404.blocks.button.settings.button_style.label","options":[{"value":"outline","label":"t:sections.404.blocks.button.settings.button_style.options.option__0.label"},{"value":"fill","label":"t:sections.404.blocks.button.settings.button_style.options.option__1.label"},{"value":"link","label":"t:sections.404.blocks.button.settings.button_style.options.option__2.label"}],"default":"outline"},{"type":"checkbox","id":"button_custom_width","label":"t:sections.404.blocks.button.settings.button_custom_width.label","default":false,"info":"t:sections.404.blocks.button.settings.button_custom_width.info"},{"type":"range","id":"button_width","min":150,"max":350,"step":2,"unit":"px","label":"t:sections.404.blocks.button.settings.button_width.label","default":200,"info":"t:sections.404.blocks.button.settings.button_width.info"}]},{"type":"@app"},{"name":"t:sections.404.blocks.liquid.name","type":"liquid","settings":[{"type":"liquid","id":"custom_liquid","label":"t:sections.404.blocks.liquid.settings.custom_liquid.label","info":"t:sections.404.blocks.liquid.settings.custom_liquid.info"}]}],"presets":[{"name":"404","blocks":[{"type":"text","settings":{"text":"404","text_tag":"s1"}},{"type":"text","settings":{"text":"The page you were looking for does not exist"}},{"type":"button"}]}],"enabled_on":{"templates":["404"]}}
+{% endschema %}
+

@@ -1,0 +1,588 @@
+{% style %}
+
+  {% if section.blocks != blank %}
+    {% for block in section.blocks %}
+
+      {% if block.settings.text_custom_width %}
+        #shopify-section-{{ section.id }}.block-{{ block.id }} {
+          --theme-rich-text-text-width: {{ block.settings.text_width | append: 'px' }};
+        }
+      {% endif %}
+
+      {% if block.type == 'button' and block.settings.button_custom_width %}
+        #shopify-section-{{ section.id }} .block-{{ block.id }}{ 
+            --theme-image-rich-text-button-width: {{ block.settings.button_width | append: 'px' }}; 
+          }
+      {% endif %}
+
+    {% endfor %}
+  {% endif %}
+
+{% endstyle %}
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+    {% if section.settings.inset %}
+      --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+    {% endif %}
+  }
+{% endstyle %}
+
+{% if section.settings.separator %}
+  {% style %}
+    #shopify-section-{{ section.id }} .separator {
+      --theme-section-separator-width: {{ section.settings.separator_width | append: '%' }};
+      --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
+
+      {% if section.settings.separator_use_custom_color %}
+        --theme-section-separator-color: {{ section.settings.separator_custom_color }};
+      {% endif %}
+    }
+  {% endstyle %}
+{% endif %}
+
+{% if section.settings.spacing %}
+  {% style %}
+    #shopify-section-{{ section.id }} {
+
+      {% unless section.settings.spacing_placement == '3' %}
+        --theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+      {% endunless %}
+      {% unless section.settings.spacing_placement == '2' %}
+        --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+      {% endunless %}
+
+    }
+  {% endstyle %}
+{% endif %}
+
+
+<div class="section-rich-text{% liquid 
+    if section.settings.alignment != 'left' 
+        echo ' has-alignment-' | append: section.settings.alignment
+    endif
+    
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+    echo ' ' | append: section.settings.color_scheme
+%}">
+  <div class="section-rich-text-container section-container">
+    {% if section.blocks != blank %}
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'heading' %}
+            {% if block.settings.text != blank %}
+              <{{ block.settings.text_tag }} class="section-rich-text-text section-rich-text-heading block-{{ block.id }}" {{ block.shopify_attributes }}>
+                {{ block.settings.text }}</{{ block.settings.text_tag }}>
+              {% endif %}
+
+            {% when 'special_heading' %}
+              {% if block.settings.text != blank %}
+                <h1 class="section-rich-text-text section-rich-text-special-heading special-heading-{{ block.settings.text_tag }} block-{{ block.id }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h1>
+              {% endif %}
+
+            {% when 'description' %}
+              {% if block.settings.text != blank %}
+                <p class="section-rich-text-text section-rich-text-description paragraph-{{ block.settings.text_tag }} block-{{ block.id }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+              {% endif %}
+
+            {% when 'paragraph' %}
+              {% if block.settings.text != blank %}
+                <p class="section-rich-text-text section-rich-text-paragraph block-{{ block.id }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+              {% endif %}
+
+            {% when 'button' %}
+              {% if block.settings.button_text != blank %}
+                <a
+                  href="{{ block.settings.button_url | default: '#' }}"
+                  class="section-rich-text-button block-{{ block.id }}{% liquid 
+                            echo ' btn-' | append: block.settings.button_style
+
+                            if block.settings.button_custom_width
+                                echo ' has-custom-width'
+                            endif
+                
+                        %}"
+                  target="{{ block.settings.button_target }}"
+                  {{ block.shopify_attributes }}>{{ block.settings.button_text }}</a>
+              {% endif %}
+
+          {% endcase %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+  {% if section.settings.separator %}
+    <div class="section-separator{% liquid 
+ if section.settings.separator_fullwidth 
+echo ' has-fullwidth'
+endif 
+ %}">
+<hr class="separator"></div>
+  {% endif %}
+
+
+  {% schema %}
+    {
+      "name": "t:sections.rich_text.name",
+      "settings": [
+        {
+          "type": "header",
+          "content": "t:sections.rich_text.settings.header__general.content"
+        },
+        {
+          "type": "checkbox",
+          "id": "fullwidth",
+          "label": "t:sections.rich_text.settings.fullwidth.label",
+          "info": "t:sections.rich_text.settings.fullwidth.info",
+          "default": true
+        },
+        {
+          "type": "range",
+          "id": "width",
+          "min": 500,
+          "max": 2000,
+          "step": 20,
+          "unit": "px",
+          "label": "t:sections.rich_text.settings.width.label",
+          "default": 1320,
+          "info": "t:sections.rich_text.settings.width.info"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "label": "t:sections.rich_text.settings.color_scheme.label",
+          "options": [
+            {
+              "value": "scheme-main",
+              "label": "t:sections.rich_text.settings.color_scheme.options.option__0.label"
+            }, {
+              "value": "scheme-additional",
+              "label": "t:sections.rich_text.settings.color_scheme.options.option__1.label"
+            }, {
+              "value": "scheme-accent",
+              "label": "t:sections.rich_text.settings.color_scheme.options.option__2.label"
+            }, {
+              "value": "scheme-complementary",
+              "label": "t:sections.rich_text.settings.color_scheme.options.option__3.label"
+            }
+          ],
+          "default": "scheme-main"
+        }, {
+          "type": "checkbox",
+          "id": "inset",
+          "label": "t:sections.rich_text.settings.inset.label",
+          "info": "t:sections.rich_text.settings.inset.info",
+          "default": true
+        }, {
+          "type": "select",
+          "id": "inset_choice",
+          "label": "t:sections.rich_text.settings.inset_choice.label",
+          "options": [
+            {
+              "value": "level-1",
+              "label": "t:sections.rich_text.settings.inset_choice.options.option__0.label"
+            },
+            {
+              "value": "level-2",
+              "label": "t:sections.rich_text.settings.inset_choice.options.option__1.label"
+            },
+            {
+              "value": "level-3",
+              "label": "t:sections.rich_text.settings.inset_choice.options.option__2.label"
+            },
+            {
+              "value": "level-4",
+              "label": "t:sections.rich_text.settings.inset_choice.options.option__3.label"
+            }, {
+              "value": "level-5",
+              "label": "t:sections.rich_text.settings.inset_choice.options.option__4.label"
+            }
+          ],
+          "default": "level-3"
+        }, {
+          "type": "select",
+          "id": "alignment",
+          "label": "t:sections.rich_text.settings.alignment.label",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.rich_text.settings.alignment.options.option__0.label"
+            }, {
+              "value": "center",
+              "label": "t:sections.rich_text.settings.alignment.options.option__1.label"
+            }, {
+              "value": "right",
+              "label": "t:sections.rich_text.settings.alignment.options.option__2.label"
+            }
+          ],
+          "default": "center"
+        }, {
+          "type": "header",
+          "content": "t:sections.common.settings.header__separator.content"
+        }, {
+          "type": "checkbox",
+          "id": "separator",
+          "label": "t:sections.common.settings.separator.label",
+          "info": "t:sections.common.settings.separator.info",
+          "default": false
+        }, {
+          "type": "range",
+          "id": "separator_width",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "t:sections.common.settings.separator_width.label",
+          "default": 100,
+          "info": "t:sections.common.settings.separator_width.info"
+        }, {
+          "type": "checkbox",
+          "id": "separator_fullwidth",
+          "label": "t:sections.common.settings.separator_fullwidth.label",
+          "default": false
+        }, {
+          "type": "range",
+          "id": "separator_height",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "unit": "px",
+          "label": "t:sections.common.settings.separator_height.label",
+          "default": 1,
+          "info": "t:sections.common.settings.separator_height.info"
+        }, {
+          "type": "checkbox",
+          "id": "separator_use_custom_color",
+          "label": "t:sections.common.settings.separator_use_custom_color.label",
+          "default": false
+        }, {
+          "type": "color",
+          "id": "separator_custom_color",
+          "label": "t:sections.common.settings.separator_custom_color.label",
+          "default": "#DAD3C4"
+        }, {
+          "type": "header",
+          "content": "t:sections.common.settings.header__spacing.content"
+        }, {
+          "type": "checkbox",
+          "id": "spacing",
+          "label": "t:sections.common.settings.spacing.label",
+          "info": "t:sections.common.settings.spacing.info",
+          "default": true
+        }, {
+          "type": "select",
+          "id": "spacing_choice",
+          "label": "t:sections.common.settings.spacing_choice.label",
+          "options": [
+            {
+              "value": "level-1",
+              "label": "t:sections.common.settings.spacing_choice.options.option__0.label"
+            },
+            {
+              "value": "level-2",
+              "label": "t:sections.common.settings.spacing_choice.options.option__1.label"
+            },
+            {
+              "value": "level-3",
+              "label": "t:sections.common.settings.spacing_choice.options.option__2.label"
+            },
+            {
+              "value": "level-4",
+              "label": "t:sections.common.settings.spacing_choice.options.option__3.label"
+            }, {
+              "value": "level-5",
+              "label": "t:sections.common.settings.spacing_choice.options.option__4.label"
+            }
+          ],
+          "default": "level-3"
+        }, {
+          "type": "select",
+          "id": "spacing_placement",
+          "label": "t:sections.common.settings.spacing_placement.label",
+          "options": [
+            {
+              "value": "1",
+              "label": "t:sections.common.settings.spacing_placement.options.option__0.label"
+            }, {
+              "value": "2",
+              "label": "t:sections.common.settings.spacing_placement.options.option__1.label"
+            }, {
+              "value": "3",
+              "label": "t:sections.common.settings.spacing_placement.options.option__2.label"
+            }
+          ],
+          "default": "1",
+          "info": "t:sections.common.settings.spacing_placement.info"
+        }
+      ],
+      "blocks": [
+        {
+          "name": "t:sections.rich_text.blocks.heading.name",
+          "type": "heading",
+          "settings": [
+            {
+              "type": "text",
+              "id": "text",
+              "label": "t:sections.rich_text.blocks.heading.settings.text.label",
+              "default": "This is heading"
+            }, {
+              "type": "select",
+              "id": "text_tag",
+              "label": "t:sections.rich_text.blocks.heading.settings.text_tag.label",
+              "options": [
+                {
+                  "value": "h1",
+                  "label": "t:sections.rich_text.blocks.heading.settings.text_tag.options.option__0.label"
+                },
+                {
+                  "value": "h2",
+                  "label": "t:sections.rich_text.blocks.heading.settings.text_tag.options.option__1.label"
+                },
+                {
+                  "value": "h3",
+                  "label": "t:sections.rich_text.blocks.heading.settings.text_tag.options.option__2.label"
+                },
+                {
+                  "value": "h4",
+                  "label": "t:sections.rich_text.blocks.heading.settings.text_tag.options.option__3.label"
+                }, {
+                  "value": "h5",
+                  "label": "t:sections.rich_text.blocks.heading.settings.text_tag.options.option__4.label"
+                }, {
+                  "value": "h6",
+                  "label": "t:sections.rich_text.blocks.heading.settings.text_tag.options.option__5.label"
+                }
+              ],
+              "default": "h2"
+            }, {
+              "type": "checkbox",
+              "id": "text_custom_width",
+              "label": "t:sections.rich_text.blocks.heading.settings.text_custom_width.label",
+              "default": false
+            }, {
+              "type": "range",
+              "id": "text_width",
+              "min": 200,
+              "max": 1200,
+              "step": 10,
+              "unit": "px",
+              "label": "t:sections.rich_text.blocks.heading.settings.text_width.label",
+              "default": 700,
+              "info": "t:sections.rich_text.blocks.heading.settings.text_width.info"
+            }
+          ]
+        }, 
+        {
+          "name": "t:sections.rich_text.blocks.special_heading.name",
+          "type": "special_heading",
+          "settings": [
+            {
+              "type": "text",
+              "id": "text",
+              "label": "t:sections.rich_text.blocks.special_heading.settings.text.label",
+              "default": "This is special heading"
+            }, {
+              "type": "select",
+              "id": "text_tag",
+              "label": "t:sections.rich_text.blocks.special_heading.settings.text_tag.label",
+              "options": [
+                {
+                  "value": "s1",
+                  "label": "t:sections.rich_text.blocks.special_heading.settings.text_tag.options.option__0.label"
+                }, {
+                  "value": "s2",
+                  "label": "t:sections.rich_text.blocks.special_heading.settings.text_tag.options.option__1.label"
+                }, {
+                  "value": "s3",
+                  "label": "t:sections.rich_text.blocks.special_heading.settings.text_tag.options.option__2.label"
+                }
+              ],
+              "default": "s2"
+            }, {
+              "type": "checkbox",
+              "id": "text_custom_width",
+              "label": "t:sections.rich_text.blocks.special_heading.settings.text_custom_width.label",
+              "default": false
+            }, {
+              "type": "range",
+              "id": "text_width",
+              "min": 200,
+              "max": 1200,
+              "step": 10,
+              "unit": "px",
+              "label": "t:sections.rich_text.blocks.special_heading.settings.text_width.label",
+              "default": 700,
+              "info": "t:sections.rich_text.blocks.special_heading.settings.text_width.info"
+            }
+          ]
+        },
+        {
+          "name": "t:sections.rich_text.blocks.description.name",
+          "type": "description",
+          "settings": [
+            {
+              "type": "text",
+              "id": "text",
+              "label": "t:sections.rich_text.blocks.description.settings.text.label",
+              "default": "This is simple description"
+            }, {
+              "type": "select",
+              "id": "text_tag",
+              "label": "t:sections.rich_text.blocks.description.settings.text_tag.label",
+              "options": [
+                {
+                  "value": "p",
+                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__0.label"
+                }, {
+                  "value": "p1",
+                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__1.label"
+                }, {
+                  "value": "p2",
+                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__2.label"
+                }
+              ],
+              "default": "p"
+            }, {
+              "type": "checkbox",
+              "id": "text_custom_width",
+              "label": "t:sections.rich_text.blocks.description.settings.text_custom_width.label",
+              "default": false
+            }, {
+              "type": "range",
+              "id": "text_width",
+              "min": 200,
+              "max": 1200,
+              "step": 10,
+              "unit": "px",
+              "label": "t:sections.rich_text.blocks.description.settings.text_width.label",
+              "default": 700,
+              "info": "t:sections.rich_text.blocks.description.settings.text_width.info"
+            }
+          ]
+        },
+        {
+          "name": "t:sections.rich_text.blocks.paragraph.name",
+          "type": "paragraph",
+          "settings": [
+            {
+              "type": "richtext",
+              "id": "text",
+              "label": "t:sections.rich_text.blocks.paragraph.settings.text.label",
+              "default": "<p>This is long paragraph<\/p>"
+            }, {
+              "type": "checkbox",
+              "id": "text_custom_width",
+              "label": "t:sections.rich_text.blocks.paragraph.settings.text_custom_width.label",
+              "default": false
+            }, {
+              "type": "range",
+              "id": "text_width",
+              "min": 200,
+              "max": 1200,
+              "step": 10,
+              "unit": "px",
+              "label": "t:sections.rich_text.blocks.paragraph.settings.text_width.label",
+              "default": 700,
+              "info": "t:sections.rich_text.blocks.paragraph.settings.text_width.info"
+            }
+          ]
+        }, {
+          "name": "t:sections.rich_text.blocks.button.name",
+          "type": "button",
+          "settings": [
+            {
+              "type": "text",
+              "id": "button_text",
+              "label": "t:sections.rich_text.blocks.button.settings.button_text.label",
+              "default": "Button text"
+            },
+            {
+              "type": "url",
+              "id": "button_url",
+              "label": "t:sections.rich_text.blocks.button.settings.button_url.label"
+            },
+            {
+              "type": "select",
+              "id": "button_target",
+              "label": "t:sections.rich_text.blocks.button.settings.button_target.label",
+              "options": [
+                {
+                  "value": "_self",
+                  "label": "t:sections.rich_text.blocks.button.settings.button_target.options.option__0.label"
+                }, {
+                  "value": "_blank",
+                  "label": "t:sections.rich_text.blocks.button.settings.button_target.options.option__1.label"
+                }
+              ],
+              "default": "_self",
+              "info": "t:sections.rich_text.blocks.button.settings.button_target.info"
+            },
+            {
+              "type": "select",
+              "id": "button_style",
+              "label": "t:sections.rich_text.blocks.button.settings.button_style.label",
+              "options": [
+                {
+                  "value": "outline",
+                  "label": "t:sections.rich_text.blocks.button.settings.button_style.options.option__0.label"
+                }, {
+                  "value": "fill",
+                  "label": "t:sections.rich_text.blocks.button.settings.button_style.options.option__1.label"
+                }, {
+                  "value": "link",
+                  "label": "t:sections.rich_text.blocks.button.settings.button_style.options.option__2.label"
+                }
+              ],
+              "default": "outline"
+            }, {
+              "type": "checkbox",
+              "id": "button_custom_width",
+              "label": "t:sections.rich_text.blocks.button.settings.button_custom_width.label",
+              "default": false,
+              "info": "t:sections.rich_text.blocks.button.settings.button_custom_width.info"
+            }, {
+              "type": "range",
+              "id": "button_width",
+              "min": 150,
+              "max": 350,
+              "step": 2,
+              "unit": "px",
+              "label": "t:sections.rich_text.blocks.button.settings.button_width.label",
+              "default": 200,
+              "info": "t:sections.rich_text.blocks.button.settings.button_width.info"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Rich text",
+          "blocks": [
+            {
+              "type": "heading"
+            }, {
+              "type": "special_heading"
+            }, {
+              "type": "description"
+            }, {
+              "type": "button"
+            }
+          ]
+        }
+      ]
+    }
+  {% endschema %}

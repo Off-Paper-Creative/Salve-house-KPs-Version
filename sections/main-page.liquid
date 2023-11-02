@@ -1,0 +1,132 @@
+{% style %}
+.main-page-header-title{
+    --theme-main-page-title-width: {{ section.settings.heading_width | append: 'px' }};
+}
+
+.main-page-header-description{
+    --theme-main-page-description-width: {{ section.settings.description_width | append: 'px' }};
+}
+{% endstyle %}
+
+
+{% if section.settings.custom_height %}
+  {% style %}
+    #shopify-section-{{ section.id }} .has-custom-height{
+      {% if section.settings.height_mobile != 'auto' %}
+        --theme-page-header-custom-height-mobile: {{ section.settings.height_mobile | append: 'px' }};
+      {% endif %}
+
+      {% if section.settings.height != 'auto' %}
+        --theme-page-header-custom-height-desktop: {{ section.settings.height | append: 'px' }};
+      {% endif %}
+    }
+  {% endstyle %}
+{% endif %}
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+  }
+{% endstyle %}
+
+
+{% if section.settings.spacing %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    
+      {% unless section.settings.spacing_placement == '3' %}
+--theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+{% unless section.settings.spacing_placement == '2' %}
+      --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+
+  }
+  {% endstyle %}
+{% endif %}
+
+
+<div class="main-page-header page-header{% liquid 
+    if section.settings.background_image_show != false
+        echo ' has-background'
+    endif 
+
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.custom_height
+    echo ' has-custom-height'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+    echo ' ' | append: section.settings.color_scheme
+
+    echo ' has-no-padding'
+%}">
+
+    {% if section.settings.background_image != blank or section.settings.background_image_mobile != blank or section.settings.background_overlay %}
+      {% if section.settings.background_image_show != false %}
+        <div class="main-page-header-background page-header-background">
+        {% if section.settings.background_image != blank or section.settings.background_image_mobile != blank %}
+            <picture class="main-page-header-background-image page-header-background-image">
+            {% if section.settings.background_image != blank %}
+                <source media="(min-width:768px)" srcset="{{ section.settings.background_image | image_url }}">
+            {% endif %}
+            {% render 'section-image-processor', image: section.settings.background_image_mobile %}
+            </picture>
+        {% endif %}
+        {% if section.settings.background_overlay %}
+            <div class="main-page-header-background-overlay page-header-background-overlay"></div>
+        {% endif %}
+        </div>
+      {% endif %}
+    {% endif %}
+    {% if section.settings.background_image_show != false and section.settings.background_image == blank and section.settings.background_image_mobile == blank and section.settings.background_overlay == false %}
+      <div class="main-page-header-background page-header-background">
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder placeholder-page-title' }}
+      </div>
+    {% endif %}
+    <div class="main-page-header-details page-header-details section-container">
+        {% if page.title != blank %}
+            {% case section.settings.heading_tag %}
+                {% when 's1' or 's2' or 's3' %}
+                <h1 class="main-page-header-title page-title special-heading-{{ section.settings.heading_tag }}">{{ page.title }}</h1>
+                {% when 'p1' or 'p2' %}
+                <p class="main-page-header-title page-title paragraph-{{ section.settings.heading_tag }}">{{ page.title }}</p>
+                {% else %}
+                <{{ section.settings.heading_tag }} class="main-page-header-title page-title">{{ page.title }}</{{ section.settings.heading_tag }}>
+            {% endcase %}
+        {% endif %}
+        {% if page.content != blank %}
+                <div class="main-page-header-description page-description rte paragraph-{{ section.settings.description_tag }}">{{ page.content }}</div>
+            {% comment %} {% case section.settings.description_tag %}
+                {% when 's1' or 's2' or 's3' %}
+                <h1 class="main-page-header-description page-description rte special-heading-{{ section.settings.description_tag }}">{{ page.content }}</h1>
+                {% when 'p1' or 'p2' %}
+                <p class="main-page-header-description page-description rte paragraph-{{ section.settings.description_tag }}">{{ page.content }}</p>
+                {% else %}
+                <{{ section.settings.description_tag }} class="main-page-header-description page-description rte">{{ page.content }}</{{ section.settings.description_tag }}>
+            {% endcase %} {% endcomment %}
+        {% endif %}
+    </div>
+</div>
+
+
+
+{% schema %}
+{"name":"t:sections.page_header.name","settings":[{"type":"header","content":"t:sections.page_header.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.page_header.settings.fullwidth.label","info":"t:sections.page_header.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.page_header.settings.width.label","default":1320,"info":"t:sections.page_header.settings.width.info"},{"type":"checkbox","id":"custom_height","label":"t:sections.page_header.settings.custom_height.label","info":"t:sections.page_header.settings.custom_height.info","default":false},{"type":"select","id":"height_mobile","label":"t:sections.page_header.settings.height_mobile.label","options":[{"value":"400","label":"t:sections.page_header.settings.height_mobile.options.option__0.label"},{"value":"460","label":"t:sections.page_header.settings.height_mobile.options.option__1.label"},{"value":"520","label":"t:sections.page_header.settings.height_mobile.options.option__2.label"},{"value":"600","label":"t:sections.page_header.settings.height_mobile.options.option__3.label"},{"value":"680","label":"t:sections.page_header.settings.height_mobile.options.option__4.label"},{"value":"780","label":"t:sections.page_header.settings.height_mobile.options.option__5.label"},{"value":"900","label":"t:sections.page_header.settings.height_mobile.options.option__6.label"},{"value":"auto","label":"t:sections.page_header.settings.height_mobile.options.option__7.label"}],"default":"600"},{"type":"select","id":"height","label":"t:sections.page_header.settings.height.label","options":[{"value":"400","label":"t:sections.page_header.settings.height.options.option__0.label"},{"value":"460","label":"t:sections.page_header.settings.height.options.option__1.label"},{"value":"520","label":"t:sections.page_header.settings.height.options.option__2.label"},{"value":"600","label":"t:sections.page_header.settings.height.options.option__3.label"},{"value":"680","label":"t:sections.page_header.settings.height.options.option__4.label"},{"value":"780","label":"t:sections.page_header.settings.height.options.option__5.label"},{"value":"900","label":"t:sections.page_header.settings.height.options.option__6.label"},{"value":"auto","label":"t:sections.page_header.settings.height.options.option__7.label"}],"default":"600"},{"type":"select","id":"color_scheme","label":"t:sections.page_header.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.page_header.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.page_header.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.page_header.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.page_header.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.page_header.settings.inset.label","info":"t:sections.page_header.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.page_header.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.page_header.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.page_header.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.page_header.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.page_header.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.page_header.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"header","content":"t:sections.page_header.settings.header__background.content"},{"type":"checkbox","id":"background_image_show","label":"t:sections.page_header.settings.background_image_show.label","default":false,"info":"t:sections.page_header.settings.background_image_show.info"},{"type":"image_picker","id":"background_image_mobile","label":"t:sections.page_header.settings.background_image_mobile.label","info":"t:sections.page_header.settings.background_image_mobile.info"},{"type":"image_picker","id":"background_image","label":"t:sections.page_header.settings.background_image.label","info":"t:sections.page_header.settings.background_image.info"},{"type":"checkbox","id":"background_overlay","label":"t:sections.page_header.settings.background_overlay.label","default":false},{"type":"color_background","id":"background_overlay_color","label":"t:sections.page_header.settings.background_overlay_color.label","default":"#1F2D1F","info":"t:sections.page_header.settings.background_overlay_color.info"},{"type":"range","id":"background_overlay_opacity","min":1,"max":100,"step":1,"unit":"%","label":"t:sections.page_header.settings.background_overlay_opacity.label","default":40,"info":"t:sections.page_header.settings.background_overlay_opacity.info"},{"type":"header","content":"t:sections.page_header.settings.header__content.content"},{"type":"select","id":"heading_tag","label":"t:sections.page_header.settings.heading_tag.label","options":[{"value":"p","label":"t:sections.page_header.settings.heading_tag.options.option__0.label"},{"value":"p1","label":"t:sections.page_header.settings.heading_tag.options.option__1.label"},{"value":"p2","label":"t:sections.page_header.settings.heading_tag.options.option__2.label"},{"value":"h1","label":"t:sections.page_header.settings.heading_tag.options.option__3.label"},{"value":"h2","label":"t:sections.page_header.settings.heading_tag.options.option__4.label"},{"value":"h3","label":"t:sections.page_header.settings.heading_tag.options.option__5.label"},{"value":"h4","label":"t:sections.page_header.settings.heading_tag.options.option__6.label"},{"value":"h5","label":"t:sections.page_header.settings.heading_tag.options.option__7.label"},{"value":"h6","label":"t:sections.page_header.settings.heading_tag.options.option__8.label"},{"value":"s1","label":"t:sections.page_header.settings.heading_tag.options.option__9.label"},{"value":"s2","label":"t:sections.page_header.settings.heading_tag.options.option__10.label"},{"value":"s3","label":"t:sections.page_header.settings.heading_tag.options.option__11.label"}],"default":"s1"},{"type":"range","id":"heading_width","min":200,"max":2000,"step":20,"unit":"px","label":"t:sections.page_header.settings.heading_width.label","default":620,"info":"t:sections.page_header.settings.heading_width.info"},{"type":"select","id":"description_tag","label":"t:sections.page_header.settings.description_tag.label","options":[{"value":"p","label":"t:sections.page_header.settings.description_tag.options.option__0.label"},{"value":"p1","label":"t:sections.page_header.settings.description_tag.options.option__1.label"},{"value":"p2","label":"t:sections.page_header.settings.description_tag.options.option__2.label"},{"value":"h1","label":"t:sections.page_header.settings.description_tag.options.option__3.label"},{"value":"h2","label":"t:sections.page_header.settings.description_tag.options.option__4.label"},{"value":"h3","label":"t:sections.page_header.settings.description_tag.options.option__5.label"},{"value":"h4","label":"t:sections.page_header.settings.description_tag.options.option__6.label"},{"value":"h5","label":"t:sections.page_header.settings.description_tag.options.option__7.label"},{"value":"h6","label":"t:sections.page_header.settings.description_tag.options.option__8.label"},{"value":"s1","label":"t:sections.page_header.settings.description_tag.options.option__9.label"},{"value":"s2","label":"t:sections.page_header.settings.description_tag.options.option__10.label"},{"value":"s3","label":"t:sections.page_header.settings.description_tag.options.option__11.label"}],"default":"p"},{"type":"range","id":"description_width","min":200,"max":2000,"step":20,"unit":"px","label":"t:sections.page_header.settings.description_width.label","default":620,"info":"t:sections.page_header.settings.description_width.info"},{"type":"header","content":"t:sections.common.settings.header__spacing.content"},{"type":"checkbox","id":"spacing","label":"t:sections.common.settings.spacing.label","info":"t:sections.common.settings.spacing.info","default":true},{"type":"select","id":"spacing_choice","label":"t:sections.common.settings.spacing_choice.label","options":[{"value":"level-1","label":"t:sections.common.settings.spacing_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.common.settings.spacing_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.common.settings.spacing_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.common.settings.spacing_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.common.settings.spacing_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"spacing_placement","label":"t:sections.common.settings.spacing_placement.label","options":[{"value":"1","label":"t:sections.common.settings.spacing_placement.options.option__0.label"},{"value":"2","label":"t:sections.common.settings.spacing_placement.options.option__1.label"},{"value":"3","label":"t:sections.common.settings.spacing_placement.options.option__2.label"}],"default":"1","info":"t:sections.common.settings.spacing_placement.info"}],"presets":[{"name":"Page header"}],"enabled_on":{"templates":["page"]}}
+{% endschema %}
+

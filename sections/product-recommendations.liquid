@@ -1,0 +1,9 @@
+{% if recommendations.performed and recommendations.products_count > 0 %}
+    <ul class="product-recommendations-list">
+        {% for product in recommendations.products %}
+        <li class="product-recommendations-product product">
+            {% render 'section-product-processor', product: product, prefix: 'product-recommendations-product' %}
+        </li>
+        {% endfor %}
+    </ul>
+{% endif %}

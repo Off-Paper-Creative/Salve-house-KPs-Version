@@ -1,0 +1,83 @@
+
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+  }
+{% endstyle %}
+
+{% if section.settings.separator %}
+  {% style %}
+  #shopify-section-{{ section.id }} .separator{
+    --theme-section-separator-width: {{ section.settings.separator_width | append: '%' }};
+    --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
+
+    {% if section.settings.separator_use_custom_color %}
+      --theme-section-separator-color: {{ section.settings.separator_custom_color }};
+    {% endif %}
+  }
+  {% endstyle %}
+{% endif %}
+
+{% if section.settings.spacing %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    
+      {% unless section.settings.spacing_placement == '3' %}
+--theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+{% unless section.settings.spacing_placement == '2' %}
+      --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+
+  }
+  {% endstyle %}
+{% endif %}
+
+<div class="section-text{% liquid 
+
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+  echo ' ' | append: section.settings.color_scheme
+
+%}">
+{% if section.settings.text != blank %}
+    {% case section.settings.text_tag %}
+        {% when 's1' or 's2' or 's3' %}
+        <h1 class="section-text special-heading-{{ section.settings.text_tag }} text-align-{{ section.settings.text_alignment }}">{{ section.settings.text }}</h1>
+        {% when 'p1' or 'p2' %}
+        <p class="section-text paragraph-{{ section.settings.text_tag }} text-align-{{ section.settings.text_alignment }}">{{ section.settings.text }}</p>
+        {% else %}
+        <{{ section.settings.text_tag }} class="section-text text-align-{{ section.settings.text_alignment }}">{{ section.settings.text }}</{{ section.settings.text_tag }}>
+    {% endcase %}
+{% endif %}
+</div>
+{% if section.settings.separator %}
+  <div class="section-separator{% liquid 
+ if section.settings.separator_fullwidth 
+echo ' has-fullwidth'
+endif 
+ %}"><hr class="separator"></div>
+{% endif %}
+
+
+
+{% schema %}
+{"name":"t:sections.text.name","settings":[{"type":"header","content":"t:sections.text.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.text.settings.fullwidth.label","info":"t:sections.text.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.text.settings.width.label","default":1320,"info":"t:sections.text.settings.width.info"},{"type":"select","id":"color_scheme","label":"t:sections.text.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.text.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.text.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.text.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.text.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.text.settings.inset.label","info":"t:sections.text.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.text.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.text.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.text.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.text.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.text.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.text.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"text","id":"text","label":"t:sections.text.settings.text.label","default":"The is simple text section"},{"type":"select","id":"text_tag","label":"t:sections.text.settings.text_tag.label","options":[{"value":"p","label":"t:sections.text.settings.text_tag.options.option__0.label"},{"value":"p1","label":"t:sections.text.settings.text_tag.options.option__1.label"},{"value":"p2","label":"t:sections.text.settings.text_tag.options.option__2.label"},{"value":"h1","label":"t:sections.text.settings.text_tag.options.option__3.label"},{"value":"h2","label":"t:sections.text.settings.text_tag.options.option__4.label"},{"value":"h3","label":"t:sections.text.settings.text_tag.options.option__5.label"},{"value":"h4","label":"t:sections.text.settings.text_tag.options.option__6.label"},{"value":"h5","label":"t:sections.text.settings.text_tag.options.option__7.label"},{"value":"h6","label":"t:sections.text.settings.text_tag.options.option__8.label"},{"value":"s1","label":"t:sections.text.settings.text_tag.options.option__9.label"},{"value":"s2","label":"t:sections.text.settings.text_tag.options.option__10.label"},{"value":"s3","label":"t:sections.text.settings.text_tag.options.option__11.label"}],"default":"p"},{"type":"select","id":"text_alignment","label":"t:sections.text.settings.text_alignment.label","options":[{"value":"left","label":"t:sections.text.settings.text_alignment.options.option__0.label"},{"value":"center","label":"t:sections.text.settings.text_alignment.options.option__1.label"},{"value":"right","label":"t:sections.text.settings.text_alignment.options.option__2.label"}],"default":"center"},{"type":"header","content":"t:sections.common.settings.header__separator.content"},{"type":"checkbox","id":"separator","label":"t:sections.common.settings.separator.label","info":"t:sections.common.settings.separator.info","default":false},{"type":"range","id":"separator_width","min":1,"max":100,"step":1,"unit":"%","label":"t:sections.common.settings.separator_width.label","default":100,"info":"t:sections.common.settings.separator_width.info"},{"type":"checkbox","id":"separator_fullwidth","label":"t:sections.common.settings.separator_fullwidth.label","default":false},{"type":"range","id":"separator_height","min":1,"max":10,"step":1,"unit":"px","label":"t:sections.common.settings.separator_height.label","default":1,"info":"t:sections.common.settings.separator_height.info"},{"type":"checkbox","id":"separator_use_custom_color","label":"t:sections.common.settings.separator_use_custom_color.label","default":false},{"type":"color","id":"separator_custom_color","label":"t:sections.common.settings.separator_custom_color.label","default":"#DAD3C4"},{"type":"header","content":"t:sections.common.settings.header__spacing.content"},{"type":"checkbox","id":"spacing","label":"t:sections.common.settings.spacing.label","info":"t:sections.common.settings.spacing.info","default":true},{"type":"select","id":"spacing_choice","label":"t:sections.common.settings.spacing_choice.label","options":[{"value":"level-1","label":"t:sections.common.settings.spacing_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.common.settings.spacing_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.common.settings.spacing_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.common.settings.spacing_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.common.settings.spacing_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"spacing_placement","label":"t:sections.common.settings.spacing_placement.label","options":[{"value":"1","label":"t:sections.common.settings.spacing_placement.options.option__0.label"},{"value":"2","label":"t:sections.common.settings.spacing_placement.options.option__1.label"},{"value":"3","label":"t:sections.common.settings.spacing_placement.options.option__2.label"}],"default":"1","info":"t:sections.common.settings.spacing_placement.info"}],"presets":[{"name":"Text"}]}
+{% endschema %}
+

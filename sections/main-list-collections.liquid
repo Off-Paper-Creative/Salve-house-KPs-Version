@@ -1,0 +1,88 @@
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+  }
+{% endstyle %}
+
+
+{% if section.settings.spacing %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    
+      {% unless section.settings.spacing_placement == '3' %}
+--theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+{% unless section.settings.spacing_placement == '2' %}
+      --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+
+  }
+  {% endstyle %}
+{% endif %}
+
+
+{% liquid 
+  capture prev_next_icon 
+  render 'icon-chevron-down'
+  endcapture
+
+  assign next_html = 'general.pagination.next' | t | append: prev_next_icon
+  assign prev_html = 'general.pagination.previous' | t | append: prev_next_icon
+
+  assign collections_count = 9
+
+%}
+
+<div class="collections section-collections{% liquid 
+
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+  echo ' ' | append: section.settings.color_scheme
+  
+%}">
+
+{% paginate collections by collections_count %}
+  <div class="section-collections-container section-container">
+    <ul class="collection-list" role="list">
+        {% for collection in collections %}
+            <li class="collection-list-item collection{% liquid 
+                if collection.image == blank
+                    echo ' has-no-thumbnail'
+                endif
+            %}">
+            {% render 'section-collection-processor', collection: collection %}
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if paginate.pages > 1 %}
+        <products-pagination class="colletions-pagination pagination">
+            {{ paginate | default_pagination: next: next_html, previous: prev_html }}
+        </products-pagination>
+    {% endif %}
+  </div>
+{% endpaginate %}
+</div>
+
+  
+
+{% schema %}
+{"name":"t:sections.main_list_collections.name","settings":[{"type":"header","content":"t:sections.main_list_collections.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.main_list_collections.settings.fullwidth.label","info":"t:sections.main_list_collections.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.main_list_collections.settings.width.label","default":1320,"info":"t:sections.main_list_collections.settings.width.info"},{"type":"select","id":"color_scheme","label":"t:sections.main_list_collections.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.main_list_collections.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.main_list_collections.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.main_list_collections.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.main_list_collections.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.main_list_collections.settings.inset.label","info":"t:sections.main_list_collections.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.main_list_collections.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.main_list_collections.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.main_list_collections.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.main_list_collections.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.main_list_collections.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.main_list_collections.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"header","content":"t:sections.common.settings.header__spacing.content"},{"type":"checkbox","id":"spacing","label":"t:sections.common.settings.spacing.label","info":"t:sections.common.settings.spacing.info","default":true},{"type":"select","id":"spacing_choice","label":"t:sections.common.settings.spacing_choice.label","options":[{"value":"level-1","label":"t:sections.common.settings.spacing_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.common.settings.spacing_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.common.settings.spacing_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.common.settings.spacing_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.common.settings.spacing_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"spacing_placement","label":"t:sections.common.settings.spacing_placement.label","options":[{"value":"1","label":"t:sections.common.settings.spacing_placement.options.option__0.label"},{"value":"2","label":"t:sections.common.settings.spacing_placement.options.option__1.label"},{"value":"3","label":"t:sections.common.settings.spacing_placement.options.option__2.label"}],"default":"1","info":"t:sections.common.settings.spacing_placement.info"}]}
+{% endschema %}
+

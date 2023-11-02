@@ -1,0 +1,13 @@
+{% if icon != blank %}
+{%- case icon -%}
+    {%- when 'raindrop' -%}
+    <img src="{{ 'raindrop-icon.svg' | asset_url }}" alt="Raindrop icon">
+    {%- when 'sun' -%}
+    {%- when 'euro' -%}  
+    <img src="{{ 'euro-icon.svg' | asset_url }}" alt="Euro icon">
+    {%- when 'microscope' -%}
+    <img src="{{ 'micro-icon.svg' | asset_url }}" alt="Microscope icon">
+    {%- when 'plant' -%}
+    <img src="{{ 'plant-icon.svg' | asset_url }}" alt="Plant icon">    
+{%- endcase -%}
+{% endif %}

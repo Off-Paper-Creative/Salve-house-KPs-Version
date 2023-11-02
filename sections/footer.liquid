@@ -1,0 +1,324 @@
+
+{% if section.blocks != blank %}
+  {% for block in section.blocks %}
+    {% if block.type == 'language' %}
+
+      {% liquid 
+          if block.settings.country_selector or block.settings.language_selector
+            echo 'country-language-selector.css' | asset_url | stylesheet_tag
+          endif
+
+      %}
+
+      {% if block.settings.country_selector or block.settings.language_selector %}
+        <script src="{{ 'country-language-selector.js' | asset_url }}" defer></script>
+      {% endif %}
+
+    {% endif %}
+
+  {% endfor %}
+
+{% endif %}
+
+
+
+{% style %}
+    #shopify-section-{{ section.id }} {
+        --theme-footer-column-1-width: {{ section.settings.column_1_width | append: 'fr' }};
+        --theme-footer-column-2-width: {{ section.settings.column_2_width | append: 'fr' }};
+        --theme-footer-column-3-width: {{ section.settings.column_3_width | append: 'fr' }};
+        --theme-footer-column-4-width: {{ section.settings.column_4_width | append: 'fr' }};
+    }
+{% endstyle %}
+
+{% if section.blocks != blank %}
+    {% for block in section.blocks %}
+
+        {% if block.type == 'text' %}
+            {% style %}
+                #shopify-section-{{ section.id }} .block-{{ block.id }}{
+                  {% if block.settings.text_custom_width %}
+                    --theme-footer-text-max-width: {{ block.settings.text_width | append: 'px' }};
+                  {% endif %}
+                }
+            {% endstyle %}
+        {% elsif block.type == 'image' %}
+            {% style %}
+                #shopify-section-{{ section.id }} .block-{{ block.id }}{
+                    --theme-footer-image-max-width: {{ block.settings.image_width | append: 'px' }};
+                }
+            {% endstyle %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+  {% if section.settings.inset %}
+    --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+  {% endif %}
+  }
+{% endstyle %}
+
+
+{% if section.settings.separator %}
+  {% style %}
+  #shopify-section-{{ section.id }} .separator{
+    --theme-section-separator-width: {{ section.settings.separator_width | append: '%' }};
+    --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
+
+    {% if section.settings.separator_use_custom_color %}
+      --theme-section-separator-color: {{ section.settings.separator_custom_color }};
+    {% endif %}
+  }
+  {% endstyle %}
+{% endif %}
+
+{% if section.settings.spacing %}
+  {% style %}
+  #shopify-section-{{ section.id }}{
+    
+      {% unless section.settings.spacing_placement == '3' %}
+--theme-section-spacing-top: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+{% unless section.settings.spacing_placement == '2' %}
+      --theme-section-spacing-bottom: var(--theme-spacing-{{ section.settings.spacing_choice }});
+{% endunless %}
+
+  }
+  {% endstyle %}
+{% endif %}
+
+
+
+{% if section.settings.separator %}
+  <div class="section-separator{% liquid 
+    if section.settings.separator_fullwidth 
+      echo ' has-fullwidth'
+    endif 
+  %}"><hr class="separator"></div>
+{% endif %}
+<div class="section-footer{% liquid 
+
+  if section.settings.fullwidth
+    echo ' has-fullwidth'
+  else
+    echo ' has-custom-width'
+  endif
+
+  if section.settings.inset
+    echo ' has-section-padding'
+  endif
+
+  echo ' ' | append: section.settings.color_scheme
+
+%}">
+  <div class="section-footer-container section-container">
+    <div class="section-footer-content">
+        {% for i in (1..4) %}
+            <div class="section-footer-column">
+                {% if section.blocks != blank %}
+                    {% for block in section.blocks %}
+                        {% assign column_choice = block.settings.column_choice | plus: 0 %}
+                        {% case block.type %}
+                            {% when 'text' %}
+                                {% if column_choice == i %}
+                                    <div class="section-footer-column__text block-{{ block.id }}" {{ block.shopify_attributes }}>
+                                        {{ block.settings.text }}
+                                    </div>
+                                {% endif %}
+                            {% when 'image' %}
+                                {% if column_choice == i %}
+                                    <div class="section-footer-column__image block-{{ block.id }}" {{ block.shopify_attributes }}>
+                                        {% if block.settings.image != blank %}
+                                            {% render 'section-image-processor', image: block.settings.image %}
+                                        {% endif %}
+                                    </div>
+                                {% endif %}
+                            {% when 'menu' %}
+                                {% if column_choice == i %}
+                                    {% assign menu_choice = block.settings.menu %}
+                                    <div class="section-footer-column__menu block-{{ block.id }}" {{ block.shopify_attributes }}>
+                                        {% if linklists[menu_choice].links != blank %}
+                                            {% if block.settings.title %}
+                                                <h5 class="section-footer-column__menu-title">{{ linklists[menu_choice].title }}</h5>
+                                            {% endif %}
+                                            <ul class="section-footer-column__menu-list">
+                                                {% for link in linklists[menu_choice].links %}
+                                                    <li class="section-footer-column__menu-list-item">{{ link.title | link_to: link.url }}</li>
+                                                {% endfor %}
+                                            </ul>
+                                        {% endif %}
+                                    </div>
+                                {% endif %}
+                            {% when 'social' %}
+                                {% if column_choice == i %}
+                                  <ul class="section-footer-column__social-list footer-social-list display-style-{{ block.settings.display_style }}" role="list">
+                                    {%- if settings.social_twitter_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_twitter_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-twitter' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.twitter' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_facebook_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_facebook_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-facebook' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.facebook' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_pinterest_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_pinterest_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-pinterest' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.pinterest' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_instagram_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_instagram_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-instagram' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.instagram' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_tiktok_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_tiktok_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-tiktok' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.tiktok' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_tumblr_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_tumblr_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-tumblr' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.tumblr' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_snapchat_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_snapchat_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-snapchat' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.snapchat' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_youtube_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_youtube_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-youtube' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.youtube' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                    {%- if settings.social_vimeo_link != blank -%}
+                                      <li class="footer-social-list__item">
+                                        <a href="{{ settings.social_vimeo_link }}" class="footer-social-list__item-link" >
+                                          {%- render 'icon-social-vimeo' -%}
+                                          <span class="footer-social-list__item-label">{{ 'general.social.links.vimeo' | t }}</span>
+                                        </a>
+                                      </li>
+                                    {%- endif -%}
+                                  </ul>
+                                {% endif %}
+                            {% when 'newsletter' %}
+                                {% if column_choice == i %}
+                                    <div class="section-footer-column__newsletter block-{{ block.id }}" {{ block.shopify_attributes }}>
+                                        {% form 'customer', class: 'newsletter-form' %}
+                                            <input type="hidden" name="contact[tags]" value="newsletter">
+                                            <div class="newsletter-form-email email">
+                                            <label class="newsletter-form-email__label" for="FooterNewsletterEmail-{{ block.id }}">
+                                                <span class="newsletter-form-email__label-text">{{ 'general.newsletter.email' | t }}</span>
+                                                <span class="newsletter-form-email__label-icon">{% render 'icon-mail' %}</span>
+                                            </label>
+                                            <input id="FooterNewsletterEmail-{{ block.id }}" type="email" name="contact[email]" placeholder="{{ 'general.newsletter.placeholders.email' | t }}" />
+                                            </div>
+                                            <button class="newsletter-form-submit submit btn-fill" type="submit">{{ 'general.newsletter.submit' | t }}</button>
+                                            {%- if form.errors -%}
+                                            <span class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</span>
+                                            {%- endif -%}
+                                            {%- if form.posted_successfully? -%}
+                                            <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{{ 'general.newsletter.notice.success' | t }}</h3>
+                                            {%- endif -%}
+                                        {% endform %}
+                                    </div>
+                                {% endif %}
+
+                            {% when 'language' %}
+                                {% if column_choice == i %}
+                                    <div class="section-footer-column__language block-{{ block.id }}" {{ block.shopify_attributes }}>
+
+                                        {% if block.settings.country_selector %}
+                                            {% render 'country-selector' %}
+                                        {% endif %}
+
+                                        {% if block.settings.language_selector %}
+                                            {% render 'language-selector' %}
+                                        {% endif %}
+                                    </div>
+                                {% endif %}
+
+                            {% when 'follow_on_shop' %}
+                                {% if column_choice == i %}
+                                    <div class="section-footer-column__follow-on-shop block-{{ block.id }}" {{ block.shopify_attributes }}>
+                                      {% # theme-check-disable %}
+                                      {{ shop | login_button: action: 'follow' }}
+                                      {% # theme-check-enable %}
+                                    </div>
+                                {% endif %}
+
+                        {% endcase %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+    <div class="section-footer-colophon">
+        <div class="section-footer-colophon__left">
+            {% if section.settings.colophon_text != blank %}
+                <p class="section-footer-colophon__text">
+                    <span>
+                        {{ section.settings.colophon_text }}
+                    </span>
+                    {% if section.settings.colophon_show_powered_by_link %}
+                        <span>
+                            {{ powered_by_link }}
+                        </span>
+                    {% endif %}
+                </p>
+            {% endif %}
+        </div>
+        <div class="section-footer-colophon__right">
+            {% if section.settings.show_payment_icons %}
+                
+                <ul class="section-footer-colophon__payment-icons payment-icons-list" role="list">
+                    {%- for type in shop.enabled_payment_types -%}
+                      <li class="payment-icons-list-item">
+                        {{ type | payment_type_svg_tag: class: 'payment-icon' }}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+            {% endif %}
+        </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{"name":"t:sections.footer.name","settings":[{"type":"header","content":"t:sections.footer.settings.header__general.content"},{"type":"checkbox","id":"fullwidth","label":"t:sections.footer.settings.fullwidth.label","info":"t:sections.footer.settings.fullwidth.info","default":true},{"type":"range","id":"width","min":500,"max":2000,"step":20,"unit":"px","label":"t:sections.footer.settings.width.label","default":1320,"info":"t:sections.footer.settings.width.info"},{"type":"select","id":"color_scheme","label":"t:sections.footer.settings.color_scheme.label","options":[{"value":"scheme-main","label":"t:sections.footer.settings.color_scheme.options.option__0.label"},{"value":"scheme-additional","label":"t:sections.footer.settings.color_scheme.options.option__1.label"},{"value":"scheme-accent","label":"t:sections.footer.settings.color_scheme.options.option__2.label"},{"value":"scheme-complementary","label":"t:sections.footer.settings.color_scheme.options.option__3.label"}],"default":"scheme-main"},{"type":"checkbox","id":"inset","label":"t:sections.footer.settings.inset.label","info":"t:sections.footer.settings.inset.info","default":true},{"type":"select","id":"inset_choice","label":"t:sections.footer.settings.inset_choice.label","options":[{"value":"level-1","label":"t:sections.footer.settings.inset_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.footer.settings.inset_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.footer.settings.inset_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.footer.settings.inset_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.footer.settings.inset_choice.options.option__4.label"}],"default":"level-3"},{"type":"range","id":"column_1_width","min":1,"max":5,"step":1,"label":"t:sections.footer.settings.column_1_width.label","default":5,"info":"t:sections.footer.settings.column_1_width.info"},{"type":"range","id":"column_2_width","min":1,"max":5,"step":1,"label":"t:sections.footer.settings.column_2_width.label","default":2,"info":"t:sections.footer.settings.column_2_width.info"},{"type":"range","id":"column_3_width","min":1,"max":5,"step":1,"label":"t:sections.footer.settings.column_3_width.label","default":2,"info":"t:sections.footer.settings.column_3_width.info"},{"type":"range","id":"column_4_width","min":1,"max":5,"step":1,"label":"t:sections.footer.settings.column_4_width.label","default":3,"info":"t:sections.footer.settings.column_4_width.info"},{"type":"header","content":"t:sections.footer.settings.header__blocks.content"},{"type":"checkbox","id":"show_payment_icons","label":"t:sections.footer.settings.show_payment_icons.label","default":true},{"type":"text","id":"colophon_text","label":"t:sections.footer.settings.colophon_text.label","default":"&copy; 2023 All rights reserved."},{"type":"checkbox","id":"colophon_show_powered_by_link","label":"t:sections.footer.settings.colophon_show_powered_by_link.label","default":true},{"type":"header","content":"t:sections.common.settings.header__separator.content"},{"type":"checkbox","id":"separator","label":"t:sections.common.settings.separator.label","info":"t:sections.common.settings.separator.info","default":true},{"type":"range","id":"separator_width","min":1,"max":100,"step":1,"unit":"%","label":"t:sections.common.settings.separator_width.label","default":100,"info":"t:sections.common.settings.separator_width.info"},{"type":"checkbox","id":"separator_fullwidth","label":"t:sections.common.settings.separator_fullwidth.label","default":false},{"type":"range","id":"separator_height","min":1,"max":10,"step":1,"unit":"px","label":"t:sections.common.settings.separator_height.label","default":1,"info":"t:sections.common.settings.separator_height.info"},{"type":"checkbox","id":"separator_use_custom_color","label":"t:sections.common.settings.separator_use_custom_color.label","default":false},{"type":"color","id":"separator_custom_color","label":"t:sections.common.settings.separator_custom_color.label","default":"#DAD3C4"},{"type":"header","content":"t:sections.common.settings.header__spacing.content"},{"type":"checkbox","id":"spacing","label":"t:sections.common.settings.spacing.label","info":"t:sections.common.settings.spacing.info","default":true},{"type":"select","id":"spacing_choice","label":"t:sections.common.settings.spacing_choice.label","options":[{"value":"level-1","label":"t:sections.common.settings.spacing_choice.options.option__0.label"},{"value":"level-2","label":"t:sections.common.settings.spacing_choice.options.option__1.label"},{"value":"level-3","label":"t:sections.common.settings.spacing_choice.options.option__2.label"},{"value":"level-4","label":"t:sections.common.settings.spacing_choice.options.option__3.label"},{"value":"level-5","label":"t:sections.common.settings.spacing_choice.options.option__4.label"}],"default":"level-3"},{"type":"select","id":"spacing_placement","label":"t:sections.common.settings.spacing_placement.label","options":[{"value":"1","label":"t:sections.common.settings.spacing_placement.options.option__0.label"},{"value":"2","label":"t:sections.common.settings.spacing_placement.options.option__1.label"},{"value":"3","label":"t:sections.common.settings.spacing_placement.options.option__2.label"}],"default":"1","info":"t:sections.common.settings.spacing_placement.info"}],"blocks":[{"name":"t:sections.footer.blocks.image.name","type":"image","settings":[{"type":"header","content":"t:sections.footer.blocks.image.settings.header__general.content"},{"type":"image_picker","id":"image","label":"t:sections.footer.blocks.image.settings.image.label"},{"type":"number","id":"image_width","label":"t:sections.footer.blocks.image.settings.image_width.label","default":120},{"type":"header","content":"t:sections.footer.blocks.image.settings.header__layout.content"},{"type":"select","id":"column_choice","label":"t:sections.footer.blocks.image.settings.column_choice.label","options":[{"value":"1","label":"t:sections.footer.blocks.image.settings.column_choice.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.image.settings.column_choice.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.image.settings.column_choice.options.option__2.label"},{"value":"4","label":"t:sections.footer.blocks.image.settings.column_choice.options.option__3.label"}],"default":"1"}]},{"name":"t:sections.footer.blocks.text.name","type":"text","settings":[{"type":"header","content":"t:sections.footer.blocks.text.settings.header__general.content"},{"type":"richtext","id":"text","label":"t:sections.footer.blocks.text.settings.text.label","default":"<p>This is simple text area to display shop's description\/tag line.<\/p>"},{"type":"checkbox","id":"text_custom_width","label":"t:sections.footer.blocks.text.settings.text_custom_width.label","default":false},{"type":"range","id":"text_width","min":100,"max":600,"step":5,"unit":"px","label":"t:sections.footer.blocks.text.settings.text_width.label","default":300,"info":"t:sections.footer.blocks.text.settings.text_width.info"},{"type":"header","content":"t:sections.footer.blocks.text.settings.header__layout.content"},{"type":"select","id":"column_choice","label":"t:sections.footer.blocks.text.settings.column_choice.label","options":[{"value":"1","label":"t:sections.footer.blocks.text.settings.column_choice.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.text.settings.column_choice.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.text.settings.column_choice.options.option__2.label"},{"value":"4","label":"t:sections.footer.blocks.text.settings.column_choice.options.option__3.label"}],"default":"1"}]},{"name":"t:sections.footer.blocks.menu.name","type":"menu","settings":[{"type":"header","content":"t:sections.footer.blocks.menu.settings.header__general.content"},{"type":"link_list","id":"menu","label":"t:sections.footer.blocks.menu.settings.menu.label","default":"footer"},{"type":"checkbox","id":"title","label":"t:sections.footer.blocks.menu.settings.title.label","default":false},{"type":"header","content":"t:sections.footer.blocks.menu.settings.header__layout.content"},{"type":"select","id":"column_choice","label":"t:sections.footer.blocks.menu.settings.column_choice.label","options":[{"value":"1","label":"t:sections.footer.blocks.menu.settings.column_choice.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.menu.settings.column_choice.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.menu.settings.column_choice.options.option__2.label"},{"value":"4","label":"t:sections.footer.blocks.menu.settings.column_choice.options.option__3.label"}],"default":"1"}]},{"name":"t:sections.footer.blocks.social.name","type":"social","settings":[{"type":"header","content":"t:sections.footer.blocks.social.settings.header__general.content"},{"type":"select","id":"display_style","label":"t:sections.footer.blocks.social.settings.display_style.label","options":[{"value":"1","label":"t:sections.footer.blocks.social.settings.display_style.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.social.settings.display_style.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.social.settings.display_style.options.option__2.label"}],"default":"2"},{"type":"header","content":"t:sections.footer.blocks.social.settings.header__layout.content"},{"type":"select","id":"column_choice","label":"t:sections.footer.blocks.social.settings.column_choice.label","options":[{"value":"1","label":"t:sections.footer.blocks.social.settings.column_choice.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.social.settings.column_choice.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.social.settings.column_choice.options.option__2.label"},{"value":"4","label":"t:sections.footer.blocks.social.settings.column_choice.options.option__3.label"}],"default":"1"}]},{"name":"t:sections.footer.blocks.newsletter.name","type":"newsletter","limit":1,"settings":[{"type":"header","content":"t:sections.footer.blocks.newsletter.settings.header__layout.content"},{"type":"select","id":"column_choice","label":"t:sections.footer.blocks.newsletter.settings.column_choice.label","options":[{"value":"1","label":"t:sections.footer.blocks.newsletter.settings.column_choice.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.newsletter.settings.column_choice.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.newsletter.settings.column_choice.options.option__2.label"},{"value":"4","label":"t:sections.footer.blocks.newsletter.settings.column_choice.options.option__3.label"}],"default":"1"}]},{"name":"t:sections.footer.blocks.language.name","type":"language","limit":1,"settings":[{"type":"header","content":"t:sections.footer.blocks.language.settings.header__general.content"},{"type":"checkbox","id":"country_selector","label":"t:sections.footer.blocks.language.settings.country_selector.label","info":"t:sections.footer.blocks.language.settings.country_selector.info","default":true},{"type":"checkbox","id":"language_selector","label":"t:sections.footer.blocks.language.settings.language_selector.label","info":"t:sections.footer.blocks.language.settings.language_selector.info","default":false},{"type":"header","content":"t:sections.footer.blocks.language.settings.header__layout.content"},{"type":"select","id":"column_choice","label":"t:sections.footer.blocks.language.settings.column_choice.label","options":[{"value":"1","label":"t:sections.footer.blocks.language.settings.column_choice.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.language.settings.column_choice.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.language.settings.column_choice.options.option__2.label"},{"value":"4","label":"t:sections.footer.blocks.language.settings.column_choice.options.option__3.label"}],"default":"1"}]},{"name":"t:sections.footer.blocks.follow_on_shop.name","type":"follow_on_shop","limit":1,"settings":[{"type":"select","id":"column_choice","label":"t:sections.footer.blocks.follow_on_shop.settings.column_choice.label","options":[{"value":"1","label":"t:sections.footer.blocks.follow_on_shop.settings.column_choice.options.option__0.label"},{"value":"2","label":"t:sections.footer.blocks.follow_on_shop.settings.column_choice.options.option__1.label"},{"value":"3","label":"t:sections.footer.blocks.follow_on_shop.settings.column_choice.options.option__2.label"},{"value":"4","label":"t:sections.footer.blocks.follow_on_shop.settings.column_choice.options.option__3.label"}],"default":"1"}]}]}
+{% endschema %}
+

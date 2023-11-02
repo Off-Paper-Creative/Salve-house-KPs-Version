@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+ 
+  {% if settings.favicon != blank %}
+    <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+  {% endif %}
+
+  {%- unless settings.heading_library_font.system? and settings.default_library_font.system? and settings.special_library_font.system? -%}
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+  {%- endunless -%}
+
+
+  <title>
+    {{ page_title }}
+    {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+    {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+    {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+  </title>
+
+  {% if page_description %}
+    <meta name="description" content="{{ page_description | escape }}">
+  {% endif %}
+
+  {% render 'meta-tags' %}
+
+
+  {{ content_for_header }}
+
+  <!-- Insert dynamic styles -->
+
+  {% liquid 
+      assign body_font_family = settings.default_library_font
+      assign heading_font_family = settings.heading_library_font
+      assign special_font_family = settings.special_library_font
+
+      assign body_font_semibold = settings.default_library_font | font_modify: 'weight', '500'
+
+      assign body_font_bold = settings.default_library_font | font_modify: 'weight', 'bold'
+      assign body_font_italic = settings.default_library_font | font_modify: 'style', 'italic'
+      assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
+
+      assign heading_font_bold = settings.heading_library_font | font_modify: 'weight', 'bold'
+      assign heading_font_italic = settings.heading_library_font | font_modify: 'style', 'italic'
+      assign heading_font_bold_italic = heading_font_bold | font_modify: 'style', 'italic'
+
+      assign special_font_bold = settings.special_library_font | font_modify: 'weight', 'bold'
+      assign special_font_italic = settings.special_library_font | font_modify: 'style', 'italic'
+      assign special_font_bold_italic = special_font_bold | font_modify: 'style', 'italic'
+
+  %}
+
+
+  {% style %}
+
+    {{ settings.default_library_font | font_face: font_display: 'swap' }}
+    {{ body_font_semibold | font_face: font_display: 'swap' }}
+    {{ body_font_bold | font_face: font_display: 'swap' }}
+    {{ body_font_italic | font_face: font_display: 'swap' }}
+    {{ body_font_bold_italic | font_face: font_display: 'swap' }}
+
+    {{ settings.heading_library_font | font_face: font_display: 'swap' }}
+    {{ heading_font_bold | font_face: font_display: 'swap' }}
+    {{ heading_font_italic | font_face: font_display: 'swap' }}
+    {{ heading_font_bold_italic | font_face: font_display: 'swap' }}
+
+    {{ settings.special_library_font | font_face: font_display: 'swap' }}
+    {{ special_font_bold | font_face: font_display: 'swap' }}
+    {{ special_font_italic | font_face: font_display: 'swap' }}
+    {{ special_font_bold_italic | font_face: font_display: 'swap' }}
+    
+
+    :root{
+      --theme-body-font-family: {{ body_font_family.family }}, {{ body_font_family.fallback_families }};
+      --theme-heading-font-family: {{ heading_font_family.family }}, {{ heading_font_family.fallback_families }};
+      --theme-special-font-family: {{ special_font_family.family }}, {{ special_font_family.fallback_families }};
+
+      --theme-heading-font-weight: {{ heading_font_family.weight }};
+
+      --theme-special-font-weight: {{ special_font_family.weight }};
+
+      --theme-logo-font-weight: {{ heading_font_family.weight }};
+
+      --theme-font-weight-regular: {{ body_font_family.weight }};
+      --theme-font-weight-semibold: {{ body_font_semibold.weight }};
+
+
+      --theme-layout-background-color: {{ settings.color_layout_background_main }};
+      --theme-secondary-background-color: {{ settings.color_layout_background_additional }};
+
+      --theme-background-color-accent: {{ settings.color_general_background_accent }};
+      --theme-background-color-complementary: {{ settings.color_general_background_complementary }};
+
+      --theme-border-color-black: {{ settings.color_border_dark }};
+      --theme-border-color-gray: {{ settings.color_border_main }};
+      --theme-border-color-white: {{ settings.color_border_lite }};
+
+      --theme-color-primary: {{ settings.color_general_text }};
+      --theme-color-white: {{ settings.color_general_lite }};
+      --theme-color-heading: {{ settings.color_general_heading }};
+
+      --theme-button-background-color-accent: {{ settings.color_general_text }};
+      --theme-button-background-color-white: {{ settings.color_general_lite }};
+      --theme-button-color-main: {{ settings.color_general_text }};
+      --theme-button-color-lite: {{ settings.color_general_lite }};
+
+      /* --theme-layout-width: {{ settings.layout_content_width | append: 'px' }}; */
+
+      --theme-layout-margin-desktop: {{ settings.layout_content_margin_desktop | append: 'px' }};
+      --theme-layout-margin-mobile: {{ settings.layout_content_margin | append: 'px' }};
+
+      --theme-button-padding-base: {{ settings.buttons_padding | divided_by: 100.0 | append: "em" }};
+
+      --theme-button-border-radius: {{ settings.buttons_border_radius | append: 'px' }};
+      --theme-button-border-width: {{ settings.buttons_border_thickness | append: 'px' }};
+
+      --theme-spacing-base: {{ settings.layout_section_vertical_spacing | append: "vh" }};
+
+      --theme-gap-base: {{ settings.layout_section_columns_gap | append: "rem" }};
+
+      --theme-product-thumbail-aspect-ratio: {{ settings.collection_image_aspect_ratio }}
+      
+    }
+  {% endstyle %}
+
+  <!-- Header hook for plugins -->
+  {{ 'normalize.css' | asset_url | stylesheet_tag }}
+
+    {{ 'splide.min.css' | asset_url | stylesheet_tag }}
+    {{ 'splide-core.min.css' | asset_url | stylesheet_tag }}
+
+  <!-- 3D Model Viewer UI -->
+  {{ 'model-viewer-ui.css' | asset_url | stylesheet_tag }}
+
+
+  <!-- All theme styles -->
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
+
+  {{ 'photoswipe.css' | asset_url | stylesheet_tag }}
+
+
+  {% liquid 
+
+  if template == '404'
+    echo '404.css' | asset_url | stylesheet_tag
+  endif
+  
+  if template == 'article'
+    echo 'article.css' | asset_url | stylesheet_tag
+  endif
+
+  if template == 'blog' or template == 'search'
+    echo 'blog.css' | asset_url | stylesheet_tag
+  endif
+
+  if template == 'collection' or template == 'search'
+    echo 'filters.css' | asset_url | stylesheet_tag
+  endif
+
+  if template == 'list-collections'
+    echo 'collections.css' | asset_url | stylesheet_tag
+  endif
+
+
+  if template == 'cart'
+    echo 'cart.css' | asset_url | stylesheet_tag
+  endif
+
+
+  if template == 'customers/account' or template == 'customers/activate_account' or template == 'customers/addresses' or template == 'customers/login' or template == 'customers/order' or template == 'customers/register' or template == 'customers/reset_password'
+    echo 'customers.css' | asset_url | stylesheet_tag
+  endif 
+  %}
+
+
+  <!-- CSS file for custom styles -->
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
+
+  <script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+  <script src="{{ 'photoswipe-lightbox.umd.min.js' | asset_url }}" defer></script>
+  <script src="{{ 'photoswipe.umd.min.js' | asset_url }}" defer></script>
+  <script src="{{ 'product.js' | asset_url }}" defer></script>
+  <script src="{{ 'product-options-picker.js' | asset_url }}" defer></script>
+  <script src="{{ 'pickup-availability.js' | asset_url }}" defer></script>
+  <script src="{{ 'js.cookie.min.js' | asset_url }}" defer></script>
+
+
+  <script src="{{ 'base.js' | asset_url }}" defer></script>
+  <style>
+  /* Evafiya font */
+  @font-face { 
+  font-family: 'Evafiya-Bold';
+  src: url(https://cdn.shopify.com/s/files/1/0834/2945/8233/files/Evafiya-Bold.woff?v=1696966391) format('woff2');
+  } 
+  </style> 
+  <!-- Gravesands Font -->
+  <link rel="stylesheet" href="https://use.typekit.net/jkd4qzc.css">  
+  <style>
+  @import url("https://use.typekit.net/jkd4qzc.css");
+  </style>
+  <!-- “neue-haas-grotesk-display”, sans-serif -->
+  <link rel=“stylesheet” href="https://use.typekit.net/cty4kbo.css">  
+  <style>
+  @import url("https://use.typekit.net/cty4kbo.css");
+  </style>
+  {%- render 'bold-subscription-widget' -%}
+  {{ 'bsub.js' | asset_url | script_tag }}
+  {{ 'bsub.css' | asset_url | stylesheet_tag }}
+</head>
+
+<body class="{% liquid 
+  if settings.layout_content_margin_desktop > 0
+    echo ' has-layout-margin-desktop'
+  endif
+
+  if settings.layout_content_margin > 0
+    echo ' has-layout-margin'
+  endif
+  
+%}" data-money-format="{{ shop.money_format }}">
+
+  {% if settings.cart_show_drawer %}
+    {% render 'cart-drawer' %}
+  {% endif %}
+
+  {% sections 'header-group' %}
+
+  <main class="main content-for-layout" role="main">
+    {{ content_for_layout }}
+  </main>
+
+  {% sections 'footer-group' %}
+
+  {% if settings.cart_show_drawer %}
+    <script src="{{ 'cart-drawer.js' | asset_url }}" defer></script>
+  {% endif %}
+
+  {% if settings.predictive_search_enabled %}
+    <script src="{{ 'predictive-search.js' | asset_url }}" defer></script>
+  {% endif %}
+
+  {% if template == 'cart' or settings.cart_show_drawer %}
+    <script src="{{ 'cart.js' | asset_url }}" defer></script>
+  {% endif %}
+  
+  
+  <!-- JS file for custom scripts -->
+  <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+</body>
+
+</html>
