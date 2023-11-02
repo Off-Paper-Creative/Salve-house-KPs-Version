@@ -74,7 +74,7 @@
           "type": "collapsible-row",
           "settings": {
             "title_text": "Recommended Dose",
-            "description_text": "<p><strong>Consume twice a day:<\/strong><br\/>AM: 1 Colvita Capsule + Vitamin C Capsule<br\/>PM: 1 Colvita Capsule<\/p><p>For best results, take these supplements for 4 consecutive months. Recommended for adults only. <\/p>",
+            "description_text": "<p>Consume 1 capsule per day. <br\/>For adult use only. <\/p>",
             "open_by_default": true
           }
         },
