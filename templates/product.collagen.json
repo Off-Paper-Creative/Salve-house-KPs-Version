@@ -302,6 +302,7 @@
         "template--21587732627769__51fc8ac6-5685-47be-8b0f-f733954d72dd-slide-1": {
           "type": "slide",
           "settings": {
+            "slide_image_mobile": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_3.06.57_PM.png",
             "slide_image_mobile_overlay": false,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 40,
