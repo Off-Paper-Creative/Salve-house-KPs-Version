@@ -162,7 +162,7 @@
           "settings": {
             "icon": "",
             "icon_width": 48,
-            "heading": "Optimal Absorption",
+            "heading": "Designed for Optimal Absorption",
             "heading_tag": "h6",
             "description": "",
             "button_text": "",
@@ -233,6 +233,78 @@
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1"
+      }
+    },
+    "72d1e1a3-0a7a-4af4-a6ba-17f153544435": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Scientifically Researched",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Designed for Optimal Absorption",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Sourced Exclusively In Europe",
+            "text_tag": "h6"
+          }
+        },
+        "9a9907a3-c0b5-4165-a48b-69c76553618f": {
+          "type": "text",
+          "settings": {
+            "text": "Transparent Processes",
+            "text_tag": "h6"
+          }
+        },
+        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936": {
+          "type": "text",
+          "settings": {
+            "text": "No Filler Ingredients",
+            "text_tag": "h6"
+          }
+        },
+        "f5f40b7b-430d-485c-a9f1-6d720c657148": {
+          "type": "text",
+          "settings": {
+            "text": "No Additives",
+            "text_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1",
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2",
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3",
+        "9a9907a3-c0b5-4165-a48b-69c76553618f",
+        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936",
+        "f5f40b7b-430d-485c-a9f1-6d720c657148"
+      ],
+      "settings": {
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "splitter_use_custom_width": true,
+        "splitter_custom_width": 16,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1",
+        "scroll_speed": 30
       }
     },
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f": {
@@ -374,6 +446,7 @@
     "breadcrumbs",
     "main",
     "icon-cards-1",
+    "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
     "9558248e-813e-41f7-913d-c42b47117244"
   ]
