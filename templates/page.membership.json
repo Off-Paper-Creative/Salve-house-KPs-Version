@@ -1,1 +1,230 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"custom_css":[],"settings":{"fullwidth":true,"width":1320,"custom_height":false,"height_mobile":"600","height":"600","color_scheme":"scheme-main","inset":true,"inset_choice":"level-3","background_image_show":false,"background_overlay":false,"background_overlay_color":"","background_overlay_opacity":40,"heading_tag":"s1","heading_width":620,"description_tag":"p","description_width":620,"spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}},"0c24bcb1-f0b3-4e00-a375-14fedbcc69c0":{"type":"rich-text","blocks":{"template--21212521234745__0c24bcb1-f0b3-4e00-a375-14fedbcc69c0-heading-1":{"type":"heading","settings":{"text":"lve well","text_tag":"h2","text_custom_width":false,"text_width":700}},"0cb7f178-ad7e-4e1f-99cd-021e305fa5b8":{"type":"heading","settings":{"text":"","text_tag":"h3","text_custom_width":false,"text_width":700}}},"block_order":["template--21212521234745__0c24bcb1-f0b3-4e00-a375-14fedbcc69c0-heading-1","0cb7f178-ad7e-4e1f-99cd-021e305fa5b8"],"settings":{"fullwidth":true,"width":1320,"color_scheme":"scheme-complementary","inset":true,"inset_choice":"level-1","alignment":"center","separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":false,"spacing_choice":"level-3","spacing_placement":"1"}},"f7e83f1e-5786-4ae9-9b9b-9875323d4fd8":{"type":"rich-text","blocks":{"template--21472665305401__f7e83f1e-5786-4ae9-9b9b-9875323d4fd8-heading-1":{"type":"heading","settings":{"text":"Receive a 2 month supply of your supplements delivered to your door every other month.","text_tag":"h5","text_custom_width":true,"text_width":640}}},"block_order":["template--21472665305401__f7e83f1e-5786-4ae9-9b9b-9875323d4fd8-heading-1"],"custom_css":["h5 {color: white;}"],"settings":{"fullwidth":true,"width":1320,"color_scheme":"scheme-additional","inset":true,"inset_choice":"level-1","alignment":"center","separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":false,"spacing_choice":"level-3","spacing_placement":"1"}},"7483b00a-c39b-413e-9641-b038f51109b9":{"type":"handpicked-products","custom_css":["h3 {color: white;}"],"settings":{"fullwidth":true,"width":1320,"color_scheme":"scheme-additional","inset":true,"inset_choice":"level-3","heading":"Select Your Membership Plan","heading_tag":"h3","button_text":"","button_url":"","button_style":"link","products_choice":["copy-of-colvita-vitamin-c","colvita-collagen-supplement","the-collagen-c-bundle-1"],"columns_count":3,"rows_count":1,"gap":true,"gap_choice":"level-4","carousel":false,"per_move":4,"autoplay":true,"interval":4000,"loop":true,"mouse_drag":true,"arrows":true,"dots":false,"speed":400,"separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#966e25","spacing":false,"spacing_choice":"level-3","spacing_placement":"1"}},"d074bf16-4572-40c2-8773-61c9db9e9571":{"type":"bold-add-product","blocks":{"template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-title-1":{"type":"title","settings":{}},"template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-price-1":{"type":"price","settings":{}},"template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-rating-1":{"type":"rating","settings":{}},"template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-buy-buttons-1":{"type":"buy-buttons","settings":{"quantity-picker":true,"dynamic-checkout-button":true,"show_gift_card_recipient":false}}},"block_order":["template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-title-1","template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-price-1","template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-rating-1","template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-buy-buttons-1"],"disabled":true,"settings":{"fullwidth":true,"width":1320,"color_scheme":"scheme-additional","button1_label":"Button 1","button1_url":"\/","button1_color":"#000000","button_spacing":10,"button2_label":"Button 2","button2_url":"\/","button2_color":"#000000","inset":true,"inset_choice":"level-3","product_choice":"the-collagen-c-bundle-1","product_gallery_type":"fade","product_gallery_arrows":false,"product_gallery_dots":false,"product_gallery_mouse_drag":true,"product_thumbnails_loop":true,"product_thumbnails_arrows":true,"separator":false,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}}},"order":["main","0c24bcb1-f0b3-4e00-a375-14fedbcc69c0","f7e83f1e-5786-4ae9-9b9b-9875323d4fd8","7483b00a-c39b-413e-9641-b038f51109b9","d074bf16-4572-40c2-8773-61c9db9e9571"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "custom_height": false,
+        "height_mobile": "600",
+        "height": "600",
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_image_show": false,
+        "background_overlay": false,
+        "background_overlay_color": "",
+        "background_overlay_opacity": 40,
+        "heading_tag": "s1",
+        "heading_width": 620,
+        "description_tag": "p",
+        "description_width": 620,
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "0c24bcb1-f0b3-4e00-a375-14fedbcc69c0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21212521234745__0c24bcb1-f0b3-4e00-a375-14fedbcc69c0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "lve well",
+            "text_tag": "h2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "0cb7f178-ad7e-4e1f-99cd-021e305fa5b8": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "text_tag": "h3",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521234745__0c24bcb1-f0b3-4e00-a375-14fedbcc69c0-heading-1",
+        "0cb7f178-ad7e-4e1f-99cd-021e305fa5b8"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-complementary",
+        "inset": true,
+        "inset_choice": "level-1",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "f7e83f1e-5786-4ae9-9b9b-9875323d4fd8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21472665305401__f7e83f1e-5786-4ae9-9b9b-9875323d4fd8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Receive a 2 month supply of your supplements delivered to your door every other month.",
+            "text_tag": "h5",
+            "text_custom_width": true,
+            "text_width": 640
+          }
+        }
+      },
+      "block_order": [
+        "template--21472665305401__f7e83f1e-5786-4ae9-9b9b-9875323d4fd8-heading-1"
+      ],
+      "custom_css": [
+        "h5 {color: white;}"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-additional",
+        "inset": true,
+        "inset_choice": "level-1",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "7483b00a-c39b-413e-9641-b038f51109b9": {
+      "type": "handpicked-products",
+      "custom_css": [
+        "h3 {color: white;}"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-additional",
+        "inset": true,
+        "inset_choice": "level-3",
+        "heading": "Select Your Membership Plan",
+        "heading_tag": "h3",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "link",
+        "products_choice": [
+          "collagen",
+          "colvita-collagen-supplement",
+          "the-collagen-c-bundle-1"
+        ],
+        "columns_count": 3,
+        "rows_count": 1,
+        "gap": true,
+        "gap_choice": "level-4",
+        "carousel": false,
+        "per_move": 4,
+        "autoplay": true,
+        "interval": 4000,
+        "loop": true,
+        "mouse_drag": true,
+        "arrows": true,
+        "dots": false,
+        "speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#966e25",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "d074bf16-4572-40c2-8773-61c9db9e9571": {
+      "type": "bold-add-product",
+      "blocks": {
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-title-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-rating-1": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "quantity-picker": true,
+            "dynamic-checkout-button": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-title-1",
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-price-1",
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-rating-1",
+        "template--21540511220025__d074bf16-4572-40c2-8773-61c9db9e9571-buy-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-additional",
+        "button1_label": "Button 1",
+        "button1_url": "\/",
+        "button1_color": "#000000",
+        "button_spacing": 10,
+        "button2_label": "Button 2",
+        "button2_url": "\/",
+        "button2_color": "#000000",
+        "inset": true,
+        "inset_choice": "level-3",
+        "product_choice": "the-collagen-c-bundle-1",
+        "product_gallery_type": "fade",
+        "product_gallery_arrows": false,
+        "product_gallery_dots": false,
+        "product_gallery_mouse_drag": true,
+        "product_thumbnails_loop": true,
+        "product_thumbnails_arrows": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0c24bcb1-f0b3-4e00-a375-14fedbcc69c0",
+    "f7e83f1e-5786-4ae9-9b9b-9875323d4fd8",
+    "7483b00a-c39b-413e-9641-b038f51109b9",
+    "d074bf16-4572-40c2-8773-61c9db9e9571"
+  ]
+}
