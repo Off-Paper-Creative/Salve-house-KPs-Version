@@ -82,7 +82,7 @@
           "type": "collapsible-row",
           "settings": {
             "title_text": "Ingredients",
-            "description_text": "<p>Algae (<em>Fucus vesiculosus<\/em>), freeze-dried lemon fruit (carrier), fish gelatin (capsule shell), freeze-dried fish collagen, vitamin E (D-alpha-tocopherol), anti-caking agent (colloidal silica), tocotrienols (delta and gamma).<\/p>",
+            "description_text": "<p>Algae (<em>Fucus vesiculosus<\/em>), freeze-dried lemon fruit (carrier), fish gelatin (capsule shell), freeze-dried fish collagen, vitamin E (D-alpha-tocopherol), anti-caking agent (colloidal silica), tocotrienols (delta and gamma). Product does not contain dyes and magnesium stearate. <\/p>",
             "open_by_default": false
           }
         },
@@ -221,7 +221,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1",
@@ -351,7 +351,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -417,7 +417,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
