@@ -1240,7 +1240,7 @@
             "description_tag": "p",
             "description_custom_width": false,
             "description_width": 450,
-            "button_text": "Button text",
+            "button_text": "",
             "button_url": "",
             "button_target": "_self",
             "button_style": "link"
@@ -1251,15 +1251,15 @@
           "settings": {
             "card_size": "large",
             "image_aspect_ratio": "auto",
-            "heading": "This is Image card heading",
+            "heading": "",
             "heading_tag": "h4",
             "heading_custom_width": false,
             "heading_width": 450,
-            "description": "This is simple description for Image card.",
+            "description": "",
             "description_tag": "s2",
             "description_custom_width": false,
             "description_width": 450,
-            "button_text": "Button text",
+            "button_text": "",
             "button_url": "",
             "button_target": "_self",
             "button_style": "link"
