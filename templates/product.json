@@ -216,7 +216,7 @@
         "inset_choice": "level-3",
         "splitter_use_custom_width": true,
         "splitter_custom_width": 16,
-        "separator": false,
+        "separator": true,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
