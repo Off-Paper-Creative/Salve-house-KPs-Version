@@ -367,24 +367,12 @@
             "text_custom_width": false,
             "text_width": 700
           }
-        },
-        "template--21586456510777__0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2-button-1": {
-          "type": "button",
-          "settings": {
-            "button_text": "Button text",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline",
-            "button_custom_width": false,
-            "button_width": 200
-          }
         }
       },
       "block_order": [
         "template--21586456510777__0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2-special_heading-1",
         "6571e385-cf13-4290-b408-31ca89301509",
-        "14305aaf-0e3b-458c-b8ec-5821c75963f5",
-        "template--21586456510777__0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2-button-1"
+        "14305aaf-0e3b-458c-b8ec-5821c75963f5"
       ],
       "settings": {
         "fullwidth": true,
@@ -956,50 +944,12 @@
             "slide_button_2_custom_width": true,
             "slide_button_2_width": 200
           }
-        },
-        "8f808542-0044-4ca0-85a1-e10276515800": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile_overlay": true,
-            "slide_image_mobile_overlay_color": "#174248",
-            "slide_image_mobile_overlay_opacity": 100,
-            "slide_image": "shopify:\/\/shop_images\/collagen_supplements.png",
-            "slide_image_overlay": false,
-            "slide_image_overlay_color": "#174248",
-            "slide_image_overlay_opacity": 100,
-            "slide_image_right_enable": false,
-            "slide_image_right_overlay": true,
-            "slide_image_right_overlay_color": "#174248",
-            "slide_image_right_overlay_opacity": 100,
-            "slide_content_position": "right",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "center",
-            "slide_heading": "TWICE A DAY",
-            "slide_heading_width": 450,
-            "slide_subheading": "AM: 1 Colvita Capsule + Vitamin C Capsule PM: 1 Colvita Capsule. Take for 4 months consistently to begin seeing and feeling results. Intended for adult use only.",
-            "slide_subheading_width": 450,
-            "slide_description": "",
-            "slide_description_width": 450,
-            "slide_button_1_text": "BECOME A MEMBER",
-            "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
         }
       },
       "block_order": [
         "412f2012-625b-4659-9515-85ce5b44c60c",
         "57f24124-8427-4d67-8492-ebcd10fe4b6d",
-        "b2e24fb6-a009-4661-b100-a85253f737e9",
-        "8f808542-0044-4ca0-85a1-e10276515800"
+        "b2e24fb6-a009-4661-b100-a85253f737e9"
       ],
       "settings": {
         "fullwidth": true,
