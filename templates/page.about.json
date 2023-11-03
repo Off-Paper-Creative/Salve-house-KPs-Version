@@ -534,7 +534,7 @@
       "settings": {
         "fullwidth": false,
         "width": 1320,
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-accent",
         "inset": true,
         "inset_choice": "level-3",
         "gap": true,
