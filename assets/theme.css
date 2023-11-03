@@ -8545,32 +8545,30 @@ body:not(.has-layout-margin)
 .merged-section {
 	padding-left: 5vw;
 	padding-right: 5vw;
-	display: flex;
-	height: 1200px;
+	display: block;
 	flex-direction: column;
 	justify-content: center;
+	padding-top: 30px;
+	height: 100vh;
+	padding-bottom: 200px;
+	overflow: auto;
 }
 .gold-bg {
-	background-color: #966e25;
 	color: white;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: auto;
-	padding-right: auto;
 }
 @keyframes floatHeaderAnimation {
 	from {
-		padding-top: 250px;
+		padding-top: 35vh;
 	}
 	to {
-		padding-top: 0px;
+		padding-top: 3vh;
 	}
 }
 
 #floatHeader {
-	padding-top: 250px;
-	animation-duration: 1s; /* Duration of the animation */
+	padding-top: 35vh;
+	animation-duration: 2s; /* Duration of the animation */
 	animation-timing-function: linear; /* Timing function for smooth animation */
 	animation-fill-mode: forwards; /* Keeps the final style of the animation */
 }
