@@ -486,7 +486,6 @@
         "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-3"
       ],
       "custom_css": [
-        ".section-boxed-multicolumns {text-align: center; padding-left: 3vw; padding-right: 3vw; padding-bottom: 50px;}",
         "h3 {color: white;}",
         ".section-handpicked-products-product {margin-top: 15px; margin-bottom: 0px;}"
       ],
@@ -495,7 +494,7 @@
         "width": 1320,
         "color_scheme": "scheme-additional",
         "inset": true,
-        "inset_choice": "level-3",
+        "inset_choice": "level-2",
         "heading": "select your membership plan",
         "heading_tag": "h3",
         "button_text": "",
@@ -509,7 +508,7 @@
         "columns_count": 3,
         "rows_count": 1,
         "gap": true,
-        "gap_choice": "level-4",
+        "gap_choice": "level-3",
         "carousel": false,
         "per_move": 4,
         "autoplay": true,
