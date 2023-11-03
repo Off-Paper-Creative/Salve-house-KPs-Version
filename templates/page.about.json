@@ -169,7 +169,7 @@
             "inset": true,
             "inset_choice": "level-5",
             "width": 50,
-            "horizontal_align": "normal",
+            "horizontal_align": "center",
             "vertical_align": "center",
             "text_align": "left",
             "image_show": false,
