@@ -7347,15 +7347,16 @@ body:not(.has-layout-margin)
 	flex-direction: column;
 	justify-content: var(--theme-multicolumn-vertical-align, normal);
 	align-items: var(--theme-multicolumn-horizontal-align, center);
-	width: 100%;
 	max-width: var(--theme-multicolumn-text-2-width, 100%);
 	background-color: #966e25;
 	color: #fff;
 	text-justify: center;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-left: 100px;
 }
 
 .section-boxed-multicolumns .section-multicolumn__text_2 {
-	width: 25vw;
 	height: 80%;
 	order: var(--theme-multicolumn-text-2-display-order, 0);
 	border: solid 1px #ffff;
