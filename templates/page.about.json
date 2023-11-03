@@ -508,11 +508,11 @@
         "template--21586457198905__645ab249-379c-4b96-b508-a89b46c267d4-content-1": {
           "type": "content",
           "settings": {
-            "text_1": "This is simple text 1",
+            "text_1": "All Salve Products Must Surpass The Following Criteria:",
             "text_1_tag": "s2",
             "text_1_custom_width": false,
             "text_1_width": 450,
-            "text_2": "<p>This is text 2 for Image with text section. <\/p>",
+            "text_2": "<ol><li>Scientifically Backed<\/li><li>Exclusively Contain Premium Ingredients That Are Effectively Extracted<\/li><li>Formulated to be Highly Bioavailable and Work With Our Bodies<\/li><li>MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.<\/li><li>Sourced Directly From Europe<\/li><li>Free of Fillers, Additives, Dyes, Coloring and Harmful Ingredients.<\/li><\/ol>",
             "text_2_tag": "p",
             "text_2_custom_width": false,
             "text_2_width": 450,
@@ -520,7 +520,7 @@
             "text_3_tag": "p",
             "text_3_custom_width": false,
             "text_3_width": 450,
-            "button_text": "Button text",
+            "button_text": "",
             "button_url": "",
             "button_target": "_self",
             "button_style": "outline"
