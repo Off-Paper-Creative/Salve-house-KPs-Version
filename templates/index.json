@@ -110,7 +110,7 @@
         "22c73cb4-f0a5-40d6-96a7-c5bcd58d5a85"
       ],
       "custom_css": [
-        ".scrolling-text-list {animation: linear infinite}"
+        ".scrolling-text-list {animation: linear infinite; -webkit-animation: linear infinite;}"
       ],
       "settings": {
         "color_scheme": "scheme-main",
