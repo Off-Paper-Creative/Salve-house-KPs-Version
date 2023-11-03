@@ -56,8 +56,8 @@
 
     echo ' ' | append: section.settings.color_scheme
 %}">
-  <div class="section-scrolling-text-container section-container">
-    <div style="animation: scroll {{ section.settings.scroll_speed }}s;" class="scrolling-text{% liquid 
+  <div class="section-scrolling-text-container section-container" >
+    <div class="scrolling-text{% liquid 
         if section.settings.splitter_use_custom_width
             echo ' has-custom-splitter-width'
         endif
@@ -65,7 +65,7 @@
         {% if section.blocks != blank %}
             {% for i in (1..4) %}
                 {% if i > 1 %}
-                    <ul class="scrolling-text-list" aria-hidden="true">
+                    <ul style="animation: scroll {{ section.settings.scroll_speed }}s linear infinite" class="scrolling-text-list" aria-hidden="true">
                 {% else %}
                     <ul class="scrolling-text-list">
                 {% endif %}
