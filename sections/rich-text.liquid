@@ -431,115 +431,35 @@ endif
           ]
         },
         {
-                  "type": "header",
-                  "content": "t:sections.icon_cards.blocks.card.settings.header__description.content"
-                }, {
-                  "type": "richtext",
-                  "id": "description",
-                  "label": "t:sections.icon_cards.blocks.card.settings.description.label",
-                  "default": "<p>This is simple card description.<\/p>"
-                }, {
-                  "type": "header",
-                  "content": "t:sections.icon_cards.blocks.card.settings.header__button.content"
-                }, {
-                  "type": "text",
-                  "id": "button_text",
-                  "label": "t:sections.icon_cards.blocks.card.settings.button_text.label",
-                  "info": "t:sections.icon_cards.blocks.card.settings.button_text.info"
-                }, {
-                  "type": "url",
-                  "id": "button_url",
-                  "label": "t:sections.icon_cards.blocks.card.settings.button_url.label"
-                }, {
-                  "type": "select",
-                  "id": "button_target",
-                  "label": "t:sections.icon_cards.blocks.card.settings.button_target.label",
-                  "options": [
-                    {
-                      "value": "_self",
-                      "label": "t:sections.icon_cards.blocks.card.settings.button_target.options.option__0.label"
-                    }, {
-                      "value": "_blank",
-                      "label": "t:sections.icon_cards.blocks.card.settings.button_target.options.option__1.label"
-                    }
-                  ],
-                  "default": "_self",
-                  "info": "t:sections.icon_cards.blocks.card.settings.button_target.info"
-                }, {
-                  "type": "select",
-                  "id": "button_style",
-                  "label": "t:sections.icon_cards.blocks.card.settings.button_style.label",
-                  "options": [
-                    {
-                      "value": "outline",
-                      "label": "t:sections.icon_cards.blocks.card.settings.button_style.options.option__0.label"
-                    }, {
-                      "value": "fill",
-                      "label": "t:sections.icon_cards.blocks.card.settings.button_style.options.option__1.label"
-                    }, {
-                      "value": "link",
-                      "label": "t:sections.icon_cards.blocks.card.settings.button_style.options.option__2.label"
-                    }
-                  ],
-                  "default": "link"
-                },
-        // {
-        //   "name": "t:sections.rich_text.blocks.description.name",
-        //   "type": "description",
-        //   "settings": [
-        //     {
-        //       "type": "text",
-        //       "id": "text",
-        //       "label": "t:sections.rich_text.blocks.description.settings.text.label",
-        //       "default": "This is simple description"
-        //     }, {
-        //       "type": "select",
-        //       "id": "text_tag",
-        //       "label": "t:sections.rich_text.blocks.description.settings.text_tag.label",
-        //       "options": [
-        //         {
-        //           "value": "p",
-        //           "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__0.label"
-        //         }, {
-        //           "value": "p1",
-        //           "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__1.label"
-        //         }, {
-        //           "value": "p2",
-        //           "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__2.label"
-        //         }
-        //       ],
-        //       "default": "p"
-        //     }, {
-        //       "type": "checkbox",
-        //       "id": "text_custom_width",
-        //       "label": "t:sections.rich_text.blocks.description.settings.text_custom_width.label",
-        //       "default": false
-        //     }, {
-        //       "type": "range",
-        //       "id": "text_width",
-        //       "min": 200,
-        //       "max": 1200,
-        //       "step": 10,
-        //       "unit": "px",
-        //       "label": "t:sections.rich_text.blocks.description.settings.text_width.label",
-        //       "default": 700,
-        //       "info": "t:sections.rich_text.blocks.description.settings.text_width.info"
-        //     }
-        //   ]
-        // },
-        {
-          "name": "t:sections.rich_text.blocks.paragraph.name",
-          "type": "paragraph",
+          "name": "t:sections.rich_text.blocks.description.name",
+          "type": "description",
           "settings": [
             {
-              "type": "richtext",
+              "type": "text",
               "id": "text",
-              "label": "t:sections.rich_text.blocks.paragraph.settings.text.label",
-              "default": "<p>This is long paragraph<\/p>"
+              "label": "t:sections.rich_text.blocks.description.settings.text.label",
+              "default": "This is simple description"
+            }, {
+              "type": "select",
+              "id": "text_tag",
+              "label": "t:sections.rich_text.blocks.description.settings.text_tag.label",
+              "options": [
+                {
+                  "value": "p",
+                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__0.label"
+                }, {
+                  "value": "p1",
+                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__1.label"
+                }, {
+                  "value": "p2",
+                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__2.label"
+                }
+              ],
+              "default": "p"
             }, {
               "type": "checkbox",
               "id": "text_custom_width",
-              "label": "t:sections.rich_text.blocks.paragraph.settings.text_custom_width.label",
+              "label": "t:sections.rich_text.blocks.description.settings.text_custom_width.label",
               "default": false
             }, {
               "type": "range",
@@ -548,12 +468,86 @@ endif
               "max": 1200,
               "step": 10,
               "unit": "px",
-              "label": "t:sections.rich_text.blocks.paragraph.settings.text_width.label",
+              "label": "t:sections.rich_text.blocks.description.settings.text_width.label",
               "default": 700,
-              "info": "t:sections.rich_text.blocks.paragraph.settings.text_width.info"
+              "info": "t:sections.rich_text.blocks.description.settings.text_width.info"
             }
           ]
-        }, {
+        },
+              {
+          "name": "t:sections.rich_text.blocks.paragraph.name",
+          "type": "paragraph",
+          "settings": [
+            {
+                  "type": "richtext",
+                  "id": "text",
+                  "label": "t:sections.icon_cards.blocks.card.settings.description.label",
+                  "default": "<p>This is simple card description.<\/p>"
+                },{
+              "type": "select",
+              "id": "description_tag",
+              "label": "t:sections.icon_cards.settings.description_tag.label",
+              "options": [
+                {
+                  "value": "p",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__0.label"
+                },
+                {
+                  "value": "p1",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__1.label"
+                },
+                {
+                  "value": "p2",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__2.label"
+                },
+                {
+                  "value": "h1",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__3.label"
+                }, {
+                  "value": "h2",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__4.label"
+                }, {
+                  "value": "h3",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__5.label"
+                }, {
+                  "value": "h4",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__6.label"
+                }, {
+                  "value": "h5",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__7.label"
+                }, {
+                  "value": "h6",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__8.label"
+                }, {
+                  "value": "s1",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__9.label"
+                }, {
+                  "value": "s2",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__10.label"
+                }, {
+                  "value": "s3",
+                  "label": "t:sections.icon_cards.settings.description_tag.options.option__11.label"
+                }
+              ],
+              "default": "p"
+            }, {
+              "type": "checkbox",
+              "id": "description_custom_width",
+              "label": "t:sections.icon_cards.settings.description_custom_width.label",
+              "default": false
+            }, {
+              "type": "range",
+              "id": "description_width",
+              "min": 200,
+              "max": 1200,
+              "step": 10,
+              "unit": "px",
+              "label": "t:sections.icon_cards.settings.description_width.label",
+              "default": 700,
+              "info": "t:sections.icon_cards.settings.description_width.info"
+              }
+            ]
+            }, {
           "name": "t:sections.rich_text.blocks.button.name",
           "type": "button",
           "settings": [
