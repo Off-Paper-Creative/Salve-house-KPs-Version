@@ -107,7 +107,7 @@ endif
  %}"><hr class="separator"></div>
 {% endif %}
 
-<script>
+{% comment %} <script>
   document.addEventListener("DOMContentLoaded", function () {
     function setScrollingSpeed(speed) {
       const scrollingText = document.querySelector(".scrolling-text");
@@ -120,7 +120,7 @@ endif
     const sectionSettings = {{ section.settings | json }};
     setScrollingSpeed(sectionSettings.scroll_speed);
   });
-</script>
+</script> {% endcomment %}
 
 {% schema %}
 {

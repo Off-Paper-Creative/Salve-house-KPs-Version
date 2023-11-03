@@ -7221,13 +7221,15 @@ body:not(.has-layout-margin)
 	display: flex;
 	flex-wrap: wrap;
 	gap: var(--theme-multicolumns-gap, 2rem);
+	overflow: hidden;
 }
 
-@media only screen and (max-width: 1024px) {
-	.section-multicolumns-container {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-	}
+.section-multicolumns .section-multicolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: var(--theme-multicolumn-vertical-align, normal);
+	align-items: var(--theme-multicolumn-horizontal-align, normal);
+	width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
