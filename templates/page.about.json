@@ -92,6 +92,54 @@
         "spacing_placement": "1"
       }
     },
+    "3b079f92-2009-47bc-a9af-1e11bf8f7abe": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "This is scrolling text",
+            "text_tag": "s1"
+          }
+        },
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "This is scrolling text",
+            "text_tag": "s1"
+          }
+        },
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "This is scrolling text",
+            "text_tag": "s1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-1",
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-2",
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-3"
+      ],
+      "settings": {
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "splitter_use_custom_width": true,
+        "splitter_custom_width": 16,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1",
+        "scroll_speed": 30
+      }
+    },
     "60b541c8-e5f6-466a-b398-54d02a4dd3d0": {
       "type": "rich-text",
       "blocks": {
@@ -413,6 +461,7 @@
   },
   "order": [
     "multicolumn-1",
+    "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "60b541c8-e5f6-466a-b398-54d02a4dd3d0",
     "multicolumn-2",
     "3f392d90-82cd-49d4-b205-71890868d8c2",
