@@ -7232,23 +7232,6 @@ body:not(.has-layout-margin)
 	width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-	.section-multicolumns-container {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		margin-left: 20%;
-		margin-right: 20%;
-		width: 30%;
-	}
-}
-/* .section-multicolumns .section-multicolumn {
-	display: flex;
-	flex-direction: column;
-	justify-content: var(--theme-multicolumn-vertical-align, normal);
-	align-items: var(--theme-multicolumn-horizontal-align, normal);
-	width: 100%;
-} */
-
 .section-multicolumns
 	.section-multicolumn.has-text-align-center
 	.section-multicolumn__text_1,
@@ -7324,6 +7307,41 @@ body:not(.has-layout-margin)
 	order: var(--theme-multicolumn-text-2-display-order, 0);
 }
 
+.section-multicolumns .section-multicolumn__button {
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+	order: var(--theme-multicolumn-button-display-order, 0);
+}
+
+.section-multicolumns .section-multicolumn__button:not(:only-child) {
+	margin-top: 12px;
+}
+
+.section-multicolumns .section-multicolumn p:not(:only-child) {
+	margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+	.section-multicolumns .section-multicolumn {
+		width: calc(
+			var(--theme-multicolumn-width, 33.33%) -
+				var(--theme-multicolumns-gap, 30px) *
+				(var(--theme-multicolumns-count, 3) - 1) /
+				var(--theme-multicolumns-count, 3)
+		);
+	}
+	.section-multicolumns .section-multicolumn.scheme-main {
+		width: calc(
+			var(--theme-multicolumn-width, 33.33%) +
+				var(--theme-block-content-padding, 0px) * 2 -
+				var(--theme-multicolumns-gap, 30px) *
+				(var(--theme-multicolumns-count, 3) - 1) /
+				var(--theme-multicolumns-count, 3)
+		);
+	}
+}
+
 .section-boxed-multicolumns {
 	display: flex;
 	flex-direction: column;
@@ -7354,41 +7372,6 @@ body:not(.has-layout-margin)
 		);
 	}
 	.section-boxed-multicolumns .section-multicolumn.scheme-main {
-		width: calc(
-			var(--theme-multicolumn-width, 33.33%) +
-				var(--theme-block-content-padding, 0px) * 2 -
-				var(--theme-multicolumns-gap, 30px) *
-				(var(--theme-multicolumns-count, 3) - 1) /
-				var(--theme-multicolumns-count, 3)
-		);
-	}
-}
-
-.section-multicolumns .section-multicolumn__button {
-	width: -webkit-max-content;
-	width: -moz-max-content;
-	width: max-content;
-	order: var(--theme-multicolumn-button-display-order, 0);
-}
-
-.section-multicolumns .section-multicolumn__button:not(:only-child) {
-	margin-top: 12px;
-}
-
-.section-multicolumns .section-multicolumn p:not(:only-child) {
-	margin-bottom: 24px;
-}
-
-@media (min-width: 768px) {
-	.section-multicolumns .section-multicolumn {
-		width: calc(
-			var(--theme-multicolumn-width, 33.33%) -
-				var(--theme-multicolumns-gap, 30px) *
-				(var(--theme-multicolumns-count, 3) - 1) /
-				var(--theme-multicolumns-count, 3)
-		);
-	}
-	.section-multicolumns .section-multicolumn.scheme-main {
 		width: calc(
 			var(--theme-multicolumn-width, 33.33%) +
 				var(--theme-block-content-padding, 0px) * 2 -
