@@ -431,49 +431,102 @@ endif
           ]
         },
         {
-          "name": "t:sections.rich_text.blocks.description.name",
-          "type": "description",
-          "settings": [
-            {
-              "type": "text",
-              "id": "text",
-              "label": "t:sections.rich_text.blocks.description.settings.text.label",
-              "default": "This is simple description"
-            }, {
-              "type": "select",
-              "id": "text_tag",
-              "label": "t:sections.rich_text.blocks.description.settings.text_tag.label",
-              "options": [
-                {
-                  "value": "p",
-                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__0.label"
+                  "type": "header",
+                  "content": "t:sections.icon_cards.blocks.card.settings.header__description.content"
                 }, {
-                  "value": "p1",
-                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__1.label"
+                  "type": "richtext",
+                  "id": "description",
+                  "label": "t:sections.icon_cards.blocks.card.settings.description.label",
+                  "default": "<p>This is simple card description.<\/p>"
                 }, {
-                  "value": "p2",
-                  "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__2.label"
-                }
-              ],
-              "default": "p"
-            }, {
-              "type": "checkbox",
-              "id": "text_custom_width",
-              "label": "t:sections.rich_text.blocks.description.settings.text_custom_width.label",
-              "default": false
-            }, {
-              "type": "range",
-              "id": "text_width",
-              "min": 200,
-              "max": 1200,
-              "step": 10,
-              "unit": "px",
-              "label": "t:sections.rich_text.blocks.description.settings.text_width.label",
-              "default": 700,
-              "info": "t:sections.rich_text.blocks.description.settings.text_width.info"
-            }
-          ]
-        },
+                  "type": "header",
+                  "content": "t:sections.icon_cards.blocks.card.settings.header__button.content"
+                }, {
+                  "type": "text",
+                  "id": "button_text",
+                  "label": "t:sections.icon_cards.blocks.card.settings.button_text.label",
+                  "info": "t:sections.icon_cards.blocks.card.settings.button_text.info"
+                }, {
+                  "type": "url",
+                  "id": "button_url",
+                  "label": "t:sections.icon_cards.blocks.card.settings.button_url.label"
+                }, {
+                  "type": "select",
+                  "id": "button_target",
+                  "label": "t:sections.icon_cards.blocks.card.settings.button_target.label",
+                  "options": [
+                    {
+                      "value": "_self",
+                      "label": "t:sections.icon_cards.blocks.card.settings.button_target.options.option__0.label"
+                    }, {
+                      "value": "_blank",
+                      "label": "t:sections.icon_cards.blocks.card.settings.button_target.options.option__1.label"
+                    }
+                  ],
+                  "default": "_self",
+                  "info": "t:sections.icon_cards.blocks.card.settings.button_target.info"
+                }, {
+                  "type": "select",
+                  "id": "button_style",
+                  "label": "t:sections.icon_cards.blocks.card.settings.button_style.label",
+                  "options": [
+                    {
+                      "value": "outline",
+                      "label": "t:sections.icon_cards.blocks.card.settings.button_style.options.option__0.label"
+                    }, {
+                      "value": "fill",
+                      "label": "t:sections.icon_cards.blocks.card.settings.button_style.options.option__1.label"
+                    }, {
+                      "value": "link",
+                      "label": "t:sections.icon_cards.blocks.card.settings.button_style.options.option__2.label"
+                    }
+                  ],
+                  "default": "link"
+                },
+        // {
+        //   "name": "t:sections.rich_text.blocks.description.name",
+        //   "type": "description",
+        //   "settings": [
+        //     {
+        //       "type": "text",
+        //       "id": "text",
+        //       "label": "t:sections.rich_text.blocks.description.settings.text.label",
+        //       "default": "This is simple description"
+        //     }, {
+        //       "type": "select",
+        //       "id": "text_tag",
+        //       "label": "t:sections.rich_text.blocks.description.settings.text_tag.label",
+        //       "options": [
+        //         {
+        //           "value": "p",
+        //           "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__0.label"
+        //         }, {
+        //           "value": "p1",
+        //           "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__1.label"
+        //         }, {
+        //           "value": "p2",
+        //           "label": "t:sections.rich_text.blocks.description.settings.text_tag.options.option__2.label"
+        //         }
+        //       ],
+        //       "default": "p"
+        //     }, {
+        //       "type": "checkbox",
+        //       "id": "text_custom_width",
+        //       "label": "t:sections.rich_text.blocks.description.settings.text_custom_width.label",
+        //       "default": false
+        //     }, {
+        //       "type": "range",
+        //       "id": "text_width",
+        //       "min": 200,
+        //       "max": 1200,
+        //       "step": 10,
+        //       "unit": "px",
+        //       "label": "t:sections.rich_text.blocks.description.settings.text_width.label",
+        //       "default": 700,
+        //       "info": "t:sections.rich_text.blocks.description.settings.text_width.info"
+        //     }
+        //   ]
+        // },
         {
           "name": "t:sections.rich_text.blocks.paragraph.name",
           "type": "paragraph",
