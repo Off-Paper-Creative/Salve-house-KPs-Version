@@ -173,7 +173,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1",
@@ -310,11 +310,11 @@
     "3f392d90-82cd-49d4-b205-71890868d8c2": {
       "type": "rich-text",
       "blocks": {
-        "fdde9cf9-87d0-4759-a343-4ba277c1ec95": {
-          "type": "heading",
+        "5fd79689-9a21-4d33-a492-fccba04ce9cd": {
+          "type": "special_heading",
           "settings": {
-            "text": "Salve partners share our committed to our quality standards and good health.",
-            "text_tag": "h1",
+            "text": "A Shared Committed to High Quality Standards + Good Health",
+            "text_tag": "s2",
             "text_custom_width": false,
             "text_width": 700
           }
@@ -330,7 +330,7 @@
         }
       },
       "block_order": [
-        "fdde9cf9-87d0-4759-a343-4ba277c1ec95",
+        "5fd79689-9a21-4d33-a492-fccba04ce9cd",
         "0b9c997e-5d0d-4e8e-9d6c-acc0da013c2d"
       ],
       "settings": {
