@@ -835,42 +835,6 @@
     "f3218aa9-c2cf-44e4-b953-d3049088a320": {
       "type": "slideshow",
       "blocks": {
-        "412f2012-625b-4659-9515-85ce5b44c60c": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile_overlay": true,
-            "slide_image_mobile_overlay_color": "#174248",
-            "slide_image_mobile_overlay_opacity": 100,
-            "slide_image_overlay": true,
-            "slide_image_overlay_color": "#174248",
-            "slide_image_overlay_opacity": 100,
-            "slide_image_right_enable": true,
-            "slide_image_right_overlay": true,
-            "slide_image_right_overlay_color": "#174248",
-            "slide_image_right_overlay_opacity": 100,
-            "slide_content_position": "center",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "center",
-            "slide_heading": "Collagen",
-            "slide_heading_width": 450,
-            "slide_subheading": "THE REJUVENATOR",
-            "slide_subheading_width": 450,
-            "slide_description": "Helping Restore New Energy and a Radiant Youthful Feeling.",
-            "slide_description_width": 450,
-            "slide_button_1_text": "",
-            "slide_button_1_url": "",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
-        },
         "57f24124-8427-4d67-8492-ebcd10fe4b6d": {
           "type": "slide",
           "settings": {
@@ -947,7 +911,6 @@
         }
       },
       "block_order": [
-        "412f2012-625b-4659-9515-85ce5b44c60c",
         "57f24124-8427-4d67-8492-ebcd10fe4b6d",
         "b2e24fb6-a009-4661-b100-a85253f737e9"
       ],
