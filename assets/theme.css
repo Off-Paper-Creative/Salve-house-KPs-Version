@@ -8677,8 +8677,8 @@ body:not(.has-layout-margin)
 		--theme-scrolling-text-gap,
 		var(--theme-section-scrolling-text-gap, 32px)
 	);
-	-webkit-animation: scroll 10s linear infinite;
-	animation: scroll 10s linear infinite;
+	/* -webkit-animation: scroll 10s linear infinite;
+	animation: scroll 10s linear infinite; */
 }
 
 .scrolling-text-list-item {
