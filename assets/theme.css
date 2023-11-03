@@ -205,7 +205,7 @@ body {
 
 b,
 strong {
-	font-weight: var(--theme-font-weight-semibold);
+	font-weight: 600;
 	letter-spacing: var(--theme-heading-letter-spacing);
 	font-variation-settings: "wght" var(--theme-font-weight-semibold);
 }
