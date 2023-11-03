@@ -110,7 +110,7 @@
         "22c73cb4-f0a5-40d6-96a7-c5bcd58d5a85"
       ],
       "custom_css": [
-
+        ".scrolling-text-list {animation: linear infinite}"
       ],
       "settings": {
         "color_scheme": "scheme-main",
@@ -127,7 +127,7 @@
         "spacing": true,
         "spacing_choice": "level-1",
         "spacing_placement": "2",
-        "scroll_speed": 100
+        "scroll_speed": 33
       }
     },
     "home-multicolumn-1": {
@@ -281,7 +281,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "All Salve products must surpass rigorous European regulation & compliance testing.",
             "slide_subheading_width": 420,
-            "slide_description": "",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "BECOME A MEMBER",
             "slide_button_1_url": "shopify:\/\/collections\/all",
@@ -318,7 +318,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Nurture healthy body function, vitality and sustainable beauty; Inside and out.",
             "slide_subheading_width": 420,
-            "slide_description": "",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "BECOME A MEMBER",
             "slide_button_1_url": "shopify:\/\/collections\/all",
@@ -355,7 +355,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "A trusted partner in your journey towards comprehensive well-being and beauty. Salve offers a selection of carefully curated, high-quality supplements that guarantee a complete range of effective solutions, leaving no room for compromise.",
             "slide_subheading_width": 420,
-            "slide_description": "",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "BECOME A MEMBER",
             "slide_button_1_url": "shopify:\/\/collections\/all",
@@ -391,7 +391,7 @@
             "slide_heading_width": 930,
             "slide_subheading": "",
             "slide_subheading_width": 600,
-            "slide_description": "",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "Start Your Wellness Journey",
             "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
