@@ -67,7 +67,7 @@
                 {% if i > 1 %}
                     <ul style="animation: scroll {{ section.settings.scroll_speed }}s linear infinite" class="scrolling-text-list" aria-hidden="true">
                 {% else %}
-                    <ul class="scrolling-text-list">
+                    <ul style="animation: scroll {{ section.settings.scroll_speed }}s linear infinite" class="scrolling-text-list">
                 {% endif %}
                     {% for block in section.blocks %}
                         {% if block.type == 'text' %}
