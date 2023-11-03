@@ -438,8 +438,8 @@
             "images_gap_choice": "level-1",
             "images_width_split": 57,
             "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/bundle.jpg",
-            "image_1_aspect_ratio": "4\/5",
+            "image_1": "shopify:\/\/shop_images\/salve_stack.png",
+            "image_1_aspect_ratio": "1\/1",
             "image_2_aspect_ratio": "auto"
           }
         },
