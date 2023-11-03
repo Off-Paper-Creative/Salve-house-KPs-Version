@@ -57,7 +57,7 @@
     echo ' ' | append: section.settings.color_scheme
 %}">
   <div class="section-scrolling-text-container section-container">
-    <div style="animation: scroll {{ section.settings.scroll_speed }}s linear infinite;" class="scrolling-text{% liquid 
+    <div style="animation: scroll {{ section.settings.scroll_speed }}s;" class="scrolling-text{% liquid 
         if section.settings.splitter_use_custom_width
             echo ' has-custom-splitter-width'
         endif
