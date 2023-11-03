@@ -357,7 +357,7 @@
         "template--21472665370937__cc233987-3c3f-4886-8df3-9a832a09e1a5-column-1": {
           "type": "column",
           "settings": {
-            "color_scheme": "scheme-additional",
+            "color_scheme": "scheme-accent",
             "inset": false,
             "inset_choice": "level-3",
             "width": 39,
@@ -390,7 +390,7 @@
         "template--21472665370937__cc233987-3c3f-4886-8df3-9a832a09e1a5-column-2": {
           "type": "column",
           "settings": {
-            "color_scheme": "scheme-additional",
+            "color_scheme": "scheme-accent",
             "inset": true,
             "inset_choice": "level-3",
             "width": 60,
@@ -403,11 +403,11 @@
             "image_width": 1080,
             "image_display_order": 0,
             "text_1": "All Salve Products Must Surpass The Following Criteria:",
-            "text_1_tag": "h3",
+            "text_1_tag": "s2",
             "text_1_custom_width": true,
             "text_1_width": 1200,
             "text_1_display_order": 0,
-            "text_2": "Scientifically Backed  Contain Premium Ingredients Formulated to be Highly Bioavailable  +  MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.",
+            "text_2": "1. Scientifically Backed  <br> 2. Contain Premium Ingredients <br> 3. Formulated to be Highly Bioavailable <br> 4. MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards. <br> 5. Sourced Directly From Europe<br>6.",
             "text_2_tag": "p",
             "text_2_custom_width": true,
             "text_2_width": 1110,
