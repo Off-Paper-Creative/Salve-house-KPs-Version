@@ -12,7 +12,7 @@
             "width": 33,
             "horizontal_align": "center",
             "vertical_align": "center",
-            "text_align": "left",
+            "text_align": "center",
             "image_show": false,
             "image_aspect_ratio": "auto",
             "image_custom_width": false,
