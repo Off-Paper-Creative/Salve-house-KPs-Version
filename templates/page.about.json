@@ -165,7 +165,7 @@
         "541d04be-5d39-4d32-ba97-81bbd232ed4e": {
           "type": "column",
           "settings": {
-            "color_scheme": "scheme-additional",
+            "color_scheme": "scheme-accent",
             "inset": true,
             "inset_choice": "level-5",
             "width": 50,
