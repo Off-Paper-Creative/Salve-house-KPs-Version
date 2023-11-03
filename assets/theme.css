@@ -8546,10 +8546,9 @@ body:not(.has-layout-margin)
 	padding-left: 5vw;
 	padding-right: 5vw;
 	display: flex;
+	height: 1200px;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
-	padding-bottom: 700px;
 }
 .gold-bg {
 	background-color: #966e25;
@@ -8562,16 +8561,16 @@ body:not(.has-layout-margin)
 }
 @keyframes floatHeaderAnimation {
 	from {
-		padding-top: 35vh;
+		padding-top: 250px;
 	}
 	to {
-		padding-top: 30px;
+		padding-top: 0px;
 	}
 }
 
 #floatHeader {
-	padding-top: 35vh;
-	animation-duration: 2s; /* Duration of the animation */
+	padding-top: 250px;
+	animation-duration: 1s; /* Duration of the animation */
 	animation-timing-function: linear; /* Timing function for smooth animation */
 	animation-fill-mode: forwards; /* Keeps the final style of the animation */
 }
