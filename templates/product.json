@@ -413,14 +413,15 @@
         "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-image-1": {
           "type": "image",
           "settings": {
-            "image_width": 50
+            "image_width": 50,
+            "image": "shopify:\/\/shop_images\/salve_stack.png"
           }
         },
         "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-products-1": {
           "type": "products",
           "settings": {
             "products_width": 50,
-            "collection_choice": "",
+            "collection_choice": "individual-products",
             "columns_count": 1,
             "rows_count": 2,
             "products_gap": true,
@@ -461,7 +462,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
