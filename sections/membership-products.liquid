@@ -365,9 +365,7 @@ endif
         </ul>
       {% endif %}
     </div>
-<div> This is app wrapper
-  {% section 'apps' %}
-</div>
+<div> This is app wrapper</div>
 
     </div>
     {% comment %} Button is displayed when item is selected only {% endcomment %}
@@ -417,7 +415,7 @@ endif
       showProducts.style.display = "block";
        showTitle.style.opacity = 1;
     showProducts.style.opacity = 1;
-},3000);
+},0);
     });
     // change dynamically "Sale" to "Most Popular"
     const dynamicContentElement = document.querySelector("#showProducts > div > div > div.section-handpicked-products-list > div:nth-child(1) > span");
@@ -428,15 +426,15 @@ endif
     const productData = [
       {
         title: "the-collagen-c-bundle-1",
-        url: "https://salvehouse.myshopify.com/cart",
-      },
-      {
-        title: "copy-of-colvita-vitamin-c",
-        url: "https://salvehouse.myshopify.com/pages/add-a-sample-vitamin-c",
+        url: "/cart",
       },
       {
         title: "colvita-collagen-supplement",
-        url: "https://salvehouse.myshopify.com/pages/add-a-sample",
+        url: "/pages/add-a-sample-vitamin-c",
+      },
+      {
+        title: "collagen",
+        url: "/pages/add-a-sample",
       },
       // Add more products and URLs
     ];
@@ -467,12 +465,14 @@ endif
     showButton.addEventListener("click", function () {
       if (selectedProduct !== null && selectedProduct < productData.length) {
         const product = productData[selectedProduct];
+        console.log(product)
         if (product.title) {
           // Find the product in your store by title
           fetch(`/products/${product.title}.json`)
             .then((response) => response.json())
             .then((productJson) => {
               if (productJson.product) {
+                console.log(productJson)
                 const variantId = productJson.product.variants[0].id; // Assumes the first variant
                 const cartData = {
                   items: [
