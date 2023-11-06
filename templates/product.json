@@ -406,6 +406,66 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
+    },
+    "c09c406e-a604-4c06-9909-d59326c34621": {
+      "type": "image-with-products",
+      "blocks": {
+        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-image-1": {
+          "type": "image",
+          "settings": {
+            "image_width": 50
+          }
+        },
+        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-products-1": {
+          "type": "products",
+          "settings": {
+            "products_width": 50,
+            "collection_choice": "",
+            "columns_count": 1,
+            "rows_count": 2,
+            "products_gap": true,
+            "products_gap_choice": "level-4",
+            "carousel": false,
+            "per_move": 2,
+            "autoplay": true,
+            "interval": 4000,
+            "loop": true,
+            "mouse_drag": true,
+            "arrows": true,
+            "dots": false,
+            "speed": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-image-1",
+        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-products-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "heading": "This is Image with Products",
+        "heading_tag": "h3",
+        "button_text": "Button text",
+        "button_url": "",
+        "button_target": "_self",
+        "button_style": "link",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -414,6 +474,7 @@
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "194e2789-c2e3-4724-be37-1d13b47b5e9d",
     "16c06f9c-6804-4ad2-908c-d94e806857a8",
-    "9558248e-813e-41f7-913d-c42b47117244"
+    "9558248e-813e-41f7-913d-c42b47117244",
+    "c09c406e-a604-4c06-9909-d59326c34621"
   ]
 }
