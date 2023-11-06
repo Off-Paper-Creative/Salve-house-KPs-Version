@@ -353,7 +353,7 @@
             "slide_content_position": "left",
             "slide_content_vertical_align": "center",
             "slide_content_horizontal_align": "center",
-            "slide_heading": "The Salve Choice - Vitamin C",
+            "slide_heading": "The Vitamin C process",
             "slide_heading_width": 450,
             "slide_subheading": "The C-olway Vitamin C is formulated for high bioavailability and potent Vitamin C nutrients. Derived from the most extensive natural origin of vitamin C, within the shoots of buckwheat and orange bitters during their 5-7 days of germination. These two plants are now recognized as one of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections. It is currently one of the finest 100% natural Vitamin C supplements available, well-regarded by consumers for many years and meticulously crafted without the addition of artificially synthesized ascorbic acid or fillers; not even artificial coloring.",
             "slide_subheading_width": 450,
@@ -403,44 +403,6 @@
     },
     "16c06f9c-6804-4ad2-908c-d94e806857a8": {
       "type": "image-with-text",
-      "blocks": {
-        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-images-1": {
-          "type": "images",
-          "settings": {
-            "images_gap": true,
-            "images_gap_choice": "level-4",
-            "images_width_split": 50,
-            "images_stack_on_mobile": true,
-            "image_1_aspect_ratio": "auto",
-            "image_2_aspect_ratio": "auto"
-          }
-        },
-        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-content-1": {
-          "type": "content",
-          "settings": {
-            "text_1": "The Salve Choice - Colvita Collagen",
-            "text_1_tag": "s2",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_2": "<p>Colvita stands out as an extraordinary and inherently bioavailable source of the essential \"building\" amino acids vital for collagen, our body's most crucial protein. This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water) and is sourced exclusively in Poland. Unlike conventional animal protein hydrolysates, this method extracts biologically active collagen, marked by an exceptional degree of anabolicity - nearly 100%. This means these amino acids are responsible for constructing our body's systemic collagen.<\/p>",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_3": "",
-            "text_3_tag": "p",
-            "text_3_custom_width": false,
-            "text_3_width": 450,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-images-1",
-        "template--21586456641849__16c06f9c-6804-4ad2-908c-d94e806857a8-content-1"
-      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -527,67 +489,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "c09c406e-a604-4c06-9909-d59326c34621": {
-      "type": "image-with-products",
-      "blocks": {
-        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-image-1": {
-          "type": "image",
-          "settings": {
-            "image_width": 50,
-            "image": "shopify:\/\/shop_images\/salve_stack.png"
-          }
-        },
-        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-products-1": {
-          "type": "products",
-          "settings": {
-            "products_width": 50,
-            "collection_choice": "individual-products",
-            "columns_count": 1,
-            "rows_count": 2,
-            "products_gap": true,
-            "products_gap_choice": "level-4",
-            "carousel": false,
-            "per_move": 2,
-            "autoplay": true,
-            "interval": 4000,
-            "loop": true,
-            "mouse_drag": true,
-            "arrows": true,
-            "dots": false,
-            "speed": 400
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-image-1",
-        "template--21586456641849__c09c406e-a604-4c06-9909-d59326c34621-products-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": true,
-        "gap_choice": "level-4",
-        "stack_on_mobile": true,
-        "heading": "This is Image with Products",
-        "heading_tag": "h3",
-        "button_text": "Button text",
-        "button_url": "",
-        "button_target": "_self",
-        "button_style": "link",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -598,7 +499,6 @@
     "194e2789-c2e3-4724-be37-1d13b47b5e9d",
     "898b376f-866b-4716-945e-92d0d68fee50",
     "16c06f9c-6804-4ad2-908c-d94e806857a8",
-    "9558248e-813e-41f7-913d-c42b47117244",
-    "c09c406e-a604-4c06-9909-d59326c34621"
+    "9558248e-813e-41f7-913d-c42b47117244"
   ]
 }
