@@ -58,11 +58,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "template--15755619565723__main-1672284793b7b17a79-7": {
-          "type": "pickup-availability",
-          "settings": {
-          }
-        },
         "0d05c380-3849-4441-a916-d2c9d9c1102c": {
           "type": "separator",
           "settings": {
@@ -91,14 +86,6 @@
           "settings": {
             "height": 30
           }
-        },
-        "template--15755619565723__main-1672284793b7b17a79-14": {
-          "type": "info-popup",
-          "settings": {
-            "link_text": "Size guide",
-            "page": "",
-            "variant_choice": "Size"
-          }
         }
       },
       "block_order": [
@@ -110,12 +97,10 @@
         "template--15755619565723__main-1672284793b7b17a79-2",
         "template--15755619565723__main-1672284793b7b17a79-5",
         "72fda07d-7039-4e1d-a2c7-a5a454662f94",
-        "template--15755619565723__main-1672284793b7b17a79-7",
         "0d05c380-3849-4441-a916-d2c9d9c1102c",
         "template--15755619565723__main-1672284793b7b17a79-10",
         "07f943fc-77a9-4701-a8c1-345d2dfd42e8",
-        "bc7fdf5f-e6be-4a98-bd07-4adcd4413204",
-        "template--15755619565723__main-1672284793b7b17a79-14"
+        "bc7fdf5f-e6be-4a98-bd07-4adcd4413204"
       ],
       "settings": {
         "fullwidth": true,
