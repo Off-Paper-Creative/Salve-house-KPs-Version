@@ -231,7 +231,7 @@
             "text": "When you unite Collagen and Vitamin C, you unlock a range of benefits that span health, beauty, and vitality. This dynamic duo collaborates to promote sustainable collagen production, boost your immunity and contribute to the overall health of your entire body.",
             "text_tag": "p",
             "text_custom_width": true,
-            "text_width": 510
+            "text_width": 600
           }
         },
         "6302471b-319b-4bef-8cc3-fb0eda37261b": {
@@ -240,7 +240,7 @@
             "text": "<ul><li><strong>Immune Support: <\/strong>Vitamin C, a potent antioxidant, enhances immune function, shielding you from infections, free radicals, and chronic diseases.<\/li><li><strong>Radiant Skin, Hair & Nails:<\/strong> Vitamin C, as a vital cofactor for collagen production, fosters the growth of healthy skin, hair, and nails.<\/li><li><strong>Skin Elasticity: <\/strong>Vitamin C maintains skin elasticity and combats signs of aging by supporting collagen production.<\/li><li><strong>Enhanced Mobility and Joint Health: <\/strong>Colvita Collagen helps alleviates joint pain and enhances mobility, especially for those with osteoarthritis.<\/li><li><strong>Stronger Bones:<\/strong> Collagen is essential for preserving bone density, reducing the risk of osteoporosis.<\/li><li><strong>Healing Properties: <\/strong>Colvita Collagen offers structural support during tissue repair, expediting the body's natural wound-healing processes.<\/li><\/ul>",
             "description_tag": "p",
             "description_custom_width": true,
-            "description_width": 500
+            "description_width": 200
           }
         }
       },
@@ -250,8 +250,8 @@
         "6302471b-319b-4bef-8cc3-fb0eda37261b"
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
+        "fullwidth": false,
+        "width": 1300,
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
