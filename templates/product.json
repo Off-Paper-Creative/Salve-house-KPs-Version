@@ -213,6 +213,60 @@
         "scroll_speed": 33
       }
     },
+    "327897dd-27a8-423b-8478-249ab68e0aae": {
+      "type": "rich-text",
+      "blocks": {
+        "d40bae00-c819-4036-b251-f26fc7d8832e": {
+          "type": "special_heading",
+          "settings": {
+            "text": "Benefits Of Collagen + Vitamin C",
+            "text_tag": "s2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "6960e26e-d8b2-43dd-a234-63a8223a1d9a": {
+          "type": "description",
+          "settings": {
+            "text": "When you unite Collagen and Vitamin C, you unlock a range of benefits that span health, beauty, and vitality. This dynamic duo collaborates to promote sustainable collagen production, boost your immunity and contribute to the overall health of your entire body.",
+            "text_tag": "p",
+            "text_custom_width": true,
+            "text_width": 510
+          }
+        },
+        "6302471b-319b-4bef-8cc3-fb0eda37261b": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<ul><li><strong>Immune Support: <\/strong>Vitamin C, a potent antioxidant, enhances immune function, shielding you from infections, free radicals, and chronic diseases.<\/li><li><strong>Radiant Skin, Hair & Nails:<\/strong> Vitamin C, as a vital cofactor for collagen production, fosters the growth of healthy skin, hair, and nails.<\/li><li><strong>Skin Elasticity: <\/strong>Vitamin C maintains skin elasticity and combats signs of aging by supporting collagen production.<\/li><li><strong>Enhanced Mobility and Joint Health: <\/strong>Colvita Collagen helps alleviates joint pain and enhances mobility, especially for those with osteoarthritis.<\/li><li><strong>Stronger Bones:<\/strong> Collagen is essential for preserving bone density, reducing the risk of osteoporosis.<\/li><li><strong>Healing Properties: <\/strong>Colvita Collagen offers structural support during tissue repair, expediting the body's natural wound-healing processes.<\/li><\/ul>",
+            "description_tag": "p",
+            "description_custom_width": true,
+            "description_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "d40bae00-c819-4036-b251-f26fc7d8832e",
+        "6960e26e-d8b2-43dd-a234-63a8223a1d9a",
+        "6302471b-319b-4bef-8cc3-fb0eda37261b"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "194e2789-c2e3-4724-be37-1d13b47b5e9d": {
       "type": "slideshow",
       "blocks": {
@@ -232,11 +286,11 @@
             "slide_content_position": "right",
             "slide_content_vertical_align": "center",
             "slide_content_horizontal_align": "center",
-            "slide_heading": "Benefits Of Collagen + Vitamin C",
+            "slide_heading": "The Salve Choice - Collagen",
             "slide_heading_width": 450,
-            "slide_subheading": "When you unite Collagen and Vitamin C, you unlock a range of benefits that span health, beauty, and vitality. This dynamic duo collaborates to promote sustainable collagen production, boost your immunity and contribute to the overall health of your entire body.",
+            "slide_subheading": "Colvita stands out as an extraordinary and inherently bioavailable source of the essential \"building\" amino acids vital for collagen, our body's most crucial protein. This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water) and is sourced exclusively in Poland. The quality and effectiveness of extracted raw materials used to formulate this supplement stand out significantly from competition available on the market. C-olway is a product that surpasses the strictest standards for health and well-being, to the extent that even the capsules contain no artificial coloring, dyes, fillers or additives.",
             "slide_subheading_width": 450,
-            "text": "<ul><li><strong>Immune Support: <\/strong>Vitamin C, a potent antioxidant, enhances immune function, shielding you from infections, free radicals, and chronic diseases.<\/li><li><strong>Radiant Skin, Hair & Nails:<\/strong> Vitamin C, as a vital cofactor for collagen production, fosters the growth of healthy skin, hair, and nails.<\/li><li><strong>Skin Elasticity: <\/strong>Vitamin C maintains skin elasticity and combats signs of aging by supporting collagen production.<\/li><li><strong>Enhanced Mobility and Joint Health: <\/strong>Colvita Collagen helps alleviates joint pain and enhances mobility, especially for those with osteoarthritis.<\/li><li><strong>Stronger Bones:<\/strong> Collagen is essential for preserving bone density, reducing the risk of osteoporosis.<\/li><li><strong>Healing Properties: <\/strong>Colvita Collagen offers structural support during tissue repair, expediting the body's natural wound-healing processes.<\/li><\/ul>",
+            "text": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -255,6 +309,73 @@
       },
       "block_order": [
         "template--21586456641849__194e2789-c2e3-4724-be37-1d13b47b5e9d-slide-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "780",
+        "slideshow_height": "780",
+        "color_scheme": "scheme-accent",
+        "slideshow_autoplay": true,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "898b376f-866b-4716-945e-92d0d68fee50": {
+      "type": "slideshow",
+      "blocks": {
+        "b3ba094d-3c35-46a1-9787-a55900f211b0": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 40,
+            "slide_image_right_enable": true,
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 100,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "The Salve Choice - Vitamin C",
+            "slide_heading_width": 450,
+            "slide_subheading": "The C-olway Vitamin C is formulated for high bioavailability and potent Vitamin C nutrients. Derived from the most extensive natural origin of vitamin C, within the shoots of buckwheat and orange bitters during their 5-7 days of germination. These two plants are now recognized as one of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections. It is currently one of the finest 100% natural Vitamin C supplements available, well-regarded by consumers for many years and meticulously crafted without the addition of artificially synthesized ascorbic acid or fillers; not even artificial coloring.",
+            "slide_subheading_width": 450,
+            "text": "",
+            "slide_description_width": 450,
+            "slide_button_1_text": "",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "b3ba094d-3c35-46a1-9787-a55900f211b0"
       ],
       "settings": {
         "fullwidth": true,
@@ -467,70 +588,17 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "327897dd-27a8-423b-8478-249ab68e0aae": {
-      "type": "rich-text",
-      "blocks": {
-        "d40bae00-c819-4036-b251-f26fc7d8832e": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Benefits Of Collagen + Vitamin C",
-            "text_tag": "s2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "6960e26e-d8b2-43dd-a234-63a8223a1d9a": {
-          "type": "description",
-          "settings": {
-            "text": "When you unite Collagen and Vitamin C, you unlock a range of benefits that span health, beauty, and vitality. This dynamic duo collaborates to promote sustainable collagen production, boost your immunity and contribute to the overall health of your entire body.",
-            "text_tag": "p",
-            "text_custom_width": true,
-            "text_width": 510
-          }
-        },
-        "6302471b-319b-4bef-8cc3-fb0eda37261b": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<ul><li><strong>Immune Support: <\/strong>Vitamin C, a potent antioxidant, enhances immune function, shielding you from infections, free radicals, and chronic diseases.<\/li><li><strong>Radiant Skin, Hair & Nails:<\/strong> Vitamin C, as a vital cofactor for collagen production, fosters the growth of healthy skin, hair, and nails.<\/li><li><strong>Skin Elasticity: <\/strong>Vitamin C maintains skin elasticity and combats signs of aging by supporting collagen production.<\/li><li><strong>Enhanced Mobility and Joint Health: <\/strong>Colvita Collagen helps alleviates joint pain and enhances mobility, especially for those with osteoarthritis.<\/li><li><strong>Stronger Bones:<\/strong> Collagen is essential for preserving bone density, reducing the risk of osteoporosis.<\/li><li><strong>Healing Properties: <\/strong>Colvita Collagen offers structural support during tissue repair, expediting the body's natural wound-healing processes.<\/li><\/ul>",
-            "description_tag": "p",
-            "description_custom_width": true,
-            "description_width": 500
-          }
-        }
-      },
-      "block_order": [
-        "d40bae00-c819-4036-b251-f26fc7d8832e",
-        "6960e26e-d8b2-43dd-a234-63a8223a1d9a",
-        "6302471b-319b-4bef-8cc3-fb0eda37261b"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "main",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
+    "327897dd-27a8-423b-8478-249ab68e0aae",
     "194e2789-c2e3-4724-be37-1d13b47b5e9d",
+    "898b376f-866b-4716-945e-92d0d68fee50",
     "16c06f9c-6804-4ad2-908c-d94e806857a8",
     "9558248e-813e-41f7-913d-c42b47117244",
-    "c09c406e-a604-4c06-9909-d59326c34621",
-    "327897dd-27a8-423b-8478-249ab68e0aae"
+    "c09c406e-a604-4c06-9909-d59326c34621"
   ]
 }
