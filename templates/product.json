@@ -480,13 +480,13 @@
             "text_width": 700
           }
         },
-        "a9f61366-8093-4005-ab28-26d5430e2cd3": {
+        "6960e26e-d8b2-43dd-a234-63a8223a1d9a": {
           "type": "description",
           "settings": {
-            "text": "This is simple description",
+            "text": "When you unite Collagen and Vitamin C, you unlock a range of benefits that span health, beauty, and vitality. This dynamic duo collaborates to promote sustainable collagen production, boost your immunity and contribute to the overall health of your entire body.",
             "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
+            "text_custom_width": true,
+            "text_width": 510
           }
         },
         "6302471b-319b-4bef-8cc3-fb0eda37261b": {
@@ -501,7 +501,7 @@
       },
       "block_order": [
         "d40bae00-c819-4036-b251-f26fc7d8832e",
-        "a9f61366-8093-4005-ab28-26d5430e2cd3",
+        "6960e26e-d8b2-43dd-a234-63a8223a1d9a",
         "6302471b-319b-4bef-8cc3-fb0eda37261b"
       ],
       "settings": {
