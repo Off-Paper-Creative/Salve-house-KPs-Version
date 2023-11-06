@@ -177,7 +177,7 @@
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1",
-        "scroll_speed": 73
+        "scroll_speed": 33
       }
     },
     "60b541c8-e5f6-466a-b398-54d02a4dd3d0": {
@@ -361,7 +361,6 @@
             "images_gap_choice": "level-4",
             "images_width_split": 50,
             "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/bundle.jpg",
             "image_1_aspect_ratio": "1\/1",
             "image_2_aspect_ratio": "auto"
           }
