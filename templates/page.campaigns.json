@@ -528,6 +528,36 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
+    },
+    "1699284818862a67af": {
+      "type": "apps",
+      "blocks": {
+        "1c301167-1b8f-4897-b943-907bc7d378ed": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "the-collagen-c-bundle-1"
+          }
+        },
+        "13272755-01e7-4ec7-ae3b-7e6c22c421b8": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "collagen"
+          }
+        },
+        "522e78d4-a231-48d4-b9cf-85cff9f6b8c0": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "colvita-collagen-supplement"
+          }
+        }
+      },
+      "block_order": [
+        "1c301167-1b8f-4897-b943-907bc7d378ed",
+        "13272755-01e7-4ec7-ae3b-7e6c22c421b8",
+        "522e78d4-a231-48d4-b9cf-85cff9f6b8c0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -538,6 +568,7 @@
     "f7e83f1e-5786-4ae9-9b9b-9875323d4fd8",
     "745daff7-b8c3-4933-ae38-22d3f74b3eac",
     "92e6aa3a-7a18-484f-bb27-19555b161e20",
-    "5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb"
+    "5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb",
+    "1699284818862a67af"
   ]
 }
