@@ -225,7 +225,7 @@
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1",
-        "scroll_speed": 9
+        "scroll_speed": 33
       }
     },
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f": {
@@ -252,7 +252,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Vitamin C is an essential vitamin, meaning it is not naturally produced in your body. It is a vital antioxidant that plays a key role in boosting your immunity and lowering the risk of heart disease, iron deficiency, and high blood pressure. It is also essential for collagen production, which plays a key role in maintaining the health of blood vessels, bones, and skin. Vitamin C contributes to a robust immune system ensuring the optimal function of the nervous and cardiovascular systems by maintaining proper density and firmness of blood vessel walls.",
             "slide_subheading_width": 450,
-            "slide_description": "* regeneration, restoration, and rebuilding  *Reducing Inflammation *Regenerating connective and cartilage tissue",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -305,7 +305,6 @@
             "slide_image_mobile_overlay": false,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 40,
-            "slide_image": "shopify:\/\/shop_images\/bundle.jpg",
             "slide_image_overlay": true,
             "slide_image_overlay_color": "#1F2D1F",
             "slide_image_overlay_opacity": 1,
@@ -320,7 +319,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "The most extensive natural origin of vitamin C lies within the shoots of granular plants like buckwheat, typically during their 5-7 days of germination. This is precisely where the vitamin C for C-olway is derived from - directly from nature, found in the sprouting buckwheat and bitter orange. These two plants are now recognized as some of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections.",
             "slide_subheading_width": 450,
-            "slide_description": "",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -385,7 +384,7 @@
             "text_1_tag": "s2",
             "text_1_custom_width": false,
             "text_1_width": 450,
-            "text_2": "The C-olway Vitamin C is formulated for high bioavailability and potent Vitamin C nutrients.  Derived from the most extensive natural origin of vitamin C, within the shoots of buckwheat and orange bitters during their 5-7 days of germination. These two plants are now recognized as one of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections. It is currently one of the finest 100% natural Vitamin C supplements available, well-regarded by consumers for many years and meticulously crafted without the addition of artificially synthesized ascorbic acid or fillers; not even artificial coloring.",
+            "text_2": "<p>The C-olway Vitamin C is formulated for high bioavailability and potent Vitamin C nutrients.  Derived from the most extensive natural origin of vitamin C, within the shoots of buckwheat and orange bitters during their 5-7 days of germination. These two plants are now recognized as one of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections. It is currently one of the finest 100% natural Vitamin C supplements available, well-regarded by consumers for many years and meticulously crafted without the addition of artificially synthesized ascorbic acid or fillers; not even artificial coloring.<\/p>",
             "text_2_tag": "p",
             "text_2_custom_width": false,
             "text_2_width": 450,
