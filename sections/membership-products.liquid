@@ -1,6 +1,7 @@
 {% style %}
-  /* Add styles from multi */
-  #shopify-section-{{ section.id }} {
+/* add styles from multi */
+#shopify-section-{{ section.id }} {
+
     {% if section.settings.gap %}
       --theme-multicolumns-gap: var(--theme-gap-{{ section.settings.gap_choice }});
     {% else %}
@@ -8,36 +9,47 @@
     {% endif %}
     --theme-multicolumns-count: {{ section.blocks | size }};
   }
-  
+
   {% for block in section.blocks %}
-    #shopify-section-{{ section.id }} .block-{{ block.id }} {
+
+
+    #shopify-section-{{ section.id }}
+    .block-{{ block.id }} {
       {% if block.settings.inset %}
         --theme-block-content-padding: var(--theme-block-content-padding-{{ block.settings.inset_choice }});
       {% endif %}
-    }
-
-    #shopify-section-{{ section.id }} .block-{{ block.id }} {
+    }    
+ #shopify-section-{{ section.id }}
+    .block-{{ block.id }} {
       --theme-multicolumn-width: {{ block.settings.width | append: '%' }};
       --theme-multicolumn-vertical-align: {{ block.settings.vertical_align }};
       --theme-multicolumn-horizontal-align: {{ block.settings.horizontal_align }};
+
       --theme-multicolumn-image-aspect-ratio: {{ block.settings.image_aspect_ratio }};
     }
-    
-    #shopify-section-{{ section.id }} .block-{{ block.id }} {
+
+    #shopify-section-{{ section.id }}
+    .block-{{ block.id }} {
+
       {% if block.settings.image_custom_width %}
         --theme-multicolumn-image-width: {{ block.settings.image_width | append: 'px' }};
       {% endif %}
+
       {% if block.settings.text_1_custom_width %}
         --theme-multicolumn-text-1-width: {{ block.settings.text_1_width | append: 'px' }};
       {% endif %}
+
       {% if block.settings.text_2_custom_width %}
         --theme-multicolumn-text-2-width: {{ block.settings.text_2_width | append: 'px' }};
       {% endif %}
+
+
       --theme-multicolumn-image-display-order: {{ block.settings.image_display_order }};
       --theme-multicolumn-text-1-display-order: {{ block.settings.text_1_display_order }};
       --theme-multicolumn-text-2-display-order: {{ block.settings.text_2_display_order }};
       --theme-multicolumn-button-display-order: {{ block.settings.button_display_order }};
     }
+
   {% endfor %}
 {% endstyle %}
 
@@ -401,7 +413,7 @@ endif
       showProducts.style.display = "block";
        showTitle.style.opacity = 1;
     showProducts.style.opacity = 1;
-},2500);
+},3000);
     });
     // change dynamically "Sale" to "Most Popular"
     const dynamicContentElement = document.querySelector("#showProducts > div > div > div.section-handpicked-products-list > div:nth-child(1) > span");
@@ -916,4 +928,3 @@ endif
         ]
       }
 {% endschema %}
-
