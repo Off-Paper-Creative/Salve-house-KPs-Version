@@ -19,7 +19,7 @@
         --theme-block-content-padding: var(--theme-block-content-padding-{{ block.settings.inset_choice }});
       {% endif %}
     }    
- #shopify-section-{{ section.id }}
+#shopify-section-{{ section.id }}
     .block-{{ block.id }} {
       --theme-multicolumn-width: {{ block.settings.width | append: '%' }};
       --theme-multicolumn-vertical-align: {{ block.settings.vertical_align }};
@@ -365,6 +365,8 @@ endif
         </ul>
       {% endif %}
     </div>
+<div> This is app wrapper</div>
+
     </div>
     {% comment %} Button is displayed when item is selected only {% endcomment %}
     <button id="showButton" class="showButton">Next</button>
@@ -373,10 +375,10 @@ endif
 </div>
 {% if section.settings.separator %}
   <div class="section-separator{% liquid 
- if section.settings.separator_fullwidth 
+  if section.settings.separator_fullwidth 
 echo ' has-fullwidth'
 endif 
- %}"><hr class="separator"></div>
+%}"><hr class="separator"></div>
 </div>
 {% endif %}
 
