@@ -225,7 +225,7 @@
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1",
-        "scroll_speed": 9
+        "scroll_speed": 33
       }
     },
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f": {
@@ -252,7 +252,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Physical Activity and Recovery:",
             "slide_subheading_width": 450,
-            "slide_description": "* regeneration, restoration, and rebuilding  *Reducing Inflammation *Regenerating connective and cartilage tissue",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -319,7 +319,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water). Unlike conventional animal protein hydrolysates, this method extracts biologically active collagen, marked by an exceptional degree of anabolicity-close to 100%. This means the supplement helps builds complex proteins within your body and further promotes collagen synthesis.  Additionally, the formula of Colvita is enriched with micronized Atlantic algae (Fucus vesiculosus) and vitamin E from organic seeds in the form of tocopherols and tocotrienols, offering optimal bioretention.",
             "slide_subheading_width": 450,
-            "slide_description": "",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -384,7 +384,7 @@
             "text_1_tag": "s2",
             "text_1_custom_width": false,
             "text_1_width": 450,
-            "text_2": "Colvita stands out as an extraordinary and inherently bioavailable source of the essential \"building\" amino acids vital for collagen, our body's most crucial protein. This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water) and is sourced exclusively in Poland. The quality and effectiveness of extracted raw materials used to formulate this supplement stand out significantly from competition available on the market. C-olway is a product that surpasses the strictest standards for health and well-being, to the extent that even the capsules contain no artificial coloring, dyes, fillers or additives.",
+            "text_2": "<p>Colvita stands out as an extraordinary and inherently bioavailable source of the essential \"building\" amino acids vital for collagen, our body's most crucial protein. This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water) and is sourced exclusively in Poland. The quality and effectiveness of extracted raw materials used to formulate this supplement stand out significantly from competition available on the market. C-olway is a product that surpasses the strictest standards for health and well-being, to the extent that even the capsules contain no artificial coloring, dyes, fillers or additives.<\/p>",
             "text_2_tag": "p",
             "text_2_custom_width": false,
             "text_2_width": 450,
