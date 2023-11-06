@@ -365,7 +365,9 @@ endif
         </ul>
       {% endif %}
     </div>
-<div> This is app wrapper</div>
+<div> This is app wrapper
+  {% section 'apps' %}
+</div>
 
     </div>
     {% comment %} Button is displayed when item is selected only {% endcomment %}
@@ -784,7 +786,8 @@ endif
                 "label": "t:sections.multi_columns.blocks.column.settings.text_1_display_order.label",
                 "default": 0,
                 "info": "t:sections.multi_columns.blocks.column.settings.text_1_display_order.info"
-              }, {
+              }, 
+              {
                 "type": "header",
                 "content": "t:sections.multi_columns.blocks.column.settings.header__text_2.content"
               }, {
@@ -926,7 +929,7 @@ endif
                 "type": "column"
               }
             ]
-          }
+          } 
         ]
       }
 {% endschema %}
