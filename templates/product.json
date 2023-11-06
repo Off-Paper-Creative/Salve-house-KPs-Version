@@ -228,6 +228,73 @@
         "scroll_speed": 9
       }
     },
+    "194e2789-c2e3-4724-be37-1d13b47b5e9d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21586456641849__194e2789-c2e3-4724-be37-1d13b47b5e9d-slide-1": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 40,
+            "slide_image_right_enable": true,
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 100,
+            "slide_content_position": "right",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Benefits Of Collagen + Vitamin C",
+            "slide_heading_width": 450,
+            "slide_subheading": "When you unite Collagen and Vitamin C, you unlock a range of benefits that span health, beauty, and vitality. This dynamic duo collaborates to promote sustainable collagen production, boost your immunity and contribute to the overall health of your entire body.",
+            "slide_subheading_width": 450,
+            "text": "<ul><li><strong>Immune Support: <\/strong>Vitamin C, a potent antioxidant, enhances immune function, shielding you from infections, free radicals, and chronic diseases.<\/li><li><strong>Radiant Skin, Hair & Nails:<\/strong> Vitamin C, as a vital cofactor for collagen production, fosters the growth of healthy skin, hair, and nails.<\/li><li><strong>Skin Elasticity: <\/strong>Vitamin C maintains skin elasticity and combats signs of aging by supporting collagen production.<\/li><li><strong>Enhanced Mobility and Joint Health: <\/strong>Colvita Collagen helps alleviates joint pain and enhances mobility, especially for those with osteoarthritis.<\/li><li><strong>Stronger Bones:<\/strong> Collagen is essential for preserving bone density, reducing the risk of osteoporosis.<\/li><li><strong>Healing Properties: <\/strong>Colvita Collagen offers structural support during tissue repair, expediting the body's natural wound-healing processes.<\/li><\/ul>",
+            "slide_description_width": 450,
+            "slide_button_1_text": "",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456641849__194e2789-c2e3-4724-be37-1d13b47b5e9d-slide-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "780",
+        "slideshow_height": "780",
+        "color_scheme": "scheme-accent",
+        "slideshow_autoplay": true,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "16c06f9c-6804-4ad2-908c-d94e806857a8": {
       "type": "image-with-text",
       "blocks": {
@@ -354,81 +421,14 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "194e2789-c2e3-4724-be37-1d13b47b5e9d": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21586456641849__194e2789-c2e3-4724-be37-1d13b47b5e9d-slide-1": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile_overlay": false,
-            "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image_overlay": false,
-            "slide_image_overlay_color": "#1F2D1F",
-            "slide_image_overlay_opacity": 40,
-            "slide_image_right_enable": true,
-            "slide_image_right_overlay": false,
-            "slide_image_right_overlay_color": "#1F2D1F",
-            "slide_image_right_overlay_opacity": 40,
-            "slide_content_position": "left",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "center",
-            "slide_heading": "Benefits Of Collagen + Vitamin C",
-            "slide_heading_width": 450,
-            "slide_subheading": "When you unite Collagen and Vitamin C, you unlock a range of benefits that span health, beauty, and vitality. This dynamic duo collaborates to promote sustainable collagen production, boost your immunity and contribute to the overall health of your entire body.",
-            "slide_subheading_width": 450,
-            "text": "<ul><li><strong>Immune Support: <\/strong>Vitamin C, a potent antioxidant, enhances immune function, shielding you from infections, free radicals, and chronic diseases.<\/li><li><strong>Radiant Skin, Hair & Nails:<\/strong> Vitamin C, as a vital cofactor for collagen production, fosters the growth of healthy skin, hair, and nails.<\/li><li><strong>Skin Elasticity: <\/strong>Vitamin C maintains skin elasticity and combats signs of aging by supporting collagen production.<\/li><li><strong>Enhanced Mobility and Joint Health: <\/strong>Colvita Collagen helps alleviates joint pain and enhances mobility, especially for those with osteoarthritis.<\/li><li><strong>Stronger Bones:<\/strong> Collagen is essential for preserving bone density, reducing the risk of osteoporosis.<\/li><li><strong>Healing Properties: <\/strong>Colvita Collagen offers structural support during tissue repair, expediting the body's natural wound-healing processes.<\/li><\/ul>",
-            "slide_description_width": 450,
-            "slide_button_1_text": "",
-            "slide_button_1_url": "",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456641849__194e2789-c2e3-4724-be37-1d13b47b5e9d-slide-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "slideshow_height_mobile": "780",
-        "slideshow_height": "780",
-        "color_scheme": "scheme-accent",
-        "slideshow_autoplay": true,
-        "slideshow_transition_interval": 4000,
-        "slideshow_loop": true,
-        "slideshow_mouse_drag": true,
-        "slideshow_arrows": true,
-        "slideshow_dots": true,
-        "slideshow_transition_speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "main",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
+    "194e2789-c2e3-4724-be37-1d13b47b5e9d",
     "16c06f9c-6804-4ad2-908c-d94e806857a8",
-    "9558248e-813e-41f7-913d-c42b47117244",
-    "194e2789-c2e3-4724-be37-1d13b47b5e9d"
+    "9558248e-813e-41f7-913d-c42b47117244"
   ]
 }
