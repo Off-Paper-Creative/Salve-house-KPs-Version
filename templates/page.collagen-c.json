@@ -220,6 +220,15 @@
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146": {
       "type": "rich-text",
       "blocks": {
+        "1cd24fba-e47f-4515-b0b3-9781def2cfc2": {
+          "type": "heading",
+          "settings": {
+            "text": "Collagen + Vitamin C",
+            "text_tag": "h6",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
         "template--21462362358073__f4eb6aae-c2a2-42c8-9fd0-732aba2fa146-special_heading-1": {
           "type": "special_heading",
           "settings": {
@@ -260,6 +269,7 @@
         }
       },
       "block_order": [
+        "1cd24fba-e47f-4515-b0b3-9781def2cfc2",
         "template--21462362358073__f4eb6aae-c2a2-42c8-9fd0-732aba2fa146-special_heading-1",
         "template--21462362358073__f4eb6aae-c2a2-42c8-9fd0-732aba2fa146-description-1",
         "cea94835-c826-48ae-9f7a-65ab7d37a29f",
