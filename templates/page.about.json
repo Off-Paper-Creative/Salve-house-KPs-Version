@@ -329,50 +329,6 @@
         "spacing_placement": "1"
       }
     },
-    "3f392d90-82cd-49d4-b205-71890868d8c2": {
-      "type": "rich-text",
-      "blocks": {
-        "5fd79689-9a21-4d33-a492-fccba04ce9cd": {
-          "type": "special_heading",
-          "settings": {
-            "text": "A Shared Committed to High Quality Standards + Good Health",
-            "text_tag": "s2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "0b9c997e-5d0d-4e8e-9d6c-acc0da013c2d": {
-          "type": "description",
-          "settings": {
-            "text": "We firmly believe in the connection between your inner well-being and outer radiance, looking good and feeling good, beauty and health. Your outer appearance reflects how you feel over time and we're here to support you inside out. Salve continuously conducts extensive research to curate a line of top-tier products that enhance your skin's beauty, bolster organ health, and elevate your overall wellness. All Salve partners share our strong commitment to quality ingredients and potent supplements.",
-            "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        }
-      },
-      "block_order": [
-        "5fd79689-9a21-4d33-a492-fccba04ce9cd",
-        "0b9c997e-5d0d-4e8e-9d6c-acc0da013c2d"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 3,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-5",
-        "spacing_placement": "1"
-      }
-    },
     "645ab249-379c-4b96-b508-a89b46c267d4": {
       "type": "image-with-text",
       "blocks": {
@@ -390,11 +346,11 @@
         "template--21586457198905__645ab249-379c-4b96-b508-a89b46c267d4-content-1": {
           "type": "content",
           "settings": {
-            "text_1": "All Salve Products Must Surpass The Following Criteria:",
-            "text_1_tag": "s2",
+            "text_1": "LVE WELL LOOK BETTER",
+            "text_1_tag": "s3",
             "text_1_custom_width": false,
             "text_1_width": 450,
-            "text_2": "<ol><li>Scientifically Backed<\/li><li>Exclusively Contain Premium Ingredients That Are Effectively Extracted<\/li><li>Formulated to be Highly Bioavailable and Work With Our Bodies<\/li><li>MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.<\/li><li>Sourced Directly From Europe<\/li><li>Free of Fillers, Additives, Dyes, Coloring and Harmful Ingredients.<\/li><\/ol>",
+            "text_2": "<p>We firmly believe in the connection between your inner well-being and outer radiance, looking good and feeling good, beauty and health. Your outer appearance reflects how you feel over time and we're here to support you inside out. Salve continuously conducts extensive research to curate a line of top-tier products that enhance your skin's beauty, bolster organ health, and elevate your overall wellness. All Salve partners share our strong commitment to quality ingredients and potent supplements.<\/p>",
             "text_2_tag": "p",
             "text_2_custom_width": false,
             "text_2_width": 450,
@@ -540,7 +496,6 @@
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "multicolumn-2",
     "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433",
-    "3f392d90-82cd-49d4-b205-71890868d8c2",
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
     "cc233987-3c3f-4886-8df3-9a832a09e1a5",
