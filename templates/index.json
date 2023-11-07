@@ -40,10 +40,20 @@
             "text_custom_width": false,
             "text_width": 700
           }
+        },
+        "6eed5ba7-e259-458d-9008-a116d5ded063": {
+          "type": "special_heading",
+          "settings": {
+            "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH OUR BODIES",
+            "text_tag": "s3",
+            "text_custom_width": true,
+            "text_width": 200
+          }
         }
       },
       "block_order": [
-        "919d8974-f1e9-4a9e-8ed2-c7976f217e14"
+        "919d8974-f1e9-4a9e-8ed2-c7976f217e14",
+        "6eed5ba7-e259-458d-9008-a116d5ded063"
       ],
       "settings": {
         "fullwidth": false,
@@ -70,14 +80,14 @@
           "type": "text",
           "settings": {
             "text": "LVE HEALTHIER",
-            "text_tag": "p2"
+            "text_tag": "h6"
           }
         },
         "template--21212521595193__0a788bc7-220d-4551-9d33-37998081c2c8-text-3": {
           "type": "text",
           "settings": {
             "text": "LVE STRONGER",
-            "text_tag": "p2"
+            "text_tag": "h6"
           }
         },
         "feedf35a-8fe1-4007-b4b3-69ff3db5bc9a": {
