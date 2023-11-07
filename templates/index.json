@@ -279,7 +279,7 @@
             "slide_content_horizontal_align": "center",
             "slide_heading": "Held to High European Standards",
             "slide_heading_width": 450,
-            "slide_subheading": "All Salve products must be backed by science and surpass rigorous European regulation and compliance testing. Salve products exclusively contain premium ingredients that are effectively extracted for optimal absorption; free of fillers, additives, artificial ingredients or dyes.",
+            "slide_subheading": "All Salve products must surpass rigorous European regulation and compliance testing and exclusively contain premium ingredients that are effectively extracted for optimal absorption; free of fillers, additives, artificial ingredients or dyes.",
             "slide_subheading_width": 420,
             "text": "",
             "slide_description_width": 450,
@@ -389,6 +389,45 @@
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
         "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "7b885a2b-7d34-4204-bc35-670a6639b84f": {
+      "type": "sale-banner",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height": 270,
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 40,
+        "heading": "Formulated To Work With You",
+        "heading_tag": "s3",
+        "description": "Our mission is to demystify wellness products, simplify the science, and present to you a curated line of products designed for optimal absorption to work in harmony with your body, helping you achieve sustainable health and radiant youth.",
+        "description_tag": "p",
+        "button_1_text": "Become A Member",
+        "button_1_url": "shopify:\/\/pages\/become-a-member",
+        "button_1_target": "_self",
+        "button_1_style": "outline",
+        "button_1_enable_width": true,
+        "button_1_width": 200,
+        "button_2_text": "Learn More",
+        "button_2_url": "shopify:\/\/pages\/about-us",
+        "button_2_target": "_self",
+        "button_2_style": "outline",
+        "button_2_enable_width": true,
+        "button_2_width": 200,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -1015,45 +1054,6 @@
       ],
       "settings": {
       }
-    },
-    "7b885a2b-7d34-4204-bc35-670a6639b84f": {
-      "type": "sale-banner",
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "height": 270,
-        "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-3",
-        "background_overlay": false,
-        "background_overlay_color": "#1F2D1F",
-        "background_overlay_opacity": 40,
-        "heading": "Formulated To Work With You",
-        "heading_tag": "s3",
-        "description": "Our mission is to demystify wellness products, simplify the science, and present to you a curated line of products designed for optimal absorption to work in harmony with your body, helping you achieve sustainable health and radiant youth.",
-        "description_tag": "p",
-        "button_1_text": "Become A Member",
-        "button_1_url": "shopify:\/\/pages\/become-a-member",
-        "button_1_target": "_self",
-        "button_1_style": "outline",
-        "button_1_enable_width": true,
-        "button_1_width": 200,
-        "button_2_text": "Learn More",
-        "button_2_url": "shopify:\/\/pages\/about-us",
-        "button_2_target": "_self",
-        "button_2_style": "outline",
-        "button_2_enable_width": true,
-        "button_2_width": 200,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -1063,6 +1063,7 @@
     "home-multicolumn-1",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
+    "7b885a2b-7d34-4204-bc35-670a6639b84f",
     "979e4719-7300-4919-93b4-6a0a2ebd753e",
     "3ee993a0-0f01-4abd-9d00-d7a9a6b8b34b",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
@@ -1071,7 +1072,6 @@
     "72f8ac9d-6465-43c9-ab04-fea03a13e692",
     "449dfd71-b99b-4c8c-a152-b8069324c04a",
     "b9927b16-2442-4334-bfff-2c400483f9bb",
-    "1698960637542b436a",
-    "7b885a2b-7d34-4204-bc35-670a6639b84f"
+    "1698960637542b436a"
   ]
 }
