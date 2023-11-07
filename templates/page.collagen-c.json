@@ -292,8 +292,8 @@
         "0cd35996-7449-4cee-a04b-57fd6eeda287": {
           "type": "text",
           "settings": {
-            "banner_text": "COLLAGEN",
-            "banner_text_tag": "h1"
+            "banner_text": "Collagen",
+            "banner_text_tag": "s2"
           }
         },
         "cd1fa879-442c-498a-9135-80934ef7518e": {
@@ -306,7 +306,7 @@
         "968ece71-9baa-4096-a37c-dcf15ecbfdbd": {
           "type": "text",
           "settings": {
-            "banner_text": "Helping Restore New Energy and A Radiant Youth",
+            "banner_text": "Supports New Energy + Radiant Youth",
             "banner_text_tag": "p"
           }
         }
