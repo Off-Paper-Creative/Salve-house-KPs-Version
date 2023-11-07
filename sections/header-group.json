@@ -35,7 +35,7 @@
         "cart_icon": false,
         "search_icon": false,
         "search_dropdown_offset": 70,
-        "country_selector": false,
+        "country_selector": true,
         "language_selector": false,
         "primary_menu_collection_image_display": false,
         "primary_menu_sticky": true,
