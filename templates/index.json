@@ -32,16 +32,6 @@
     "a9968b6e-2fc9-4dd4-b422-c1d46c76c1a8": {
       "type": "rich-text",
       "blocks": {
-        "919d8974-f1e9-4a9e-8ed2-c7976f217e14": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH OUR BODIES",
-            "text_tag": "h5",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
         "e4395ca4-996e-40d6-8a77-b80a0f939c94": {
           "type": "paragraph",
           "settings": {
@@ -53,7 +43,6 @@
         }
       },
       "block_order": [
-        "919d8974-f1e9-4a9e-8ed2-c7976f217e14",
         "e4395ca4-996e-40d6-8a77-b80a0f939c94"
       ],
       "settings": {
