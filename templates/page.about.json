@@ -308,6 +308,9 @@
         "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-special_heading-1",
         "292be3ce-261f-4260-adc0-f85be89ddce4"
       ],
+      "custom_css": [
+        "ul {margin-left: 20vw; margin-right: 20vw;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
