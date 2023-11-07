@@ -832,7 +832,7 @@
           "settings": {
             "text_1": "Held To High European Standards",
             "text_1_tag": "s2",
-            "text_1_custom_width": false,
+            "text_1_custom_width": true,
             "text_1_width": 450,
             "text_2": "<p>All Salve products must surpass rigorous European regulation & compliance testing and exclusively contain premium ingredients that are effectively extracted for optimal absorption; free of fillers, additives, artificial ingredients or dyes. <\/p>",
             "text_2_tag": "p",
@@ -842,8 +842,8 @@
             "text_3_tag": "p",
             "text_3_custom_width": false,
             "text_3_width": 450,
-            "button_text": "Button text",
-            "button_url": "",
+            "button_text": "Our Commitment",
+            "button_url": "shopify:\/\/pages\/about-us",
             "button_target": "_self",
             "button_style": "outline"
           }
