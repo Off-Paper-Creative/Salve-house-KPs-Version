@@ -388,8 +388,11 @@
         "6571e385-cf13-4290-b408-31ca89301509",
         "6789f585-5ece-40c3-bb82-6786c8b0b12b"
       ],
+      "custom_css": [
+        "ul {margin-left: 20vw; margin-right: 20vw;}"
+      ],
       "settings": {
-        "fullwidth": true,
+        "fullwidth": false,
         "width": 1320,
         "color_scheme": "scheme-main",
         "inset": true,
