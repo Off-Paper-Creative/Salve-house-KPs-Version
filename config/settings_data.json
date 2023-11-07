@@ -27,6 +27,7 @@
     "cart_free_shipping_threshold": "150",
     "social_twitter_link": "",
     "social_instagram_link": "",
+    "checkout_body_background_color": "#F8F4EC",
     "checkout_heading_font": "Roboto",
     "checkout_accent_color": "#174248",
     "checkout_button_color": "#174248",
