@@ -296,8 +296,76 @@
             "slide_button_2_custom_width": true,
             "slide_button_2_width": 200
           }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
+        "color_scheme": "scheme-accent",
+        "slideshow_autoplay": false,
+        "slideshow_transition_interval": 8600,
+        "slideshow_loop": false,
+        "slideshow_mouse_drag": false,
+        "slideshow_arrows": false,
+        "slideshow_dots": false,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": true,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198": {
+      "type": "slideshow",
+      "blocks": {
+        "fb87e78e-2a9c-4684-992e-75328028a6b9": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": true,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/pexels-nathan-cowley-1300402.jpg",
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Held to High European Standards",
+            "slide_heading_width": 450,
+            "slide_subheading": "All Salve products must surpass rigorous European regulation & compliance testing.",
+            "slide_subheading_width": 420,
+            "text": "<ol><li>Scientifically Backed<\/li><li>Exclusively Contain Premium Ingredients That Are Effectively Extracted<\/li><li>Formulated to be Highly Bioavailable and Work With Our Bodies<\/li><li>MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.<\/li><li>Sourced Directly From Europe<\/li><li>Free of Fillers, Additives, Dyes, Coloring and Harmful Ingredients.<\/li><\/ol>",
+            "slide_description_width": 450,
+            "slide_button_1_text": "BECOME A MEMBER",
+            "slide_button_1_url": "shopify:\/\/collections\/all",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
         },
-        "6fe5c7c6-e356-4576-9e37-7cd146923ef2": {
+        "7a44f465-e0e9-4d56-bfa7-50e53594d5fa": {
           "type": "slide",
           "settings": {
             "slide_image_mobile_overlay": true,
@@ -334,7 +402,7 @@
             "slide_button_2_width": 200
           }
         },
-        "59bcddda-ca71-467f-bb2f-b89102246ea0": {
+        "eac91ae0-be66-4ce0-a267-58f2dcb97276": {
           "type": "slide",
           "settings": {
             "slide_image_mobile_overlay": true,
@@ -371,7 +439,7 @@
             "slide_button_2_width": 200
           }
         },
-        "91d9b3eb-a1f9-444e-98cc-a3b967719bd1": {
+        "500fac48-7eea-408e-97e3-9956b682bd29": {
           "type": "slide",
           "settings": {
             "slide_image_mobile_overlay": true,
@@ -409,10 +477,10 @@
         }
       },
       "block_order": [
-        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3",
-        "6fe5c7c6-e356-4576-9e37-7cd146923ef2",
-        "59bcddda-ca71-467f-bb2f-b89102246ea0",
-        "91d9b3eb-a1f9-444e-98cc-a3b967719bd1"
+        "fb87e78e-2a9c-4684-992e-75328028a6b9",
+        "7a44f465-e0e9-4d56-bfa7-50e53594d5fa",
+        "eac91ae0-be66-4ce0-a267-58f2dcb97276",
+        "500fac48-7eea-408e-97e3-9956b682bd29"
       ],
       "settings": {
         "fullwidth": true,
@@ -494,7 +562,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -881,6 +949,7 @@
     "0a788bc7-220d-4551-9d33-37998081c2c8",
     "home-multicolumn-1",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
+    "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "a7de14d5-c5b3-46f3-9d60-84efb2c44578",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
     "100d2bc0-6256-4758-90a2-f26d2dd7e4df",
