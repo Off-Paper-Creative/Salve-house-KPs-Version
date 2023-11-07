@@ -523,6 +523,7 @@
         "80d6d090-780b-444e-9f67-cf937fbabab1",
         "309c4af3-90ff-47a0-8815-9b37d9f809d6"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -623,6 +624,7 @@
         "a6a52636-ccec-49f4-be75-9639f9388829",
         "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-button-1"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -686,6 +688,7 @@
         "843b1e46-f22f-4494-b917-14fa6d04007e",
         "ba1abbf2-9337-40ee-aca0-a429bb4c8fc7"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
