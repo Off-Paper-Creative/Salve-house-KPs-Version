@@ -1022,9 +1022,9 @@
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
+        "separator_use_custom_color": true,
+        "separator_custom_color": "#174248",
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -1050,7 +1050,7 @@
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-accent",
         "inset": true,
         "inset_choice": "level-3",
         "alignment": "center",
@@ -1060,7 +1060,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
