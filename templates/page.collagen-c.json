@@ -89,7 +89,7 @@
         "template--21462362358073__fa19f72c-5ec5-43b3-8108-85ae06776bd6-description-1": {
           "type": "description",
           "settings": {
-            "text": "Amongst all it's well known benefits; Vitamin C is the ideal catalyst for collagen synthesis within the body. It is the only vitamin that can fast-track this crucial step, leading to the creation of collagen -the structural protein that your body relies on for its vitality. The Collagen + C Bundle works with your body to promote collagen production, organ health , radiant skin, and noticeable health benefits.",
+            "text": "Amongst all it's well known benefits Vitamin C is the ideal catalyst for collagen production within the body. It is the only vitamin with the unique capability of fast-tracking this process. Collagen is the structural protein that your skin, hair, nails, joints, muscles and bones rely on for elasticity, mobility and an overall youthful feeling. The Collagen + C Bundle works with your body to promote collagen production, organ health and radiant skin with benefits you can physically feel and visually see.",
             "text_tag": "p",
             "text_custom_width": true,
             "text_width": 200
@@ -688,7 +688,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "THE CATALYST",
             "slide_subheading_width": 450,
-            "slide_description": "Def: A substance that speeds up a reaction or enables it to proceed under milder conditions",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -725,7 +725,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "",
             "slide_subheading_width": 450,
-            "slide_description": "•Reducing inflammation and keeping the body in alkaline state. •Supportingproper functioning of blood vessels, bones, cartilage, gums, teeth and skin.• Developmentand maintenance of bones, cartilage, teeth and\/or gums.• Supportingthe body in metabolizing nutrients and strengthening the immune system.• Improvespost operative recovery and promotes fast bone, ligament, and tendon healing.• Properfunctioning of the nervous system and psychological functions.",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -762,7 +762,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "The Salve Choice",
             "slide_subheading_width": 450,
-            "slide_description": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating seeds of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of vitamin C due to their high bioavailability and excellent flavonoids links. Colvita Vitamin C is currently one of the most natural vitamin C supplements.",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -799,7 +799,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Take 1 Vitamin C Capsule daily. Follow by Colvita Collagen Capsule for Best Results. Take for 3 consecutive months to see and feel results.",
             "slide_subheading_width": 450,
-            "slide_description": "",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "BECOME A MEMBER",
             "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
@@ -857,7 +857,6 @@
             "images_gap_choice": "level-4",
             "images_width_split": 50,
             "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/bundle.jpg",
             "image_1_aspect_ratio": "auto",
             "image_2_aspect_ratio": "auto"
           }
@@ -933,7 +932,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "The Salve Choice",
             "slide_subheading_width": 450,
-            "slide_description": "Our Colvita Collagen supplement is available source of natural wellness; Containing Pure Marine Tropocollagen, Algae (fucus vesiculosus) extract, Tocotrienols, and Vitamin E. The star of Colvita is the lyophilized Native Collagen Hydrate, obtained through a cutting-edge extraction process that maintains its triple helix structure, closely resembling human collagen.",
+            "text": "<p>This is simple description.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
