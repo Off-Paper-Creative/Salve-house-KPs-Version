@@ -499,8 +499,8 @@
         "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-1": {
           "type": "text",
           "settings": {
-            "banner_text": "VITAMIN C",
-            "banner_text_tag": "h1"
+            "banner_text": "Vitamin C",
+            "banner_text_tag": "s2"
           }
         },
         "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-2": {
@@ -513,7 +513,7 @@
         "d905e5e6-bba7-4628-ad0c-fab8800bb4a5": {
           "type": "text",
           "settings": {
-            "banner_text": "A substance that speeds up a reaction or enables it to proceed under milder conditions.",
+            "banner_text": "A Supplement That Speeds Up A Reaction or Enables It To Proceed Under Milder Conditions, i.e As We Age.",
             "banner_text_tag": "p"
           }
         }
@@ -574,7 +574,7 @@
           "type": "heading",
           "settings": {
             "text": "Vitamin c is responsible for",
-            "text_tag": "h6",
+            "text_tag": "h5",
             "text_custom_width": false,
             "text_width": 700
           }
