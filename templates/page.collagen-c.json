@@ -34,18 +34,10 @@
             "banner_text": "The Collagen + C Bundle",
             "banner_text_tag": "h1"
           }
-        },
-        "template--15753621373083__image-banner-1-167155657486da9338-1": {
-          "type": "text",
-          "settings": {
-            "banner_text": "Vitamin C + Collagen",
-            "banner_text_tag": "h5"
-          }
         }
       },
       "block_order": [
-        "template--15753621373083__image-banner-1-167155657486da9338-0",
-        "template--15753621373083__image-banner-1-167155657486da9338-1"
+        "template--15753621373083__image-banner-1-167155657486da9338-0"
       ],
       "settings": {
         "fullwidth": true,
