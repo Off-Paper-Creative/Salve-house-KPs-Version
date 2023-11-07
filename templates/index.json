@@ -34,6 +34,7 @@
       "blocks": {
         "919d8974-f1e9-4a9e-8ed2-c7976f217e14": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH OUR BODIES",
             "text_tag": "h5",
@@ -41,19 +42,19 @@
             "text_width": 700
           }
         },
-        "6eed5ba7-e259-458d-9008-a116d5ded063": {
-          "type": "special_heading",
+        "e4395ca4-996e-40d6-8a77-b80a0f939c94": {
+          "type": "paragraph",
           "settings": {
-            "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH OUR BODIES",
-            "text_tag": "s3",
-            "text_custom_width": true,
-            "text_width": 200
+            "text": "<p>A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK <em>WITH<\/em> OUR BODIES<\/p>",
+            "description_tag": "p1",
+            "description_custom_width": true,
+            "description_width": 1200
           }
         }
       },
       "block_order": [
         "919d8974-f1e9-4a9e-8ed2-c7976f217e14",
-        "6eed5ba7-e259-458d-9008-a116d5ded063"
+        "e4395ca4-996e-40d6-8a77-b80a0f939c94"
       ],
       "settings": {
         "fullwidth": false,
@@ -94,21 +95,21 @@
           "type": "text",
           "settings": {
             "text": "LVE YOUNGER",
-            "text_tag": "p2"
+            "text_tag": "h6"
           }
         },
         "ba5a194d-7326-4912-b44e-198d2f82bf30": {
           "type": "text",
           "settings": {
             "text": "LVE BETTER",
-            "text_tag": "p2"
+            "text_tag": "h6"
           }
         },
         "22c73cb4-f0a5-40d6-96a7-c5bcd58d5a85": {
           "type": "text",
           "settings": {
             "text": "LVE ACTIVE",
-            "text_tag": "p2"
+            "text_tag": "h6"
           }
         }
       },
