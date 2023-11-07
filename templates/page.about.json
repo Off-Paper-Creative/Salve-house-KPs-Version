@@ -180,41 +180,6 @@
         "scroll_speed": 33
       }
     },
-    "60b541c8-e5f6-466a-b398-54d02a4dd3d0": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21472665370937__60b541c8-e5f6-466a-b398-54d02a4dd3d0-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "We Do Our Research - So You Don't Have To",
-            "text_tag": "s2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        }
-      },
-      "block_order": [
-        "template--21472665370937__60b541c8-e5f6-466a-b398-54d02a4dd3d0-special_heading-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": true,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-1",
-        "spacing_placement": "1"
-      }
-    },
     "multicolumn-2": {
       "type": "multicolumn",
       "blocks": {
@@ -302,6 +267,60 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Selection Process",
+            "text_tag": "h5",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-special_heading-1": {
+          "type": "special_heading",
+          "settings": {
+            "text": "All Salve Products Must Surpass The Following Criteria",
+            "text_tag": "s3",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "292be3ce-261f-4260-adc0-f85be89ddce4": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<ol><li>Based in Science and Peer Reviewed<\/li><li>Formulated to be Highly Bioavailable and Work With Our Bodies<\/li><li>MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.<\/li><li>Exclusively Contain Premium Ingredients That Are Effectively Extracted for High Potency<\/li><li>Ingredients Are Sourced Directly From Europe<\/li><li>Supplements Are Free of Fillers, Additives, Dyes, Coloring and Harmful Ingredients.<\/li><\/ol>",
+            "description_tag": "p",
+            "description_custom_width": false,
+            "description_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-heading-1",
+        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-special_heading-1",
+        "292be3ce-261f-4260-adc0-f85be89ddce4"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -516,8 +535,8 @@
   "order": [
     "multicolumn-1",
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
-    "60b541c8-e5f6-466a-b398-54d02a4dd3d0",
     "multicolumn-2",
+    "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433",
     "3f392d90-82cd-49d4-b205-71890868d8c2",
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
