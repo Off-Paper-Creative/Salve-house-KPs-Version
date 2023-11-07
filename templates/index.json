@@ -722,78 +722,6 @@
         "spacing_placement": "2"
       }
     },
-    "449dfd71-b99b-4c8c-a152-b8069324c04a": {
-      "type": "rich-text",
-      "blocks": {
-        "a94677f8-7ef5-46d2-9b71-616d18559793": {
-          "type": "heading",
-          "settings": {
-            "text": "A NEW APPROACH ON",
-            "text_tag": "h6",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "6b18d8b3-34b6-46c5-8a50-9a6ca73c0aa2": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Health, Vitality & Living Well",
-            "text_tag": "s2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "a48ecd2b-f4bf-4adb-b664-b02a67ceaaee": {
-          "type": "description",
-          "settings": {
-            "text": "Salve Supplement House is more than just a brand. We're your trusted partner in your journey towards comprehensive well-being, beauty, and health. Salve members can rest at ease knowing our products are exactly what they say they are. Our mission is to demystify wellness products, simplify the science, and present you with a curated line of products designed for to work with you. Products designed for optimal absorption, that work in harmony with your body, helping you achieve sustainable health and radiant youth.",
-            "text_tag": "p",
-            "text_custom_width": true,
-            "text_width": 820
-          }
-        },
-        "333ee4cd-23ac-43dd-adc4-c479eb8a9052": {
-          "type": "button",
-          "settings": {
-            "button_text": "About Salve",
-            "button_url": "shopify:\/\/pages\/about-us",
-            "button_target": "_self",
-            "button_style": "outline",
-            "button_custom_width": false,
-            "button_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "a94677f8-7ef5-46d2-9b71-616d18559793",
-        "6b18d8b3-34b6-46c5-8a50-9a6ca73c0aa2",
-        "a48ecd2b-f4bf-4adb-b664-b02a67ceaaee",
-        "333ee4cd-23ac-43dd-adc4-c479eb8a9052"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-2",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-2",
-        "spacing_placement": "1"
-      }
-    },
-    "b9927b16-2442-4334-bfff-2c400483f9bb": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "INSTAGRAM GOES HERE"
-      }
-    },
     "1698960637542b436a": {
       "type": "apps",
       "blocks": {
@@ -823,8 +751,6 @@
     "7b885a2b-7d34-4204-bc35-670a6639b84f",
     "100d2bc0-6256-4758-90a2-f26d2dd7e4df",
     "0cd02d78-c814-4caa-82b6-5a87dea160fb",
-    "449dfd71-b99b-4c8c-a152-b8069324c04a",
-    "b9927b16-2442-4334-bfff-2c400483f9bb",
     "1698960637542b436a"
   ]
 }
