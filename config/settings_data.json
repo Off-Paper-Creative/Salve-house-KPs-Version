@@ -1,1 +1,86 @@
-{"current":{"layout_content_margin":33,"layout_content_margin_desktop":0,"layout_section_vertical_spacing":3.6,"color_layout_background_additional":"#966e25","color_general_lite":"#f5f5f5","color_general_background_accent":"#174248","color_general_background_complementary":"#966e25","color_border_main":"#171813","color_border_dark":"#174248","color_border_lite":"#966e25","default_library_font":"assistant_n4","buttons_padding":65,"predictive_search_unavailable_products":"show","predictive_search_pages":true,"predictive_search_articles":true,"predictive_search_results_limit":3,"predictive_search_recommendation_choice":"frontpage","product_option_swatches_name":"Select Purchase Type","product_option_swatches_list":"Single Package - 2 Month Supply, Become A Member","collection_show_secondary_image":false,"collection_image_aspect_ratio":"1\/1","collection_show_price":true,"collection_enable_quickview":false,"cart_free_shipping_threshold":"150","social_twitter_link":"","social_instagram_link":"","checkout_heading_font":"Roboto","checkout_accent_color":"#174248","checkout_button_color":"#174248","sections":{"main-password-header":{"type":"main-password-header","settings":{"logo":"shopify:\/\/shop_images\/salve_bold_black.png","logo_height":110}},"main-password-footer":{"type":"main-password-footer","settings":{}}},"content_for_index":[]},"presets":{"Classic":{"predictive_search_recommendation_choice":"frontpage","predictive_search_pages":true,"predictive_search_articles":true,"social_twitter_link":"https:\/\/twitter.com\/thirumani02","social_instagram_link":"https:\/\/instagram.com\/agnihd","product_option_swatches_list":"Olive: #50462B, \nMaroon: #69232D, \nCream: #E9DFD3, \nGray: #776D6A, \nBlack: #1B191B, \nBeige: #C4816A, \nRed: #C54E40","content_for_index":[]},"Contemporary":{"layout_content_margin":0,"layout_content_margin_desktop":0,"color_layout_background_main":"#FFFFFF","color_layout_background_additional":"#f8f4ec","color_general_lite":"#f8f5eb","color_general_background_accent":"#813b1c","heading_library_font":"swiss_721_n7","special_library_font":"neuzeit_s_n4","predictive_search_pages":true,"predictive_search_articles":true,"predictive_search_recommendation_choice":"frontpage","product_option_swatches_list":"Black: #1B191B, \nBeige: #d8c8bd, \nBrown: #693B26,\nGreen: #8d9778,\nIvory: #e9e4d8,\nTaupe: #a59a84,\nOil: #2d423f,\nCaramel: #b27a4a","content_for_index":[]}},"platform_customizations":{"custom_css":[]}}
+{
+  "current": {
+    "layout_content_margin": 33,
+    "layout_content_margin_desktop": 0,
+    "layout_section_vertical_spacing": 3.6,
+    "color_layout_background_additional": "#966e25",
+    "color_general_lite": "#f5f5f5",
+    "color_general_background_accent": "#174248",
+    "color_general_background_complementary": "#966e25",
+    "color_border_main": "#171813",
+    "color_border_dark": "#174248",
+    "color_border_lite": "#966e25",
+    "default_library_font": "assistant_n4",
+    "special_library_font": "goudy_old_style_n4",
+    "buttons_padding": 65,
+    "predictive_search_unavailable_products": "show",
+    "predictive_search_pages": true,
+    "predictive_search_articles": true,
+    "predictive_search_results_limit": 3,
+    "predictive_search_recommendation_choice": "frontpage",
+    "product_option_swatches_name": "Select Purchase Type",
+    "product_option_swatches_list": "Single Package - 2 Month Supply, Become A Member",
+    "collection_show_secondary_image": false,
+    "collection_image_aspect_ratio": "1\/1",
+    "collection_show_price": true,
+    "collection_enable_quickview": false,
+    "cart_free_shipping_threshold": "150",
+    "social_twitter_link": "",
+    "social_instagram_link": "",
+    "checkout_heading_font": "Roboto",
+    "checkout_accent_color": "#174248",
+    "checkout_button_color": "#174248",
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/salve_bold_black.png",
+          "logo_height": 110
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "predictive_search_recommendation_choice": "frontpage",
+      "predictive_search_pages": true,
+      "predictive_search_articles": true,
+      "social_twitter_link": "https:\/\/twitter.com\/thirumani02",
+      "social_instagram_link": "https:\/\/instagram.com\/agnihd",
+      "product_option_swatches_list": "Olive: #50462B, \nMaroon: #69232D, \nCream: #E9DFD3, \nGray: #776D6A, \nBlack: #1B191B, \nBeige: #C4816A, \nRed: #C54E40",
+      "content_for_index": [
+
+      ]
+    },
+    "Contemporary": {
+      "layout_content_margin": 0,
+      "layout_content_margin_desktop": 0,
+      "color_layout_background_main": "#FFFFFF",
+      "color_layout_background_additional": "#f8f4ec",
+      "color_general_lite": "#f8f5eb",
+      "color_general_background_accent": "#813b1c",
+      "heading_library_font": "swiss_721_n7",
+      "special_library_font": "neuzeit_s_n4",
+      "predictive_search_pages": true,
+      "predictive_search_articles": true,
+      "predictive_search_recommendation_choice": "frontpage",
+      "product_option_swatches_list": "Black: #1B191B, \nBeige: #d8c8bd, \nBrown: #693B26,\nGreen: #8d9778,\nIvory: #e9e4d8,\nTaupe: #a59a84,\nOil: #2d423f,\nCaramel: #b27a4a",
+      "content_for_index": [
+
+      ]
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
+  }
+}
