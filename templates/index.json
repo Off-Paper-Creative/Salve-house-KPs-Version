@@ -1015,6 +1015,45 @@
       ],
       "settings": {
       }
+    },
+    "7b885a2b-7d34-4204-bc35-670a6639b84f": {
+      "type": "sale-banner",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height": 270,
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 40,
+        "heading": "Formulated To Work With You",
+        "heading_tag": "s1",
+        "description": "This is simple description for Sale banner",
+        "description_tag": "h4",
+        "button_1_text": "Button text",
+        "button_1_url": "",
+        "button_1_target": "_self",
+        "button_1_style": "outline",
+        "button_1_enable_width": true,
+        "button_1_width": 200,
+        "button_2_text": "Button text",
+        "button_2_url": "",
+        "button_2_target": "_self",
+        "button_2_style": "outline",
+        "button_2_enable_width": true,
+        "button_2_width": 200,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -1032,6 +1071,7 @@
     "72f8ac9d-6465-43c9-ab04-fea03a13e692",
     "449dfd71-b99b-4c8c-a152-b8069324c04a",
     "b9927b16-2442-4334-bfff-2c400483f9bb",
-    "1698960637542b436a"
+    "1698960637542b436a",
+    "7b885a2b-7d34-4204-bc35-670a6639b84f"
   ]
 }
