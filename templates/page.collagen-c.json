@@ -80,7 +80,7 @@
         "template--21462362358073__fa19f72c-5ec5-43b3-8108-85ae06776bd6-special_heading-1": {
           "type": "special_heading",
           "settings": {
-            "text": "Vitamin C: The Spark of Collagen Synthesis",
+            "text": "Vitamin C: The Spark of Collagen Production",
             "text_tag": "s2",
             "text_custom_width": false,
             "text_width": 700
@@ -125,13 +125,13 @@
           "type": "card",
           "settings": {
             "card_size": "small",
-            "image": "shopify:\/\/shop_images\/vitamin_solve.png",
+            "image": "shopify:\/\/shop_images\/1.jpg",
             "image_aspect_ratio": "auto",
             "heading": "Vitamin C",
-            "heading_tag": "s3",
+            "heading_tag": "h3",
             "heading_custom_width": false,
             "heading_width": 450,
-            "description": "Vitamin C is an essential vitamin, meaning it is not naturally produced in your body, a vital antioxidant and a necessary supplement in the biosynthesis of collagen.",
+            "description": "An essential vitamin not naturally produced within your body and a vital antioxidant. Plus, a necessary supplement in your bodies creation of collagen.",
             "description_tag": "p",
             "description_custom_width": true,
             "description_width": 540,
@@ -145,13 +145,13 @@
           "type": "card",
           "settings": {
             "card_size": "small",
-            "image": "shopify:\/\/shop_images\/Collagen_salve.png",
+            "image": "shopify:\/\/shop_images\/2_c660c1f6-f448-46e1-91c7-6ca4919e1e15.jpg",
             "image_aspect_ratio": "auto",
             "heading": "Collagen",
-            "heading_tag": "s3",
+            "heading_tag": "h3",
             "heading_custom_width": false,
             "heading_width": 450,
-            "description": "Collagen is the foundation of well-being, responsible for joint health, skin elasticity and hydration, overall tissue vitality and",
+            "description": "Referred to as the foundation of well-being responsible for joint health, skin elasticity and hydration, overall tissue vitality and muscle and bone support.",
             "description_tag": "p",
             "description_custom_width": true,
             "description_width": 540,
