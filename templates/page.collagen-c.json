@@ -513,7 +513,7 @@
         "d905e5e6-bba7-4628-ad0c-fab8800bb4a5": {
           "type": "text",
           "settings": {
-            "banner_text": "A Supplement That Speeds Up A Reaction or Enables It To Proceed Under Milder Conditions, i.e As We Age.",
+            "banner_text": "A Supplement That Speeds Up A Reaction or Enables It To Proceed Under Milder Conditions.",
             "banner_text_tag": "p"
           }
         }
@@ -872,32 +872,6 @@
         "spacing_placement": "1"
       }
     },
-    "f3218aa9-c2cf-44e4-b953-d3049088a320": {
-      "type": "slideshow",
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "slideshow_height_mobile": "780",
-        "slideshow_height": "780",
-        "color_scheme": "scheme-accent",
-        "slideshow_autoplay": false,
-        "slideshow_transition_interval": 4000,
-        "slideshow_loop": true,
-        "slideshow_mouse_drag": true,
-        "slideshow_arrows": true,
-        "slideshow_dots": true,
-        "slideshow_transition_speed": 2000,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-2",
-        "spacing_placement": "1"
-      }
-    },
     "80db4c2a-e290-4b7f-950b-39b90931ade0": {
       "type": "image-with-text",
       "blocks": {
@@ -1105,7 +1079,6 @@
     "5376337c-03dd-4706-91d3-589e1a897b40",
     "6328d993-f1fc-440d-a6ec-c2e6a2b89af2",
     "0ecd5908-6b3d-44d1-9a84-66ce33276039",
-    "f3218aa9-c2cf-44e4-b953-d3049088a320",
     "80db4c2a-e290-4b7f-950b-39b90931ade0",
     "b920341b-4501-44c2-a509-51095d537ed8",
     "3a44223e-d10e-4244-8fe4-ab2d622fa769"
