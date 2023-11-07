@@ -242,7 +242,7 @@
           "type": "heading",
           "settings": {
             "text": "Collagen + Vitamin C Work Together To:",
-            "text_tag": "h6",
+            "text_tag": "h5",
             "text_custom_width": false,
             "text_width": 700
           }
@@ -373,10 +373,19 @@
             "description_width": 700
           }
         },
+        "d1d2a6a7-51f8-4c67-b1fa-8e38e1c2f297": {
+          "type": "heading",
+          "settings": {
+            "text": "Collagen Is Responsible For:",
+            "text_tag": "h5",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
         "6789f585-5ece-40c3-bb82-6786c8b0b12b": {
           "type": "paragraph",
           "settings": {
-            "text": "<ul><li><strong>Physical Activity and Recovery <\/strong>Collagen supports tissue regeneration, reduces inflammation, and relieves joint pain. It's a workout companion that metabolizes protein, helping build muscle mass. It's also instrumental in post-injury and post-surgery rehabilitation. <\/li><li><strong>Organ Health: <\/strong>Internally, Colvita optimizes your metabolism and supports internal organ function, promoting the health of the liver, kidneys, heart, and gut. <\/li><li><strong>Skin Health and Elasticity: <\/strong>Collagen production promotes skin elasticity, hydration, reduces wrinkles, dark spots, and acne scars, and promotes healthy hair growth.<\/li><li><strong>Increased Mobility and Joint Health: <\/strong>Collagen supplements can help alleviate joint pain and improve mobility in individuals with osteoarthritis. <\/li><li><strong>Scar Healing : <\/strong>Colvita collagen provides structural support during tissue repair and therefore, assists in the body's natural wound healing mechanisms.<\/li><\/ul>",
+            "text": "<ul><li><strong>Muscle Health and Recovery: <\/strong>Collagen supports tissue regeneration, reduces inflammation, and relieves joint pain. It's a workout companion that metabolizes protein, helping build muscle mass. It's also instrumental in post-injury and post-surgery rehabilitation. <\/li><li><strong>Organ Health: <\/strong>Internally, Colvita optimizes your metabolism and supports internal organ function, promoting the health of the liver, kidneys, heart, and gut. <\/li><li><strong>Skin Health and Elasticity: <\/strong>Collagen production promotes skin elasticity, hydration, reduces wrinkles, dark spots, and acne scars, and promotes healthy hair growth.<\/li><li><strong>Increased Mobility and Joint Health: <\/strong>Collagen supplements can help alleviate joint pain and improve mobility in individuals with osteoarthritis. <\/li><li><strong>Scar Healing : <\/strong>Colvita collagen provides structural support during tissue repair and therefore, assists in the body's natural wound healing mechanisms.<\/li><\/ul>",
             "description_tag": "p",
             "description_custom_width": true,
             "description_width": 280
@@ -386,6 +395,7 @@
       "block_order": [
         "template--21586456510777__0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2-special_heading-1",
         "6571e385-cf13-4290-b408-31ca89301509",
+        "d1d2a6a7-51f8-4c67-b1fa-8e38e1c2f297",
         "6789f585-5ece-40c3-bb82-6786c8b0b12b"
       ],
       "custom_css": [
