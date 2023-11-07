@@ -331,10 +331,10 @@
         "7a44f465-e0e9-4d56-bfa7-50e53594d5fa": {
           "type": "slide",
           "settings": {
+            "slide_image_mobile": "shopify:\/\/shop_images\/8.jpg",
             "slide_image_mobile_overlay": false,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 62,
-            "slide_image": "shopify:\/\/shop_images\/8.jpg",
             "slide_image_overlay": false,
             "slide_image_overlay_color": "#1F2D1F",
             "slide_image_overlay_opacity": 47,
