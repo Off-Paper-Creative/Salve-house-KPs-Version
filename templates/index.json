@@ -393,45 +393,6 @@
         "spacing_placement": "1"
       }
     },
-    "7b885a2b-7d34-4204-bc35-670a6639b84f": {
-      "type": "sale-banner",
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "height": 270,
-        "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-3",
-        "background_overlay": false,
-        "background_overlay_color": "#1F2D1F",
-        "background_overlay_opacity": 40,
-        "heading": "Formulated To Work With You",
-        "heading_tag": "s3",
-        "description": "Nurture healthy body function, vitality and sustainable beauty; Inside and out.",
-        "description_tag": "p",
-        "button_1_text": "Become A Member",
-        "button_1_url": "shopify:\/\/pages\/become-a-member",
-        "button_1_target": "_self",
-        "button_1_style": "outline",
-        "button_1_enable_width": true,
-        "button_1_width": 200,
-        "button_2_text": "Learn More",
-        "button_2_url": "shopify:\/\/pages\/about-us",
-        "button_2_target": "_self",
-        "button_2_style": "outline",
-        "button_2_enable_width": true,
-        "button_2_width": 200,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "f75802bf-311a-49eb-9d38-f82d4d7de68c": {
       "type": "icon-cards",
       "blocks": {
@@ -498,6 +459,7 @@
         "template--21212521595193__f75802bf-311a-49eb-9d38-f82d4d7de68c-card-3",
         "7bfc86c0-2711-4518-8ab1-be088e23159d"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1020,
@@ -522,6 +484,106 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "72f8ac9d-6465-43c9-ab04-fea03a13e692": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1": {
+          "type": "text",
+          "settings": {
+            "banner_text": "The Collagen + C Bundle",
+            "banner_text_tag": "h2"
+          }
+        },
+        "80d6d090-780b-444e-9f67-cf937fbabab1": {
+          "type": "text",
+          "settings": {
+            "banner_text": "Vitamin C + Collagen",
+            "banner_text_tag": "h6"
+          }
+        },
+        "309c4af3-90ff-47a0-8815-9b37d9f809d6": {
+          "type": "button",
+          "settings": {
+            "banner_button_text": "Learn More",
+            "banner_button_url": "shopify:\/\/pages\/the-collagen-c-bundle",
+            "banner_button_target": "_self",
+            "banner_button_style": "fill",
+            "banner_button_custom_width": false,
+            "banner_button_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1",
+        "80d6d090-780b-444e-9f67-cf937fbabab1",
+        "309c4af3-90ff-47a0-8815-9b37d9f809d6"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height_mobile": "600",
+        "height": "600",
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-1",
+        "background_video": "shopify:\/\/files\/videos\/pexels-artem-podrez-6802248 (Original).mp4",
+        "background_overlay": true,
+        "background_overlay_color": "#FFFFFF",
+        "background_overlay_opacity": 4,
+        "content_custom_width": true,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-4",
+        "spacing_placement": "1"
+      }
+    },
+    "7b885a2b-7d34-4204-bc35-670a6639b84f": {
+      "type": "sale-banner",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height": 270,
+        "color_scheme": "scheme-accent",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 40,
+        "heading": "Formulated To Work With You",
+        "heading_tag": "s3",
+        "description": "Nurture healthy body function, vitality and sustainable beauty; Inside and out.",
+        "description_tag": "p",
+        "button_1_text": "Become A Member",
+        "button_1_url": "shopify:\/\/pages\/become-a-member",
+        "button_1_target": "_self",
+        "button_1_style": "outline",
+        "button_1_enable_width": true,
+        "button_1_width": 200,
+        "button_2_text": "Learn More",
+        "button_2_url": "shopify:\/\/pages\/about-us",
+        "button_2_target": "_self",
+        "button_2_style": "outline",
+        "button_2_enable_width": true,
+        "button_2_width": 200,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -657,67 +719,6 @@
         "spacing_placement": "2"
       }
     },
-    "72f8ac9d-6465-43c9-ab04-fea03a13e692": {
-      "type": "image-banner",
-      "blocks": {
-        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1": {
-          "type": "text",
-          "settings": {
-            "banner_text": "The Collagen + C Bundle",
-            "banner_text_tag": "h2"
-          }
-        },
-        "80d6d090-780b-444e-9f67-cf937fbabab1": {
-          "type": "text",
-          "settings": {
-            "banner_text": "Vitamin C + Collagen",
-            "banner_text_tag": "h6"
-          }
-        },
-        "309c4af3-90ff-47a0-8815-9b37d9f809d6": {
-          "type": "button",
-          "settings": {
-            "banner_button_text": "Learn More",
-            "banner_button_url": "shopify:\/\/pages\/the-collagen-c-bundle",
-            "banner_button_target": "_self",
-            "banner_button_style": "fill",
-            "banner_button_custom_width": false,
-            "banner_button_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1",
-        "80d6d090-780b-444e-9f67-cf937fbabab1",
-        "309c4af3-90ff-47a0-8815-9b37d9f809d6"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "height_mobile": "600",
-        "height": "600",
-        "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-1",
-        "background_video": "shopify:\/\/files\/videos\/pexels-artem-podrez-6802248 (Original).mp4",
-        "background_overlay": true,
-        "background_overlay_color": "#FFFFFF",
-        "background_overlay_opacity": 4,
-        "content_custom_width": true,
-        "content_width": 720,
-        "content_position": "center",
-        "content_horizontal_align": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "449dfd71-b99b-4c8c-a152-b8069324c04a": {
       "type": "rich-text",
       "blocks": {
@@ -814,11 +815,11 @@
     "home-multicolumn-1",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
-    "7b885a2b-7d34-4204-bc35-670a6639b84f",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
+    "72f8ac9d-6465-43c9-ab04-fea03a13e692",
+    "7b885a2b-7d34-4204-bc35-670a6639b84f",
     "100d2bc0-6256-4758-90a2-f26d2dd7e4df",
     "0cd02d78-c814-4caa-82b6-5a87dea160fb",
-    "72f8ac9d-6465-43c9-ab04-fea03a13e692",
     "449dfd71-b99b-4c8c-a152-b8069324c04a",
     "b9927b16-2442-4334-bfff-2c400483f9bb",
     "1698960637542b436a"
