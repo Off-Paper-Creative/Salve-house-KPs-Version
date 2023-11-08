@@ -1,1 +1,128 @@
-{"sections":{"main":{"type":"main-page","settings":{}},"map-1":{"type":"map","blocks":{"eee3a15d-3a41-4b26-91c2-442604200264":{"type":"location","settings":{"latlng":"51.53328008891747, -0.1271963874440336","location_name":"Location - 1","address":"<p>Address line,<br\/>City<\/p>"}},"168599be-a6b9-40f4-a4c3-318e7a3fc369":{"type":"location","settings":{"latlng":"40.71455489114797, -73.98961768717074","location_name":"Location - 1","address":"<p>Address line,<br\/>City<\/p>"}},"c3356c45-7e41-4bc7-8b74-e1b03ef75c5d":{"type":"location","settings":{"latlng":"13.074834615768596, 80.27565592602889","location_name":"Location - 1","address":"<p>Address line,<br\/>City<\/p>"}}},"block_order":["eee3a15d-3a41-4b26-91c2-442604200264","168599be-a6b9-40f4-a4c3-318e7a3fc369","c3356c45-7e41-4bc7-8b74-e1b03ef75c5d"],"settings":{"color_scheme":"scheme-complementary","horizontal_align":"center","vertical_align":"center"}},"text-cards-1":{"type":"text-cards","blocks":{"template--15753621405851__text-cards-1-16735456858924619d-0":{"type":"card","settings":{"heading":"Text card heading","heading_tag":"h5","description":"<p>This is simple description for text card.<\/p>","button_text":"","button_url":"","button_style":"link"}},"136e4335-9f8a-48c9-b52a-c9adec5d4643":{"type":"card","settings":{"heading":"Text card heading","heading_tag":"h5","description":"<p>This is simple description for text card.<\/p>","button_text":"","button_url":"","button_style":"link"}},"4c9059e4-1914-47b3-8c5e-f552828618c4":{"type":"card","settings":{"heading":"Text card heading","heading_tag":"h5","description":"<p>This is simple description for text card.<\/p>","button_text":"","button_url":"","button_style":"link"}}},"block_order":["template--15753621405851__text-cards-1-16735456858924619d-0","136e4335-9f8a-48c9-b52a-c9adec5d4643","4c9059e4-1914-47b3-8c5e-f552828618c4"],"settings":{"fullwidth":false,"width":1020,"heading":"Text cards","description":"This is simple description for text cards.","columns_count":3,"gap_choice":"level-6"}},"contact-form-1":{"type":"contact-form","blocks":{"6107d66e-4199-4172-872e-5c94ec72921b":{"type":"text","settings":{"text":"Contact form","text_tag":"s2"}},"16b104f1-17f9-4a5a-a2f4-8b5d449309ce":{"type":"text","settings":{"text":"This is simple description for Contact form.","text_tag":"p","text_custom_width":true}}},"block_order":["6107d66e-4199-4172-872e-5c94ec72921b","16b104f1-17f9-4a5a-a2f4-8b5d449309ce"],"settings":{"color_scheme":"scheme-accent","inset_choice":"level-5"}}},"order":["main","map-1","text-cards-1","contact-form-1"]}
+{
+  "sections": {
+    "23e91555-7571-42ca-aa81-ca519a012ac0": {
+      "type": "text-cards",
+      "blocks": {
+        "template--21586457067833__23e91555-7571-42ca-aa81-ca519a012ac0-card-2": {
+          "type": "card",
+          "settings": {
+            "heading": "For retail inquiries",
+            "heading_tag": "h5",
+            "description": "<p>To stock our products in your storefront: Email@here<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_style": "link"
+          }
+        },
+        "template--21586457067833__23e91555-7571-42ca-aa81-ca519a012ac0-card-1": {
+          "type": "card",
+          "settings": {
+            "heading": "For Supplier Inquiries",
+            "heading_tag": "h5",
+            "description": "<p>All suppliers will be subject to an extensive review process.<\/p><p>Apply to have your product on our site: email@thesalve.co<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_style": "link"
+          }
+        },
+        "template--21586457067833__23e91555-7571-42ca-aa81-ca519a012ac0-card-3": {
+          "type": "card",
+          "settings": {
+            "heading": "Influencer + Media Inquiries",
+            "heading_tag": "h5",
+            "description": "<p>For all media and influencer related inquiries: email@thesalve.co<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457067833__23e91555-7571-42ca-aa81-ca519a012ac0-card-2",
+        "template--21586457067833__23e91555-7571-42ca-aa81-ca519a012ac0-card-1",
+        "template--21586457067833__23e91555-7571-42ca-aa81-ca519a012ac0-card-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "heading": "",
+        "heading_tag": "h3",
+        "description": "",
+        "description_tag": "p",
+        "columns_count": 3,
+        "gap": true,
+        "gap_choice": "level-4",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "contact-form-1": {
+      "type": "contact-form",
+      "blocks": {
+        "6107d66e-4199-4172-872e-5c94ec72921b": {
+          "type": "text",
+          "settings": {
+            "text": "Contact Us",
+            "text_tag": "s2",
+            "text_custom_width": false,
+            "text_width": 370
+          }
+        },
+        "16b104f1-17f9-4a5a-a2f4-8b5d449309ce": {
+          "type": "text",
+          "settings": {
+            "text": "Send us a message for general inquiries. We're here to help.",
+            "text_tag": "p",
+            "text_custom_width": true,
+            "text_width": 370
+          }
+        }
+      },
+      "block_order": [
+        "6107d66e-4199-4172-872e-5c94ec72921b",
+        "16b104f1-17f9-4a5a-a2f4-8b5d449309ce"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": false,
+        "inset_choice": "level-5",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 100,
+        "background_mobile_overlay": false,
+        "background_mobile_overlay_color": "#1F2D1F",
+        "background_mobile_overlay_opacity": 100,
+        "content_position": "center",
+        "form_custom_width": true,
+        "form_width": 450,
+        "form_order": 1,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    }
+  },
+  "order": [
+    "23e91555-7571-42ca-aa81-ca519a012ac0",
+    "contact-form-1"
+  ]
+}
