@@ -431,72 +431,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "9558248e-813e-41f7-913d-c42b47117244": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Fillers, additives, pseudoscience, diluted ingredients, false information...",
-            "text_tag": "s3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "NO LONGER",
-            "text_tag": "h2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-description-1": {
-          "type": "description",
-          "settings": {
-            "text": "Salve Products Are Scientifically Backed Contain Premium Ingredients Formulated to be Highly Bioavailable + MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.",
-            "text_tag": "p1",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-button-1": {
-          "type": "button",
-          "settings": {
-            "button_text": "Button text",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline",
-            "button_custom_width": false,
-            "button_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-special_heading-1",
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-heading-1",
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-description-1",
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-button-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -505,7 +439,6 @@
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
     "51fc8ac6-5685-47be-8b0f-f733954d72dd",
-    "16c06f9c-6804-4ad2-908c-d94e806857a8",
-    "9558248e-813e-41f7-913d-c42b47117244"
+    "16c06f9c-6804-4ad2-908c-d94e806857a8"
   ]
 }
