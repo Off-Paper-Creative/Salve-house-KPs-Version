@@ -1109,7 +1109,7 @@
         "c871991b-6a9c-4d4d-aa8e-d7fab553633c"
       ],
       "custom_css": [
-        "div {padding-top:120}"
+        ".section-container {padding-top: 20px;}"
       ],
       "settings": {
         "fullwidth": true,
