@@ -434,6 +434,66 @@
         "spacing_placement": "1"
       }
     },
+    "13d9654a-bbc1-4202-b166-b75be8f85106": {
+      "type": "image-with-products",
+      "blocks": {
+        "template--21586457198905__13d9654a-bbc1-4202-b166-b75be8f85106-image-1": {
+          "type": "image",
+          "settings": {
+            "image_width": 50
+          }
+        },
+        "template--21586457198905__13d9654a-bbc1-4202-b166-b75be8f85106-products-1": {
+          "type": "products",
+          "settings": {
+            "products_width": 50,
+            "collection_choice": "",
+            "columns_count": 2,
+            "rows_count": 2,
+            "products_gap": true,
+            "products_gap_choice": "level-4",
+            "carousel": false,
+            "per_move": 2,
+            "autoplay": true,
+            "interval": 4000,
+            "loop": true,
+            "mouse_drag": true,
+            "arrows": true,
+            "dots": false,
+            "speed": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457198905__13d9654a-bbc1-4202-b166-b75be8f85106-image-1",
+        "template--21586457198905__13d9654a-bbc1-4202-b166-b75be8f85106-products-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "heading": "Our Curated Supplement System",
+        "heading_tag": "s3",
+        "button_text": "Become A Member",
+        "button_url": "shopify:\/\/pages\/become-a-member",
+        "button_target": "_self",
+        "button_style": "link",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "93eda58b-2f92-481a-b273-979e5870e66c": {
       "type": "newsletter",
       "blocks": {
@@ -498,6 +558,7 @@
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
     "cc233987-3c3f-4886-8df3-9a832a09e1a5",
+    "13d9654a-bbc1-4202-b166-b75be8f85106",
     "93eda58b-2f92-481a-b273-979e5870e66c"
   ]
 }
