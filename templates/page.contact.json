@@ -1,5 +1,58 @@
 {
   "sections": {
+    "contact-form-1": {
+      "type": "contact-form",
+      "blocks": {
+        "6107d66e-4199-4172-872e-5c94ec72921b": {
+          "type": "text",
+          "settings": {
+            "text": "Contact Us",
+            "text_tag": "s2",
+            "text_custom_width": false,
+            "text_width": 370
+          }
+        },
+        "16b104f1-17f9-4a5a-a2f4-8b5d449309ce": {
+          "type": "text",
+          "settings": {
+            "text": "Send us a message for general inquiries. We're here to help.",
+            "text_tag": "p",
+            "text_custom_width": true,
+            "text_width": 370
+          }
+        }
+      },
+      "block_order": [
+        "6107d66e-4199-4172-872e-5c94ec72921b",
+        "16b104f1-17f9-4a5a-a2f4-8b5d449309ce"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": false,
+        "inset_choice": "level-5",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 100,
+        "background_mobile_overlay": false,
+        "background_mobile_overlay_color": "#1F2D1F",
+        "background_mobile_overlay_opacity": 100,
+        "content_position": "center",
+        "form_custom_width": true,
+        "form_width": 450,
+        "form_order": 1,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "23e91555-7571-42ca-aa81-ca519a012ac0": {
       "type": "text-cards",
       "blocks": {
@@ -63,66 +116,13 @@
         "separator_use_custom_color": false,
         "separator_custom_color": "#DAD3C4",
         "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "contact-form-1": {
-      "type": "contact-form",
-      "blocks": {
-        "6107d66e-4199-4172-872e-5c94ec72921b": {
-          "type": "text",
-          "settings": {
-            "text": "Contact Us",
-            "text_tag": "s2",
-            "text_custom_width": false,
-            "text_width": 370
-          }
-        },
-        "16b104f1-17f9-4a5a-a2f4-8b5d449309ce": {
-          "type": "text",
-          "settings": {
-            "text": "Send us a message for general inquiries. We're here to help.",
-            "text_tag": "p",
-            "text_custom_width": true,
-            "text_width": 370
-          }
-        }
-      },
-      "block_order": [
-        "6107d66e-4199-4172-872e-5c94ec72921b",
-        "16b104f1-17f9-4a5a-a2f4-8b5d449309ce"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": false,
-        "inset_choice": "level-5",
-        "background_overlay": false,
-        "background_overlay_color": "#1F2D1F",
-        "background_overlay_opacity": 100,
-        "background_mobile_overlay": false,
-        "background_mobile_overlay_color": "#1F2D1F",
-        "background_mobile_overlay_opacity": 100,
-        "content_position": "center",
-        "form_custom_width": true,
-        "form_width": 450,
-        "form_order": 1,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
+        "spacing_choice": "level-5",
         "spacing_placement": "1"
       }
     }
   },
   "order": [
-    "23e91555-7571-42ca-aa81-ca519a012ac0",
-    "contact-form-1"
+    "contact-form-1",
+    "23e91555-7571-42ca-aa81-ca519a012ac0"
   ]
 }
