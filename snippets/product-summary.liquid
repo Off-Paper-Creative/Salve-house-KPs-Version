@@ -300,7 +300,7 @@
                                     assign show_dynamic_checkout = true
                                 endif
                             %}
-                      {% render 'bsub-widget', product: product %}
+                      {% comment %} {% render 'bsub-widget', product: product %} {% endcomment %}
                             <div class="product-summary__product-form block-{{ block.id }}">
                                     <product-variants-selector class="product-variants-selector">
                                         <select class="product-variants-selector-select" name="id">
