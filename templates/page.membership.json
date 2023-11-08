@@ -197,7 +197,7 @@
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-additional",
         "button1_label": "Button 1",
         "button1_url": "\/",
         "button1_color": "#000000",
