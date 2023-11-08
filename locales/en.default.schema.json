@@ -3367,8 +3367,8 @@
 				}
 			}
 		},
-		"bold_add_product": {
-			"name": "Bold Product",
+		"add_product_membership": {
+			"name": "Membership Product",
 			"settings": {
 				"header__general": {
 					"content": "General"
