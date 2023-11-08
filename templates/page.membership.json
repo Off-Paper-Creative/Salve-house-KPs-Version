@@ -109,51 +109,6 @@
         "spacing_placement": "1"
       }
     },
-    "7483b00a-c39b-413e-9641-b038f51109b9": {
-      "type": "handpicked-products",
-      "custom_css": [
-        "h3 {color: white;}"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-additional",
-        "inset": true,
-        "inset_choice": "level-3",
-        "heading": "Select Your Membership Plan",
-        "heading_tag": "h3",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "link",
-        "products_choice": [
-          "collagen",
-          "vitamin-c",
-          "the-collagen-c-bundle-1"
-        ],
-        "columns_count": 3,
-        "rows_count": 1,
-        "gap": true,
-        "gap_choice": "level-4",
-        "carousel": false,
-        "per_move": 4,
-        "autoplay": true,
-        "interval": 4000,
-        "loop": true,
-        "mouse_drag": true,
-        "arrows": true,
-        "dots": false,
-        "speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#966e25",
-        "spacing": false,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "55e74749-7d33-438a-ae5a-09f8e39d11a6": {
       "type": "add-product-membership",
       "blocks": {
@@ -208,19 +163,19 @@
         "inset": true,
         "inset_choice": "level-3",
         "product_choice": "the-collagen-c-bundle-1",
-        "product_gallery_type": "fade",
+        "product_gallery_type": "slide",
         "product_gallery_arrows": false,
         "product_gallery_dots": false,
-        "product_gallery_mouse_drag": true,
-        "product_thumbnails_loop": true,
-        "product_thumbnails_arrows": true,
+        "product_gallery_mouse_drag": false,
+        "product_thumbnails_loop": false,
+        "product_thumbnails_arrows": false,
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -230,7 +185,6 @@
     "main",
     "0c24bcb1-f0b3-4e00-a375-14fedbcc69c0",
     "f7e83f1e-5786-4ae9-9b9b-9875323d4fd8",
-    "7483b00a-c39b-413e-9641-b038f51109b9",
     "55e74749-7d33-438a-ae5a-09f8e39d11a6"
   ]
 }
