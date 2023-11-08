@@ -130,9 +130,9 @@
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
-        "product_gallery_type": "fade",
+        "product_gallery_type": "slide",
         "product_gallery_arrows": false,
-        "product_gallery_dots": false,
+        "product_gallery_dots": true,
         "product_gallery_mouse_drag": false,
         "product_thumbnails_loop": true,
         "product_thumbnails_arrows": true,
@@ -142,8 +142,8 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
+        "spacing": false,
+        "spacing_choice": "level-1",
         "spacing_placement": "3"
       }
     },
@@ -229,8 +229,8 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
+        "spacing": false,
+        "spacing_choice": "level-1",
         "spacing_placement": "1",
         "scroll_speed": 33
       }
