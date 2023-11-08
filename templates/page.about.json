@@ -447,7 +447,7 @@
       ],
       "custom_css": [
         "ol {margin-left: 20vw; margin-right: 20vw;}",
-        ".section-rich-text {align-content: left;}"
+        ".section-rich-text {text-align: left; paddin-left: 2px}"
       ],
       "settings": {
         "fullwidth": true,
