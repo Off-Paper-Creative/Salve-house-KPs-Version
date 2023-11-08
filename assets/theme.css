@@ -559,8 +559,7 @@ video {
 .heading-h2,
 .heading-h3,
 .heading-h4,
-.heading-h5,
-.heading-h6 {
+.heading-h5 {
 	font-family: var(--theme-heading-font-family);
 	font-weight: var(--theme-heading-font-weight);
 	letter-spacing: var(--theme-heading-letter-spacing);
