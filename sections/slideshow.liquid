@@ -16,7 +16,7 @@
 
     {% style %}
       #shopify-section-{{ section.id }} .section-slideshow-slide-{{ forloop.index }}{
-        /* --theme-slideshow-slide-content-width: {{ block.settings.slide_content_width | append: 'px' }}; */
+        --theme-slideshow-slide-content-width: {{ block.settings.slide_content_width | append: 'px' }};
 
         --theme-slideshow-slide-heading-width: {{ block.settings.slide_heading_width | append: 'px' }};
 
@@ -264,7 +264,7 @@
                 <div class="section-slideshow-slide-subheading">{{ block.settings.slide_subheading }}</div>
               {% endif %}
               {% if block.settings.slide_description != blank %}
-                <div class="section-slideshow-slide-description"></div>
+                <div class="section-slideshow-slide-description">{{ block.settings.slide_description }}</div>
               {% endif %}
               {% if block.settings.slide_button_1_text != blank or block.settings.slide_button_2_text != blank %}
                 <div class="section-slideshow-slide-buttons">
