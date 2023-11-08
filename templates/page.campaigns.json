@@ -176,6 +176,17 @@
     },
     "1699284818862a67af": {
       "type": "apps",
+      "blocks": {
+        "3c362c3e-0ed8-47e2-b5d9-8b60c526d50a": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "the-collagen-c-bundle-1"
+          }
+        }
+      },
+      "block_order": [
+        "3c362c3e-0ed8-47e2-b5d9-8b60c526d50a"
+      ],
       "settings": {
       }
     }
