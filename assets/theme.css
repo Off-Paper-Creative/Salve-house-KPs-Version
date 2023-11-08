@@ -7,15 +7,15 @@
 	--theme-body-font-size-x-large: clamp(1.125rem, 4.5vw, 1.25rem);
 	--theme-body-letter-spacing: 0.01em;
 	--theme-body-line-height: 1.6;
-	--theme-heading-font-size-h1: 1.75rem;
-	--theme-heading-font-size-h2: 1.5rem;
-	--theme-heading-font-size-h3: 1.375rem;
-	--theme-heading-font-size-h4: 1.25rem;
-	--theme-heading-font-size-h5: 1.125rem;
+	--theme-heading-font-size-h1: 32px;
+	--theme-heading-font-size-h2: 30px;
+	--theme-heading-font-size-h3: 22px;
+	--theme-heading-font-size-h4: 22px;
+	--theme-heading-font-size-h5: 18px;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
-	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
-	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
+	--theme-heading-font-size-special-small: clamp(22px, 24px, 26px);
+	--theme-heading-font-size-special-normal: clamp(26px, 28px, 30px);
+	--theme-heading-font-size-special-large: clamp(30px, 32px, 34px);
 	--theme-heading-letter-spacing: -0.02em;
 	--theme-heading-line-height: 1.4;
 	--theme-special-letter-spacing: -0.02em;
@@ -96,13 +96,13 @@
 	--theme-body-font-size-x-large: clamp(1.125rem, 4.5vw, 1.25rem);
 	--theme-body-letter-spacing: 0.01em;
 	--theme-body-line-height: 1.6;
-	--theme-heading-font-size-h1: 1.75rem;
-	--theme-heading-font-size-h2: 1.5rem;
-	--theme-heading-font-size-h3: 1.375rem;
-	--theme-heading-font-size-h4: 1.25rem;
-	--theme-heading-font-size-h5: 1.125rem;
+	--theme-heading-font-size-h1: 32px;
+	--theme-heading-font-size-h2: 30px;
+	--theme-heading-font-size-h3: 22px;
+	--theme-heading-font-size-h4: 22px;
+	--theme-heading-font-size-h5: 18px;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(10px, 12px, 14px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -238,11 +238,11 @@ h2 {
 	font-size: var(--theme-heading-font-size-h2);
 }
 
-h3 {
+h4 {
 	font-size: var(--theme-heading-font-size-h3);
 }
 
-h4 {
+h3 {
 	font-size: 32px;
 	font-family: "Evafiya-Bold" !important;
 }
@@ -1224,7 +1224,7 @@ body:has(.section-header.has-separator)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -1778,7 +1778,7 @@ body:has(.section-header.has-separator)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -3293,7 +3293,7 @@ body:has(.section-header.has-separator)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -5198,7 +5198,7 @@ body:not(.has-layout-margin)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -5409,7 +5409,7 @@ body:not(.has-layout-margin)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -5620,7 +5620,7 @@ body:not(.has-layout-margin)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -5761,7 +5761,7 @@ body:not(.has-layout-margin)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -7809,7 +7809,7 @@ body:not(.has-layout-margin)
 	--theme-heading-font-size-h4: 1.25rem;
 	--theme-heading-font-size-h5: 1.125rem;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
+	--theme-heading-font-size-special-small: clamp(28px, 32px, 36px);
 	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
 	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
 	--theme-heading-letter-spacing: -0.02em;
@@ -8223,21 +8223,21 @@ body:not(.has-layout-margin)
 :root {
 	--theme-color-dark-gray: #635436;
 	--theme-color-alert-error: #fc4f4f;
-	--theme-body-font-size: clamp(0.875rem, 3.5vw, 1rem);
-	--theme-body-font-size-small: clamp(0.75rem, 3vw, 0.875rem);
-	--theme-body-font-size-large: clamp(1rem, 4vw, 1.125rem);
+	--theme-body-font-size: clamp(14px, 16px, 18px);
+	--theme-body-font-size-small: clamp(10px, 12px, 16px);
+	--theme-body-font-size-large: clamp(17px, 18px, 19px);
 	--theme-body-font-size-x-large: clamp(1.125rem, 4.5vw, 1.25rem);
 	--theme-body-letter-spacing: 0.01em;
 	--theme-body-line-height: 1.6;
-	--theme-heading-font-size-h1: 1.75rem;
-	--theme-heading-font-size-h2: 1.5rem;
-	--theme-heading-font-size-h3: 1.375rem;
-	--theme-heading-font-size-h4: 1.25rem;
-	--theme-heading-font-size-h5: 1.125rem;
+	--theme-heading-font-size-h1: 32px;
+	--theme-heading-font-size-h2: 30px;
+	--theme-heading-font-size-h3: 22px;
+	--theme-heading-font-size-h4: 22px;
+	--theme-heading-font-size-h5: 18px;
 	--theme-heading-font-size-h6: 1rem;
-	--theme-heading-font-size-special-small: clamp(1.625rem, 6vw, 2rem);
-	--theme-heading-font-size-special-normal: clamp(1.75rem, 7vw, 2.25rem);
-	--theme-heading-font-size-special-large: clamp(2.4rem, 10vw, 3rem);
+	--theme-heading-font-size-special-small: clamp(22px, 24px, 26px);
+	--theme-heading-font-size-special-normal: clamp(26px, 28px, 30px);
+	--theme-heading-font-size-special-large: clamp(30px, 32px, 34px);
 	--theme-heading-letter-spacing: -0.02em;
 	--theme-heading-line-height: 1.4;
 	--theme-special-letter-spacing: -0.02em;
