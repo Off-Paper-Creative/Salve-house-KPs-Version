@@ -264,7 +264,9 @@
                 <div class="section-slideshow-slide-subheading">{{ block.settings.slide_subheading }}</div>
               {% endif %}
               {% if block.settings.slide_description != blank %}
-                <div class="section-slideshow-slide-description"><p>{{ block.settings.slide_description }}</p></div>
+                <div class="section-slideshow-slide-description">
+    {{ block.settings.slide_description | strip_html | strip_newlines }}
+  </div>
               {% endif %}
               {% if block.settings.slide_button_1_text != blank or block.settings.slide_button_2_text != blank %}
                 <div class="section-slideshow-slide-buttons">
