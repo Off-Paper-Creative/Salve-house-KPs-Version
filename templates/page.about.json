@@ -446,7 +446,7 @@
         "292be3ce-261f-4260-adc0-f85be89ddce4"
       ],
       "custom_css": [
-        "ul {margin-left: 20vw; margin-right: 20vw;}"
+        "ol {margin-left: 20vw; margin-right: 20vw; justify-content: left}"
       ],
       "settings": {
         "fullwidth": true,
