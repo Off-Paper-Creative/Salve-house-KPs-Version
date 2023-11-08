@@ -66,14 +66,6 @@
   assign current_variant = product.selected_or_first_available_variant
   assign featured_image = current_variant.featured_image | default: product.featured_image
   assign pick_up_availabilities = current_variant.store_availabilities | where: 'pick_up_enabled', true
-
-
-  assign product_gallery_slider = true
-  assign product_image_count = product.images | size
-
-  if product_image_count > 1 and product_gallery_slider == true
-    assign has_slider = true
-  endif
 %}
 
 
@@ -120,6 +112,13 @@ endif
     assign seo_media = product.featured_media
   endif
 -%}
+
+<script>
+  const hideTable= document.querySelector("#shopify-block-edaa4256-94d4-4f46-99d4-b9632961d2df > div > div > div > div.sls-purchase-options-container > div.sls-option-container.seal-table.sls-active")
+if (hideTable) {
+  hideTable.style.display = "none";
+}
+</script>
 
 <script type="application/ld+json">
   {
