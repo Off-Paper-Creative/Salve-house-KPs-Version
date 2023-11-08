@@ -6025,7 +6025,7 @@ body:not(.has-layout-margin)
 }
 #showTitle,
 #showProducts {
-	display: none;
+	display: block;
 	opacity: 0;
 	transition-duration: 10s;
 }
