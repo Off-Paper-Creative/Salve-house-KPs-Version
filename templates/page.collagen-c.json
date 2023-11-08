@@ -744,7 +744,7 @@
         "description": "",
         "description_tag": "h6",
         "button_text": "Shop Vitamin C",
-        "button_url": "shopify:\/\/products\/colvita-collagen-supplement",
+        "button_url": "shopify:\/\/products\/vitamin-c",
         "button_target": "_self",
         "button_style": "link",
         "separator": false,
