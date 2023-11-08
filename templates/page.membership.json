@@ -167,35 +167,15 @@
           "settings": {
           }
         },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-shoppay-banner-1": {
-          "type": "shoppay-banner",
-          "settings": {
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-description-1": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-rating-1": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-vendor-1": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-variant-picker-1": {
           "type": "variant-picker",
           "settings": {
           }
         },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-stock-count-1": {
-          "type": "stock-count",
+        "edaa4256-94d4-4f46-99d4-b9632961d2df": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
           "settings": {
-            "low_stock_trigger": 5
+            "product": "{{section.settings.product_choice}}"
           }
         },
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-buy-buttons-1": {
@@ -205,83 +185,14 @@
             "dynamic-checkout-button": true,
             "show_gift_card_recipient": false
           }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-pickup-availability-1": {
-          "type": "pickup-availability",
-          "settings": {
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-collapsible-row-1": {
-          "type": "collapsible-row",
-          "settings": {
-            "title_text": "This is collapsible title.",
-            "description_text": "<p>This is collapsible content.<\/p>",
-            "open_by_default": false
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-info-box-1": {
-          "type": "info-box",
-          "settings": {
-            "icon": "credit-card",
-            "text": "<p>This is simple info.<\/p>"
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This is simple text.<\/p>"
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-info-popup-1": {
-          "type": "info-popup",
-          "settings": {
-            "link_text": "Info popup link",
-            "page": "",
-            "variant_choice": ""
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-share-1": {
-          "type": "share",
-          "settings": {
-            "copy_link": true,
-            "facebook": true,
-            "pinterest": true,
-            "twitter": false,
-            "linkedin": false
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-separator-1": {
-          "type": "separator",
-          "settings": {
-            "width": "100%",
-            "height": 1
-          }
-        },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-spacer-1": {
-          "type": "spacer",
-          "settings": {
-            "height": "30px"
-          }
         }
       },
       "block_order": [
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-title-1",
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-price-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-shoppay-banner-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-description-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-rating-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-vendor-1",
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-variant-picker-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-stock-count-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-buy-buttons-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-pickup-availability-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-collapsible-row-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-info-box-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-text-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-info-popup-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-share-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-separator-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-spacer-1"
+        "edaa4256-94d4-4f46-99d4-b9632961d2df",
+        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-buy-buttons-1"
       ],
       "settings": {
         "fullwidth": true,
@@ -296,7 +207,7 @@
         "button2_color": "#000000",
         "inset": true,
         "inset_choice": "level-3",
-        "product_choice": "",
+        "product_choice": "the-collagen-c-bundle-1",
         "product_gallery_type": "fade",
         "product_gallery_arrows": false,
         "product_gallery_dots": false,
