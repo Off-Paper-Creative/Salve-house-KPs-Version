@@ -421,6 +421,14 @@ endif
     //   if (dynamicContentElement && dynamicContentElement.firstChild) {
     //     dynamicContentElement.firstChild.textContent = "Most Popular";
     //   }
+// add widget dynamically: const addMembership = document.querySelector("#shopify-block-3c362c3e-0ed8-47e2-b5d9-8b60c526d50a > div > div > div > div.sls-purchase-options-container > div:nth-child(3)");
+const hideTable = document.querySelector("#shopify-block-3c362c3e-0ed8-47e2-b5d9-8b60c526d50a > div > div > div > div.sls-purchase-options-container > div.sls-option-container.seal-table.sls-active");
+
+// Make the 'addMembership' element visible
+addMembership.style.display = 'block';
+
+// Hide the 'hideTable' element
+hideTable.style.display = 'none';
 
     const productData = [
       {
