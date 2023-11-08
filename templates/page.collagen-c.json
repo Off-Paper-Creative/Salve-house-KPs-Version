@@ -358,7 +358,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -1109,7 +1109,7 @@
         "c871991b-6a9c-4d4d-aa8e-d7fab553633c"
       ],
       "custom_css": [
-
+        "div {padding-top:120}"
       ],
       "settings": {
         "fullwidth": true,
