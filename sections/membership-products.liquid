@@ -114,7 +114,7 @@
   <div class="gold-bg">
 <h5 class="h5-white"id="floatHeader">lve well</h5>
 <p id="showTitle"> Receive a 2 month supply of your supplements delivered to your door every other month.</p>
-<button id="becomeAMember" class="becomeAMember" >Become a Member</button>
+<button id="becomeAMember" class="becomeAMember" >Start Here</button>
 <div id="whiteSeparator" class="whiteSeparator"></div>
   </div>
 <div class="section-boxed-multicolumns{% liquid 
@@ -231,7 +231,7 @@ endif
       {% if section.settings.heading != blank %}
         {% case section.settings.heading_tag %}
           {% when 's1' or 's2' or 's3' %}
-            <h3 class="section-handpicked-products-header__heading special-heading-{{ section.settings.heading_tag }}">{{ section.settings.heading }}</h3>
+            <h5 class="section-handpicked-products-header__heading special-heading-{{ section.settings.heading_tag }}">{{ section.settings.heading }}</h5>
           {% when 'p1' or 'p2' %}
             <p class="section-handpicked-products-header__heading paragraph-{{ section.settings.heading_tag }}">{{ section.settings.heading }}</p>
           {% else %}
@@ -388,7 +388,6 @@ endif
     const productArray = document.querySelectorAll(".section-handpicked-products-product");
     const showButton = document.getElementById("showButton");
     const showTitle = document.getElementById("showTitle");
-    const hideTitle = document.getElementById("hideTitle");
     const hideText = document.getElementById("hideText");
     const showProducts = document.getElementById("showProducts");
     const hideColumns = document.getElementById("hideColumns");
@@ -402,7 +401,6 @@ endif
 
     becomeAMember.addEventListener("click", function () {
       // Show the "showText" and "showProducts" elements when "becomeAMember" button is clicked
-      hideTitle.style.display = "none";
       hideText.style.display = "none";
       hideColumns.style.display = "none";
       becomeAMember.style.display = "none";
@@ -410,17 +408,18 @@ endif
       floatHeader.style.animationName = "floatHeaderAnimation";
       floatHeader.style.animationPlayState = "running";
       setTimeout(function () {
-        showTitle.style.display = "block";
+      showTitle.style.display = "block";
       showProducts.style.display = "block";
-       showTitle.style.opacity = 1;
-    showProducts.style.opacity = 1;
+      showProducts.style.opacity = "1";
+      showTitle.style.opacity = "1";
+
 },2000);
     });
     // change dynamically "Sale" to "Most Popular"
-    const dynamicContentElement = document.querySelector("#showProducts > div > div > div.section-handpicked-products-list > div:nth-child(1) > span");
-      if (dynamicContentElement && dynamicContentElement.firstChild) {
-        dynamicContentElement.firstChild.textContent = "Most Popular";
-      }
+    // const dynamicContentElement = document.querySelector("#showProducts > div > div > div.section-handpicked-products-list > div:nth-child(1) > span");
+    //   if (dynamicContentElement && dynamicContentElement.firstChild) {
+    //     dynamicContentElement.firstChild.textContent = "Most Popular";
+    //   }
 
     const productData = [
       {

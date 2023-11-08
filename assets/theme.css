@@ -6112,11 +6112,10 @@ body:not(.has-layout-margin)
 	max-height: 10rem;
 }
 .whiteSeparator {
-	width: 79vw;
+	min-width: 100%;
 	height: 2px;
 	background-color: white;
-	margin: 2rem auto 1rem auto;
-	justify-self: center;
+	margin: 2rem auto 2rem auto;
 }
 @media (min-width: 768px) {
 	.section-handpicked-products-list:not(.has-carousel) {
@@ -7346,13 +7345,14 @@ body:not(.has-layout-margin)
 	flex-direction: column;
 	justify-content: var(--theme-multicolumn-vertical-align, normal);
 	align-items: var(--theme-multicolumn-horizontal-align, center);
-	max-width: var(--theme-multicolumn-text-2-width, 100%);
+	width: 100%;
 	background-color: #966e25;
 	color: #fff;
-	text-justify: center;
 	text-align: center;
 	padding-bottom: 50px;
-	padding-left: 100px;
+}
+.section-boxed-multicolumns .section-multicolumns-container {
+	flex-wrap: nowrap;
 }
 
 .section-boxed-multicolumns .section-multicolumn__text_2 {
@@ -8542,15 +8542,14 @@ body:not(.has-layout-margin)
 	);
 }
 .merged-section {
-	padding-left: 5vw;
-	padding-right: 5vw;
 	display: block;
-	flex-direction: column;
-	justify-content: center;
 	padding-top: 30px;
 	height: 100vh;
 	padding-bottom: 200px;
 	overflow: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	align-items: center;
 }
 .gold-bg {
 	color: white;
