@@ -50,6 +50,12 @@
           "settings": {
           }
         },
+        "287a0441-c547-4076-9d83-4af894169576": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "72fda07d-7039-4e1d-a2c7-a5a454662f94": {
           "type": "buy-buttons",
           "settings": {
@@ -109,6 +115,7 @@
         "a6ec1957-2afd-48cb-abcb-88426b624064",
         "template--15755619565723__main-1672284793b7b17a79-2",
         "template--15755619565723__main-1672284793b7b17a79-5",
+        "287a0441-c547-4076-9d83-4af894169576",
         "72fda07d-7039-4e1d-a2c7-a5a454662f94",
         "template--15755619565723__main-1672284793b7b17a79-7",
         "0d05c380-3849-4441-a916-d2c9d9c1102c",
@@ -252,7 +259,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Vitamin C is an essential vitamin, meaning it is not naturally produced in your body. It is a vital antioxidant that plays a key role in boosting your immunity and lowering the risk of heart disease, iron deficiency, and high blood pressure. It is also essential for collagen production, which plays a key role in maintaining the health of blood vessels, bones, and skin. Vitamin C contributes to a robust immune system ensuring the optimal function of the nervous and cardiovascular systems by maintaining proper density and firmness of blood vessel walls.",
             "slide_subheading_width": 450,
-            "text": "<p>This is simple description.<\/p>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -319,7 +326,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "The most extensive natural origin of vitamin C lies within the shoots of granular plants like buckwheat, typically during their 5-7 days of germination. This is precisely where the vitamin C for C-olway is derived from - directly from nature, found in the sprouting buckwheat and bitter orange. These two plants are now recognized as some of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections.",
             "slide_subheading_width": 450,
-            "text": "<p>This is simple description.<\/p>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
