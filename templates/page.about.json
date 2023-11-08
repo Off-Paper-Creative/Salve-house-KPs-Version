@@ -247,6 +247,73 @@
         "spacing_placement": "1"
       }
     },
+    "dde65266-81d8-4cc8-a684-966ebefea4b3": {
+      "type": "slideshow",
+      "blocks": {
+        "ec9a81fa-74c1-4193-a48e-6047c8470a40": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 40,
+            "slide_image_right_enable": true,
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Science + Consistency",
+            "slide_heading_width": 450,
+            "slide_subheading": "",
+            "slide_subheading_width": 450,
+            "text": "<p>Our supplements come with a 2 month supply<\/p>",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Button text",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "ec9a81fa-74c1-4193-a48e-6047c8470a40"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
+        "color_scheme": "scheme-additional",
+        "slideshow_autoplay": true,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "multicolumn-2": {
       "type": "multicolumn",
       "blocks": {
@@ -621,6 +688,7 @@
     "multicolumn-1",
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
+    "dde65266-81d8-4cc8-a684-966ebefea4b3",
     "multicolumn-2",
     "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433",
     "645ab249-379c-4b96-b508-a89b46c267d4",
