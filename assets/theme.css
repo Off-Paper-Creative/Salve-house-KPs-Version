@@ -9036,12 +9036,15 @@ body:not(.has-layout-margin)
 	background-color: white;
 	border-color: #234147;
 	margin-bottom: auto;
-	border-width: 10px;
 	color: #234147;
 	transition: 0.3s;
 	-o-transition: 0.3s;
 	min-height: 30px;
 }
 .sls-option-container:hover {
-	background-color: #234147;
+	background-color: rgb(150, 110, 37);
+}
+.h5-white {
+	font-size: 24px;
+	color: white;
 }
