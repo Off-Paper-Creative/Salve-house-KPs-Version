@@ -52,6 +52,7 @@
         },
         "f81aee86-fb73-426e-9e2c-957658b2fdf5": {
           "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
