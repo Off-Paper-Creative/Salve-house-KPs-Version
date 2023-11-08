@@ -8566,7 +8566,7 @@ body:not(.has-layout-margin)
 
 #floatHeader {
 	padding-top: 35vh;
-	animation-duration: 2s; /* Duration of the animation */
+	animation-duration: 1s; /* Duration of the animation */
 	animation-timing-function: linear; /* Timing function for smooth animation */
 	animation-fill-mode: forwards; /* Keeps the final style of the animation */
 }
