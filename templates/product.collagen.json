@@ -220,8 +220,8 @@
       ],
       "settings": {
         "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
+        "inset": false,
+        "inset_choice": "level-1",
         "splitter_use_custom_width": true,
         "splitter_custom_width": 16,
         "separator": true,
@@ -230,7 +230,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1",
         "scroll_speed": 33
