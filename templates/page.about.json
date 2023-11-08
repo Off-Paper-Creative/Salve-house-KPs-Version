@@ -574,7 +574,8 @@
         "template--21586457198905__13d9654a-bbc1-4202-b166-b75be8f85106-image-1": {
           "type": "image",
           "settings": {
-            "image_width": 50
+            "image_width": 50,
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_9.44.31_AM.png"
           }
         },
         "template--21586457198905__13d9654a-bbc1-4202-b166-b75be8f85106-products-1": {
