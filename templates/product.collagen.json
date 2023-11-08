@@ -50,6 +50,12 @@
           "settings": {
           }
         },
+        "f81aee86-fb73-426e-9e2c-957658b2fdf5": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "72fda07d-7039-4e1d-a2c7-a5a454662f94": {
           "type": "buy-buttons",
           "settings": {
@@ -109,6 +115,7 @@
         "a6ec1957-2afd-48cb-abcb-88426b624064",
         "template--15755619565723__main-1672284793b7b17a79-2",
         "template--15755619565723__main-1672284793b7b17a79-5",
+        "f81aee86-fb73-426e-9e2c-957658b2fdf5",
         "72fda07d-7039-4e1d-a2c7-a5a454662f94",
         "template--15755619565723__main-1672284793b7b17a79-7",
         "0d05c380-3849-4441-a916-d2c9d9c1102c",
@@ -252,7 +259,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Physical Activity and Recovery:",
             "slide_subheading_width": 450,
-            "text": "<p>This is simple description.<\/p>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -319,7 +326,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water). Unlike conventional animal protein hydrolysates, this method extracts biologically active collagen, marked by an exceptional degree of anabolicity-close to 100%. This means the supplement helps builds complex proteins within your body and further promotes collagen synthesis.  Additionally, the formula of Colvita is enriched with micronized Atlantic algae (Fucus vesiculosus) and vitamin E from organic seeds in the form of tocopherols and tocotrienols, offering optimal bioretention.",
             "slide_subheading_width": 450,
-            "text": "<p>This is simple description.<\/p>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
