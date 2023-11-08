@@ -494,7 +494,8 @@
           "type": "card",
           "settings": {
             "card_size": "small",
-            "image_aspect_ratio": "auto",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_10.46.57_AM.png",
+            "image_aspect_ratio": "1\/1",
             "heading": "Colvita Collagen",
             "heading_tag": "h5",
             "heading_custom_width": false,
@@ -513,7 +514,7 @@
           "type": "card",
           "settings": {
             "card_size": "large",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_10.46.57_AM.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_2.52.57_PM_31749fea-8710-4749-a348-f2fe5ff183ef.png",
             "image_aspect_ratio": "1\/1",
             "heading": "",
             "heading_tag": "h4",
@@ -692,7 +693,8 @@
           "type": "card",
           "settings": {
             "card_size": "small",
-            "image_aspect_ratio": "auto",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_11.52.57_AM_aca05097-e25c-4c6a-9ffd-5a6997110b98.png",
+            "image_aspect_ratio": "1\/1",
             "heading": "Colway - Vitamin C",
             "heading_tag": "h5",
             "heading_custom_width": false,
@@ -711,7 +713,7 @@
           "type": "card",
           "settings": {
             "card_size": "large",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_11.52.57_AM.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_3.05.58_PM.png",
             "image_aspect_ratio": "1\/1",
             "heading": "",
             "heading_tag": "h4",
