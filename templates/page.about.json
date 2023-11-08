@@ -207,17 +207,17 @@
             "slide_subheading_width": 450,
             "text": "<p>Salve emerged from a crucial realization that there exists a huge quality gap in the supplement market, one in which many products do not contain nearly enough of the active ingredient customers think they are purchasing. Nor do these products deliver the results people truly desire. <\/p><p>Our mission is to demystify wellness products, simplify the science, and present you with a curated line of products designed for to work with you. Products designed for optimal absorption, that work in harmony with your body, helping you achieve sustainable health and radiant youth.<\/p>",
             "slide_description_width": 450,
-            "slide_button_1_text": "Button text",
+            "slide_button_1_text": "",
             "slide_button_1_url": "",
             "slide_button_1_style": "outline",
             "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
+            "slide_button_1_custom_width": false,
             "slide_button_1_width": 200,
             "slide_button_2_text": "",
             "slide_button_2_url": "",
             "slide_button_2_style": "outline",
             "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
+            "slide_button_2_custom_width": false,
             "slide_button_2_width": 200
           }
         }
@@ -230,7 +230,7 @@
         "width": 1320,
         "slideshow_height_mobile": "600",
         "slideshow_height": "600",
-        "color_scheme": "scheme-additional",
+        "color_scheme": "scheme-accent",
         "slideshow_autoplay": true,
         "slideshow_transition_interval": 4000,
         "slideshow_loop": true,
@@ -244,7 +244,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#DAD3C4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
