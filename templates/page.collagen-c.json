@@ -915,6 +915,9 @@
         "00264ba5-7e15-4968-8cb4-98bb3c7d8e54",
         "1fd56324-3036-4708-835c-a582f91ac53a"
       ],
+      "custom_css": [
+        "p {color: white}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
