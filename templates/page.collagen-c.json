@@ -1109,7 +1109,7 @@
         "c871991b-6a9c-4d4d-aa8e-d7fab553633c"
       ],
       "custom_css": [
-        ".section-multicolumns .section-multicolumn__image {padding-top: 20px;}"
+        ".section-multicolumns .section-multicolumn__image {padding-top: 30px;}"
       ],
       "settings": {
         "fullwidth": true,
