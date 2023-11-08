@@ -320,7 +320,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "",
             "slide_subheading_width": 450,
-            "text": "<p>People who would benefit from collagen and vitamin C goes here<\/p><ul><li>Person one<\/li><li>person two<\/li><li>person 3<\/li><li>person 4<\/li><\/ul>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -781,7 +781,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "THE CATALYST",
             "slide_subheading_width": 450,
-            "text": "<p>So much text. So much text. So much text. So much text. So much text. So much text. So much text. So much text. So much text. So much text. So much text. So much text. So much text. <\/p>",
+            "slide_description": "fdgdsfgdsgfgdfhgfghgf",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -818,7 +818,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "",
             "slide_subheading_width": 450,
-            "text": "<p>This is simple description.<\/p>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -855,7 +855,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "The Salve Choice",
             "slide_subheading_width": 450,
-            "text": "<p>This is simple description.<\/p>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -892,7 +892,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Take 1 Vitamin C Capsule daily. Follow by Colvita Collagen Capsule for Best Results. Take for 3 consecutive months to see and feel results.",
             "slide_subheading_width": 450,
-            "text": "<p><strong>This is simple description.<\/strong><\/p>",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "BECOME A MEMBER",
             "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
@@ -916,7 +916,7 @@
         "1fd56324-3036-4708-835c-a582f91ac53a"
       ],
       "custom_css": [
-        "p {color: white}"
+        "p {color: white;}"
       ],
       "settings": {
         "fullwidth": true,
