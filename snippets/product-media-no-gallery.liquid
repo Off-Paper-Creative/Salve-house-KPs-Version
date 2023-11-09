@@ -16,7 +16,7 @@
 %}
 {% if product != blank  %}
 {% if product.media != blank %}
-    <div class="product-media">
+    <div class="product-media-single">
     {% assign first_image = product.media[0] %}
     <a href="{{ first_image.src | image_url }}" data-pswp-width="{{ first_image.width }}" data-pswp-height="{{ first_image.height }}">
       {{ first_image | image_url: width: 1200 | image_tag: loading: 'lazy', alt: first_image.alt | escape }}

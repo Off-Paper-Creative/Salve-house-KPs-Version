@@ -9052,3 +9052,19 @@ body:not(.has-layout-margin)
 .product-quantity-picker-input {
 	background-color: #f8f4ec;
 }
+
+.section-add-product-container-grey-padding {
+	background-color: #f8f4ec;
+	margin: auto;
+	max-width: 80vw;
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+.product-media-single {
+	padding: 20px;
+}
+.sls-purchase-options-label {
+	display: none;
+}

@@ -85,7 +85,7 @@
 
 %}">
   <div class="section-featured-product-container section-add-product-container">
-    <div class="section-add-product-container-white-padding">
+    <div class="section-add-product-container-grey-padding">
     {% render 'product-media-no-gallery'
       , product: product
       , section: section %}
@@ -112,6 +112,19 @@ endif
     assign seo_media = product.featured_media
   endif
 -%}
+
+<script>
+// Select the element
+
+const discount = document.querySelector("#shopify-block-edaa4256-94d4-4f46-99d4-b9632961d2df > div > div > div > div.sls-purchase-options-container > div:nth-child(3) > div > div.sls-label-container.seal-col > div.sls-selling-plan-group-first-line > label > span")
+// Check if the element exists
+if (discount) {
+  // Replace the inner text with your desired text
+  discount.innerText = "Best Seller";
+} else {
+  console.log("Element not found.");
+}
+</script>
 
 <script type="application/ld+json">
   {
