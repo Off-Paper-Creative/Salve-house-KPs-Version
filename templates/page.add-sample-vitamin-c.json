@@ -144,6 +144,12 @@
           "settings": {
           }
         },
+        "13e147b0-4c93-44fa-b533-ab91dd62c3ba": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{section.settings.product_choice}}"
+          }
+        },
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-buy-buttons-1": {
           "type": "buy-buttons",
           "settings": {
@@ -158,6 +164,7 @@
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-price-1",
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-shoppay-banner-1",
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-variant-picker-1",
+        "13e147b0-4c93-44fa-b533-ab91dd62c3ba",
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-buy-buttons-1"
       ],
       "settings": {
