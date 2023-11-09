@@ -71,7 +71,7 @@
         "width": 1320,
         "color_scheme": "scheme-complementary",
         "inset": true,
-        "inset_choice": "level-3",
+        "inset_choice": "level-1",
         "alignment": "center",
         "separator": false,
         "separator_width": 100,
@@ -80,7 +80,7 @@
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
         "spacing": false,
-        "spacing_choice": "level-3",
+        "spacing_choice": "level-1",
         "spacing_placement": "1"
       }
     },
@@ -108,7 +108,7 @@
         "width": 1320,
         "color_scheme": "scheme-additional",
         "inset": true,
-        "inset_choice": "level-2",
+        "inset_choice": "level-1",
         "alignment": "center",
         "separator": false,
         "separator_width": 100,
