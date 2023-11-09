@@ -10,11 +10,12 @@
           "settings": {
             "mega_menu_index": 4,
             "mega_menu_card_1_image": "shopify:\/\/shop_images\/1_e4d2bb49-1d21-4821-a8cf-9f799bc966f2.jpg",
-            "mega_menu_card_1_text": "Collagen + C",
-            "mega_menu_card_1_link": "shopify:\/\/products\/the-collagen-c-bundle-1",
+            "mega_menu_card_1_text": "Individual Products",
+            "mega_menu_card_1_link": "shopify:\/\/products\/collagen",
             "mega_menu_card_1_target": "_self",
-            "mega_menu_card_2_text": "Collagen",
-            "mega_menu_card_2_link": "shopify:\/\/products\/collagen",
+            "mega_menu_card_2_image": "shopify:\/\/shop_images\/6.jpg",
+            "mega_menu_card_2_text": "Systems",
+            "mega_menu_card_2_link": "shopify:\/\/products\/the-collagen-c-bundle-1",
             "mega_menu_card_2_target": "_self"
           }
         }
