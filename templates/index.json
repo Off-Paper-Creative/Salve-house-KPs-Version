@@ -58,16 +58,27 @@
       "blocks": {
         "44c0b37c-9dc6-40a1-9fef-53e021495085": {
           "type": "special_heading",
+          "disabled": true,
           "settings": {
             "text": "A Powerful System Of Vetted Supplements Formulated To Work With Our Bodies",
             "text_tag": "s3",
             "text_custom_width": false,
             "text_width": 700
           }
+        },
+        "c2403bae-1544-4222-8e61-3d937f55559e": {
+          "type": "heading",
+          "settings": {
+            "text": "A Powerful System Of Vetted Supplements Formulated To Work With Our Bodies",
+            "text_tag": "h5",
+            "text_custom_width": false,
+            "text_width": 700
+          }
         }
       },
       "block_order": [
-        "44c0b37c-9dc6-40a1-9fef-53e021495085"
+        "44c0b37c-9dc6-40a1-9fef-53e021495085",
+        "c2403bae-1544-4222-8e61-3d937f55559e"
       ],
       "settings": {
         "fullwidth": false,
