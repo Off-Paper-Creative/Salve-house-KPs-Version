@@ -317,98 +317,6 @@
         "spacing_placement": "1"
       }
     },
-    "multicolumn-2": {
-      "type": "multicolumn",
-      "blocks": {
-        "25e6bc25-ae69-4ea7-afff-580db40f971d": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-3",
-            "width": 50,
-            "horizontal_align": "normal",
-            "vertical_align": "normal",
-            "text_align": "left",
-            "image_show": true,
-            "image": "shopify:\/\/shop_images\/pexels-anna-shvets-3683108.jpg",
-            "image_aspect_ratio": "1\/1",
-            "image_custom_width": false,
-            "image_width": 300,
-            "image_display_order": 0,
-            "text_1": "",
-            "text_1_tag": "p",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline",
-            "button_display_order": 0
-          }
-        },
-        "541d04be-5d39-4d32-ba97-81bbd232ed4e": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-accent",
-            "inset": true,
-            "inset_choice": "level-5",
-            "width": 50,
-            "horizontal_align": "center",
-            "vertical_align": "center",
-            "text_align": "left",
-            "image_show": false,
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 300,
-            "image_display_order": 0,
-            "text_1": "We Do Our Research So You Don't Have To",
-            "text_1_tag": "s2",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "Salve emerged from a crucial realization that there exists a huge quality gap in the supplement market, one in which many products do not contain nearly enough of the active ingredient customers think they are purchasing. Nor do these products deliver the results people truly desire. Our mission is to demystify wellness products, simplify the science, and present you with a curated line of products designed for to work with you. Products designed for optimal absorption, that work in harmony with your body, helping you achieve sustainable health and radiant youth.",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        }
-      },
-      "block_order": [
-        "25e6bc25-ae69-4ea7-afff-580db40f971d",
-        "541d04be-5d39-4d32-ba97-81bbd232ed4e"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": false,
-        "gap_choice": "level-4",
-        "stack_on_mobile": true,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433": {
       "type": "rich-text",
       "blocks": {
@@ -450,8 +358,8 @@
         ".section-rich-text {text-align: left; paddin-left: 2px;}"
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
+        "fullwidth": false,
+        "width": 580,
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
@@ -695,7 +603,6 @@
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
-    "multicolumn-2",
     "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433",
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
