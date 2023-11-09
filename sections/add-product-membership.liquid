@@ -114,16 +114,19 @@ endif
 -%}
 
 <script>
-// Select the element
 
-const discount = document.querySelector("#shopify-block-edaa4256-94d4-4f46-99d4-b9632961d2df > div > div > div > div.sls-purchase-options-container > div:nth-child(3) > div > div.sls-label-container.seal-col > div.sls-selling-plan-group-first-line > label > span")
-// Check if the element exists
-if (discount) {
-  // Replace the inner text with your desired text
-  discount.innerText = "Best Seller";
-} else {
-  console.log("Element not found.");
-}
+/* This code will check every 200 milliseconds if elements with the class .sls-purchase-options-container exist. 
+If they do, it will set their second child node's display to 'none' and then clear the interval, stopping further checks. */
+let purchaseOptionsLookup = setInterval(function() {
+  const elements = document.querySelectorAll('.sls-purchase-options-container');
+  console.log('looking for thing')
+  if (elements.length > 0) {
+    elements.forEach(purchaseOption => purchaseOption.childNodes[1].style.display ='none');
+    clearInterval(purchaseOptionsLookup);
+  }
+}, 100);
+
+
 </script>
 
 <script type="application/ld+json">

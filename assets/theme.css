@@ -9058,7 +9058,7 @@ body:not(.has-layout-margin)
 
 .section-add-product-container-grey-padding {
 	background-color: #f8f4ec;
-	margin: auto;
+	margin: 0rem auto 2rem auto;
 	max-width: 80vw;
 	width: 60%;
 	display: flex;
@@ -9067,7 +9067,12 @@ body:not(.has-layout-margin)
 }
 .product-media-single {
 	padding: 20px;
+	max-width: 20vw;
 }
 .sls-purchase-options-label {
 	display: none;
+}
+.product-summary__title {
+	font-size: 24px;
+	padding: 0px;
 }
