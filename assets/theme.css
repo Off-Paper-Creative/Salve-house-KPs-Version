@@ -3457,7 +3457,7 @@ body:has(.section-header.has-separator)
 .scheme-additional input,
 .scheme-additional textarea,
 .scheme-additional select {
-	background-color: var(--theme-layout-background-color);
+	background-color: white;
 }
 
 .scheme-accent,
@@ -9048,4 +9048,7 @@ body:not(.has-layout-margin)
 .h5-white {
 	font-size: 24px;
 	color: white;
+}
+.product-quantity-picker-input {
+	background-color: #f8f4ec;
 }
