@@ -90,7 +90,7 @@
       , product: product
       , section: section %}
 
-    {% render 'product-summary'
+    {% render 'product-summary-for-membership'
       , product: product
       , section: section %}
       </div>
@@ -114,7 +114,6 @@ endif
 -%}
 
 <script>
-
 /* This code will check every 200 milliseconds if elements with the class .sls-purchase-options-container exist. 
 If they do, it will set their second child node's display to 'none' and then clear the interval, stopping further checks. */
 let purchaseOptionsLookup = setInterval(function() {
