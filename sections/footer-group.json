@@ -1,1 +1,101 @@
-{"name":"Footer","type":"footer","sections":{"footer":{"type":"footer","blocks":{"image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Primary_Blue_Bold_24da4ca3-21a9-49b3-a3e3-8f9489ec41d3.png","image_width":150,"column_choice":"1"}},"text-1":{"type":"text","settings":{"text":"<p>We're your trusted partner towards comprehensive well-being, beauty, and health.<\/p>","text_custom_width":true,"text_width":300,"column_choice":"1"}},"menu-1":{"type":"menu","settings":{"menu":"footer","title":false,"column_choice":"2"}},"social-1":{"type":"social","settings":{"display_style":"3","column_choice":"3"}},"text-2":{"type":"text","settings":{"text":"<ul><li>yourmail@mail.com<\/li><li>+01 234 5678<\/li><\/ul>","text_custom_width":true,"text_width":300,"column_choice":"3"}},"newsletter-1":{"type":"newsletter","settings":{"column_choice":"4"}},"language-1":{"type":"language","settings":{"country_selector":true,"language_selector":false,"column_choice":"4"}}},"block_order":["image-1","text-1","menu-1","social-1","text-2","newsletter-1","language-1"],"settings":{"fullwidth":true,"width":1320,"color_scheme":"scheme-main","inset":true,"inset_choice":"level-3","column_1_width":5,"column_2_width":2,"column_3_width":2,"column_4_width":3,"show_payment_icons":true,"colophon_text":"&copy; 2023 All rights reserved.","colophon_show_powered_by_link":false,"separator":true,"separator_width":100,"separator_fullwidth":false,"separator_height":1,"separator_use_custom_color":false,"separator_custom_color":"#dad3c4","spacing":true,"spacing_choice":"level-3","spacing_placement":"1"}}},"order":["footer"]}
+{
+  "name": "Footer",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Primary_Blue_Bold_24da4ca3-21a9-49b3-a3e3-8f9489ec41d3.png",
+            "image_width": 150,
+            "column_choice": "1"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're your trusted partner towards comprehensive health and beauty.<\/p>",
+            "text_custom_width": true,
+            "text_width": 300,
+            "column_choice": "1"
+          }
+        },
+        "menu-1": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer",
+            "title": false,
+            "column_choice": "2"
+          }
+        },
+        "social-1": {
+          "type": "social",
+          "settings": {
+            "display_style": "3",
+            "column_choice": "3"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>yourmail@mail.com<\/li><li>+01 234 5678<\/li><\/ul>",
+            "text_custom_width": true,
+            "text_width": 300,
+            "column_choice": "3"
+          }
+        },
+        "newsletter-1": {
+          "type": "newsletter",
+          "settings": {
+            "column_choice": "4"
+          }
+        },
+        "language-1": {
+          "type": "language",
+          "settings": {
+            "country_selector": true,
+            "language_selector": false,
+            "column_choice": "4"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "text-1",
+        "menu-1",
+        "social-1",
+        "text-2",
+        "newsletter-1",
+        "language-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "column_1_width": 5,
+        "column_2_width": 2,
+        "column_3_width": 2,
+        "column_4_width": 3,
+        "show_payment_icons": true,
+        "colophon_text": "&copy; 2023 All rights reserved.",
+        "colophon_show_powered_by_link": false,
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
