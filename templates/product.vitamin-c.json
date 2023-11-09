@@ -382,7 +382,7 @@
             "images_width_split": 50,
             "images_stack_on_mobile": true,
             "image_1": "shopify:\/\/shop_images\/2_50ef9c79-9c0f-4d17-9e9e-a8c5d18be93b.jpg",
-            "image_1_aspect_ratio": "auto",
+            "image_1_aspect_ratio": "4\/3",
             "image_2_aspect_ratio": "auto"
           }
         },
