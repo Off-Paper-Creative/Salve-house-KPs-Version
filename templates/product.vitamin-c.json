@@ -243,10 +243,10 @@
           "settings": {
             "slide_image_mobile_overlay": true,
             "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image_overlay": false,
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
             "slide_image_overlay_color": "#1F2D1F",
-            "slide_image_overlay_opacity": 40,
+            "slide_image_overlay_opacity": 100,
             "slide_image_right_enable": true,
             "slide_image_right": "shopify:\/\/shop_images\/pexels-jennifer-enujiugha-1903611_copy.jpg",
             "slide_image_right_overlay": false,
@@ -298,7 +298,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -309,12 +309,13 @@
         "template--21587732595001__0d567868-0349-4419-880d-33586ff723fb-slide-3": {
           "type": "slide",
           "settings": {
-            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay": true,
             "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image_overlay": true,
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image": "shopify:\/\/shop_images\/8.jpg",
+            "slide_image_overlay": false,
             "slide_image_overlay_color": "#1F2D1F",
-            "slide_image_overlay_opacity": 1,
+            "slide_image_overlay_opacity": 100,
             "slide_image_right_enable": true,
             "slide_image_right_overlay": true,
             "slide_image_right_overlay_color": "#1F2D1F",
@@ -365,7 +366,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
