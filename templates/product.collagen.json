@@ -283,8 +283,8 @@
       "settings": {
         "fullwidth": true,
         "width": 1500,
-        "slideshow_height_mobile": "520",
-        "slideshow_height": "600",
+        "slideshow_height_mobile": "680",
+        "slideshow_height": "680",
         "color_scheme": "scheme-accent",
         "slideshow_autoplay": false,
         "slideshow_transition_interval": 4000,
@@ -310,9 +310,11 @@
         "template--21587732627769__51fc8ac6-5685-47be-8b0f-f733954d72dd-slide-1": {
           "type": "slide",
           "settings": {
+            "slide_image_mobile": "shopify:\/\/shop_images\/collagen_supplements_9f56dcf7-60dd-421f-890f-dbdfe3723370.png",
             "slide_image_mobile_overlay": false,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 40,
+            "slide_image": "shopify:\/\/shop_images\/collagen_supplements_9f56dcf7-60dd-421f-890f-dbdfe3723370.png",
             "slide_image_overlay": false,
             "slide_image_overlay_color": "#1F2D1F",
             "slide_image_overlay_opacity": 40,
@@ -381,7 +383,8 @@
             "images_gap_choice": "level-4",
             "images_width_split": 50,
             "images_stack_on_mobile": true,
-            "image_1_aspect_ratio": "auto",
+            "image_1": "shopify:\/\/shop_images\/2_c660c1f6-f448-46e1-91c7-6ca4919e1e15.jpg",
+            "image_1_aspect_ratio": "4\/3",
             "image_2_aspect_ratio": "auto"
           }
         },
