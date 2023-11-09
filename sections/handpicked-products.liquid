@@ -71,7 +71,7 @@
       {% if section.settings.heading != blank %}
         {% case section.settings.heading_tag %}
           {% when 's1' or 's2' or 's3' %}
-            <h1 class="section-handpicked-products-header__heading special-heading-{{ section.settings.heading_tag }}">{{ section.settings.heading }}</h1>
+            <h1>{{ section.settings.heading }}</h1>
           {% when 'p1' or 'p2' %}
             <p class="section-handpicked-products-header__heading paragraph-{{ section.settings.heading_tag }}">{{ section.settings.heading }}</p>
           {% else %}

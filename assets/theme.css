@@ -9037,9 +9037,7 @@ body:not(.has-layout-margin)
 
 .sls-option-container {
 	background-color: white;
-	border-color: #234147;
 	margin-bottom: auto;
-	color: #234147;
 	transition: 0.3s;
 	-o-transition: 0.3s;
 	min-height: 30px;
