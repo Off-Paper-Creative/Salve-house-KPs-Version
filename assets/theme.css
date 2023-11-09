@@ -9036,14 +9036,17 @@ body:not(.has-layout-margin)
 }
 
 .sls-option-container {
-	background-color: white;
 	margin-bottom: auto;
 	transition: 0.3s;
 	-o-transition: 0.3s;
 	min-height: 30px;
+	background-color: #f8f4ec;
+	border-style: solid;
+	border-width: 1px;
+	color: #234147;
 }
 .sls-option-container:hover {
-	background-color: rgb(150, 110, 37);
+	background-color: rgb(35, 65, 71, 0.3);
 }
 .h5-white {
 	font-size: 24px;
