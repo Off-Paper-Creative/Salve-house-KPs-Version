@@ -9053,21 +9053,26 @@ body:not(.has-layout-margin)
 	color: white;
 }
 .product-quantity-picker-input {
-	background-color: #f8f4ec;
+	background-color: #f8f4ec !important;
 }
 
 .section-add-product-container-grey-padding {
 	background-color: #f8f4ec;
-	margin: 0rem auto 2rem auto;
-	max-width: 80vw;
-	width: 60%;
+	margin: 0rem auto 1rem auto;
+	max-width: 90vw;
+	width: 60vw;
 	display: flex;
 	flex-direction: row;
-	padding: 20px;
+	padding: 5px;
+}
+.section-add-product-container-grey-padding:hover {
+	border-color: #234147;
+	border-style: solid;
+	border-width: 5px;
 }
 .product-media-single {
-	padding: 20px;
-	max-width: 20vw;
+	padding: 10px;
+	max-width: 15vw;
 }
 .sls-purchase-options-label {
 	display: none;
