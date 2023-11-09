@@ -117,11 +117,6 @@
           "settings": {
           }
         },
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-price-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-variant-picker-1": {
           "type": "variant-picker",
           "settings": {
@@ -144,7 +139,6 @@
       },
       "block_order": [
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-title-1",
-        "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-price-1",
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-variant-picker-1",
         "edaa4256-94d4-4f46-99d4-b9632961d2df",
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-buy-buttons-1"
