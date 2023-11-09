@@ -12,6 +12,7 @@
         },
         "1301e2a6-af9d-4cff-8183-f7c43aeb2968": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "banner_button_text": "Become A Member",
             "banner_button_url": "shopify:\/\/pages\/become-a-member",
@@ -198,7 +199,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
