@@ -39,20 +39,10 @@
             "text_custom_width": false,
             "text_width": 700
           }
-        },
-        "0cb7f178-ad7e-4e1f-99cd-021e305fa5b8": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "text_tag": "h3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
         }
       },
       "block_order": [
-        "template--21212521234745__0c24bcb1-f0b3-4e00-a375-14fedbcc69c0-heading-1",
-        "0cb7f178-ad7e-4e1f-99cd-021e305fa5b8"
+        "template--21212521234745__0c24bcb1-f0b3-4e00-a375-14fedbcc69c0-heading-1"
       ],
       "settings": {
         "fullwidth": true,
