@@ -134,7 +134,7 @@
         "template--21586456903993__55e74749-7d33-438a-ae5a-09f8e39d11a6-buy-buttons-1"
       ],
       "custom_css": [
-        "img {max-width: 10vw;}"
+
       ],
       "settings": {
         "fullwidth": true,
@@ -166,12 +166,144 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
+    },
+    "46dbce21-4d69-4a32-9714-240b11d45d7a": {
+      "type": "add-product-membership",
+      "blocks": {
+        "a8fb843d-f4de-4db6-8743-044a059c8fae": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "e701411e-6d1d-442e-ba7e-2870a7ed7520": {
+          "type": "variant-picker",
+          "settings": {
+          }
+        },
+        "2d6a7a60-90c8-451a-a341-e519152df82d": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{section.settings.product_choice}}"
+          }
+        },
+        "a6128761-9303-4289-901e-a7ddec56ec02": {
+          "type": "buy-buttons",
+          "settings": {
+            "quantity-picker": true,
+            "dynamic-checkout-button": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "a8fb843d-f4de-4db6-8743-044a059c8fae",
+        "e701411e-6d1d-442e-ba7e-2870a7ed7520",
+        "2d6a7a60-90c8-451a-a341-e519152df82d",
+        "a6128761-9303-4289-901e-a7ddec56ec02"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-additional",
+        "button1_label": "Button 1",
+        "button1_url": "\/",
+        "button1_color": "#000000",
+        "button_spacing": 10,
+        "button2_label": "Button 2",
+        "button2_url": "\/",
+        "button2_color": "#000000",
+        "inset": true,
+        "inset_choice": "level-3",
+        "product_choice": "collagen",
+        "product_gallery_type": "slide",
+        "product_gallery_arrows": false,
+        "product_gallery_dots": false,
+        "product_gallery_mouse_drag": false,
+        "product_thumbnails_loop": false,
+        "product_thumbnails_arrows": false,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "39d4de76-d608-4d69-9b15-630a44391bb3": {
+      "type": "add-product-membership",
+      "blocks": {
+        "fa8a6b63-c4dc-4395-9978-12e70638f2c0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "52e2d443-3cf3-410a-a238-21a2db2bdd22": {
+          "type": "variant-picker",
+          "settings": {
+          }
+        },
+        "acbbbce4-fdc0-49a5-ab07-9b2cbcd7f12b": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{section.settings.product_choice}}"
+          }
+        },
+        "a5b17dd0-104f-4069-87d8-ec9c3b90434c": {
+          "type": "buy-buttons",
+          "settings": {
+            "quantity-picker": true,
+            "dynamic-checkout-button": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "fa8a6b63-c4dc-4395-9978-12e70638f2c0",
+        "52e2d443-3cf3-410a-a238-21a2db2bdd22",
+        "acbbbce4-fdc0-49a5-ab07-9b2cbcd7f12b",
+        "a5b17dd0-104f-4069-87d8-ec9c3b90434c"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-additional",
+        "button1_label": "Button 1",
+        "button1_url": "\/",
+        "button1_color": "#000000",
+        "button_spacing": 10,
+        "button2_label": "Button 2",
+        "button2_url": "\/",
+        "button2_color": "#000000",
+        "inset": true,
+        "inset_choice": "level-3",
+        "product_choice": "vitamin-c",
+        "product_gallery_type": "slide",
+        "product_gallery_arrows": false,
+        "product_gallery_dots": false,
+        "product_gallery_mouse_drag": false,
+        "product_thumbnails_loop": false,
+        "product_thumbnails_arrows": false,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
     "main",
     "0c24bcb1-f0b3-4e00-a375-14fedbcc69c0",
     "f7e83f1e-5786-4ae9-9b9b-9875323d4fd8",
-    "55e74749-7d33-438a-ae5a-09f8e39d11a6"
+    "55e74749-7d33-438a-ae5a-09f8e39d11a6",
+    "46dbce21-4d69-4a32-9714-240b11d45d7a",
+    "39d4de76-d608-4d69-9b15-630a44391bb3"
   ]
 }
