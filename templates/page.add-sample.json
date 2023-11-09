@@ -144,6 +144,12 @@
           "settings": {
           }
         },
+        "9385d510-f2d1-4cd8-a7d7-7245c33b2f45": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{section.settings.product_choice}}"
+          }
+        },
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-buy-buttons-1": {
           "type": "buy-buttons",
           "settings": {
@@ -158,12 +164,20 @@
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-price-1",
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-shoppay-banner-1",
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-variant-picker-1",
+        "9385d510-f2d1-4cd8-a7d7-7245c33b2f45",
         "template--21513800286521__fcaa712d-e2bb-45e0-aae1-96ca857d32d6-buy-buttons-1"
       ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
         "color_scheme": "scheme-additional",
+        "button1_label": "Button 1",
+        "button1_url": "\/",
+        "button1_color": "#000000",
+        "button_spacing": 10,
+        "button2_label": "Button 2",
+        "button2_url": "\/",
+        "button2_color": "#000000",
         "inset": true,
         "inset_choice": "level-2",
         "product_choice": "collagen",
