@@ -86,7 +86,7 @@
 %}">
   <div class="section-featured-product-container section-add-product-container">
     <div class="section-add-product-container-white-padding">
-    {% render 'product-media'
+    {% render 'product-media_no_gallery'
       , product: product
       , section: section %}
 
@@ -112,13 +112,6 @@ endif
     assign seo_media = product.featured_media
   endif
 -%}
-
-<script>
-  const hideTable= document.querySelector("#shopify-block-edaa4256-94d4-4f46-99d4-b9632961d2df > div > div > div > div.sls-purchase-options-container > div.sls-option-container.seal-table.sls-active")
-if (hideTable) {
-  hideTable.style.display = "none";
-}
-</script>
 
 <script type="application/ld+json">
   {

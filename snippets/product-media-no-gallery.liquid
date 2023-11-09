@@ -1,0 +1,26 @@
+{% liquid
+
+
+    assign current_variant = product.selected_or_first_available_variant
+    
+
+    assign has_slider = false
+    assign product_gallery_slider = true
+    assign product_image_count = product.media | size
+
+    if product_image_count > 1 and product_gallery_slider == true and template != 'product.quickview'
+        assign has_slider = true
+    endif
+
+
+%}
+{% if product != blank  %}
+{% if product.media != blank %}
+    <div class="product-media">
+    {% assign first_image = product.media[0] %}
+    <a href="{{ first_image.src | image_url }}" data-pswp-width="{{ first_image.width }}" data-pswp-height="{{ first_image.height }}">
+      {{ first_image | image_url: width: 1200 | image_tag: loading: 'lazy', alt: first_image.alt | escape }}
+    </a>
+  </div>
+  {% endif %}
+  {% endif %}
