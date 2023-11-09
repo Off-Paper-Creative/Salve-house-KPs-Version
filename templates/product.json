@@ -261,7 +261,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -273,6 +273,7 @@
         "template--21586456641849__194e2789-c2e3-4724-be37-1d13b47b5e9d-slide-1": {
           "type": "slide",
           "settings": {
+            "slide_image_mobile": "shopify:\/\/shop_images\/pexels-anna-shvets-3683108_09531a88-55f3-4930-8a0f-fa488db8ceee.jpg",
             "slide_image_mobile_overlay": false,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 40,
@@ -290,7 +291,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "Colvita stands out as an extraordinary and inherently bioavailable source of the essential \"building\" amino acids vital for collagen, our body's most crucial protein. This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water) and is sourced exclusively in Poland. The quality and effectiveness of extracted raw materials used to formulate this supplement stand out significantly from competition available on the market. C-olway is a product that surpasses the strictest standards for health and well-being, to the extent that even the capsules contain no artificial coloring, dyes, fillers or additives.",
             "slide_subheading_width": 450,
-            "text": "",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -340,14 +341,15 @@
         "b3ba094d-3c35-46a1-9787-a55900f211b0": {
           "type": "slide",
           "settings": {
-            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay": true,
             "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image_overlay": false,
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
             "slide_image_overlay_color": "#1F2D1F",
-            "slide_image_overlay_opacity": 40,
+            "slide_image_overlay_opacity": 100,
             "slide_image_right_enable": true,
-            "slide_image_right_overlay": true,
+            "slide_image_right": "shopify:\/\/shop_images\/3_4034a970-d840-4fdb-8468-ce91323817f6.jpg",
+            "slide_image_right_overlay": false,
             "slide_image_right_overlay_color": "#1F2D1F",
             "slide_image_right_overlay_opacity": 100,
             "slide_content_position": "left",
@@ -357,7 +359,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "The C-olway Vitamin C is formulated for high bioavailability and potent Vitamin C nutrients. Derived from the most extensive natural origin of vitamin C, within the shoots of buckwheat and orange bitters during their 5-7 days of germination. These two plants are now recognized as one of the most vital natural sources of vitamin C, renowned for their high bioavailability and remarkable flavonoid connections. It is currently one of the finest 100% natural Vitamin C supplements available, well-regarded by consumers for many years and meticulously crafted without the addition of artificially synthesized ascorbic acid or fillers; not even artificial coloring.",
             "slide_subheading_width": 450,
-            "text": "",
+            "slide_description": "",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -396,7 +398,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -423,72 +425,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "9558248e-813e-41f7-913d-c42b47117244": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Fillers, additives, pseudoscience, diluted ingredients, false information...",
-            "text_tag": "s3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "NO LONGER",
-            "text_tag": "h2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-description-1": {
-          "type": "description",
-          "settings": {
-            "text": "Salve Products Are Scientifically Backed Contain Premium Ingredients Formulated to be Highly Bioavailable + MUST Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.",
-            "text_tag": "p1",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-button-1": {
-          "type": "button",
-          "settings": {
-            "button_text": "Button text",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline",
-            "button_custom_width": false,
-            "button_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-special_heading-1",
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-heading-1",
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-description-1",
-        "template--21586456641849__9558248e-813e-41f7-913d-c42b47117244-button-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -498,7 +434,6 @@
     "327897dd-27a8-423b-8478-249ab68e0aae",
     "194e2789-c2e3-4724-be37-1d13b47b5e9d",
     "898b376f-866b-4716-945e-92d0d68fee50",
-    "16c06f9c-6804-4ad2-908c-d94e806857a8",
-    "9558248e-813e-41f7-913d-c42b47117244"
+    "16c06f9c-6804-4ad2-908c-d94e806857a8"
   ]
 }
