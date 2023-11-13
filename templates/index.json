@@ -46,16 +46,27 @@
       "blocks": {
         "template--21586457166137__425fad94-aefa-445a-b68b-f83951c9129a-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH YOUR BODY",
             "text_tag": "h5",
             "text_custom_width": false,
             "text_width": 700
           }
+        },
+        "1cf55342-26fc-41b1-a3c7-b0f0a2b9a950": {
+          "type": "special_heading",
+          "settings": {
+            "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH YOUR BODY",
+            "text_tag": "s3",
+            "text_custom_width": false,
+            "text_width": 700
+          }
         }
       },
       "block_order": [
-        "template--21586457166137__425fad94-aefa-445a-b68b-f83951c9129a-heading-1"
+        "template--21586457166137__425fad94-aefa-445a-b68b-f83951c9129a-heading-1",
+        "1cf55342-26fc-41b1-a3c7-b0f0a2b9a950"
       ],
       "settings": {
         "fullwidth": true,
