@@ -465,7 +465,7 @@
             "button_text": "Shop Collagen",
             "button_url": "shopify:\/\/products\/collagen",
             "button_target": "_self",
-            "button_style": "outline"
+            "button_style": "fill"
           }
         }
       },
