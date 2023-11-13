@@ -164,7 +164,7 @@
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-additional",
         "inset": true,
         "inset_choice": "level-2",
         "gap": true,
