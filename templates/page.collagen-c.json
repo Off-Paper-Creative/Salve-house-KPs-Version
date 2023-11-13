@@ -130,8 +130,9 @@
             "images_gap_choice": "level-4",
             "images_width_split": 50,
             "images_stack_on_mobile": true,
-            "image_1_aspect_ratio": "auto",
-            "image_2_aspect_ratio": "auto"
+            "image_1": "shopify:\/\/shop_images\/collagen_supplements_9f56dcf7-60dd-421f-890f-dbdfe3723370.png",
+            "image_1_aspect_ratio": "4\/5",
+            "image_2_aspect_ratio": "1\/1"
           }
         },
         "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-content-1": {
@@ -167,9 +168,9 @@
         "inset": true,
         "inset_choice": "level-3",
         "gap": true,
-        "gap_choice": "level-4",
+        "gap_choice": "level-3",
         "stack_on_mobile": true,
-        "images_content_width_split": 67,
+        "images_content_width_split": 60,
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
