@@ -3,44 +3,31 @@
     "2a49d6ac-3eee-4e37-8715-5e41613c6641": {
       "type": "image-banner",
       "blocks": {
-        "5d93b4b1-1e50-4560-9eb6-5e9c0150d4eb": {
+        "aa34395d-3bbd-4600-a576-008d5c927fe1": {
           "type": "text",
           "settings": {
             "banner_text": "LVE WELL",
-            "banner_text_tag": "s3"
-          }
-        },
-        "1301e2a6-af9d-4cff-8183-f7c43aeb2968": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "banner_button_text": "Become A Member",
-            "banner_button_url": "shopify:\/\/pages\/become-a-member",
-            "banner_button_target": "_self",
-            "banner_button_style": "outline",
-            "banner_button_custom_width": false,
-            "banner_button_width": 200
+            "banner_text_tag": "h5"
           }
         }
       },
       "block_order": [
-        "5d93b4b1-1e50-4560-9eb6-5e9c0150d4eb",
-        "1301e2a6-af9d-4cff-8183-f7c43aeb2968"
+        "aa34395d-3bbd-4600-a576-008d5c927fe1"
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1860,
-        "height_mobile": "600",
-        "height": "600",
+        "fullwidth": false,
+        "width": 820,
+        "height_mobile": "520",
+        "height": "520",
         "color_scheme": "scheme-complementary",
         "inset": true,
-        "inset_choice": "level-1",
+        "inset_choice": "level-5",
         "background_video": "shopify:\/\/files\/videos\/Hero Video.mp4",
         "background_overlay": true,
         "background_overlay_color": "#000",
         "background_overlay_opacity": 25,
-        "content_custom_width": false,
-        "content_width": 720,
+        "content_custom_width": true,
+        "content_width": 1000,
         "content_position": "center",
         "content_horizontal_align": "center",
         "separator": false,
@@ -49,51 +36,6 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-1",
-        "spacing_placement": "1"
-      }
-    },
-    "a9968b6e-2fc9-4dd4-b422-c1d46c76c1a8": {
-      "type": "rich-text",
-      "blocks": {
-        "44c0b37c-9dc6-40a1-9fef-53e021495085": {
-          "type": "special_heading",
-          "disabled": true,
-          "settings": {
-            "text": "A Powerful System Of Vetted Supplements Formulated To Work With Our Bodies",
-            "text_tag": "s3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "c2403bae-1544-4222-8e61-3d937f55559e": {
-          "type": "heading",
-          "settings": {
-            "text": "A Powerful System Of Vetted Supplements Formulated To Work With Our Bodies",
-            "text_tag": "h5",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        }
-      },
-      "block_order": [
-        "44c0b37c-9dc6-40a1-9fef-53e021495085",
-        "c2403bae-1544-4222-8e61-3d937f55559e"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "width": 2000,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-1",
-        "alignment": "center",
-        "separator": true,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": true,
-        "separator_custom_color": "#966e25",
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1"
@@ -818,7 +760,6 @@
   },
   "order": [
     "2a49d6ac-3eee-4e37-8715-5e41613c6641",
-    "a9968b6e-2fc9-4dd4-b422-c1d46c76c1a8",
     "0a788bc7-220d-4551-9d33-37998081c2c8",
     "2bcd91cc-9719-4417-a2e7-f8b4f498745c",
     "home-multicolumn-1",
