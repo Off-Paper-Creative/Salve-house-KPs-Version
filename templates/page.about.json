@@ -205,7 +205,7 @@
             "slide_heading_width": 450,
             "slide_subheading": "",
             "slide_subheading_width": 450,
-            "slide_description": "<p>Salve emerged from a crucial realization that there exists a huge quality gap in the supplement market, one in which many products do not contain nearly enough of the active ingredient customers think they are purchasing. Nor do these products deliver the results people truly desire. Our mission is to demystify wellness products, simplify the science, and present you with a curated line of products designed for to work with you. Products designed for optimal absorption, that work in harmony with your body, helping you achieve sustainable health and radiant youth.<\/p>",
+            "slide_description": "<p>Salve emerged from a realization that there is a quality gap in the supplement market, one in which many products do not contain nearly enough of the active ingredient customers think they are purchasing. Nor do these products deliver the results people truly desire. Our mission is to demystify wellness products, simplify the science, and present you with a curated line of products designed to work with you. Products designed for optimal absorption, that work in harmony with your body, helping you achieve sustainable health and radiant youth.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "",
             "slide_button_1_url": "",
@@ -271,7 +271,7 @@
             "slide_content_horizontal_align": "center",
             "slide_heading": "Science + Consistency",
             "slide_heading_width": 450,
-            "slide_subheading": "Salve Member receive a 2-month supply of supplements with each purchase. Our membership program is designed for those who understand that true health is a consistent commitment. We believe in building lasting habits that deliver tangible benefits you can feel and see. With a hassle-free 2-month supply, we take the guesswork out of replenishing, allowing you to focus on establishing routines and feeling the effects of our products.",
+            "slide_subheading": "Salve Members receive a 2-month supply of supplements with each purchase allowing you to focus on staying consistent, establishing routines and feeling the effects of our products.",
             "slide_subheading_width": 450,
             "slide_description": "",
             "slide_description_width": 450,
@@ -320,19 +320,10 @@
     "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433": {
       "type": "rich-text",
       "blocks": {
-        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Our Selection Process",
-            "text_tag": "h5",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
         "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-special_heading-1": {
           "type": "special_heading",
           "settings": {
-            "text": "All Salve Products Must Surpass The Following Criteria",
+            "text": "Salve Selection Criteria",
             "text_tag": "s3",
             "text_custom_width": false,
             "text_width": 700
@@ -349,7 +340,6 @@
         }
       },
       "block_order": [
-        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-heading-1",
         "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-special_heading-1",
         "292be3ce-261f-4260-adc0-f85be89ddce4"
       ],
