@@ -120,50 +120,6 @@
         "spacing_placement": "1"
       }
     },
-    "70d1e7d2-190f-43cb-a9fa-7940952af515": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "+ Vitamin C",
-            "text_tag": "s2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-description-1": {
-          "type": "description",
-          "settings": {
-            "text": "This is simple description",
-            "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-special_heading-1",
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-description-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "11c542cc-dae5-4748-b596-1945093c13a9": {
       "type": "image-with-text",
       "blocks": {
@@ -225,6 +181,50 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "70d1e7d2-190f-43cb-a9fa-7940952af515": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-special_heading-1": {
+          "type": "special_heading",
+          "settings": {
+            "text": "+ Vitamin C",
+            "text_tag": "s3",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-description-1": {
+          "type": "description",
+          "settings": {
+            "text": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating seeds of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of vitamin C due to their high bioavailability. Colway Vitamin C is currently one of the most natural vitamin C supplements, it does not synthetic ascorbic acid or any other substance that does not occur in conjunction with Vitamin C in nature - your body absorbs it the same way it obtains nutrients from fruit and vegetables.",
+            "text_tag": "p",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-special_heading-1",
+        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-description-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -1334,8 +1334,8 @@
     "main",
     "image-banner-1",
     "fa19f72c-5ec5-43b3-8108-85ae06776bd6",
-    "70d1e7d2-190f-43cb-a9fa-7940952af515",
     "11c542cc-dae5-4748-b596-1945093c13a9",
+    "70d1e7d2-190f-43cb-a9fa-7940952af515",
     "image-cards-1",
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146",
     "d8ee99e1-0385-47b0-8539-bd447806440b",
