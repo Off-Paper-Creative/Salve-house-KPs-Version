@@ -150,7 +150,7 @@
             "text_3_tag": "p",
             "text_3_custom_width": false,
             "text_3_width": 450,
-            "button_text": "Button text",
+            "button_text": "",
             "button_url": "",
             "button_target": "_self",
             "button_style": "outline"
@@ -160,6 +160,10 @@
       "block_order": [
         "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-images-1",
         "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-content-1"
+      ],
+      "custom_css": [
+        "p{color: white;}",
+        "h1 {color: white;}"
       ],
       "settings": {
         "fullwidth": true,
