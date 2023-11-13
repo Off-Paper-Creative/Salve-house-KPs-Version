@@ -513,19 +513,11 @@
             "banner_text": "The Catalyst",
             "banner_text_tag": "h6"
           }
-        },
-        "d905e5e6-bba7-4628-ad0c-fab8800bb4a5": {
-          "type": "text",
-          "settings": {
-            "banner_text": "A Supplement That Speeds Up A Reaction or Enables It To Proceed Under Milder Conditions.",
-            "banner_text_tag": "p"
-          }
         }
       },
       "block_order": [
         "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-1",
-        "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-2",
-        "d905e5e6-bba7-4628-ad0c-fab8800bb4a5"
+        "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-2"
       ],
       "settings": {
         "fullwidth": true,
