@@ -9,7 +9,7 @@
     "color_general_background_complementary": "#966e25",
     "color_border_main": "#171813",
     "color_border_dark": "#174248",
-    "color_border_lite": "#966e25",
+    "color_border_lite": "#ffffff",
     "default_library_font": "assistant_n4",
     "special_library_font": "goudy_old_style_n4",
     "buttons_padding": 65,
