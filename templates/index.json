@@ -41,6 +41,40 @@
         "spacing_placement": "1"
       }
     },
+    "425fad94-aefa-445a-b68b-f83951c9129a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586457166137__425fad94-aefa-445a-b68b-f83951c9129a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH YOUR BODY",
+            "text_tag": "h5",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457166137__425fad94-aefa-445a-b68b-f83951c9129a-heading-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": false,
+        "inset_choice": "level-1",
+        "alignment": "center",
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": false,
+        "spacing_choice": "level-1",
+        "spacing_placement": "1"
+      }
+    },
     "0a788bc7-220d-4551-9d33-37998081c2c8": {
       "type": "scrolling-text",
       "blocks": {
@@ -566,6 +600,7 @@
   },
   "order": [
     "2a49d6ac-3eee-4e37-8715-5e41613c6641",
+    "425fad94-aefa-445a-b68b-f83951c9129a",
     "0a788bc7-220d-4551-9d33-37998081c2c8",
     "2bcd91cc-9719-4417-a2e7-f8b4f498745c",
     "home-multicolumn-1",
