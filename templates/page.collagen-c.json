@@ -230,81 +230,6 @@
         "spacing_placement": "1"
       }
     },
-    "image-cards-1": {
-      "type": "image-cards",
-      "blocks": {
-        "template--15753621373083__image-cards-1-1671556156c007980f-0": {
-          "type": "card",
-          "settings": {
-            "card_size": "medium",
-            "image": "shopify:\/\/shop_images\/1.jpg",
-            "image_aspect_ratio": "auto",
-            "heading": "",
-            "heading_tag": "h5",
-            "heading_custom_width": false,
-            "heading_width": 450,
-            "description": "",
-            "description_tag": "p",
-            "description_custom_width": true,
-            "description_width": 540,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline"
-          }
-        },
-        "d05bae43-298e-44a3-8627-96048b896e7f": {
-          "type": "card",
-          "settings": {
-            "card_size": "small",
-            "image_aspect_ratio": "auto",
-            "heading": "",
-            "heading_tag": "h4",
-            "heading_custom_width": true,
-            "heading_width": 1130,
-            "description": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating seeds of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of vitamin C due to their high bioavailability. Colway Vitamin C is currently one of the most natural vitamin C supplements, it does not synthetic ascorbic acid or any other substance that does not occur in conjunction with Vitamin C in nature - your body absorbs it the same way it obtains nutrients from fruit and vegetables.",
-            "description_tag": "p",
-            "description_custom_width": false,
-            "description_width": 450,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15753621373083__image-cards-1-1671556156c007980f-0",
-        "d05bae43-298e-44a3-8627-96048b896e7f"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "width": 1320,
-        "color_scheme": "scheme-complementary",
-        "inset": true,
-        "inset_choice": "level-4",
-        "gap": true,
-        "gap_choice": "level-6",
-        "vertical_align": "flex-start",
-        "heading": "The Collagen + C Bundle",
-        "heading_tag": "s3",
-        "description": "",
-        "description_tag": "p",
-        "button_text": "",
-        "button_url": "",
-        "button_target": "_self",
-        "button_style": "outline",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146": {
       "type": "rich-text",
       "blocks": {
@@ -1336,7 +1261,6 @@
     "fa19f72c-5ec5-43b3-8108-85ae06776bd6",
     "11c542cc-dae5-4748-b596-1945093c13a9",
     "70d1e7d2-190f-43cb-a9fa-7940952af515",
-    "image-cards-1",
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146",
     "d8ee99e1-0385-47b0-8539-bd447806440b",
     "0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2",
