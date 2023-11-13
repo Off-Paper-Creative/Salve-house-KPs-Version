@@ -212,10 +212,13 @@
         "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-special_heading-1",
         "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-description-1"
       ],
+      "custom_css": [
+        "h1,p {color: white;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-additional",
         "inset": true,
         "inset_choice": "level-3",
         "alignment": "center",
@@ -225,7 +228,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#DAD3C4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
