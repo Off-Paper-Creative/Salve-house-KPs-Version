@@ -508,68 +508,6 @@
         "spacing_placement": "1"
       }
     },
-    "72f8ac9d-6465-43c9-ab04-fea03a13e692": {
-      "type": "image-banner",
-      "blocks": {
-        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1": {
-          "type": "text",
-          "settings": {
-            "banner_text": "The Collagen + C Bundle",
-            "banner_text_tag": "h2"
-          }
-        },
-        "80d6d090-780b-444e-9f67-cf937fbabab1": {
-          "type": "text",
-          "settings": {
-            "banner_text": "Vitamin C + Collagen",
-            "banner_text_tag": "h6"
-          }
-        },
-        "309c4af3-90ff-47a0-8815-9b37d9f809d6": {
-          "type": "button",
-          "settings": {
-            "banner_button_text": "Learn More",
-            "banner_button_url": "shopify:\/\/pages\/the-collagen-c-bundle",
-            "banner_button_target": "_self",
-            "banner_button_style": "fill",
-            "banner_button_custom_width": false,
-            "banner_button_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21212521595193__72f8ac9d-6465-43c9-ab04-fea03a13e692-text-1",
-        "80d6d090-780b-444e-9f67-cf937fbabab1",
-        "309c4af3-90ff-47a0-8815-9b37d9f809d6"
-      ],
-      "disabled": true,
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "height_mobile": "600",
-        "height": "600",
-        "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-1",
-        "background_video": "shopify:\/\/files\/videos\/pexels-artem-podrez-6802248 (Original).mp4",
-        "background_overlay": true,
-        "background_overlay_color": "#FFFFFF",
-        "background_overlay_opacity": 4,
-        "content_custom_width": true,
-        "content_width": 720,
-        "content_position": "center",
-        "content_horizontal_align": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-4",
-        "spacing_placement": "1"
-      }
-    },
     "7b885a2b-7d34-4204-bc35-670a6639b84f": {
       "type": "sale-banner",
       "settings": {
@@ -609,138 +547,6 @@
         "spacing_placement": "1"
       }
     },
-    "100d2bc0-6256-4758-90a2-f26d2dd7e4df": {
-      "type": "image-banner",
-      "blocks": {
-        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-text-1": {
-          "type": "text",
-          "settings": {
-            "banner_text": "Science + Consistency",
-            "banner_text_tag": "h2"
-          }
-        },
-        "a6a52636-ccec-49f4-be75-9639f9388829": {
-          "type": "text",
-          "settings": {
-            "banner_text": "2 Months of Supplements Delivered To Your Door Every Other Month.",
-            "banner_text_tag": "p1"
-          }
-        },
-        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-button-1": {
-          "type": "button",
-          "settings": {
-            "banner_button_text": "Become A Member",
-            "banner_button_url": "",
-            "banner_button_target": "_self",
-            "banner_button_style": "outline",
-            "banner_button_custom_width": false,
-            "banner_button_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-text-1",
-        "a6a52636-ccec-49f4-be75-9639f9388829",
-        "template--21212521595193__100d2bc0-6256-4758-90a2-f26d2dd7e4df-button-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "height_mobile": "600",
-        "height": "600",
-        "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-3",
-        "background_image_mobile": "shopify:\/\/shop_images\/pexels-jennifer-enujiugha-1903611_copy.jpg",
-        "background_overlay": true,
-        "background_overlay_color": "#000",
-        "background_overlay_opacity": 14,
-        "content_custom_width": true,
-        "content_width": 720,
-        "content_position": "center",
-        "content_horizontal_align": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "0cd02d78-c814-4caa-82b6-5a87dea160fb": {
-      "type": "testimonials",
-      "blocks": {
-        "18174aa6-963d-4405-bd01-acbec23feaec": {
-          "type": "testimonial",
-          "settings": {
-            "avatar_radius": 50,
-            "review": "Choose your desired package and enjoy your products delivered straight to your doorstep every other month.",
-            "reviewer": "",
-            "reviewer_description": ""
-          }
-        },
-        "843b1e46-f22f-4494-b917-14fa6d04007e": {
-          "type": "testimonial",
-          "settings": {
-            "avatar_radius": 50,
-            "review": "Receive x% off your order each month.",
-            "reviewer": "",
-            "reviewer_description": ""
-          }
-        },
-        "ba1abbf2-9337-40ee-aca0-a429bb4c8fc7": {
-          "type": "testimonial",
-          "settings": {
-            "avatar_radius": 50,
-            "review": "Enjoy the enhancement in overall well-being, appearance, mobility, and more.",
-            "reviewer": "",
-            "reviewer_description": ""
-          }
-        }
-      },
-      "block_order": [
-        "18174aa6-963d-4405-bd01-acbec23feaec",
-        "843b1e46-f22f-4494-b917-14fa6d04007e",
-        "ba1abbf2-9337-40ee-aca0-a429bb4c8fc7"
-      ],
-      "disabled": true,
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "heading": "Member Benefits",
-        "heading_tag": "h3",
-        "description": "As a member, you'll unlock exclusive benefits, receive complimentary gifts, and save on your subscription package. When you join salve, you&#39;re not just purchasing supplements; you&#39;re making an investment in a healthier, more self-assured you.",
-        "description_tag": "p",
-        "columns_count": 3,
-        "gap": true,
-        "gap_choice": "level-4",
-        "carousel": false,
-        "per_move": 2,
-        "autoplay": false,
-        "interval": 4000,
-        "loop": true,
-        "mouse_drag": true,
-        "arrows": true,
-        "dots": false,
-        "speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "2"
-      }
-    },
     "1698960637542b436a": {
       "type": "apps",
       "blocks": {
@@ -766,10 +572,7 @@
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
-    "72f8ac9d-6465-43c9-ab04-fea03a13e692",
     "7b885a2b-7d34-4204-bc35-670a6639b84f",
-    "100d2bc0-6256-4758-90a2-f26d2dd7e4df",
-    "0cd02d78-c814-4caa-82b6-5a87dea160fb",
     "1698960637542b436a"
   ]
 }
