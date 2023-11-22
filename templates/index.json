@@ -328,7 +328,7 @@
     "835c130f-c6c7-4907-a1b9-68ccf13ec390": {
       "type": "spacer",
       "custom_css": [
-        "h2{margin: 200px;}"
+        ".section-spacer {margin: 50px;}"
       ],
       "settings": {
       }
@@ -383,7 +383,7 @@
     "5e8f436f-53f8-4626-a834-0211dee0c291": {
       "type": "spacer",
       "custom_css": [
-
+        ".section-spacer {margin: 50px;}"
       ],
       "settings": {
       }
