@@ -186,7 +186,7 @@
         "arrows": true,
         "dots": false,
         "speed": 400,
-        "separator": true,
+        "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
@@ -351,6 +351,9 @@
         "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-heading-1",
         "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-special_heading-1"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "fullwidth": false,
         "width": 640,
@@ -358,7 +361,7 @@
         "inset": true,
         "inset_choice": "level-2",
         "alignment": "center",
-        "separator": true,
+        "separator": false,
         "separator_width": 100,
         "separator_fullwidth": true,
         "separator_height": 1,
