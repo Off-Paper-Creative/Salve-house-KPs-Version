@@ -398,7 +398,7 @@
             "slide_image_overlay_color": "#174248",
             "slide_image_overlay_opacity": 100,
             "slide_image_right_enable": true,
-            "slide_image_right": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_10.40.27_AM.png",
+            "slide_image_right": "shopify:\/\/shop_images\/Salve_Promise.png",
             "slide_image_right_overlay": false,
             "slide_image_right_overlay_color": "#1F2D1F",
             "slide_image_right_overlay_opacity": 40,
@@ -459,7 +459,7 @@
         "7a44f465-e0e9-4d56-bfa7-50e53594d5fa": {
           "type": "slide",
           "settings": {
-            "slide_image_mobile": "shopify:\/\/shop_images\/8.jpg",
+            "slide_image_mobile": "shopify:\/\/shop_images\/19.png",
             "slide_image_mobile_overlay": false,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 62,
