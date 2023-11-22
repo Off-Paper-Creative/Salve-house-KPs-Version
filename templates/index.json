@@ -938,6 +938,76 @@
       ],
       "settings": {
       }
+    },
+    "381b5af2-6290-4ffd-80cd-0da77ac3c848": {
+      "type": "add-product-membership",
+      "blocks": {
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-title-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-shoppay-banner-1": {
+          "type": "shoppay-banner",
+          "settings": {
+          }
+        },
+        "c3f63bf4-73c0-4a2f-8233-f09ff92801cf": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-info-popup-1": {
+          "type": "info-popup",
+          "settings": {
+            "link_text": "Learn More",
+            "page": "the-collagen-c-bundle",
+            "variant_choice": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-title-1",
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-price-1",
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-shoppay-banner-1",
+        "c3f63bf4-73c0-4a2f-8233-f09ff92801cf",
+        "template--21586457166137__381b5af2-6290-4ffd-80cd-0da77ac3c848-info-popup-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "button1_label": "Button 1",
+        "button1_url": "\/",
+        "button1_color": "#000000",
+        "button_spacing": 10,
+        "button2_label": "Button 2",
+        "button2_url": "\/",
+        "button2_color": "#000000",
+        "inset": true,
+        "inset_choice": "level-3",
+        "product_choice": "the-collagen-c-bundle-1",
+        "product_gallery_type": "slide",
+        "product_gallery_arrows": false,
+        "product_gallery_dots": false,
+        "product_gallery_mouse_drag": true,
+        "product_thumbnails_loop": true,
+        "product_thumbnails_arrows": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -959,6 +1029,7 @@
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
     "7b885a2b-7d34-4204-bc35-670a6639b84f",
     "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0",
-    "1698960637542b436a"
+    "1698960637542b436a",
+    "381b5af2-6290-4ffd-80cd-0da77ac3c848"
   ]
 }
