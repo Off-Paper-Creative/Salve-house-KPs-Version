@@ -719,6 +719,49 @@
       ],
       "settings": {
       }
+    },
+    "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0": {
+      "type": "blog-posts",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-complementary",
+        "inset": true,
+        "inset_choice": "level-3",
+        "heading": "Education",
+        "heading_tag": "s2",
+        "button_text": "Read The Blog",
+        "button_url": "shopify:\/\/blogs\/news",
+        "button_target": "_blank",
+        "button_style": "outline",
+        "blog_choice": "",
+        "columns_count": 2,
+        "rows_count": 1,
+        "gap": true,
+        "gap_choice": "level-3",
+        "tag_show": true,
+        "meta_show": true,
+        "excerpt_show": true,
+        "read_more_link_show": true,
+        "carousel": true,
+        "per_move": 2,
+        "autoplay": false,
+        "interval": 4000,
+        "loop": true,
+        "mouse_drag": true,
+        "arrows": true,
+        "dots": false,
+        "speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -735,6 +778,7 @@
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
     "6ae32cf3-dbac-46ba-9bbb-d2948354a93f",
     "7b885a2b-7d34-4204-bc35-670a6639b84f",
-    "1698960637542b436a"
+    "1698960637542b436a",
+    "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0"
   ]
 }
