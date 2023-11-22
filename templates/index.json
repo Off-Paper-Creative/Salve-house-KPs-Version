@@ -15,7 +15,7 @@
         "aa34395d-3bbd-4600-a576-008d5c927fe1"
       ],
       "custom_css": [
-        ".section-image-banner-background {margin: 35px; background: none;}"
+        ".section-image-banner-background {margin: 35px;}"
       ],
       "settings": {
         "fullwidth": false,
@@ -26,9 +26,9 @@
         "inset": true,
         "inset_choice": "level-5",
         "background_video": "shopify:\/\/files\/videos\/Hero Video.mp4",
-        "background_overlay": true,
+        "background_overlay": false,
         "background_overlay_color": "#000",
-        "background_overlay_opacity": 25,
+        "background_overlay_opacity": 1,
         "content_custom_width": true,
         "content_width": 1000,
         "content_position": "center",
