@@ -16,7 +16,7 @@
       ],
       "custom_css": [
         ".section-image-banner-background {margin: 0px 40px;}",
-        "h5 {color: white;}"
+        "h6 {color: white;}"
       ],
       "settings": {
         "fullwidth": false,
