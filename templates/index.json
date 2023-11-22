@@ -617,6 +617,54 @@
         "spacing_placement": "1"
       }
     },
+    "6ae32cf3-dbac-46ba-9bbb-d2948354a93f": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--21586457166137__6ae32cf3-dbac-46ba-9bbb-d2948354a93f-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Add heading in here",
+            "text_tag": "h6"
+          }
+        },
+        "ac4e55aa-bb6a-4b7e-a3f2-749c981d55e3": {
+          "type": "text",
+          "settings": {
+            "text": "Add heading in here 1",
+            "text_tag": "h6"
+          }
+        },
+        "e07ea26f-81fe-4c3c-9cfd-0b83a7c45c1f": {
+          "type": "text",
+          "settings": {
+            "text": "Add heading in here 2",
+            "text_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457166137__6ae32cf3-dbac-46ba-9bbb-d2948354a93f-text-3",
+        "ac4e55aa-bb6a-4b7e-a3f2-749c981d55e3",
+        "e07ea26f-81fe-4c3c-9cfd-0b83a7c45c1f"
+      ],
+      "settings": {
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "splitter_use_custom_width": true,
+        "splitter_custom_width": 16,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1",
+        "scroll_speed": 30
+      }
+    },
     "7b885a2b-7d34-4204-bc35-670a6639b84f": {
       "type": "sale-banner",
       "settings": {
@@ -625,7 +673,7 @@
         "height": 270,
         "color_scheme": "scheme-accent",
         "inset": true,
-        "inset_choice": "level-3",
+        "inset_choice": "level-4",
         "background_overlay": false,
         "background_overlay_color": "#1F2D1F",
         "background_overlay_opacity": 40,
@@ -685,6 +733,7 @@
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
+    "6ae32cf3-dbac-46ba-9bbb-d2948354a93f",
     "7b885a2b-7d34-4204-bc35-670a6639b84f",
     "1698960637542b436a"
   ]
