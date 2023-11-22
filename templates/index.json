@@ -186,14 +186,14 @@
         "arrows": true,
         "dots": false,
         "speed": 400,
-        "separator": false,
+        "separator": true,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
         "spacing": true,
-        "spacing_choice": "level-3",
+        "spacing_choice": "level-5",
         "spacing_placement": "1"
       }
     },
@@ -314,14 +314,58 @@
         "gap": true,
         "gap_choice": "level-4",
         "stack_on_mobile": true,
-        "separator": false,
+        "separator": true,
         "separator_width": 100,
-        "separator_fullwidth": false,
+        "separator_fullwidth": true,
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "d5b2fb58-e704-41f4-9ced-4cfc20e57e96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "This is heading",
+            "text_tag": "h6",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-special_heading-1": {
+          "type": "special_heading",
+          "settings": {
+            "text": "Heading Here about something. Talk about the brand, talk about the goal, talk about the products. Anything to further the message.",
+            "text_tag": "s2",
+            "text_custom_width": true,
+            "text_width": 300
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-heading-1",
+        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-special_heading-1"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "width": 640,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-2",
+        "alignment": "center",
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": true,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-5",
         "spacing_placement": "1"
       }
     },
@@ -619,6 +663,7 @@
     "0a788bc7-220d-4551-9d33-37998081c2c8",
     "2bcd91cc-9719-4417-a2e7-f8b4f498745c",
     "home-multicolumn-1",
+    "d5b2fb58-e704-41f4-9ced-4cfc20e57e96",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
