@@ -15,14 +15,15 @@
         "aa34395d-3bbd-4600-a576-008d5c927fe1"
       ],
       "custom_css": [
-        ".section-image-banner-background {margin: 35px;}"
+        ".section-image-banner-background {margin: 35px;}",
+        "h5 {color: white;}"
       ],
       "settings": {
         "fullwidth": false,
         "width": 680,
         "height_mobile": "520",
         "height": "520",
-        "color_scheme": "scheme-complementary",
+        "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-5",
         "background_video": "shopify:\/\/files\/videos\/Hero Video.mp4",
