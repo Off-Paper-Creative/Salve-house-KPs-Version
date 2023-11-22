@@ -15,7 +15,7 @@
         "aa34395d-3bbd-4600-a576-008d5c927fe1"
       ],
       "custom_css": [
-        ".section-image-banner-background {margin: 35px; background-color: #F8F4EC;}"
+        ".section-image-banner-background {margin: 35px; background: none;}"
       ],
       "settings": {
         "fullwidth": false,
