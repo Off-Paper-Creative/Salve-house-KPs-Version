@@ -14,9 +14,12 @@
       "block_order": [
         "aa34395d-3bbd-4600-a576-008d5c927fe1"
       ],
+      "custom_css": [
+        ".section-image-banner-background {margin: 35px; background-color: #F8F4EC;}"
+      ],
       "settings": {
         "fullwidth": false,
-        "width": 820,
+        "width": 680,
         "height_mobile": "520",
         "height": "520",
         "color_scheme": "scheme-complementary",
@@ -35,7 +38,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
+        "separator_custom_color": "#F8F4EC",
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1"
@@ -80,7 +83,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1"
