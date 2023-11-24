@@ -176,7 +176,8 @@
       ],
       "custom_css": [
         "p {color: white;}",
-        "h1 {color: white;}"
+        "h1 {color: white;}",
+        ".section-image-with-text-images img {width: 1080px; }"
       ],
       "settings": {
         "fullwidth": false,
