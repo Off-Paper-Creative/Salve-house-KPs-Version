@@ -264,6 +264,74 @@
       "settings": {
       }
     },
+    "fea7f2ed-bdc7-4e7d-8955-75171f2b0966": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21586456510777__fea7f2ed-bdc7-4e7d-8955-75171f2b0966-slide-3": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile": "shopify:\/\/shop_images\/Collagen_CProductPhoto.png",
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 40,
+            "slide_image_right_enable": true,
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 100,
+            "slide_content_position": "right",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "left",
+            "slide_heading": "Collagen + C Benefits",
+            "slide_heading_width": 450,
+            "slide_subheading": "The Collagen + C Bundle works with our bodies to promote collagen production and the overall health of our entire bodies. When taken together Vitamin C and Collagen offer real benefits we can physically feel and visually see, including:",
+            "slide_subheading_width": 450,
+            "slide_description": "<ul><li><strong>Boosts Immunity:<\/strong> Vitamin C is a potent antioxidant that enhances immune function, supporting the prevention and treatment of infections, free radicals and protecting against chronic diseases<\/li><li><strong>Promotes Healthy Hair, Nail & Skin:<\/strong> Increased collagen production and Vitamin C promotes healthy skin, hair, and nail growth.<\/li><li><strong>Skin Elasticity:<\/strong> Supports and maintain skin elasticity and reduces the signs of aging.<\/li><li><strong>Increased Mobility and Joint Health:<\/strong> Collagen supplements can alleviate joint pain and improve mobility in individuals with osteoarthritis.<\/li><li><strong>Bone Density:<\/strong> Collagen aids in preserving bone density and reducing the risk of osteoporosis.<\/li><li><strong>Boosts Immunity: <\/strong>Vitamin C is a potent antioxidant that enhances immune function, aiding in the prevention and treatment of infections.<\/li><li><strong>Scar Healing:<\/strong> Colvita collagen provides structural support during tissue repair and therefore, assists in the body's natural wound-healing mechanisms.<\/li><\/ul>",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Button text",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__fea7f2ed-bdc7-4e7d-8955-75171f2b0966-slide-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "780",
+        "slideshow_height": "780",
+        "color_scheme": "scheme-accent",
+        "slideshow_autoplay": true,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "11c542cc-dae5-4748-b596-1945093c13a9": {
       "type": "image-with-text",
       "blocks": {
@@ -1241,74 +1309,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "fea7f2ed-bdc7-4e7d-8955-75171f2b0966": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21586456510777__fea7f2ed-bdc7-4e7d-8955-75171f2b0966-slide-3": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile": "shopify:\/\/shop_images\/Collagen_CProductPhoto.png",
-            "slide_image_mobile_overlay": false,
-            "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image_overlay": false,
-            "slide_image_overlay_color": "#1F2D1F",
-            "slide_image_overlay_opacity": 40,
-            "slide_image_right_enable": true,
-            "slide_image_right_overlay": true,
-            "slide_image_right_overlay_color": "#1F2D1F",
-            "slide_image_right_overlay_opacity": 100,
-            "slide_content_position": "right",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "left",
-            "slide_heading": "Collagen + C Benefits",
-            "slide_heading_width": 450,
-            "slide_subheading": "The Collagen + C Bundle works with our bodies to promote collagen production and the overall health of our entire bodies. When taken together Vitamin C and Collagen offer real benefits we can physically feel and visually see, including:",
-            "slide_subheading_width": 450,
-            "slide_description": "<ul><li><strong>Boosts Immunity:<\/strong> Vitamin C is a potent antioxidant that enhances immune function, supporting the prevention and treatment of infections, free radicals and protecting against chronic diseases<\/li><li><strong>Promotes Healthy Hair, Nail & Skin:<\/strong> Increased collagen production and Vitamin C promotes healthy skin, hair, and nail growth.<\/li><li><strong>Skin Elasticity:<\/strong> Supports and maintain skin elasticity and reduces the signs of aging.<\/li><li><strong>Increased Mobility and Joint Health:<\/strong> Collagen supplements can alleviate joint pain and improve mobility in individuals with osteoarthritis.<\/li><li><strong>Bone Density:<\/strong> Collagen aids in preserving bone density and reducing the risk of osteoporosis.<\/li><li><strong>Boosts Immunity: <\/strong>Vitamin C is a potent antioxidant that enhances immune function, aiding in the prevention and treatment of infections.<\/li><li><strong>Scar Healing:<\/strong> Colvita collagen provides structural support during tissue repair and therefore, assists in the body's natural wound-healing mechanisms.<\/li><\/ul>",
-            "slide_description_width": 450,
-            "slide_button_1_text": "Button text",
-            "slide_button_1_url": "",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__fea7f2ed-bdc7-4e7d-8955-75171f2b0966-slide-3"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "slideshow_height_mobile": "780",
-        "slideshow_height": "780",
-        "color_scheme": "scheme-accent",
-        "slideshow_autoplay": true,
-        "slideshow_transition_interval": 4000,
-        "slideshow_loop": true,
-        "slideshow_mouse_drag": true,
-        "slideshow_arrows": true,
-        "slideshow_dots": true,
-        "slideshow_transition_speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -1319,6 +1319,7 @@
     "ccc5cf92-a20d-4acb-b111-c6c88321e544",
     "97a01e4f-fe1e-4970-baa7-7ec2af01ce8e",
     "2021cc88-cf57-499b-b7c8-7429c98910d3",
+    "fea7f2ed-bdc7-4e7d-8955-75171f2b0966",
     "11c542cc-dae5-4748-b596-1945093c13a9",
     "70d1e7d2-190f-43cb-a9fa-7940952af515",
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146",
@@ -1331,7 +1332,6 @@
     "0ecd5908-6b3d-44d1-9a84-66ce33276039",
     "80db4c2a-e290-4b7f-950b-39b90931ade0",
     "b920341b-4501-44c2-a509-51095d537ed8",
-    "3a44223e-d10e-4244-8fe4-ab2d622fa769",
-    "fea7f2ed-bdc7-4e7d-8955-75171f2b0966"
+    "3a44223e-d10e-4244-8fe4-ab2d622fa769"
   ]
 }
