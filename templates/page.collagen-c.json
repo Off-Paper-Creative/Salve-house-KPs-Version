@@ -264,6 +264,50 @@
       "settings": {
       }
     },
+    "539261f8-1ce4-4cf5-a392-5ada79c59b94": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The COLLAGEN + C BUNCLE",
+            "text_tag": "h5",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-description-1": {
+          "type": "description",
+          "settings": {
+            "text": "The Collagen + C Bundle works with our bodies to promote collagen production and the overall health of our entire bodies. When taken together Vitamin C and Collagen offer real benefits we can physically feel and visually see, including:",
+            "text_tag": "p",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-heading-1",
+        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-description-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "left",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "fea7f2ed-bdc7-4e7d-8955-75171f2b0966": {
       "type": "slideshow",
       "blocks": {
@@ -284,9 +328,9 @@
             "slide_content_position": "right",
             "slide_content_vertical_align": "center",
             "slide_content_horizontal_align": "left",
-            "slide_heading": "Collagen + C Benefits",
+            "slide_heading": "",
             "slide_heading_width": 450,
-            "slide_subheading": "The Collagen + C Bundle works with our bodies to promote collagen production and the overall health of our entire bodies. When taken together Vitamin C and Collagen offer real benefits we can physically feel and visually see, including:",
+            "slide_subheading": "",
             "slide_subheading_width": 450,
             "slide_description": "<ul><li><strong>Boosts Immunity:<\/strong> Vitamin C is a potent antioxidant that enhances immune function, supporting the prevention and treatment of infections, free radicals and protecting against chronic diseases<\/li><li><strong>Promotes Healthy Hair, Nail & Skin:<\/strong> Increased collagen production and Vitamin C promotes healthy skin, hair, and nail growth.<\/li><li><strong>Skin Elasticity:<\/strong> Supports and maintain skin elasticity and reduces the signs of aging.<\/li><li><strong>Increased Mobility and Joint Health:<\/strong> Collagen supplements can alleviate joint pain and improve mobility in individuals with osteoarthritis.<\/li><li><strong>Bone Density:<\/strong> Collagen aids in preserving bone density and reducing the risk of osteoporosis.<\/li><li><strong>Boosts Immunity: <\/strong>Vitamin C is a potent antioxidant that enhances immune function, aiding in the prevention and treatment of infections.<\/li><li><strong>Scar Healing:<\/strong> Colvita collagen provides structural support during tissue repair and therefore, assists in the body's natural wound-healing mechanisms.<\/li><\/ul>",
             "slide_description_width": 450,
@@ -1319,6 +1363,7 @@
     "ccc5cf92-a20d-4acb-b111-c6c88321e544",
     "97a01e4f-fe1e-4970-baa7-7ec2af01ce8e",
     "2021cc88-cf57-499b-b7c8-7429c98910d3",
+    "539261f8-1ce4-4cf5-a392-5ada79c59b94",
     "fea7f2ed-bdc7-4e7d-8955-75171f2b0966",
     "11c542cc-dae5-4748-b596-1945093c13a9",
     "70d1e7d2-190f-43cb-a9fa-7940952af515",
