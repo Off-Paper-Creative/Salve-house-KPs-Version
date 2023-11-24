@@ -474,49 +474,6 @@
         "spacing_placement": "1"
       }
     },
-    "11c542cc-dae5-4748-b596-1945093c13a9": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-images-1": {
-          "type": "images",
-          "settings": {
-            "images_gap": true,
-            "images_gap_choice": "level-4",
-            "images_width_split": 31,
-            "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/Collagen_CProductPhoto.png",
-            "image_1_aspect_ratio": "1\/1",
-            "image_2_aspect_ratio": "1\/1"
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-images-1"
-      ],
-      "custom_css": [
-        ".section-image-with-text-images img {width: 900px;}"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1040,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-2",
-        "gap": true,
-        "gap_choice": "level-3",
-        "stack_on_mobile": true,
-        "images_content_width_split": 24,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "d8ee99e1-0385-47b0-8539-bd447806440b": {
       "type": "image-banner",
       "blocks": {
@@ -1202,7 +1159,6 @@
     "dd281924-5824-4859-85fd-70e561a26b45",
     "52471720-7314-4c20-9f3a-2b4056ad67f6",
     "55e9550a-968d-4a60-beba-32dacc54a14d",
-    "11c542cc-dae5-4748-b596-1945093c13a9",
     "d8ee99e1-0385-47b0-8539-bd447806440b",
     "0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2",
     "8d02d3da-a20e-41f8-b84a-ee14c140515e",
