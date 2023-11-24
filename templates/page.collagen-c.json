@@ -1193,8 +1193,8 @@
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "slideshow_height_mobile": "780",
-        "slideshow_height": "780",
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
         "color_scheme": "scheme-accent",
         "slideshow_autoplay": true,
         "slideshow_transition_interval": 4000,
