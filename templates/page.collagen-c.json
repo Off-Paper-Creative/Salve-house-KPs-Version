@@ -332,6 +332,55 @@
         "spacing_placement": "1"
       }
     },
+    "dd281924-5824-4859-85fd-70e561a26b45": {
+      "type": "spacer",
+      "settings": {
+      }
+    },
+    "52471720-7314-4c20-9f3a-2b4056ad67f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-special_heading-1": {
+          "type": "special_heading",
+          "settings": {
+            "text": "The Salve Choice",
+            "text_tag": "s2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-description-1": {
+          "type": "description",
+          "settings": {
+            "text": "Salve continuously conducts extensive research to curate a line of top-tier products that enhance your skin's beauty, bolster organ health, and elevate your overall wellness. All Salve products are specifically selected for their high potency, bioavailability and quality ingredients.",
+            "text_tag": "p",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-special_heading-1",
+        "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-description-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "left",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "55e9550a-968d-4a60-beba-32dacc54a14d": {
       "type": "multicolumn",
       "blocks": {
@@ -1413,6 +1462,8 @@
     "97a01e4f-fe1e-4970-baa7-7ec2af01ce8e",
     "2021cc88-cf57-499b-b7c8-7429c98910d3",
     "fea7f2ed-bdc7-4e7d-8955-75171f2b0966",
+    "dd281924-5824-4859-85fd-70e561a26b45",
+    "52471720-7314-4c20-9f3a-2b4056ad67f6",
     "55e9550a-968d-4a60-beba-32dacc54a14d",
     "11c542cc-dae5-4748-b596-1945093c13a9",
     "70d1e7d2-190f-43cb-a9fa-7940952af515",
