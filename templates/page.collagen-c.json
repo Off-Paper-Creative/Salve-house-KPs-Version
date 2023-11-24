@@ -474,124 +474,69 @@
         "spacing_placement": "1"
       }
     },
-    "d8ee99e1-0385-47b0-8539-bd447806440b": {
-      "type": "image-banner",
+    "dfc68a75-27a3-4268-a915-3e428fd23ec0": {
+      "type": "slideshow",
       "blocks": {
-        "0cd35996-7449-4cee-a04b-57fd6eeda287": {
-          "type": "text",
+        "template--21586456510777__dfc68a75-27a3-4268-a915-3e428fd23ec0-slide-3": {
+          "type": "slide",
           "settings": {
-            "banner_text": "Collagen",
-            "banner_text_tag": "s2"
-          }
-        },
-        "cd1fa879-442c-498a-9135-80934ef7518e": {
-          "type": "text",
-          "settings": {
-            "banner_text": "The Rejuvenator",
-            "banner_text_tag": "h6"
-          }
-        },
-        "968ece71-9baa-4096-a37c-dcf15ecbfdbd": {
-          "type": "text",
-          "settings": {
-            "banner_text": "Supports New Energy + Radiant Youth",
-            "banner_text_tag": "p"
+            "slide_image_mobile": "shopify:\/\/shop_images\/Group_Shot.png",
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 100,
+            "slide_content_position": "right",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "This is Slideshow Heading",
+            "slide_heading_width": 450,
+            "slide_subheading": "This is simple subheading for slideshow",
+            "slide_subheading_width": 450,
+            "slide_description": "",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Button text",
+            "slide_button_1_url": "",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
           }
         }
       },
       "block_order": [
-        "0cd35996-7449-4cee-a04b-57fd6eeda287",
-        "cd1fa879-442c-498a-9135-80934ef7518e",
-        "968ece71-9baa-4096-a37c-dcf15ecbfdbd"
+        "template--21586456510777__dfc68a75-27a3-4268-a915-3e428fd23ec0-slide-3"
       ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "height_mobile": "460",
-        "height": "460",
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
         "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-3",
-        "background_overlay": true,
-        "background_overlay_color": "#174248",
-        "background_overlay_opacity": 100,
-        "content_custom_width": true,
-        "content_width": 720,
-        "content_position": "center",
-        "content_horizontal_align": "center",
+        "slideshow_autoplay": true,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": true,
+        "slideshow_mouse_drag": true,
+        "slideshow_arrows": true,
+        "slideshow_dots": true,
+        "slideshow_transition_speed": 400,
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21586456510777__0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Collagen Benefits",
-            "text_tag": "s2",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "6571e385-cf13-4290-b408-31ca89301509": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Collagen is the foundation of well-being, responsible for joint health, skin elasticity, and overall tissue vitality. It is especially important for connective tissue, muscle recovery, and tendons and bone support. Our bodies natural collagen production declines as we age.<\/p>",
-            "description_tag": "p",
-            "description_custom_width": false,
-            "description_width": 700
-          }
-        },
-        "d1d2a6a7-51f8-4c67-b1fa-8e38e1c2f297": {
-          "type": "heading",
-          "settings": {
-            "text": "Collagen Is Responsible For:",
-            "text_tag": "h5",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "6789f585-5ece-40c3-bb82-6786c8b0b12b": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<ul><li><strong>Muscle Health and Recovery: <\/strong>Collagen supports tissue regeneration, reduces inflammation, and relieves joint pain. It's a workout companion that metabolizes protein, helping build muscle mass. It's also instrumental in post-injury and post-surgery rehabilitation. <\/li><li><strong>Organ Health: <\/strong>Internally, Colvita optimizes your metabolism and supports internal organ function, promoting the health of the liver, kidneys, heart, and gut. <\/li><li><strong>Skin Health and Elasticity: <\/strong>Collagen production promotes skin elasticity, hydration, reduces wrinkles, dark spots, and acne scars, and promotes healthy hair growth.<\/li><li><strong>Increased Mobility and Joint Health: <\/strong>Collagen supplements can help alleviate joint pain and improve mobility in individuals with osteoarthritis. <\/li><li><strong>Scar Healing : <\/strong>Colvita collagen provides structural support during tissue repair and therefore, assists in the body's natural wound healing mechanisms.<\/li><\/ul>",
-            "description_tag": "p",
-            "description_custom_width": true,
-            "description_width": 280
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2-special_heading-1",
-        "6571e385-cf13-4290-b408-31ca89301509",
-        "d1d2a6a7-51f8-4c67-b1fa-8e38e1c2f297",
-        "6789f585-5ece-40c3-bb82-6786c8b0b12b"
-      ],
-      "custom_css": [
-        "ul {margin-left: 20vw; margin-right: 20vw;}"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -617,121 +562,6 @@
         "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "de2374c2-07ae-47a5-9c0d-30a81b49c1a3": {
-      "type": "image-banner",
-      "blocks": {
-        "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-1": {
-          "type": "text",
-          "settings": {
-            "banner_text": "Vitamin C",
-            "banner_text_tag": "s2"
-          }
-        },
-        "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-2": {
-          "type": "text",
-          "settings": {
-            "banner_text": "The Catalyst",
-            "banner_text_tag": "h6"
-          }
-        }
-      },
-      "block_order": [
-        "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-1",
-        "template--21540511449401__de2374c2-07ae-47a5-9c0d-30a81b49c1a3-text-2"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "height_mobile": "460",
-        "height": "460",
-        "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-3",
-        "background_overlay": true,
-        "background_overlay_color": "#174248",
-        "background_overlay_opacity": 100,
-        "content_custom_width": true,
-        "content_width": 720,
-        "content_position": "center",
-        "content_horizontal_align": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "5376337c-03dd-4706-91d3-589e1a897b40": {
-      "type": "rich-text",
-      "blocks": {
-        "6f453dd0-0212-40cd-aeca-2af06d1ed1f1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Benefits of Vitamin C",
-            "text_tag": "s3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "5b59131a-337c-471a-82b4-ec54230cdfc0": {
-          "type": "description",
-          "settings": {
-            "text": "Vitamin C is an essential vitamin in our diet as it is not naturally produced in our bodies. It is a vital antioxidant that plays a key role in boosting your immunity and lowering the risk of heart disease, iron deficiency, and high blood pressure.",
-            "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "1c77d639-4ade-40ac-b1e3-cc667b39279e": {
-          "type": "heading",
-          "settings": {
-            "text": "Vitamin c is responsible for",
-            "text_tag": "h5",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "a0c9bd89-7b22-490a-87dd-58260b6f2593": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<ul><li>Reducing inflammation and keeping the body in an alkaline state.<\/li><li>Supporting proper functioning of blood vessels, bones, cartilage, gums, teeth and skin.<\/li><li>Development and maintenance of bones, cartilage, teeth and\/or gums.<\/li><li>Supporting the body in metabolizing nutrients and strengthening the immune system.<\/li><li>Improves post-operative recovery and promotes fast bone, ligament, and tendon healing.<\/li><li>Proper functioning of the nervous system and psychological functions.<\/li><\/ul>",
-            "description_tag": "p",
-            "description_custom_width": false,
-            "description_width": 700
-          }
-        }
-      },
-      "block_order": [
-        "6f453dd0-0212-40cd-aeca-2af06d1ed1f1",
-        "5b59131a-337c-471a-82b4-ec54230cdfc0",
-        "1c77d639-4ade-40ac-b1e3-cc667b39279e",
-        "a0c9bd89-7b22-490a-87dd-58260b6f2593"
-      ],
-      "custom_css": [
-        "ul {margin-left: 20vw; margin-right: 20vw;}"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-5",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-4",
         "spacing_placement": "1"
       }
     },
@@ -920,68 +750,6 @@
         "spacing_placement": "1"
       }
     },
-    "80db4c2a-e290-4b7f-950b-39b90931ade0": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--21462362358073__80db4c2a-e290-4b7f-950b-39b90931ade0-images-1": {
-          "type": "images",
-          "settings": {
-            "images_gap": true,
-            "images_gap_choice": "level-2",
-            "images_width_split": 59,
-            "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/Screenshot_2023-11-08_at_12.48.12_PM.png",
-            "image_1_aspect_ratio": "3\/2",
-            "image_2_aspect_ratio": "3\/2"
-          }
-        },
-        "template--21462362358073__80db4c2a-e290-4b7f-950b-39b90931ade0-content-1": {
-          "type": "content",
-          "settings": {
-            "text_1": "Salve Members Enjoy A",
-            "text_1_tag": "h5",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_2": "<p>Full Spectrum Of Health Benefits<\/p>",
-            "text_2_tag": "s2",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_3": "<p>Offered through the highest quality of supplements, thoughfully formulated to work with our bodies to achieve sustainable health and radiant beauty - inside and out.<\/p>",
-            "text_3_tag": "p",
-            "text_3_custom_width": false,
-            "text_3_width": 450,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "template--21462362358073__80db4c2a-e290-4b7f-950b-39b90931ade0-images-1",
-        "template--21462362358073__80db4c2a-e290-4b7f-950b-39b90931ade0-content-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": true,
-        "gap_choice": "level-5",
-        "stack_on_mobile": true,
-        "images_content_width_split": 76,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": true,
-        "separator_height": 4,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "b920341b-4501-44c2-a509-51095d537ed8": {
       "type": "multicolumn",
       "blocks": {
@@ -1145,74 +913,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "dfc68a75-27a3-4268-a915-3e428fd23ec0": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21586456510777__dfc68a75-27a3-4268-a915-3e428fd23ec0-slide-3": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile": "shopify:\/\/shop_images\/Group_Shot.png",
-            "slide_image_mobile_overlay": false,
-            "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image_overlay": false,
-            "slide_image_overlay_color": "#1F2D1F",
-            "slide_image_overlay_opacity": 100,
-            "slide_image_right_enable": true,
-            "slide_image_right_overlay": true,
-            "slide_image_right_overlay_color": "#1F2D1F",
-            "slide_image_right_overlay_opacity": 100,
-            "slide_content_position": "right",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "center",
-            "slide_heading": "This is Slideshow Heading",
-            "slide_heading_width": 450,
-            "slide_subheading": "This is simple subheading for slideshow",
-            "slide_subheading_width": 450,
-            "slide_description": "",
-            "slide_description_width": 450,
-            "slide_button_1_text": "Button text",
-            "slide_button_1_url": "",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__dfc68a75-27a3-4268-a915-3e428fd23ec0-slide-3"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "slideshow_height_mobile": "600",
-        "slideshow_height": "600",
-        "color_scheme": "scheme-accent",
-        "slideshow_autoplay": true,
-        "slideshow_transition_interval": 4000,
-        "slideshow_loop": true,
-        "slideshow_mouse_drag": true,
-        "slideshow_arrows": true,
-        "slideshow_dots": true,
-        "slideshow_transition_speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -1227,15 +927,10 @@
     "dd281924-5824-4859-85fd-70e561a26b45",
     "52471720-7314-4c20-9f3a-2b4056ad67f6",
     "55e9550a-968d-4a60-beba-32dacc54a14d",
-    "d8ee99e1-0385-47b0-8539-bd447806440b",
-    "0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2",
+    "dfc68a75-27a3-4268-a915-3e428fd23ec0",
     "8d02d3da-a20e-41f8-b84a-ee14c140515e",
-    "de2374c2-07ae-47a5-9c0d-30a81b49c1a3",
-    "5376337c-03dd-4706-91d3-589e1a897b40",
     "0ecd5908-6b3d-44d1-9a84-66ce33276039",
-    "80db4c2a-e290-4b7f-950b-39b90931ade0",
     "b920341b-4501-44c2-a509-51095d537ed8",
-    "3a44223e-d10e-4244-8fe4-ab2d622fa769",
-    "dfc68a75-27a3-4268-a915-3e428fd23ec0"
+    "3a44223e-d10e-4244-8fe4-ab2d622fa769"
   ]
 }
