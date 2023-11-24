@@ -141,7 +141,7 @@
           "settings": {
             "images_gap": true,
             "images_gap_choice": "level-4",
-            "images_width_split": 50,
+            "images_width_split": 31,
             "images_stack_on_mobile": true,
             "image_1": "shopify:\/\/shop_images\/30.png",
             "image_1_aspect_ratio": "1\/1",
