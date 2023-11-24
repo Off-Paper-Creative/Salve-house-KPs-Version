@@ -66,6 +66,14 @@
         "spacing_placement": "3"
       }
     },
+    "9fd40724-1098-434f-b9a5-ff47437184fc": {
+      "type": "spacer",
+      "custom_css": [
+        ".section-spacer {margin: 25px;}"
+      ],
+      "settings": {
+      }
+    },
     "fa19f72c-5ec5-43b3-8108-85ae06776bd6": {
       "type": "rich-text",
       "blocks": {
@@ -104,7 +112,7 @@
       ],
       "settings": {
         "fullwidth": false,
-        "width": 1320,
+        "width": 640,
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-4",
@@ -118,6 +126,11 @@
         "spacing": true,
         "spacing_choice": "level-5",
         "spacing_placement": "1"
+      }
+    },
+    "ccc5cf92-a20d-4acb-b111-c6c88321e544": {
+      "type": "spacer",
+      "settings": {
       }
     },
     "11c542cc-dae5-4748-b596-1945093c13a9": {
@@ -227,7 +240,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -491,7 +504,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -1103,7 +1116,9 @@
   "order": [
     "main",
     "image-banner-1",
+    "9fd40724-1098-434f-b9a5-ff47437184fc",
     "fa19f72c-5ec5-43b3-8108-85ae06776bd6",
+    "ccc5cf92-a20d-4acb-b111-c6c88321e544",
     "11c542cc-dae5-4748-b596-1945093c13a9",
     "70d1e7d2-190f-43cb-a9fa-7940952af515",
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146",
