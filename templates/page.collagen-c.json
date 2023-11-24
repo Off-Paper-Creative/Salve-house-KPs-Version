@@ -143,7 +143,7 @@
             "images_gap_choice": "level-4",
             "images_width_split": 31,
             "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/30.png",
+            "image_1": "shopify:\/\/shop_images\/Collagen_lines.png",
             "image_1_aspect_ratio": "1\/1",
             "image_2_aspect_ratio": "1\/1"
           }
@@ -179,9 +179,9 @@
         "h1 {color: white;}"
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-additional",
+        "fullwidth": false,
+        "width": 1040,
+        "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-2",
         "gap": true,
