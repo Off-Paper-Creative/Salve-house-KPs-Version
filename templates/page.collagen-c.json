@@ -488,32 +488,10 @@
             "image_1_aspect_ratio": "1\/1",
             "image_2_aspect_ratio": "1\/1"
           }
-        },
-        "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-content-1": {
-          "type": "content",
-          "settings": {
-            "text_1": "COLVITA COLLAGEN",
-            "text_1_tag": "s3",
-            "text_1_custom_width": false,
-            "text_1_width": 970,
-            "text_2": "<p>Colvita is a result of cutting-edge biotechnology, a combination of tropocollagen, minerals and amino acids that help supplement the most important tissue in the body - the connective tissue. This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water) and is sourced exclusively in Poland. The quality and effectiveness of extracted raw materials used to formulate this supplement stands out significantly from the competition. Colvita is a product that surpasses the strictest dietary supplement standards for natural health products, to the extent that even the capsules contain no artificial coloring, dyes, fillers or additives. It does not contain hydrolysates, it is the only collagen supplement made this way.<\/p>",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 280,
-            "text_3": "<p>The defining characteristic of Colvita is Freeze-dried Native Collagen Hydrate. Freeze-drying the collagen ensures high absorption in the body (98%) the highest purity and biological durability of nutrients and amino acids preserved the natural way. Colvita Collagen does not contain hydrolysates, it is the only collagen supplement made this way.<\/p>",
-            "text_3_tag": "p",
-            "text_3_custom_width": false,
-            "text_3_width": 450,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "outline"
-          }
         }
       },
       "block_order": [
-        "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-images-1",
-        "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-content-1"
+        "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-images-1"
       ],
       "custom_css": [
         ".section-image-with-text-images img {width: 900px;}"
@@ -535,132 +513,6 @@
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
         "spacing": false,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "70d1e7d2-190f-43cb-a9fa-7940952af515": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "+ COLWAY VITAMIN C",
-            "text_tag": "s3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-description-1": {
-          "type": "description",
-          "settings": {
-            "text": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating seeds of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of vitamin C due to their high bioavailability. Colway Vitamin C is currently one of the most natural vitamin C supplements, it does not synthetic ascorbic acid or any other substance that does not occur in conjunction with Vitamin C in nature - your body absorbs it the same way it obtains nutrients from fruit and vegetables.",
-            "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-special_heading-1",
-        "template--21586456510777__70d1e7d2-190f-43cb-a9fa-7940952af515-description-1"
-      ],
-      "custom_css": [
-        "h1,p {color: white;}"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-additional",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21462362358073__f4eb6aae-c2a2-42c8-9fd0-732aba2fa146-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Benefits You Can See & Feel",
-            "text_tag": "s3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21462362358073__f4eb6aae-c2a2-42c8-9fd0-732aba2fa146-description-1": {
-          "type": "description",
-          "settings": {
-            "text": "In the journey towards sustainable wellness, the Collagen + C Bundle works with our bodies to promote collagen production and the overall health of our entire bodies. When taken together Vitamin C and Collagen offer real benefits we can physically feel and visually see.",
-            "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "1cd24fba-e47f-4515-b0b3-9781def2cfc2": {
-          "type": "heading",
-          "settings": {
-            "text": "Collagen + Vitamin C Work Together To:",
-            "text_tag": "h5",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "cea94835-c826-48ae-9f7a-65ab7d37a29f": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<ul><li><strong>Boosts Immunity: <\/strong>Vitamin C is a potent antioxidant that enhances immune function, supporting the prevention and treatment of infections, free radicals and protecting against chronic diseases<\/li><li><strong>Promotes Healthy Hair, Nail & Skin:<\/strong> Increased collagen production and Vitamin C promotes healthy skin, hair, and nail growth.<\/li><li><strong>Skin  Elasticity: <\/strong>Supports and maintain skin elasticity and reduces the signs of aging.<\/li><li><strong>Increased Mobility and Joint Health: <\/strong>Collagen supplements can alleviate joint pain and improve mobility in individuals with osteoarthritis. <\/li><li><strong>Bone Density:<\/strong> Collagen aids in preserving bone density and reducing the risk of osteoporosis. <\/li><li><strong>Boosts Immunity:<\/strong> Vitamin C is a potent antioxidant that enhances immune function, aiding in the prevention and treatment of infections.<\/li><li><strong>Scar Healing :<\/strong> Colvita collagen provides structural support during tissue repair and therefore, assists in the body's natural wound-healing mechanisms.<\/li><\/ul>",
-            "description_tag": "p",
-            "description_custom_width": false,
-            "description_width": 700
-          }
-        },
-        "3adc5bbe-1ef0-415e-9d89-6ff281963867": {
-          "type": "button",
-          "settings": {
-            "button_text": "Become A Member",
-            "button_url": "shopify:\/\/pages\/become-a-member",
-            "button_target": "_self",
-            "button_style": "outline",
-            "button_custom_width": false,
-            "button_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21462362358073__f4eb6aae-c2a2-42c8-9fd0-732aba2fa146-special_heading-1",
-        "template--21462362358073__f4eb6aae-c2a2-42c8-9fd0-732aba2fa146-description-1",
-        "1cd24fba-e47f-4515-b0b3-9781def2cfc2",
-        "cea94835-c826-48ae-9f7a-65ab7d37a29f",
-        "3adc5bbe-1ef0-415e-9d89-6ff281963867"
-      ],
-      "custom_css": [
-        "ul {margin-left: 20vw; margin-right: 20vw;}"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-5",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -790,45 +642,6 @@
     },
     "8d02d3da-a20e-41f8-b84a-ee14c140515e": {
       "type": "image-with-text",
-      "blocks": {
-        "template--21586456510777__8d02d3da-a20e-41f8-b84a-ee14c140515e-images-1": {
-          "type": "images",
-          "settings": {
-            "images_gap": true,
-            "images_gap_choice": "level-3",
-            "images_width_split": 50,
-            "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/28_copy.png",
-            "image_1_aspect_ratio": "1\/1",
-            "image_2_aspect_ratio": "auto"
-          }
-        },
-        "template--21586456510777__8d02d3da-a20e-41f8-b84a-ee14c140515e-content-1": {
-          "type": "content",
-          "settings": {
-            "text_1": "Colvita Collagen",
-            "text_1_tag": "s2",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_2": "<p>The Salve Choice<\/p>",
-            "text_2_tag": "h6",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_3": "<p>The Colvita Collagen supplement is an abundant source of natural wellness; Containing Pure Marine Tropocollagen, Algae (fucus vesiculosus) extract, Tocotrienols, and Vitamin E. The defining characteristic of Colvita is the lyophilized Native Collagen Hydrate, obtained through a cutting-edge extraction process that maintains its triple helix structure, closely resembling human collagen.<\/p>",
-            "text_3_tag": "p",
-            "text_3_custom_width": false,
-            "text_3_width": 450,
-            "button_text": "Shop Collagen",
-            "button_url": "shopify:\/\/products\/collagen",
-            "button_target": "_self",
-            "button_style": "fill"
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__8d02d3da-a20e-41f8-b84a-ee14c140515e-images-1",
-        "template--21586456510777__8d02d3da-a20e-41f8-b84a-ee14c140515e-content-1"
-      ],
       "settings": {
         "fullwidth": false,
         "width": 1320,
@@ -962,82 +775,6 @@
         "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-4",
-        "spacing_placement": "1"
-      }
-    },
-    "6328d993-f1fc-440d-a6ec-c2e6a2b89af2": {
-      "type": "image-cards",
-      "blocks": {
-        "template--21580563448121__6328d993-f1fc-440d-a6ec-c2e6a2b89af2-card-1": {
-          "type": "card",
-          "settings": {
-            "card_size": "small",
-            "image": "shopify:\/\/shop_images\/35.png",
-            "image_aspect_ratio": "1\/1",
-            "heading": "Colway - Vitamin C",
-            "heading_tag": "h5",
-            "heading_custom_width": false,
-            "heading_width": 450,
-            "description": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating seeds of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of vitamin C due to their high bioavailability and excellent flavonoids links. Colvita Vitamin C is currently one of the most natural vitamin C supplements.",
-            "description_tag": "p",
-            "description_custom_width": false,
-            "description_width": 450,
-            "button_text": "Add to Cart",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "fill"
-          }
-        },
-        "template--21580563448121__6328d993-f1fc-440d-a6ec-c2e6a2b89af2-card-2": {
-          "type": "card",
-          "settings": {
-            "card_size": "large",
-            "image": "shopify:\/\/shop_images\/Vitamin_C.png",
-            "image_aspect_ratio": "1\/1",
-            "heading": "",
-            "heading_tag": "h4",
-            "heading_custom_width": false,
-            "heading_width": 450,
-            "description": "",
-            "description_tag": "s2",
-            "description_custom_width": false,
-            "description_width": 450,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--21580563448121__6328d993-f1fc-440d-a6ec-c2e6a2b89af2-card-1",
-        "template--21580563448121__6328d993-f1fc-440d-a6ec-c2e6a2b89af2-card-2"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": true,
-        "gap_choice": "level-4",
-        "vertical_align": "normal",
-        "heading": "The Salve Choice - Colway Vitamin C",
-        "heading_tag": "s2",
-        "description": "",
-        "description_tag": "h6",
-        "button_text": "Shop Vitamin C",
-        "button_url": "shopify:\/\/products\/vitamin-c",
-        "button_target": "_self",
-        "button_style": "link",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
     },
@@ -1466,14 +1203,11 @@
     "52471720-7314-4c20-9f3a-2b4056ad67f6",
     "55e9550a-968d-4a60-beba-32dacc54a14d",
     "11c542cc-dae5-4748-b596-1945093c13a9",
-    "70d1e7d2-190f-43cb-a9fa-7940952af515",
-    "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146",
     "d8ee99e1-0385-47b0-8539-bd447806440b",
     "0f5e13fc-3fa0-412b-8dd3-f2bfcbfa01b2",
     "8d02d3da-a20e-41f8-b84a-ee14c140515e",
     "de2374c2-07ae-47a5-9c0d-30a81b49c1a3",
     "5376337c-03dd-4706-91d3-589e1a897b40",
-    "6328d993-f1fc-440d-a6ec-c2e6a2b89af2",
     "0ecd5908-6b3d-44d1-9a84-66ce33276039",
     "80db4c2a-e290-4b7f-950b-39b90931ade0",
     "b920341b-4501-44c2-a509-51095d537ed8",
