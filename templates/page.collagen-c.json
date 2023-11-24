@@ -264,50 +264,6 @@
       "settings": {
       }
     },
-    "539261f8-1ce4-4cf5-a392-5ada79c59b94": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "The COLLAGEN + C BUNCLE",
-            "text_tag": "h5",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-description-1": {
-          "type": "description",
-          "settings": {
-            "text": "The Collagen + C Bundle works with our bodies to promote collagen production and the overall health of our entire bodies. When taken together Vitamin C and Collagen offer real benefits we can physically feel and visually see, including:",
-            "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-heading-1",
-        "template--21586456510777__539261f8-1ce4-4cf5-a392-5ada79c59b94-description-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "alignment": "left",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "fea7f2ed-bdc7-4e7d-8955-75171f2b0966": {
       "type": "slideshow",
       "blocks": {
@@ -1363,7 +1319,6 @@
     "ccc5cf92-a20d-4acb-b111-c6c88321e544",
     "97a01e4f-fe1e-4970-baa7-7ec2af01ce8e",
     "2021cc88-cf57-499b-b7c8-7429c98910d3",
-    "539261f8-1ce4-4cf5-a392-5ada79c59b94",
     "fea7f2ed-bdc7-4e7d-8955-75171f2b0966",
     "11c542cc-dae5-4748-b596-1945093c13a9",
     "70d1e7d2-190f-43cb-a9fa-7940952af515",
