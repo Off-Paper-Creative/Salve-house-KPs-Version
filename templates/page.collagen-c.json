@@ -175,10 +175,10 @@
         "template--21586456510777__11c542cc-dae5-4748-b596-1945093c13a9-content-1"
       ],
       "custom_css": [
-        ".section-image-with-text-images img {width: 1080px;}"
+        ".section-image-with-text-images img {width: 900px;}"
       ],
       "settings": {
-        "fullwidth": false,
+        "fullwidth": true,
         "width": 1040,
         "color_scheme": "scheme-main",
         "inset": true,
