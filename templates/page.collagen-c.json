@@ -332,6 +332,99 @@
         "spacing_placement": "1"
       }
     },
+    "55e9550a-968d-4a60-beba-32dacc54a14d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-1": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 50,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/36.png",
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "Colvita Collagen",
+            "text_1_tag": "h6",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "Colvita is a result of cutting-edge biotechnology, a combination of tropocollagen, minerals and amino acids. The defining characteristic of Colvita is Freeze-dried Native Collagen Hydrate. Freeze-drying the collagen ensures high absorption in the body (98%) the highest purity and biological durability of nutrients and amino acids preserved the natural way. It is the only collagen that does not contain hydrolyzed collagen and closely mimics human collagen.",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        },
+        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-2": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 40,
+            "horizontal_align": "center",
+            "vertical_align": "flex-start",
+            "text_align": "left",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/37.png",
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "Colway Vitamin C",
+            "text_1_tag": "h6",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating seeds of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of vitamin C due to their high bioavailability and excellent flavonoids links. Colvita Vitamin C is currently one of the most natural vitamin C supplements.",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-1",
+        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-2"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "11c542cc-dae5-4748-b596-1945093c13a9": {
       "type": "image-with-text",
       "blocks": {
@@ -1309,99 +1402,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "55e9550a-968d-4a60-beba-32dacc54a14d": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-1": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-3",
-            "width": 50,
-            "horizontal_align": "normal",
-            "vertical_align": "normal",
-            "text_align": "left",
-            "image_show": true,
-            "image": "shopify:\/\/shop_images\/36.png",
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 300,
-            "image_display_order": 0,
-            "text_1": "Colvita Collagen",
-            "text_1_tag": "h6",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "Colvita is a result of cutting-edge biotechnology, a combination of tropocollagen, minerals and amino acids. The defining characteristic of Colvita is Freeze-dried Native Collagen Hydrate. Freeze-drying the collagen ensures high absorption in the body (98%) the highest purity and biological durability of nutrients and amino acids preserved the natural way. It is the only collagen that does not contain hydrolyzed collagen and closely mimics human collagen.",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        },
-        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-2": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-3",
-            "width": 40,
-            "horizontal_align": "center",
-            "vertical_align": "flex-start",
-            "text_align": "left",
-            "image_show": true,
-            "image": "shopify:\/\/shop_images\/37.png",
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 300,
-            "image_display_order": 0,
-            "text_1": "Colway Vitamin C",
-            "text_1_tag": "h6",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating seeds of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of vitamin C due to their high bioavailability and excellent flavonoids links. Colvita Vitamin C is currently one of the most natural vitamin C supplements.",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-1",
-        "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-2"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": true,
-        "gap_choice": "level-4",
-        "stack_on_mobile": true,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -1413,6 +1413,7 @@
     "97a01e4f-fe1e-4970-baa7-7ec2af01ce8e",
     "2021cc88-cf57-499b-b7c8-7429c98910d3",
     "fea7f2ed-bdc7-4e7d-8955-75171f2b0966",
+    "55e9550a-968d-4a60-beba-32dacc54a14d",
     "11c542cc-dae5-4748-b596-1945093c13a9",
     "70d1e7d2-190f-43cb-a9fa-7940952af515",
     "f4eb6aae-c2a2-42c8-9fd0-732aba2fa146",
@@ -1425,7 +1426,6 @@
     "0ecd5908-6b3d-44d1-9a84-66ce33276039",
     "80db4c2a-e290-4b7f-950b-39b90931ade0",
     "b920341b-4501-44c2-a509-51095d537ed8",
-    "3a44223e-d10e-4244-8fe4-ab2d622fa769",
-    "55e9550a-968d-4a60-beba-32dacc54a14d"
+    "3a44223e-d10e-4244-8fe4-ab2d622fa769"
   ]
 }
