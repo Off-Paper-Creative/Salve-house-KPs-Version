@@ -949,11 +949,6 @@
           "settings": {
           }
         },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-description-1": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-rating-1": {
           "type": "rating",
           "settings": {
@@ -1025,7 +1020,6 @@
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-title-1",
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-price-1",
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-shoppay-banner-1",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-description-1",
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-rating-1",
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-stock-count-1",
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-buy-buttons-1",
