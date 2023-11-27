@@ -518,6 +518,9 @@
       "block_order": [
         "template--21586456510777__dfc68a75-27a3-4268-a915-3e428fd23ec0-slide-3"
       ],
+      "custom_css": [
+        "h1 {font-size: 18px;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
