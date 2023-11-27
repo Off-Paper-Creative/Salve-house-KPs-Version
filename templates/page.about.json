@@ -177,7 +177,7 @@
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1",
-        "scroll_speed": 33
+        "scroll_speed": 62
       }
     },
     "1f3991ec-9267-43ce-a223-68c691c5d278": {
@@ -186,7 +186,6 @@
         "template--21586457198905__1f3991ec-9267-43ce-a223-68c691c5d278-slide-3": {
           "type": "slide",
           "settings": {
-            "slide_image_mobile": "shopify:\/\/shop_images\/8.jpg",
             "slide_image_mobile_overlay": false,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 40,
