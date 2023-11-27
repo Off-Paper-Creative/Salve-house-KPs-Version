@@ -560,6 +560,34 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
+    },
+    "f73260f3-b607-45ad-8bea-f824d18fccda": {
+      "type": "video",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "heading": "",
+        "heading_tag": "h3",
+        "button_text": "",
+        "button_url": "",
+        "button_target": "_self",
+        "button_style": "link",
+        "video_source": "internal",
+        "video": "shopify:\/\/files\/videos\/stock-footage-happy-s-middle-aged-mature-woman-touching-facial-skin-looking-at-camera-pampering-in-mirror-old.webm",
+        "video_alt": "",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -569,6 +597,7 @@
     "6102bf05-8209-4c47-bc6d-6894c9b46641",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
     "51fc8ac6-5685-47be-8b0f-f733954d72dd",
-    "16c06f9c-6804-4ad2-908c-d94e806857a8"
+    "16c06f9c-6804-4ad2-908c-d94e806857a8",
+    "f73260f3-b607-45ad-8bea-f824d18fccda"
   ]
 }
