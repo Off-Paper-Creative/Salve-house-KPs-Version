@@ -695,6 +695,101 @@
         "scroll_speed": 30
       }
     },
+    "3feddb11-edd3-48ff-a36f-a6d0c2b66fe9": {
+      "type": "featured-product",
+      "blocks": {
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-title-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-shoppay-banner-1": {
+          "type": "shoppay-banner",
+          "settings": {
+          }
+        },
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-rating-1": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "quantity-picker": true,
+            "dynamic-checkout-button": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-pickup-availability-1": {
+          "type": "pickup-availability",
+          "settings": {
+          }
+        },
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-collapsible-row-1": {
+          "type": "collapsible-row",
+          "settings": {
+            "title_text": "Vitamin C",
+            "description_text": "<p>This is collapsible content.<\/p>",
+            "open_by_default": false
+          }
+        },
+        "08161956-e810-438c-bcef-ca20b171505a": {
+          "type": "collapsible-row",
+          "settings": {
+            "title_text": "Collagen",
+            "description_text": "<p>This is collapsible content.<\/p>",
+            "open_by_default": false
+          }
+        },
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-separator-1": {
+          "type": "separator",
+          "settings": {
+            "width": "100%",
+            "height": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-title-1",
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-price-1",
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-shoppay-banner-1",
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-rating-1",
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-buy-buttons-1",
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-pickup-availability-1",
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-collapsible-row-1",
+        "08161956-e810-438c-bcef-ca20b171505a",
+        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-separator-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "product_choice": "the-collagen-c-bundle-1",
+        "product_gallery_type": "fade",
+        "product_gallery_arrows": false,
+        "product_gallery_dots": false,
+        "product_gallery_mouse_drag": true,
+        "product_thumbnails_loop": true,
+        "product_thumbnails_arrows": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "b43f6820-c5d3-4064-ab54-15645b7a3aac": {
       "type": "rich-text",
       "blocks": {
@@ -930,101 +1025,6 @@
       ],
       "settings": {
       }
-    },
-    "3feddb11-edd3-48ff-a36f-a6d0c2b66fe9": {
-      "type": "featured-product",
-      "blocks": {
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-title-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-price-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-shoppay-banner-1": {
-          "type": "shoppay-banner",
-          "settings": {
-          }
-        },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-rating-1": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-buy-buttons-1": {
-          "type": "buy-buttons",
-          "settings": {
-            "quantity-picker": true,
-            "dynamic-checkout-button": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-pickup-availability-1": {
-          "type": "pickup-availability",
-          "settings": {
-          }
-        },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-collapsible-row-1": {
-          "type": "collapsible-row",
-          "settings": {
-            "title_text": "Vitamin C",
-            "description_text": "<p>This is collapsible content.<\/p>",
-            "open_by_default": false
-          }
-        },
-        "08161956-e810-438c-bcef-ca20b171505a": {
-          "type": "collapsible-row",
-          "settings": {
-            "title_text": "Collagen",
-            "description_text": "<p>This is collapsible content.<\/p>",
-            "open_by_default": false
-          }
-        },
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-separator-1": {
-          "type": "separator",
-          "settings": {
-            "width": "100%",
-            "height": 1
-          }
-        }
-      },
-      "block_order": [
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-title-1",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-price-1",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-shoppay-banner-1",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-rating-1",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-buy-buttons-1",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-pickup-availability-1",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-collapsible-row-1",
-        "08161956-e810-438c-bcef-ca20b171505a",
-        "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-separator-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "product_choice": "the-collagen-c-bundle-1",
-        "product_gallery_type": "fade",
-        "product_gallery_arrows": false,
-        "product_gallery_dots": false,
-        "product_gallery_mouse_drag": true,
-        "product_thumbnails_loop": true,
-        "product_thumbnails_arrows": true,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -1040,12 +1040,12 @@
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "40f7eefe-4bdb-4538-b6ee-e43e448dab88",
     "6ae32cf3-dbac-46ba-9bbb-d2948354a93f",
+    "3feddb11-edd3-48ff-a36f-a6d0c2b66fe9",
     "b43f6820-c5d3-4064-ab54-15645b7a3aac",
     "728f5fec-c83c-462d-997d-b6ac41cc6d16",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
     "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0",
     "7b885a2b-7d34-4204-bc35-670a6639b84f",
-    "1698960637542b436a",
-    "3feddb11-edd3-48ff-a36f-a6d0c2b66fe9"
+    "1698960637542b436a"
   ]
 }
