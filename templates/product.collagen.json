@@ -137,7 +137,7 @@
         "product_gallery_mouse_drag": false,
         "product_thumbnails_loop": true,
         "product_thumbnails_arrows": true,
-        "separator": true,
+        "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
@@ -146,94 +146,6 @@
         "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "3"
-      }
-    },
-    "72d1e1a3-0a7a-4af4-a6ba-17f153544435": {
-      "type": "scrolling-text",
-      "blocks": {
-        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Scientifically Researched",
-            "text_tag": "h6"
-          }
-        },
-        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2": {
-          "type": "text",
-          "settings": {
-            "text": "Designed for Optimal Absorption",
-            "text_tag": "h6"
-          }
-        },
-        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3": {
-          "type": "text",
-          "settings": {
-            "text": "Sourced Exclusively In Europe",
-            "text_tag": "h6"
-          }
-        },
-        "9a9907a3-c0b5-4165-a48b-69c76553618f": {
-          "type": "text",
-          "settings": {
-            "text": "Transparent Processes",
-            "text_tag": "h6"
-          }
-        },
-        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936": {
-          "type": "text",
-          "settings": {
-            "text": "No Filler Ingredients",
-            "text_tag": "h6"
-          }
-        },
-        "f5f40b7b-430d-485c-a9f1-6d720c657148": {
-          "type": "text",
-          "settings": {
-            "text": "No Additives",
-            "text_tag": "h6"
-          }
-        },
-        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9": {
-          "type": "text",
-          "settings": {
-            "text": "Held To European Standards",
-            "text_tag": "h6"
-          }
-        },
-        "074cf9cf-825f-4d4f-8546-7f33222e55ba": {
-          "type": "text",
-          "settings": {
-            "text": "Potent Effective Ingredients",
-            "text_tag": "h6"
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1",
-        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2",
-        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3",
-        "9a9907a3-c0b5-4165-a48b-69c76553618f",
-        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936",
-        "f5f40b7b-430d-485c-a9f1-6d720c657148",
-        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9",
-        "074cf9cf-825f-4d4f-8546-7f33222e55ba"
-      ],
-      "settings": {
-        "color_scheme": "scheme-main",
-        "inset": false,
-        "inset_choice": "level-1",
-        "splitter_use_custom_width": true,
-        "splitter_custom_width": 16,
-        "separator": true,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-1",
-        "spacing_placement": "1",
-        "scroll_speed": 33
       }
     },
     "6102bf05-8209-4c47-bc6d-6894c9b46641": {
@@ -352,7 +264,7 @@
         "gap": true,
         "gap_choice": "level-4",
         "stack_on_mobile": true,
-        "separator": false,
+        "separator": true,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
@@ -360,7 +272,95 @@
         "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
-        "spacing_placement": "1"
+        "spacing_placement": "2"
+      }
+    },
+    "72d1e1a3-0a7a-4af4-a6ba-17f153544435": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Scientifically Researched",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Designed for Optimal Absorption",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Sourced Exclusively In Europe",
+            "text_tag": "h6"
+          }
+        },
+        "9a9907a3-c0b5-4165-a48b-69c76553618f": {
+          "type": "text",
+          "settings": {
+            "text": "Transparent Processes",
+            "text_tag": "h6"
+          }
+        },
+        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936": {
+          "type": "text",
+          "settings": {
+            "text": "No Filler Ingredients",
+            "text_tag": "h6"
+          }
+        },
+        "f5f40b7b-430d-485c-a9f1-6d720c657148": {
+          "type": "text",
+          "settings": {
+            "text": "No Additives",
+            "text_tag": "h6"
+          }
+        },
+        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9": {
+          "type": "text",
+          "settings": {
+            "text": "Held To European Standards",
+            "text_tag": "h6"
+          }
+        },
+        "074cf9cf-825f-4d4f-8546-7f33222e55ba": {
+          "type": "text",
+          "settings": {
+            "text": "Potent Effective Ingredients",
+            "text_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-1",
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-2",
+        "template--21586456641849__72d1e1a3-0a7a-4af4-a6ba-17f153544435-text-3",
+        "9a9907a3-c0b5-4165-a48b-69c76553618f",
+        "17d9b6e6-cd05-4ca5-bd5e-0d82c73fe936",
+        "f5f40b7b-430d-485c-a9f1-6d720c657148",
+        "73afb4c4-0f57-4a3b-bf5b-4037463d8ec9",
+        "074cf9cf-825f-4d4f-8546-7f33222e55ba"
+      ],
+      "settings": {
+        "color_scheme": "scheme-main",
+        "inset": false,
+        "inset_choice": "level-1",
+        "splitter_use_custom_width": true,
+        "splitter_custom_width": 16,
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-1",
+        "spacing_placement": "1",
+        "scroll_speed": 33
       }
     },
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f": {
@@ -593,8 +593,8 @@
   "order": [
     "breadcrumbs",
     "main",
-    "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "6102bf05-8209-4c47-bc6d-6894c9b46641",
+    "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
     "51fc8ac6-5685-47be-8b0f-f733954d72dd",
     "16c06f9c-6804-4ad2-908c-d94e806857a8",
