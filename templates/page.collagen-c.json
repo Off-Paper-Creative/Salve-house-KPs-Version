@@ -531,7 +531,7 @@
         "slideshow_arrows": true,
         "slideshow_dots": true,
         "slideshow_transition_speed": 400,
-        "separator": false,
+        "separator": true,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
