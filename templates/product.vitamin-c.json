@@ -235,6 +235,130 @@
         "scroll_speed": 33
       }
     },
+    "3a25d5c3-f56f-468c-a18f-43489181443b": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-1": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "ALGAE",
+            "text_1_tag": "h5",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "This is simple text 2 for multi column section",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        },
+        "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-2": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "This is simple text 1",
+            "text_1_tag": "h3",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "This is simple text 2 for multi column section",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        },
+        "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-3": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "This is simple text 1",
+            "text_1_tag": "h3",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "This is simple text 2 for multi column section",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-1",
+        "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-2",
+        "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f": {
       "type": "slideshow",
       "blocks": {
@@ -312,7 +436,6 @@
             "slide_image_mobile_overlay": true,
             "slide_image_mobile_overlay_color": "#1F2D1F",
             "slide_image_mobile_overlay_opacity": 100,
-            "slide_image": "shopify:\/\/shop_images\/8.jpg",
             "slide_image_overlay": false,
             "slide_image_overlay_color": "#1F2D1F",
             "slide_image_overlay_opacity": 100,
@@ -381,7 +504,6 @@
             "images_gap_choice": "level-4",
             "images_width_split": 50,
             "images_stack_on_mobile": true,
-            "image_1": "shopify:\/\/shop_images\/2_50ef9c79-9c0f-4d17-9e9e-a8c5d18be93b.jpg",
             "image_1_aspect_ratio": "4\/3",
             "image_2_aspect_ratio": "auto"
           }
@@ -438,6 +560,7 @@
     "breadcrumbs",
     "main",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
+    "3a25d5c3-f56f-468c-a18f-43489181443b",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
     "0d567868-0349-4419-880d-33586ff723fb",
     "16c06f9c-6804-4ad2-908c-d94e806857a8"
