@@ -585,6 +585,97 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
+    },
+    "dc058efc-ff4e-4b4f-beab-06203cdf85a8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-2": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "This is simple text 1",
+            "text_1_tag": "h3",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "This is simple text 2 for multi column section",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        },
+        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-3": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-main",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "This is simple text 1",
+            "text_1_tag": "h3",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "This is simple text 2 for multi column section",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "Button text",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-2",
+        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -597,6 +688,7 @@
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
     "cc233987-3c3f-4886-8df3-9a832a09e1a5",
     "13d9654a-bbc1-4202-b166-b75be8f85106",
-    "93eda58b-2f92-481a-b273-979e5870e66c"
+    "93eda58b-2f92-481a-b273-979e5870e66c",
+    "dc058efc-ff4e-4b4f-beab-06203cdf85a8"
   ]
 }
