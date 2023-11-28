@@ -217,6 +217,15 @@
             "text_width": 700
           }
         },
+        "648bcad2-b77b-41a0-961f-6b2eb954684e": {
+          "type": "heading",
+          "settings": {
+            "text": "Salve Supplement House",
+            "text_tag": "h2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
         "52d33d2e-e6ec-4496-b597-bbc70f87bb3d": {
           "type": "description",
           "settings": {
@@ -229,6 +238,7 @@
       },
       "block_order": [
         "1cc62bf4-cc78-4913-8d5e-c074bacafcc9",
+        "648bcad2-b77b-41a0-961f-6b2eb954684e",
         "52d33d2e-e6ec-4496-b597-bbc70f87bb3d"
       ],
       "settings": {
