@@ -746,6 +746,35 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
+    },
+    "fb2bb9a7-e524-4048-8542-18803188de6c": {
+      "type": "image-banner",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "height_mobile": "600",
+        "height": "600",
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_image_mobile": "shopify:\/\/shop_images\/Salve_Commitment.png",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 40,
+        "content_custom_width": true,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -762,6 +791,7 @@
     "cc233987-3c3f-4886-8df3-9a832a09e1a5",
     "13d9654a-bbc1-4202-b166-b75be8f85106",
     "93eda58b-2f92-481a-b273-979e5870e66c",
-    "dc058efc-ff4e-4b4f-beab-06203cdf85a8"
+    "dc058efc-ff4e-4b4f-beab-06203cdf85a8",
+    "fb2bb9a7-e524-4048-8542-18803188de6c"
   ]
 }
