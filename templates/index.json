@@ -330,10 +330,10 @@
       "settings": {
       }
     },
-    "d5b2fb58-e704-41f4-9ced-4cfc20e57e96": {
+    "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff": {
       "type": "rich-text",
       "blocks": {
-        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-heading-1": {
+        "1cc62bf4-cc78-4913-8d5e-c074bacafcc9": {
           "type": "heading",
           "settings": {
             "text": "This is heading",
@@ -342,7 +342,7 @@
             "text_width": 700
           }
         },
-        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-special_heading-1": {
+        "dcccc260-c8db-4cbe-ac69-cfb7ab8ab567": {
           "type": "special_heading",
           "settings": {
             "text": "Heading Here about something. Talk about the brand, talk about the goal, talk about the products. Anything to further the message.",
@@ -353,11 +353,8 @@
         }
       },
       "block_order": [
-        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-heading-1",
-        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-special_heading-1"
-      ],
-      "custom_css": [
-
+        "1cc62bf4-cc78-4913-8d5e-c074bacafcc9",
+        "dcccc260-c8db-4cbe-ac69-cfb7ab8ab567"
       ],
       "settings": {
         "fullwidth": false,
@@ -475,9 +472,9 @@
             "slide_content_horizontal_align": "center",
             "slide_heading": "Vetted, Reviewed & Tested",
             "slide_heading_width": 450,
-            "slide_subheading": "Our mission is to demystify wellness products, simplify the science, and present to you a curated line of reviewed products with proven results. We are your trusted partner in the journey towards sustainable health and radiant youth.",
+            "slide_subheading": "",
             "slide_subheading_width": 420,
-            "slide_description": "",
+            "slide_description": "<p>Our mission is to demystify wellness products, simplify the science, and present to you a curated line of reviewed products with proven results. We are your trusted partner in the journey towards sustainable health and radiant youth.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "Become A Member",
             "slide_button_1_url": "shopify:\/\/collections\/all",
@@ -518,6 +515,75 @@
         "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-4",
+        "spacing_placement": "1"
+      }
+    },
+    "d5b2fb58-e704-41f4-9ced-4cfc20e57e96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Salve Commitment",
+            "text_tag": "h6",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "e604999b-718c-47f8-b486-8dd7654850d2": {
+          "type": "special_heading",
+          "settings": {
+            "text": "Vetted, Reviewed and Testes",
+            "text_tag": "s2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "4172c05c-0ef6-49dc-a44a-4f563669baf2": {
+          "type": "description",
+          "settings": {
+            "text": "Our mission is to demystify wellness products, simplify the science, and present to you a curated line of reviewed products with proven results. We are your trusted partner in the journey towards sustainable health and radiant youth.",
+            "text_tag": "p",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "b552d2cb-e63b-4167-99f3-1e5f981eecd5": {
+          "type": "button",
+          "settings": {
+            "button_text": "Become A Member",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_custom_width": false,
+            "button_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457166137__d5b2fb58-e704-41f4-9ced-4cfc20e57e96-heading-1",
+        "e604999b-718c-47f8-b486-8dd7654850d2",
+        "4172c05c-0ef6-49dc-a44a-4f563669baf2",
+        "b552d2cb-e63b-4167-99f3-1e5f981eecd5"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "fullwidth": false,
+        "width": 640,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-2",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": true,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-5",
         "spacing_placement": "1"
       }
     },
@@ -1026,10 +1092,11 @@
     "2bcd91cc-9719-4417-a2e7-f8b4f498745c",
     "home-multicolumn-1",
     "835c130f-c6c7-4907-a1b9-68ccf13ec390",
-    "d5b2fb58-e704-41f4-9ced-4cfc20e57e96",
+    "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff",
     "5e8f436f-53f8-4626-a834-0211dee0c291",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
+    "d5b2fb58-e704-41f4-9ced-4cfc20e57e96",
     "40f7eefe-4bdb-4538-b6ee-e43e448dab88",
     "6ae32cf3-dbac-46ba-9bbb-d2948354a93f",
     "3feddb11-edd3-48ff-a36f-a6d0c2b66fe9",
