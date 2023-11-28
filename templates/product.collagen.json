@@ -363,6 +363,11 @@
         "spacing_placement": "2"
       }
     },
+    "6c84e2bc-c640-4678-9e5b-c35f4f3abf3e": {
+      "type": "spacer",
+      "settings": {
+      }
+    },
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f": {
       "type": "slideshow",
       "blocks": {
@@ -440,6 +445,7 @@
     "main",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "6102bf05-8209-4c47-bc6d-6894c9b46641",
+    "6c84e2bc-c640-4678-9e5b-c35f4f3abf3e",
     "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f"
   ]
 }
