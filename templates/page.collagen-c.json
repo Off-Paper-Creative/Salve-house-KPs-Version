@@ -40,6 +40,9 @@
       "block_order": [
         "template--15753621373083__image-banner-1-167155657486da9338-0"
       ],
+      "custom_css": [
+        ".section-image-banner{margin: 0px 50px;}"
+      ],
       "settings": {
         "fullwidth": false,
         "width": 500,
