@@ -222,8 +222,8 @@
         "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-description-1"
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
+        "fullwidth": false,
+        "width": 700,
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
