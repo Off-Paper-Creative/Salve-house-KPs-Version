@@ -465,8 +465,8 @@
 
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
+        "fullwidth": false,
+        "width": 900,
         "inset": true,
         "inset_choice": "level-3",
         "gap": true,
