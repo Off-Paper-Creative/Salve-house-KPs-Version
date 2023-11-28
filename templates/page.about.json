@@ -386,6 +386,11 @@
         "spacing_placement": "1"
       }
     },
+    "978e3e77-41b4-4a14-8364-fff0c4e1d048": {
+      "type": "spacer",
+      "settings": {
+      }
+    },
     "fb2bb9a7-e524-4048-8542-18803188de6c": {
       "type": "image-banner",
       "settings": {
@@ -648,6 +653,7 @@
     "935bc2b2-d7d6-42be-b0d7-ac5e27ee0346",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
+    "978e3e77-41b4-4a14-8364-fff0c4e1d048",
     "fb2bb9a7-e524-4048-8542-18803188de6c",
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
