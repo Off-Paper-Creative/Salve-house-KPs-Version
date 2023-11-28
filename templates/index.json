@@ -197,6 +197,58 @@
         "spacing_placement": "1"
       }
     },
+    "835c130f-c6c7-4907-a1b9-68ccf13ec390": {
+      "type": "spacer",
+      "custom_css": [
+        ".section-spacer {margin: 50px;}"
+      ],
+      "settings": {
+      }
+    },
+    "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff": {
+      "type": "rich-text",
+      "blocks": {
+        "1cc62bf4-cc78-4913-8d5e-c074bacafcc9": {
+          "type": "heading",
+          "settings": {
+            "text": "LVE WELL",
+            "text_tag": "h5",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "52d33d2e-e6ec-4496-b597-bbc70f87bb3d": {
+          "type": "description",
+          "settings": {
+            "text": "Salve continuously conducts extensive research to curate a line of top-tier products that enhance your skin's beauty, bolster organ health, and elevate your overall wellness. We firmly believe in the connection between your inner well-being and outer radiance. Your outer appearance reflects how you feel over time and we're here to support you inside and out.",
+            "text_tag": "p",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "1cc62bf4-cc78-4913-8d5e-c074bacafcc9",
+        "52d33d2e-e6ec-4496-b597-bbc70f87bb3d"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "width": 640,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-2",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": true,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-5",
+        "spacing_placement": "1"
+      }
+    },
     "home-multicolumn-1": {
       "type": "multicolumn",
       "blocks": {
@@ -319,58 +371,6 @@
         "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "835c130f-c6c7-4907-a1b9-68ccf13ec390": {
-      "type": "spacer",
-      "custom_css": [
-        ".section-spacer {margin: 50px;}"
-      ],
-      "settings": {
-      }
-    },
-    "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff": {
-      "type": "rich-text",
-      "blocks": {
-        "1cc62bf4-cc78-4913-8d5e-c074bacafcc9": {
-          "type": "heading",
-          "settings": {
-            "text": "This is heading",
-            "text_tag": "h6",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "dcccc260-c8db-4cbe-ac69-cfb7ab8ab567": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Heading Here about something. Talk about the brand, talk about the goal, talk about the products. Anything to further the message.",
-            "text_tag": "s2",
-            "text_custom_width": true,
-            "text_width": 300
-          }
-        }
-      },
-      "block_order": [
-        "1cc62bf4-cc78-4913-8d5e-c074bacafcc9",
-        "dcccc260-c8db-4cbe-ac69-cfb7ab8ab567"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "width": 640,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-2",
-        "alignment": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": true,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-5",
         "spacing_placement": "1"
       }
     },
@@ -499,7 +499,7 @@
         "width": 1320,
         "slideshow_height_mobile": "600",
         "slideshow_height": "600",
-        "color_scheme": "scheme-accent",
+        "color_scheme": "scheme-main",
         "slideshow_autoplay": false,
         "slideshow_transition_interval": 8600,
         "slideshow_loop": false,
@@ -1109,9 +1109,9 @@
     "425fad94-aefa-445a-b68b-f83951c9129a",
     "0a788bc7-220d-4551-9d33-37998081c2c8",
     "2bcd91cc-9719-4417-a2e7-f8b4f498745c",
-    "home-multicolumn-1",
     "835c130f-c6c7-4907-a1b9-68ccf13ec390",
     "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff",
+    "home-multicolumn-1",
     "5e8f436f-53f8-4626-a834-0211dee0c291",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
