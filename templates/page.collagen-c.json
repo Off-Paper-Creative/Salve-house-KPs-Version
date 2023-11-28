@@ -41,7 +41,7 @@
         "template--15753621373083__image-banner-1-167155657486da9338-0"
       ],
       "custom_css": [
-        ".section-image-banner{margin: 0px 50px;}"
+        ".section-image-banner {margin: 0px 50px;}"
       ],
       "settings": {
         "fullwidth": false,
@@ -102,7 +102,7 @@
         "template--21462362358073__fa19f72c-5ec5-43b3-8108-85ae06776bd6-description-1": {
           "type": "description",
           "settings": {
-            "text": "Amongst all its well-known benefits, Vitamin C is a unique catalyst for collagen production. It is the only vitamin with the unique capability of fast-tracking our internal production of collagen, which naturally slows as we age. Collagen + Vitamin C supplements offer a variety of benefits when taken alone. When taken together, they work in harmony to enhance the other's effect.",
+            "text": "Amongst all its well-known benefits, Vitamin C is a unique catalyst for collagen production. It is the only vitamin with the unique capability of enhancing our internal production of collagen, which naturally slows as we age. Collagen + Vitamin C supplements offer a variety of benefits when taken alone. When taken together, they work in harmony to boost the other's effect.",
             "text_tag": "p",
             "text_custom_width": true,
             "text_width": 200
