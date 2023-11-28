@@ -494,6 +494,7 @@
       "block_order": [
         "7a44f465-e0e9-4d56-bfa7-50e53594d5fa"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -533,7 +534,7 @@
         "e604999b-718c-47f8-b486-8dd7654850d2": {
           "type": "special_heading",
           "settings": {
-            "text": "Vetted, Reviewed and Testes",
+            "text": "Vetted, Reviewed and Tested",
             "text_tag": "s2",
             "text_custom_width": false,
             "text_width": 700
