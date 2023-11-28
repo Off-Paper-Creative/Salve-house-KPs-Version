@@ -180,6 +180,65 @@
         "scroll_speed": 62
       }
     },
+    "65df3ebc-689b-4e05-b241-dd750702d644": {
+      "type": "spacer",
+      "settings": {
+      }
+    },
+    "2852d6d7-1e0c-434e-9215-1d51149f12bf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Salve Supplement House",
+            "text_tag": "h6",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-special_heading-1": {
+          "type": "special_heading",
+          "settings": {
+            "text": "We Do Our Research So You Don't Have To",
+            "text_tag": "s3",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-description-1": {
+          "type": "description",
+          "settings": {
+            "text": "Salve emerged from a realization that there is a quality gap in the supplement market, one in which many products do not contain nearly enough of the active ingredient customers think they are purchasing. Nor do these products deliver the results people truly desire. ",
+            "text_tag": "p",
+            "text_custom_width": true,
+            "text_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-heading-1",
+        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-special_heading-1",
+        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-description-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "1f3991ec-9267-43ce-a223-68c691c5d278": {
       "type": "slideshow",
       "blocks": {
@@ -681,6 +740,8 @@
   "order": [
     "multicolumn-1",
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
+    "65df3ebc-689b-4e05-b241-dd750702d644",
+    "2852d6d7-1e0c-434e-9215-1d51149f12bf",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
     "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433",
