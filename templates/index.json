@@ -1040,6 +1040,7 @@
     },
     "7b885a2b-7d34-4204-bc35-670a6639b84f": {
       "type": "sale-banner",
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
