@@ -999,7 +999,7 @@
         "button_target": "_blank",
         "button_style": "outline",
         "blog_choice": "",
-        "columns_count": 2,
+        "columns_count": 3,
         "rows_count": 1,
         "gap": true,
         "gap_choice": "level-3",
