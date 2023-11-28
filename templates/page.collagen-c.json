@@ -32,7 +32,7 @@
           "type": "text",
           "settings": {
             "banner_text": "The Collagen + C Bundle",
-            "banner_text_tag": "h5"
+            "banner_text_tag": "h1"
           }
         }
       },
@@ -44,7 +44,7 @@
         "width": 1320,
         "height_mobile": "600",
         "height": "600",
-        "color_scheme": "scheme-additional",
+        "color_scheme": "scheme-accent",
         "inset": true,
         "inset_choice": "level-3",
         "background_video": "shopify:\/\/files\/videos\/Salve full screen web .mp4",
