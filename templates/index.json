@@ -1006,7 +1006,7 @@
         "gap": true,
         "gap_choice": "level-3",
         "tag_show": true,
-        "meta_show": true,
+        "meta_show": false,
         "excerpt_show": true,
         "read_more_link_show": true,
         "carousel": true,
