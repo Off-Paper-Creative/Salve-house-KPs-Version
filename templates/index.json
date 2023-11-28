@@ -72,6 +72,7 @@
         "template--21586457166137__425fad94-aefa-445a-b68b-f83951c9129a-heading-1",
         "1cf55342-26fc-41b1-a3c7-b0f0a2b9a950"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -195,14 +196,6 @@
         "spacing": true,
         "spacing_choice": "level-5",
         "spacing_placement": "1"
-      }
-    },
-    "835c130f-c6c7-4907-a1b9-68ccf13ec390": {
-      "type": "spacer",
-      "custom_css": [
-        ".section-spacer {margin: 50px;}"
-      ],
-      "settings": {
       }
     },
     "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff": {
@@ -372,14 +365,6 @@
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
-      }
-    },
-    "5e8f436f-53f8-4626-a834-0211dee0c291": {
-      "type": "spacer",
-      "custom_css": [
-        ".section-spacer {margin: 50px;}"
-      ],
-      "settings": {
       }
     },
     "0bfb7428-b525-43d6-9b76-5a250f871b62": {
@@ -1109,10 +1094,8 @@
     "425fad94-aefa-445a-b68b-f83951c9129a",
     "0a788bc7-220d-4551-9d33-37998081c2c8",
     "2bcd91cc-9719-4417-a2e7-f8b4f498745c",
-    "835c130f-c6c7-4907-a1b9-68ccf13ec390",
     "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff",
     "home-multicolumn-1",
-    "5e8f436f-53f8-4626-a834-0211dee0c291",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "d5b2fb58-e704-41f4-9ced-4cfc20e57e96",
