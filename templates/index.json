@@ -366,13 +366,13 @@
         "inset": true,
         "inset_choice": "level-2",
         "alignment": "center",
-        "separator": false,
+        "separator": true,
         "separator_width": 100,
         "separator_fullwidth": true,
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-5",
         "spacing_placement": "1"
       }
