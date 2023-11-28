@@ -288,6 +288,9 @@
       "block_order": [
         "template--21586457198905__1f3991ec-9267-43ce-a223-68c691c5d278-slide-3"
       ],
+      "custom_css": [
+        "h1 {font-size: 18px;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -334,9 +337,9 @@
             "slide_content_horizontal_align": "center",
             "slide_heading": "Science + Consistency",
             "slide_heading_width": 450,
-            "slide_subheading": "Salve Members receive a 2-month supply of supplements with each purchase allowing you to focus on staying consistent, establishing routines and feeling the effects of our products.",
+            "slide_subheading": "",
             "slide_subheading_width": 450,
-            "slide_description": "",
+            "slide_description": "<p>Salve maintains a deep commitment to helping others live well. Our goal is to redefine your approach to health, beauty, and vitality. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. Salve Members receive a 2-month supply of supplements with each purchase allowing you to focus on staying consistent, establishing routines and feeling the effects of our products.<\/p>",
             "slide_description_width": 450,
             "slide_button_1_text": "Become A Member",
             "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
@@ -355,6 +358,9 @@
       },
       "block_order": [
         "ec9a81fa-74c1-4193-a48e-6047c8470a40"
+      ],
+      "custom_css": [
+        "h1 {font-size: 18px;}"
       ],
       "settings": {
         "fullwidth": true,
