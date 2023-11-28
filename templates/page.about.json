@@ -457,6 +457,7 @@
         "template--21586457198905__645ab249-379c-4b96-b508-a89b46c267d4-images-1",
         "template--21586457198905__645ab249-379c-4b96-b508-a89b46c267d4-content-1"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": false,
         "width": 1320,
@@ -580,7 +581,7 @@
         "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
-        "spacing_placement": "1"
+        "spacing_placement": "3"
       }
     },
     "93eda58b-2f92-481a-b273-979e5870e66c": {
