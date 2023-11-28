@@ -406,10 +406,13 @@
       "block_order": [
         "template--21212521496889__ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f-slide-1"
       ],
+      "custom_css": [
+        "h1,p {color: white;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1500,
-        "slideshow_height_mobile": "520",
+        "slideshow_height_mobile": "680",
         "slideshow_height": "680",
         "color_scheme": "scheme-main",
         "slideshow_autoplay": false,
