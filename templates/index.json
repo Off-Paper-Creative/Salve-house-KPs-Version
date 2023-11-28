@@ -810,6 +810,7 @@
         "template--21586457166137__3feddb11-edd3-48ff-a36f-a6d0c2b66fe9-collapsible-row-1",
         "08161956-e810-438c-bcef-ca20b171505a"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -860,9 +861,7 @@
         "cee7ba5e-f78c-4989-949c-48ae387e4083",
         "1bc3cf14-a4a6-4678-99dc-d4c1d70b43c8"
       ],
-      "custom_css": [
-        "h1 {margin: 100px 0px;}"
-      ],
+      "disabled": true,
       "settings": {
         "fullwidth": false,
         "width": 640,
@@ -879,11 +878,6 @@
         "spacing": true,
         "spacing_choice": "level-5",
         "spacing_placement": "1"
-      }
-    },
-    "728f5fec-c83c-462d-997d-b6ac41cc6d16": {
-      "type": "spacer",
-      "settings": {
       }
     },
     "f75802bf-311a-49eb-9d38-f82d4d7de68c": {
@@ -1104,7 +1098,6 @@
     "6ae32cf3-dbac-46ba-9bbb-d2948354a93f",
     "3feddb11-edd3-48ff-a36f-a6d0c2b66fe9",
     "b43f6820-c5d3-4064-ab54-15645b7a3aac",
-    "728f5fec-c83c-462d-997d-b6ac41cc6d16",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
     "a69c8bdc-0a4d-4428-b362-8fa710522010",
     "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0",
