@@ -680,6 +680,7 @@
         "template--21586457166137__40f7eefe-4bdb-4538-b6ee-e43e448dab88-column-2",
         "template--21586457166137__40f7eefe-4bdb-4538-b6ee-e43e448dab88-column-3"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -729,6 +730,7 @@
         "ac4e55aa-bb6a-4b7e-a3f2-749c981d55e3",
         "e07ea26f-81fe-4c3c-9cfd-0b83a7c45c1f"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-main",
         "inset": true,
