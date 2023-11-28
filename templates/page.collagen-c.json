@@ -355,8 +355,8 @@
           "settings": {
             "text": "Salve continuously conducts extensive research to curate a line of top-tier products that enhance your skin's beauty, bolster organ health, and elevate your overall wellness. All Salve products are specifically selected for their high potency, bioavailability and quality ingredients.",
             "text_tag": "p",
-            "text_custom_width": false,
-            "text_width": 700
+            "text_custom_width": true,
+            "text_width": 600
           }
         }
       },
@@ -365,12 +365,12 @@
         "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-description-1"
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
+        "fullwidth": false,
+        "width": 600,
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
-        "alignment": "left",
+        "alignment": "center",
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
@@ -380,6 +380,11 @@
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
+      }
+    },
+    "d86ae225-62ea-4421-8238-dd75265c2c5d": {
+      "type": "spacer",
+      "settings": {
       }
     },
     "55e9550a-968d-4a60-beba-32dacc54a14d": {
@@ -424,25 +429,25 @@
             "color_scheme": "scheme-main",
             "inset": true,
             "inset_choice": "level-3",
-            "width": 40,
-            "horizontal_align": "center",
+            "width": 49,
+            "horizontal_align": "flex-start",
             "vertical_align": "flex-start",
             "text_align": "left",
             "image_show": true,
             "image": "shopify:\/\/shop_images\/32.png",
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 300,
+            "image_aspect_ratio": "1\/1",
+            "image_custom_width": true,
+            "image_width": 410,
             "image_display_order": 0,
             "text_1": "Colway Vitamin C",
             "text_1_tag": "h6",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
+            "text_1_custom_width": true,
+            "text_1_width": 410,
             "text_1_display_order": 0,
             "text_2": "A high-quality vitamin C that is bio-organic and 100% natural. Derived from germinating shoots of buckwheat and bitter orange - These two plants are considered extremely valuable natural sources of Vitamin C due to their high bioavailability and excellent flavonoids links. Colway Vitamin C is currently one of the most natural and powerful Vitamin C supplements on the market. It does not synthetic any other substance that does not occur in conjunction with Vitamin C in nature - your body absorbs it the same way it obtains nutrients from fruit and vegetables.",
             "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
+            "text_2_custom_width": true,
+            "text_2_width": 410,
             "text_2_display_order": 0,
             "button_text": "",
             "button_url": "",
@@ -455,6 +460,9 @@
       "block_order": [
         "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-1",
         "template--21586456510777__55e9550a-968d-4a60-beba-32dacc54a14d-column-2"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "fullwidth": true,
@@ -930,6 +938,7 @@
     "fea7f2ed-bdc7-4e7d-8955-75171f2b0966",
     "dd281924-5824-4859-85fd-70e561a26b45",
     "52471720-7314-4c20-9f3a-2b4056ad67f6",
+    "d86ae225-62ea-4421-8238-dd75265c2c5d",
     "55e9550a-968d-4a60-beba-32dacc54a14d",
     "dfc68a75-27a3-4268-a915-3e428fd23ec0",
     "8d02d3da-a20e-41f8-b84a-ee14c140515e",
