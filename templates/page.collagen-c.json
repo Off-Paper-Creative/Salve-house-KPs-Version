@@ -42,7 +42,7 @@
       ],
       "settings": {
         "fullwidth": false,
-        "width": 540,
+        "width": 500,
         "height_mobile": "460",
         "height": "460",
         "color_scheme": "scheme-accent",
@@ -53,7 +53,7 @@
         "background_overlay_color": "#000",
         "background_overlay_opacity": 5,
         "content_custom_width": true,
-        "content_width": 640,
+        "content_width": 100,
         "content_position": "center",
         "content_horizontal_align": "center",
         "separator": false,
