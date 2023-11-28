@@ -988,6 +988,9 @@
     },
     "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0": {
       "type": "blog-posts",
+      "custom_css": [
+        "h2{font-size: 19px;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
