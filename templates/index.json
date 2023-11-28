@@ -366,7 +366,7 @@
         "inset": true,
         "inset_choice": "level-2",
         "alignment": "center",
-        "separator": true,
+        "separator": false,
         "separator_width": 100,
         "separator_fullwidth": true,
         "separator_height": 1,
