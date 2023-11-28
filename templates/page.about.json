@@ -180,11 +180,6 @@
         "scroll_speed": 62
       }
     },
-    "65df3ebc-689b-4e05-b241-dd750702d644": {
-      "type": "spacer",
-      "settings": {
-      }
-    },
     "2852d6d7-1e0c-434e-9215-1d51149f12bf": {
       "type": "rich-text",
       "blocks": {
@@ -238,11 +233,6 @@
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
-      }
-    },
-    "935bc2b2-d7d6-42be-b0d7-ac5e27ee0346": {
-      "type": "spacer",
-      "settings": {
       }
     },
     "1f3991ec-9267-43ce-a223-68c691c5d278": {
@@ -634,9 +624,7 @@
   "order": [
     "multicolumn-1",
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
-    "65df3ebc-689b-4e05-b241-dd750702d644",
     "2852d6d7-1e0c-434e-9215-1d51149f12bf",
-    "935bc2b2-d7d6-42be-b0d7-ac5e27ee0346",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
     "978e3e77-41b4-4a14-8364-fff0c4e1d048",
