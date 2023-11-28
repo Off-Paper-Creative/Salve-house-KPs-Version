@@ -465,7 +465,7 @@
             "slide_image_overlay_opacity": 47,
             "slide_image_right_enable": false,
             "slide_image_right_overlay": true,
-            "slide_image_right_overlay_color": "#174248",
+            "slide_image_right_overlay_color": "#F8F4EC",
             "slide_image_right_overlay_opacity": 100,
             "slide_content_position": "right",
             "slide_content_vertical_align": "center",
