@@ -356,11 +356,11 @@
     "52471720-7314-4c20-9f3a-2b4056ad67f6": {
       "type": "rich-text",
       "blocks": {
-        "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-special_heading-1": {
-          "type": "special_heading",
+        "9f80b87a-d572-4e35-ab3a-d8a62b5415e4": {
+          "type": "heading",
           "settings": {
             "text": "The Salve Choice",
-            "text_tag": "s2",
+            "text_tag": "h5",
             "text_custom_width": false,
             "text_width": 700
           }
@@ -376,7 +376,7 @@
         }
       },
       "block_order": [
-        "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-special_heading-1",
+        "9f80b87a-d572-4e35-ab3a-d8a62b5415e4",
         "template--21586456510777__52471720-7314-4c20-9f3a-2b4056ad67f6-description-1"
       ],
       "settings": {
