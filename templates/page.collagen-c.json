@@ -781,6 +781,159 @@
         "spacing_placement": "1"
       }
     },
+    "068e0233-65ca-4712-a9b2-756d8c0995d1": {
+      "type": "featured-product",
+      "blocks": {
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-title-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-shoppay-banner-1": {
+          "type": "shoppay-banner",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-description-1": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-rating-1": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-vendor-1": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-variant-picker-1": {
+          "type": "variant-picker",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-stock-count-1": {
+          "type": "stock-count",
+          "settings": {
+            "low_stock_trigger": 5
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "quantity-picker": true,
+            "dynamic-checkout-button": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-pickup-availability-1": {
+          "type": "pickup-availability",
+          "settings": {
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-collapsible-row-1": {
+          "type": "collapsible-row",
+          "settings": {
+            "title_text": "This is collapsible title.",
+            "description_text": "<p>This is collapsible content.<\/p>",
+            "open_by_default": false
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-box-1": {
+          "type": "info-box",
+          "settings": {
+            "icon": "credit-card",
+            "text": "<p>This is simple info.<\/p>"
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is simple text.<\/p>"
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-popup-1": {
+          "type": "info-popup",
+          "settings": {
+            "link_text": "Info popup link",
+            "page": "",
+            "variant_choice": ""
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-share-1": {
+          "type": "share",
+          "settings": {
+            "copy_link": true,
+            "facebook": true,
+            "pinterest": true,
+            "twitter": false,
+            "linkedin": false
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-separator-1": {
+          "type": "separator",
+          "settings": {
+            "width": "100%",
+            "height": 1
+          }
+        },
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-spacer-1": {
+          "type": "spacer",
+          "settings": {
+            "height": "30px"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-title-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-price-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-shoppay-banner-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-description-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-rating-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-vendor-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-variant-picker-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-stock-count-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-buy-buttons-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-pickup-availability-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-collapsible-row-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-box-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-text-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-popup-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-share-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-separator-1",
+        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-spacer-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "product_choice": "the-collagen-c-bundle-1",
+        "product_gallery_type": "fade",
+        "product_gallery_arrows": false,
+        "product_gallery_dots": false,
+        "product_gallery_mouse_drag": true,
+        "product_thumbnails_loop": true,
+        "product_thumbnails_arrows": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "b920341b-4501-44c2-a509-51095d537ed8": {
       "type": "multicolumn",
       "blocks": {
@@ -957,159 +1110,6 @@
       "type": "spacer",
       "settings": {
       }
-    },
-    "068e0233-65ca-4712-a9b2-756d8c0995d1": {
-      "type": "featured-product",
-      "blocks": {
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-title-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-price-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-shoppay-banner-1": {
-          "type": "shoppay-banner",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-description-1": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-rating-1": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-vendor-1": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-variant-picker-1": {
-          "type": "variant-picker",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-stock-count-1": {
-          "type": "stock-count",
-          "settings": {
-            "low_stock_trigger": 5
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-buy-buttons-1": {
-          "type": "buy-buttons",
-          "settings": {
-            "quantity-picker": true,
-            "dynamic-checkout-button": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-pickup-availability-1": {
-          "type": "pickup-availability",
-          "settings": {
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-collapsible-row-1": {
-          "type": "collapsible-row",
-          "settings": {
-            "title_text": "This is collapsible title.",
-            "description_text": "<p>This is collapsible content.<\/p>",
-            "open_by_default": false
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-box-1": {
-          "type": "info-box",
-          "settings": {
-            "icon": "credit-card",
-            "text": "<p>This is simple info.<\/p>"
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This is simple text.<\/p>"
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-popup-1": {
-          "type": "info-popup",
-          "settings": {
-            "link_text": "Info popup link",
-            "page": "",
-            "variant_choice": ""
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-share-1": {
-          "type": "share",
-          "settings": {
-            "copy_link": true,
-            "facebook": true,
-            "pinterest": true,
-            "twitter": false,
-            "linkedin": false
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-separator-1": {
-          "type": "separator",
-          "settings": {
-            "width": "100%",
-            "height": 1
-          }
-        },
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-spacer-1": {
-          "type": "spacer",
-          "settings": {
-            "height": "30px"
-          }
-        }
-      },
-      "block_order": [
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-title-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-price-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-shoppay-banner-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-description-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-rating-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-vendor-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-variant-picker-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-stock-count-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-buy-buttons-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-pickup-availability-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-collapsible-row-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-box-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-text-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-info-popup-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-share-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-separator-1",
-        "template--21586456510777__068e0233-65ca-4712-a9b2-756d8c0995d1-spacer-1"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "product_choice": "the-collagen-c-bundle-1",
-        "product_gallery_type": "fade",
-        "product_gallery_arrows": false,
-        "product_gallery_dots": false,
-        "product_gallery_mouse_drag": true,
-        "product_thumbnails_loop": true,
-        "product_thumbnails_arrows": true,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -1128,10 +1128,10 @@
     "dfc68a75-27a3-4268-a915-3e428fd23ec0",
     "8d02d3da-a20e-41f8-b84a-ee14c140515e",
     "0ecd5908-6b3d-44d1-9a84-66ce33276039",
+    "068e0233-65ca-4712-a9b2-756d8c0995d1",
     "b920341b-4501-44c2-a509-51095d537ed8",
     "d018abfe-ba8a-42b7-8483-6b064fc26ebf",
     "3a44223e-d10e-4244-8fe4-ab2d622fa769",
-    "bd3ee2da-4d21-4d2f-9bac-9b755d623250",
-    "068e0233-65ca-4712-a9b2-756d8c0995d1"
+    "bd3ee2da-4d21-4d2f-9bac-9b755d623250"
   ]
 }
