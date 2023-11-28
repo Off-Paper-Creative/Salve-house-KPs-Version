@@ -433,106 +433,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "51fc8ac6-5685-47be-8b0f-f733954d72dd": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21587732627769__51fc8ac6-5685-47be-8b0f-f733954d72dd-slide-1": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile": "shopify:\/\/shop_images\/collagen_supplements_9f56dcf7-60dd-421f-890f-dbdfe3723370.png",
-            "slide_image_mobile_overlay": false,
-            "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image": "shopify:\/\/shop_images\/collagen_supplements_9f56dcf7-60dd-421f-890f-dbdfe3723370.png",
-            "slide_image_overlay": false,
-            "slide_image_overlay_color": "#1F2D1F",
-            "slide_image_overlay_opacity": 40,
-            "slide_image_right_enable": false,
-            "slide_image_right_overlay": true,
-            "slide_image_right_overlay_color": "#1F2D1F",
-            "slide_image_right_overlay_opacity": 100,
-            "slide_content_position": "right",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "center",
-            "slide_heading": "Effectively Extracted & Formulated",
-            "slide_heading_width": 450,
-            "slide_subheading": "This unique collagen is achieved through the patented process of lyophilization (freeze-drying without water). Unlike conventional animal protein hydrolysates, this method extracts biologically active collagen, marked by an exceptional degree of anabolicity-close to 100%. This means the supplement helps builds complex proteins within your body and further promotes collagen synthesis.  Additionally, the formula of Colvita is enriched with micronized Atlantic algae (Fucus vesiculosus) and vitamin E from organic seeds in the form of tocopherols and tocotrienols, offering optimal bioretention.",
-            "slide_subheading_width": 450,
-            "slide_description": "",
-            "slide_description_width": 450,
-            "slide_button_1_text": "",
-            "slide_button_1_url": "",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21587732627769__51fc8ac6-5685-47be-8b0f-f733954d72dd-slide-1"
-      ],
-      "custom_css": [
-        "h1,p {color: white;}"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "slideshow_height_mobile": "780",
-        "slideshow_height": "780",
-        "color_scheme": "scheme-accent",
-        "slideshow_autoplay": true,
-        "slideshow_transition_interval": 4000,
-        "slideshow_loop": true,
-        "slideshow_mouse_drag": true,
-        "slideshow_arrows": true,
-        "slideshow_dots": true,
-        "slideshow_transition_speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "f73260f3-b607-45ad-8bea-f824d18fccda": {
-      "type": "video",
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "heading": "",
-        "heading_tag": "h3",
-        "button_text": "",
-        "button_url": "",
-        "button_target": "_self",
-        "button_style": "link",
-        "video_source": "internal",
-        "video": "shopify:\/\/files\/videos\/stock-footage-happy-s-middle-aged-mature-woman-touching-facial-skin-looking-at-camera-pampering-in-mirror-old.webm",
-        "video_alt": "",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -540,8 +440,6 @@
     "main",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "6102bf05-8209-4c47-bc6d-6894c9b46641",
-    "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f",
-    "51fc8ac6-5685-47be-8b0f-f733954d72dd",
-    "f73260f3-b607-45ad-8bea-f824d18fccda"
+    "ebeeef24-13f3-44c7-8c5f-3e30d8b9af5f"
   ]
 }
