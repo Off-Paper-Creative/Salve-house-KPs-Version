@@ -995,7 +995,7 @@
         "inset": true,
         "inset_choice": "level-3",
         "heading": "Learn How Salve Products Work With Your Body",
-        "heading_tag": "h3",
+        "heading_tag": "h2",
         "button_text": "Read The Blog",
         "button_url": "shopify:\/\/blogs\/news",
         "button_target": "_blank",
