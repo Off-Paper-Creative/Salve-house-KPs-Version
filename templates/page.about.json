@@ -389,14 +389,15 @@
     "fb2bb9a7-e524-4048-8542-18803188de6c": {
       "type": "image-banner",
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
+        "fullwidth": false,
+        "width": 2000,
         "height_mobile": "600",
         "height": "600",
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
-        "background_image_mobile": "shopify:\/\/shop_images\/Salve_Commitment.png",
+        "background_image_mobile": "shopify:\/\/shop_images\/Salve_commitment_long.png",
+        "background_image": "shopify:\/\/shop_images\/Salve_commitment_long.png",
         "background_overlay": false,
         "background_overlay_color": "#1F2D1F",
         "background_overlay_opacity": 40,
