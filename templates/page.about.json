@@ -388,6 +388,9 @@
     },
     "978e3e77-41b4-4a14-8364-fff0c4e1d048": {
       "type": "spacer",
+      "custom_css": [
+        ".section-spacer {margin:25px; }"
+      ],
       "settings": {
       }
     },
