@@ -85,16 +85,16 @@
           "type": "heading",
           "settings": {
             "text": "The collagen + C Bundle",
-            "text_tag": "h5",
+            "text_tag": "h6",
             "text_custom_width": false,
             "text_width": 700
           }
         },
-        "template--21462362358073__fa19f72c-5ec5-43b3-8108-85ae06776bd6-special_heading-1": {
-          "type": "special_heading",
+        "6b382372-c574-4b58-84a3-9026569e8f81": {
+          "type": "heading",
           "settings": {
-            "text": "Better Together",
-            "text_tag": "s3",
+            "text": "Better Togther",
+            "text_tag": "h2",
             "text_custom_width": false,
             "text_width": 700
           }
@@ -121,7 +121,7 @@
       },
       "block_order": [
         "9eb0d6b7-ee04-4fde-a37d-3cbf9e290c54",
-        "template--21462362358073__fa19f72c-5ec5-43b3-8108-85ae06776bd6-special_heading-1",
+        "6b382372-c574-4b58-84a3-9026569e8f81",
         "template--21462362358073__fa19f72c-5ec5-43b3-8108-85ae06776bd6-description-1",
         "44436b1b-3e48-4e7a-9e32-841d26220e04"
       ],
