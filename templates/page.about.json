@@ -386,49 +386,30 @@
         "spacing_placement": "1"
       }
     },
-    "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-special_heading-1": {
-          "type": "special_heading",
-          "settings": {
-            "text": "Salve Selection Criteria",
-            "text_tag": "s3",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "292be3ce-261f-4260-adc0-f85be89ddce4": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<ol><li>Based in Science and Peer Reviewed<\/li><li>Formulated with Quality Ingredients and Proven To Be Highly Bioavailable<\/li><li>Ingredients Are Sourced Directly From Europe<\/li><li>Supplements Are Free of Fillers, Additives, Dyes, Coloring and Harmful Ingredients.<\/li><li><em>Must<\/em> Surpass Regulations and Compliance Testing Adhering to Exacting European Standards.<br\/><\/li><\/ol><p><\/p>",
-            "description_tag": "p",
-            "description_custom_width": true,
-            "description_width": 370
-          }
-        }
-      },
-      "block_order": [
-        "template--21586457198905__bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433-special_heading-1",
-        "292be3ce-261f-4260-adc0-f85be89ddce4"
-      ],
-      "custom_css": [
-        "ol {margin-left: 50px; margin-right: 50px;}",
-        ".section-rich-text {text-align: left; paddin-left: 2px;}"
-      ],
+    "fb2bb9a7-e524-4048-8542-18803188de6c": {
+      "type": "image-banner",
       "settings": {
-        "fullwidth": false,
-        "width": 580,
+        "fullwidth": true,
+        "width": 1320,
+        "height_mobile": "600",
+        "height": "600",
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
-        "alignment": "center",
+        "background_image_mobile": "shopify:\/\/shop_images\/Salve_Commitment.png",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 40,
+        "content_custom_width": true,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
         "separator": false,
-        "separator_width": 73,
+        "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -655,126 +636,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "dc058efc-ff4e-4b4f-beab-06203cdf85a8": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-2": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-3",
-            "width": 33,
-            "horizontal_align": "normal",
-            "vertical_align": "normal",
-            "text_align": "left",
-            "image_show": false,
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 300,
-            "image_display_order": 0,
-            "text_1": "This is simple text 1",
-            "text_1_tag": "h3",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "This is simple text 2 for multi column section",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "Button text",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        },
-        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-3": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-3",
-            "width": 33,
-            "horizontal_align": "normal",
-            "vertical_align": "normal",
-            "text_align": "left",
-            "image_show": false,
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 300,
-            "image_display_order": 0,
-            "text_1": "This is simple text 1",
-            "text_1_tag": "h3",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "This is simple text 2 for multi column section",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "Button text",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-2",
-        "template--21586457198905__dc058efc-ff4e-4b4f-beab-06203cdf85a8-column-3"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": true,
-        "gap_choice": "level-4",
-        "stack_on_mobile": true,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "fb2bb9a7-e524-4048-8542-18803188de6c": {
-      "type": "image-banner",
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "height_mobile": "600",
-        "height": "600",
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "background_image_mobile": "shopify:\/\/shop_images\/Salve_Commitment.png",
-        "background_overlay": false,
-        "background_overlay_color": "#1F2D1F",
-        "background_overlay_opacity": 40,
-        "content_custom_width": true,
-        "content_width": 720,
-        "content_position": "center",
-        "content_horizontal_align": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -785,13 +646,11 @@
     "935bc2b2-d7d6-42be-b0d7-ac5e27ee0346",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
-    "bb3c9b5d-df21-4b06-bb80-7b6e5d0ca433",
+    "fb2bb9a7-e524-4048-8542-18803188de6c",
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
     "cc233987-3c3f-4886-8df3-9a832a09e1a5",
     "13d9654a-bbc1-4202-b166-b75be8f85106",
-    "93eda58b-2f92-481a-b273-979e5870e66c",
-    "dc058efc-ff4e-4b4f-beab-06203cdf85a8",
-    "fb2bb9a7-e524-4048-8542-18803188de6c"
+    "93eda58b-2f92-481a-b273-979e5870e66c"
   ]
 }
