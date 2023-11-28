@@ -255,6 +255,7 @@
         "template--21586456510777__97a01e4f-fe1e-4970-baa7-7ec2af01ce8e-column-2",
         "template--21586456510777__97a01e4f-fe1e-4970-baa7-7ec2af01ce8e-column-3"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth": true,
         "width": 1320,
