@@ -40,8 +40,8 @@
         "template--15753621373083__image-banner-1-167155657486da9338-0"
       ],
       "settings": {
-        "fullwidth": true,
-        "width": 1320,
+        "fullwidth": false,
+        "width": 540,
         "height_mobile": "460",
         "height": "460",
         "color_scheme": "scheme-accent",
@@ -52,7 +52,7 @@
         "background_overlay_color": "#000",
         "background_overlay_opacity": 5,
         "content_custom_width": true,
-        "content_width": 720,
+        "content_width": 640,
         "content_position": "center",
         "content_horizontal_align": "center",
         "separator": false,
