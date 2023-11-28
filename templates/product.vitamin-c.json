@@ -241,7 +241,7 @@
         "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-1": {
           "type": "column",
           "settings": {
-            "color_scheme": "scheme-main",
+            "color_scheme": "scheme-complementary",
             "inset": true,
             "inset_choice": "level-3",
             "width": 33,
@@ -274,7 +274,7 @@
         "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-2": {
           "type": "column",
           "settings": {
-            "color_scheme": "scheme-main",
+            "color_scheme": "scheme-additional",
             "inset": true,
             "inset_choice": "level-3",
             "width": 33,
@@ -307,7 +307,7 @@
         "template--21587732595001__3a25d5c3-f56f-468c-a18f-43489181443b-column-3": {
           "type": "column",
           "settings": {
-            "color_scheme": "scheme-main",
+            "color_scheme": "scheme-complementary",
             "inset": true,
             "inset_choice": "level-3",
             "width": 33,
