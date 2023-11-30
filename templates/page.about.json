@@ -248,6 +248,7 @@
     },
     "fb2bb9a7-e524-4048-8542-18803188de6c": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "fullwidth": false,
         "width": 2000,
