@@ -175,6 +175,77 @@
         "spacing_placement": "1"
       }
     },
+    "dde65266-81d8-4cc8-a684-966ebefea4b3": {
+      "type": "slideshow",
+      "blocks": {
+        "ec9a81fa-74c1-4193-a48e-6047c8470a40": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 40,
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#F8F4EC",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/subscription_box_white_08dfa530-17f9-480a-b0b5-3ddf2ee75175.png",
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 67,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Science + Consistency",
+            "slide_heading_width": 450,
+            "slide_subheading": "",
+            "slide_subheading_width": 450,
+            "slide_description": "<p>We maintain a deep commitment to helping others live well. We aim to redefine your approach to health, beauty, and vitality. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. We do our research, allowing you to focus on living and feeling well.<\/p>",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Become A Member",
+            "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "ec9a81fa-74c1-4193-a48e-6047c8470a40"
+      ],
+      "custom_css": [
+        "h1 {font-size: 18px;}"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
+        "color_scheme": "scheme-main",
+        "slideshow_autoplay": false,
+        "slideshow_transition_interval": 4000,
+        "slideshow_loop": false,
+        "slideshow_mouse_drag": false,
+        "slideshow_arrows": false,
+        "slideshow_dots": false,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "2"
+      }
+    },
     "1f3991ec-9267-43ce-a223-68c691c5d278": {
       "type": "slideshow",
       "blocks": {
@@ -581,75 +652,25 @@
         "scroll_speed": 62
       }
     },
-    "dde65266-81d8-4cc8-a684-966ebefea4b3": {
-      "type": "slideshow",
-      "blocks": {
-        "ec9a81fa-74c1-4193-a48e-6047c8470a40": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile_overlay": false,
-            "slide_image_mobile_overlay_color": "#1F2D1F",
-            "slide_image_mobile_overlay_opacity": 40,
-            "slide_image_overlay": true,
-            "slide_image_overlay_color": "#F8F4EC",
-            "slide_image_overlay_opacity": 100,
-            "slide_image_right_enable": true,
-            "slide_image_right": "shopify:\/\/shop_images\/subscription_box_white_08dfa530-17f9-480a-b0b5-3ddf2ee75175.png",
-            "slide_image_right_overlay": true,
-            "slide_image_right_overlay_color": "#1F2D1F",
-            "slide_image_right_overlay_opacity": 67,
-            "slide_content_position": "left",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "center",
-            "slide_heading": "Science + Consistency",
-            "slide_heading_width": 450,
-            "slide_subheading": "",
-            "slide_subheading_width": 450,
-            "slide_description": "<p>We maintain a deep commitment to helping others live well. We aim to redefine your approach to health, beauty, and vitality. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. We do our research, allowing you to focus on living and feeling well.<\/p>",
-            "slide_description_width": 450,
-            "slide_button_1_text": "Become A Member",
-            "slide_button_1_url": "shopify:\/\/pages\/become-a-member",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "ec9a81fa-74c1-4193-a48e-6047c8470a40"
-      ],
-      "custom_css": [
-        "h1 {font-size: 18px;}"
-      ],
+    "cc233987-3c3f-4886-8df3-9a832a09e1a5": {
+      "type": "multicolumn",
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "slideshow_height_mobile": "600",
-        "slideshow_height": "600",
-        "color_scheme": "scheme-main",
-        "slideshow_autoplay": false,
-        "slideshow_transition_interval": 4000,
-        "slideshow_loop": false,
-        "slideshow_mouse_drag": false,
-        "slideshow_arrows": false,
-        "slideshow_dots": false,
-        "slideshow_transition_speed": 400,
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": false,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
+        "separator_use_custom_color": true,
+        "separator_custom_color": "#966e25",
+        "spacing": true,
         "spacing_choice": "level-3",
-        "spacing_placement": "2"
+        "spacing_placement": "1"
       }
     },
     "978e3e77-41b4-4a14-8364-fff0c4e1d048": {
@@ -741,27 +762,6 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "cc233987-3c3f-4886-8df3-9a832a09e1a5": {
-      "type": "multicolumn",
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": false,
-        "gap_choice": "level-4",
-        "stack_on_mobile": true,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": true,
-        "separator_custom_color": "#966e25",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -870,16 +870,16 @@
     "multicolumn-1",
     "7c27d096-fe81-4903-9ace-39bc51ce7ff4",
     "2852d6d7-1e0c-434e-9215-1d51149f12bf",
+    "dde65266-81d8-4cc8-a684-966ebefea4b3",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "fb2bb9a7-e524-4048-8542-18803188de6c",
     "e9cba3c9-1943-4128-be01-1ba7691e877a",
     "f384b543-6f16-4679-92b3-cfb595705749",
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
-    "dde65266-81d8-4cc8-a684-966ebefea4b3",
+    "cc233987-3c3f-4886-8df3-9a832a09e1a5",
     "978e3e77-41b4-4a14-8364-fff0c4e1d048",
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
-    "cc233987-3c3f-4886-8df3-9a832a09e1a5",
     "9fe88fad-cf2a-4bde-a6e5-4efb089d072e",
     "93eda58b-2f92-481a-b273-979e5870e66c"
   ]
