@@ -92,94 +92,6 @@
         "spacing_placement": "1"
       }
     },
-    "3b079f92-2009-47bc-a9af-1e11bf8f7abe": {
-      "type": "scrolling-text",
-      "blocks": {
-        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-3": {
-          "type": "text",
-          "settings": {
-            "text": "Potent + Effective Ingredients",
-            "text_tag": "h6"
-          }
-        },
-        "371d553a-8a35-4d4a-b087-fd3a06bca382": {
-          "type": "text",
-          "settings": {
-            "text": "Designed For Optimal Absorption",
-            "text_tag": "h6"
-          }
-        },
-        "88215532-4e64-478f-8697-74237ded4a30": {
-          "type": "text",
-          "settings": {
-            "text": "Sourced Exclusively In Europe",
-            "text_tag": "h6"
-          }
-        },
-        "790c85df-7b67-4e8d-b674-85f48c95af4a": {
-          "type": "text",
-          "settings": {
-            "text": "Transparent Processes",
-            "text_tag": "h6"
-          }
-        },
-        "b0d43ba5-14f6-4787-89d9-3d63228c58b7": {
-          "type": "text",
-          "settings": {
-            "text": "No Filler Ingredients",
-            "text_tag": "h6"
-          }
-        },
-        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "No Additives",
-            "text_tag": "h6"
-          }
-        },
-        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-2": {
-          "type": "text",
-          "settings": {
-            "text": "Held To European Standards",
-            "text_tag": "h6"
-          }
-        },
-        "d8a0dde0-003c-4b36-ac40-c5cd6fcd4b60": {
-          "type": "text",
-          "settings": {
-            "text": "Scientifically Researched",
-            "text_tag": "h6"
-          }
-        }
-      },
-      "block_order": [
-        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-3",
-        "371d553a-8a35-4d4a-b087-fd3a06bca382",
-        "88215532-4e64-478f-8697-74237ded4a30",
-        "790c85df-7b67-4e8d-b674-85f48c95af4a",
-        "b0d43ba5-14f6-4787-89d9-3d63228c58b7",
-        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-1",
-        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-2",
-        "d8a0dde0-003c-4b36-ac40-c5cd6fcd4b60"
-      ],
-      "settings": {
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "splitter_use_custom_width": true,
-        "splitter_custom_width": 16,
-        "separator": true,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-1",
-        "spacing_placement": "1",
-        "scroll_speed": 62
-      }
-    },
     "7c27d096-fe81-4903-9ace-39bc51ce7ff4": {
       "type": "video",
       "settings": {
@@ -334,6 +246,124 @@
         "spacing_placement": "1"
       }
     },
+    "fb2bb9a7-e524-4048-8542-18803188de6c": {
+      "type": "image-banner",
+      "settings": {
+        "fullwidth": false,
+        "width": 2000,
+        "height_mobile": "600",
+        "height": "600",
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "background_image_mobile": "shopify:\/\/shop_images\/Salve_commitment_long.png",
+        "background_image": "shopify:\/\/shop_images\/Salve_commitment_long.png",
+        "background_overlay": false,
+        "background_overlay_color": "#1F2D1F",
+        "background_overlay_opacity": 40,
+        "content_custom_width": true,
+        "content_width": 720,
+        "content_position": "center",
+        "content_horizontal_align": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "3b079f92-2009-47bc-a9af-1e11bf8f7abe": {
+      "type": "scrolling-text",
+      "blocks": {
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Potent + Effective Ingredients",
+            "text_tag": "h6"
+          }
+        },
+        "371d553a-8a35-4d4a-b087-fd3a06bca382": {
+          "type": "text",
+          "settings": {
+            "text": "Designed For Optimal Absorption",
+            "text_tag": "h6"
+          }
+        },
+        "88215532-4e64-478f-8697-74237ded4a30": {
+          "type": "text",
+          "settings": {
+            "text": "Sourced Exclusively In Europe",
+            "text_tag": "h6"
+          }
+        },
+        "790c85df-7b67-4e8d-b674-85f48c95af4a": {
+          "type": "text",
+          "settings": {
+            "text": "Transparent Processes",
+            "text_tag": "h6"
+          }
+        },
+        "b0d43ba5-14f6-4787-89d9-3d63228c58b7": {
+          "type": "text",
+          "settings": {
+            "text": "No Filler Ingredients",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "No Additives",
+            "text_tag": "h6"
+          }
+        },
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Held To European Standards",
+            "text_tag": "h6"
+          }
+        },
+        "d8a0dde0-003c-4b36-ac40-c5cd6fcd4b60": {
+          "type": "text",
+          "settings": {
+            "text": "Scientifically Researched",
+            "text_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-3",
+        "371d553a-8a35-4d4a-b087-fd3a06bca382",
+        "88215532-4e64-478f-8697-74237ded4a30",
+        "790c85df-7b67-4e8d-b674-85f48c95af4a",
+        "b0d43ba5-14f6-4787-89d9-3d63228c58b7",
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-1",
+        "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-2",
+        "d8a0dde0-003c-4b36-ac40-c5cd6fcd4b60"
+      ],
+      "settings": {
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "splitter_use_custom_width": true,
+        "splitter_custom_width": 16,
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
+        "spacing_choice": "level-1",
+        "spacing_placement": "1",
+        "scroll_speed": 62
+      }
+    },
     "dde65266-81d8-4cc8-a684-966ebefea4b3": {
       "type": "slideshow",
       "blocks": {
@@ -411,36 +441,6 @@
         ".section-spacer {margin: 25px;}"
       ],
       "settings": {
-      }
-    },
-    "fb2bb9a7-e524-4048-8542-18803188de6c": {
-      "type": "image-banner",
-      "settings": {
-        "fullwidth": false,
-        "width": 2000,
-        "height_mobile": "600",
-        "height": "600",
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "background_image_mobile": "shopify:\/\/shop_images\/Salve_commitment_long.png",
-        "background_image": "shopify:\/\/shop_images\/Salve_commitment_long.png",
-        "background_overlay": false,
-        "background_overlay_color": "#1F2D1F",
-        "background_overlay_opacity": 40,
-        "content_custom_width": true,
-        "content_width": 720,
-        "content_position": "center",
-        "content_horizontal_align": "center",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
       }
     },
     "645ab249-379c-4b96-b508-a89b46c267d4": {
@@ -651,13 +651,13 @@
   },
   "order": [
     "multicolumn-1",
-    "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "7c27d096-fe81-4903-9ace-39bc51ce7ff4",
     "2852d6d7-1e0c-434e-9215-1d51149f12bf",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
+    "fb2bb9a7-e524-4048-8542-18803188de6c",
+    "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
     "978e3e77-41b4-4a14-8364-fff0c4e1d048",
-    "fb2bb9a7-e524-4048-8542-18803188de6c",
     "645ab249-379c-4b96-b508-a89b46c267d4",
     "d2eb43d9-ad0f-477b-9c2b-b04afc8b3f28",
     "cc233987-3c3f-4886-8df3-9a832a09e1a5",
