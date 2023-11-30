@@ -34,28 +34,15 @@
         "content_width": 1000,
         "content_position": "center",
         "content_horizontal_align": "center",
-        "separator": false,
-        "separator_width": 1,
-        "separator_fullwidth": false,
+        "separator": true,
+        "separator_width": 100,
+        "separator_fullwidth": true,
         "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#f8f4ec",
-        "spacing": false,
-        "spacing_choice": "level-1",
-        "spacing_placement": "1"
-      }
-    },
-    "8e759be6-59a4-4c18-bcac-89321188463e": {
-      "type": "spacer",
-      "settings": {
-      }
-    },
-    "71bd58e4-c709-4037-91c8-7cbfa61f576c": {
-      "type": "separator",
-      "settings": {
-        "width": 100,
-        "height": 1,
-        "color": "#3D4236"
+        "separator_use_custom_color": true,
+        "separator_custom_color": "#3d4236",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "3"
       }
     },
     "425fad94-aefa-445a-b68b-f83951c9129a": {
@@ -210,6 +197,11 @@
         "spacing_placement": "1"
       }
     },
+    "8e759be6-59a4-4c18-bcac-89321188463e": {
+      "type": "spacer",
+      "settings": {
+      }
+    },
     "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff": {
       "type": "rich-text",
       "blocks": {
@@ -252,6 +244,11 @@
         "spacing": false,
         "spacing_choice": "level-5",
         "spacing_placement": "1"
+      }
+    },
+    "6a8dc47c-e03c-4167-b20d-ecbd9ea45cb4": {
+      "type": "spacer",
+      "settings": {
       }
     },
     "home-multicolumn-1": {
@@ -379,74 +376,6 @@
         "spacing_placement": "1"
       }
     },
-    "0bfb7428-b525-43d6-9b76-5a250f871b62": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3": {
-          "type": "slide",
-          "settings": {
-            "slide_image_mobile_overlay": false,
-            "slide_image_mobile_overlay_color": "#174248",
-            "slide_image_mobile_overlay_opacity": 100,
-            "slide_image_overlay": true,
-            "slide_image_overlay_color": "#F8F4EC",
-            "slide_image_overlay_opacity": 100,
-            "slide_image_right_enable": true,
-            "slide_image_right": "shopify:\/\/shop_images\/IMG_4463.jpg",
-            "slide_image_right_overlay": false,
-            "slide_image_right_overlay_color": "#1F2D1F",
-            "slide_image_right_overlay_opacity": 40,
-            "slide_content_position": "left",
-            "slide_content_vertical_align": "center",
-            "slide_content_horizontal_align": "center",
-            "slide_heading": "Held to European Standards",
-            "slide_heading_width": 450,
-            "slide_subheading": "",
-            "slide_subheading_width": 420,
-            "slide_description": "<p>All Salve products must surpass rigorous European regulation and compliance testing to ensure all products contain premium ingredients that are highly absorbable and effective. If it's sold on Salve it is ; free of fillers, additives, artificial ingredients or dyes.<\/p>",
-            "slide_description_width": 450,
-            "slide_button_1_text": "Our Commitment",
-            "slide_button_1_url": "shopify:\/\/collections\/all",
-            "slide_button_1_style": "outline",
-            "slide_button_1_target": "_self",
-            "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
-            "slide_button_2_text": "",
-            "slide_button_2_url": "",
-            "slide_button_2_style": "outline",
-            "slide_button_2_target": "_self",
-            "slide_button_2_custom_width": true,
-            "slide_button_2_width": 200
-          }
-        }
-      },
-      "block_order": [
-        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "slideshow_height_mobile": "600",
-        "slideshow_height": "600",
-        "color_scheme": "scheme-main",
-        "slideshow_autoplay": false,
-        "slideshow_transition_interval": 8600,
-        "slideshow_loop": false,
-        "slideshow_mouse_drag": false,
-        "slideshow_arrows": false,
-        "slideshow_dots": false,
-        "slideshow_transition_speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": true,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-4",
-        "spacing_placement": "1"
-      }
-    },
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198": {
       "type": "slideshow",
       "blocks": {
@@ -490,6 +419,74 @@
       },
       "block_order": [
         "7a44f465-e0e9-4d56-bfa7-50e53594d5fa"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "slideshow_height_mobile": "600",
+        "slideshow_height": "600",
+        "color_scheme": "scheme-main",
+        "slideshow_autoplay": false,
+        "slideshow_transition_interval": 8600,
+        "slideshow_loop": false,
+        "slideshow_mouse_drag": false,
+        "slideshow_arrows": false,
+        "slideshow_dots": false,
+        "slideshow_transition_speed": 400,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": true,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#dad3c4",
+        "spacing": true,
+        "spacing_choice": "level-4",
+        "spacing_placement": "1"
+      }
+    },
+    "0bfb7428-b525-43d6-9b76-5a250f871b62": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#174248",
+            "slide_image_mobile_overlay_opacity": 100,
+            "slide_image_overlay": true,
+            "slide_image_overlay_color": "#F8F4EC",
+            "slide_image_overlay_opacity": 100,
+            "slide_image_right_enable": true,
+            "slide_image_right": "shopify:\/\/shop_images\/IMG_4463.jpg",
+            "slide_image_right_overlay": false,
+            "slide_image_right_overlay_color": "#1F2D1F",
+            "slide_image_right_overlay_opacity": 40,
+            "slide_content_position": "left",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Held to European Standards",
+            "slide_heading_width": 450,
+            "slide_subheading": "",
+            "slide_subheading_width": 420,
+            "slide_description": "<p>All Salve products must surpass rigorous European regulation and compliance testing to ensure all products contain premium ingredients that are highly absorbable and effective. If it's sold on Salve it is ; free of fillers, additives, artificial ingredients or dyes.<\/p>",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Our Commitment",
+            "slide_button_1_url": "shopify:\/\/collections\/all",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 200,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3"
       ],
       "settings": {
         "fullwidth": true,
@@ -1103,15 +1100,15 @@
   },
   "order": [
     "2a49d6ac-3eee-4e37-8715-5e41613c6641",
-    "8e759be6-59a4-4c18-bcac-89321188463e",
-    "71bd58e4-c709-4037-91c8-7cbfa61f576c",
     "425fad94-aefa-445a-b68b-f83951c9129a",
     "0a788bc7-220d-4551-9d33-37998081c2c8",
     "2bcd91cc-9719-4417-a2e7-f8b4f498745c",
+    "8e759be6-59a4-4c18-bcac-89321188463e",
     "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff",
+    "6a8dc47c-e03c-4167-b20d-ecbd9ea45cb4",
     "home-multicolumn-1",
-    "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
+    "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "d5b2fb58-e704-41f4-9ced-4cfc20e57e96",
     "40f7eefe-4bdb-4538-b6ee-e43e448dab88",
     "6ae32cf3-dbac-46ba-9bbb-d2948354a93f",
