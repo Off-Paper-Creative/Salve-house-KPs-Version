@@ -276,6 +276,64 @@
         "spacing_placement": "1"
       }
     },
+    "e9cba3c9-1943-4128-be01-1ba7691e877a": {
+      "type": "boxes-multicolumn",
+      "blocks": {
+        "template--21586457198905__e9cba3c9-1943-4128-be01-1ba7691e877a-column-3": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-complementary",
+            "inset": true,
+            "inset_choice": "level-5",
+            "width": 100,
+            "horizontal_align": "normal",
+            "vertical_align": "normal",
+            "text_align": "left",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "",
+            "text_1_tag": "h4",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "When you choose salve you choose supplements that are",
+            "text_2_tag": "h5",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457198905__e9cba3c9-1943-4128-be01-1ba7691e877a-column-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": false,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "f384b543-6f16-4679-92b3-cfb595705749": {
       "type": "boxes-multicolumn",
       "blocks": {
@@ -812,6 +870,7 @@
     "2852d6d7-1e0c-434e-9215-1d51149f12bf",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "fb2bb9a7-e524-4048-8542-18803188de6c",
+    "e9cba3c9-1943-4128-be01-1ba7691e877a",
     "f384b543-6f16-4679-92b3-cfb595705749",
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
