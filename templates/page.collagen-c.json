@@ -51,7 +51,7 @@
         "color_scheme": "scheme-accent",
         "inset": true,
         "inset_choice": "level-3",
-        "background_video": "shopify:\/\/files\/videos\/Salve full screen web .mp4",
+        "background_video": "shopify:\/\/files\/videos\/Collagen + C Videos For Web.mp4",
         "background_overlay": true,
         "background_overlay_color": "#000",
         "background_overlay_opacity": 5,
@@ -865,7 +865,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
