@@ -92,6 +92,34 @@
         "spacing_placement": "1"
       }
     },
+    "7c27d096-fe81-4903-9ace-39bc51ce7ff4": {
+      "type": "video",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "heading": "This is Video heading",
+        "heading_tag": "h3",
+        "button_text": "Button text",
+        "button_url": "",
+        "button_target": "_self",
+        "button_style": "link",
+        "video_source": "internal",
+        "video": "shopify:\/\/files\/videos\/1075594589-preview.mp4",
+        "video_alt": "",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe": {
       "type": "scrolling-text",
       "blocks": {
@@ -623,6 +651,7 @@
   },
   "order": [
     "multicolumn-1",
+    "7c27d096-fe81-4903-9ace-39bc51ce7ff4",
     "3b079f92-2009-47bc-a9af-1e11bf8f7abe",
     "2852d6d7-1e0c-434e-9215-1d51149f12bf",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
