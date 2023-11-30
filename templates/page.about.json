@@ -562,6 +562,7 @@
         "template--21586457198905__3b079f92-2009-47bc-a9af-1e11bf8f7abe-text-2",
         "d8a0dde0-003c-4b36-ac40-c5cd6fcd4b60"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-main",
         "inset": true,
