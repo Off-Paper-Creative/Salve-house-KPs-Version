@@ -54,7 +54,7 @@
       "type": "separator",
       "settings": {
         "width": 100,
-        "height": 6,
+        "height": 1,
         "color": "#3D4236"
       }
     },
@@ -65,7 +65,7 @@
           "type": "heading",
           "settings": {
             "text": "A POWERFUL SYSTEM OF VETTED SUPPLEMENTS FORMULATED TO WORK WITH YOUR BODY",
-            "text_tag": "h6",
+            "text_tag": "h5",
             "text_custom_width": false,
             "text_width": 700
           }
@@ -96,8 +96,8 @@
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
+        "separator_use_custom_color": true,
+        "separator_custom_color": "#3d4236",
         "spacing": false,
         "spacing_choice": "level-1",
         "spacing_placement": "1"
