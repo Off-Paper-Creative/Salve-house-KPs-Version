@@ -120,46 +120,47 @@
         "spacing_placement": "1"
       }
     },
-    "2852d6d7-1e0c-434e-9215-1d51149f12bf": {
-      "type": "rich-text",
+    "17956961-df93-4fc3-9032-b2fdb57b8c63": {
+      "type": "membership-rich-text",
       "blocks": {
-        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-heading-1": {
+        "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Fillers, additives, pseudoscience, diluted ingredients, false information...",
-            "text_tag": "h6",
-            "text_custom_width": false,
-            "text_width": 700
-          }
-        },
-        "24c26839-f76a-49ec-9b0e-1ca58487405f": {
-          "type": "heading",
-          "settings": {
-            "text": "NO LONGER",
+            "text": "This is heading",
             "text_tag": "h2",
             "text_custom_width": false,
             "text_width": 700
           }
         },
-        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-description-1": {
+        "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-description-1": {
           "type": "description",
           "settings": {
-            "text": "Salve emerged from a realization that there is a quality gap in the supplement market, one in which many products do not contain nearly enough of the active ingredient customers think they are purchasing. Nor do these products deliver the results people truly desire. ",
+            "text": "We maintain a deep commitment to helping others live well. We aim to redefine your approach to health, beauty, and vitality. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. We do our research, allowing you to focus on living and feeling well.",
             "text_tag": "p",
             "text_custom_width": true,
-            "text_width": 200
+            "text_width": 340
+          }
+        },
+        "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Become A Member",
+            "button_url": "shopify:\/\/pages\/become-a-member",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_custom_width": false,
+            "button_width": 200
           }
         }
       },
       "block_order": [
-        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-heading-1",
-        "24c26839-f76a-49ec-9b0e-1ca58487405f",
-        "template--21586457198905__2852d6d7-1e0c-434e-9215-1d51149f12bf-description-1"
+        "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-heading-1",
+        "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-description-1",
+        "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-button-1"
       ],
-      "disabled": true,
       "settings": {
         "fullwidth": false,
-        "width": 700,
+        "width": 740,
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
@@ -169,7 +170,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -869,7 +870,7 @@
   "order": [
     "multicolumn-1",
     "7c27d096-fe81-4903-9ace-39bc51ce7ff4",
-    "2852d6d7-1e0c-434e-9215-1d51149f12bf",
+    "17956961-df93-4fc3-9032-b2fdb57b8c63",
     "dde65266-81d8-4cc8-a684-966ebefea4b3",
     "1f3991ec-9267-43ce-a223-68c691c5d278",
     "fb2bb9a7-e524-4048-8542-18803188de6c",
