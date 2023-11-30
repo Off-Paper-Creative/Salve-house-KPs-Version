@@ -126,8 +126,8 @@
         "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "This is heading",
-            "text_tag": "h2",
+            "text": "Science + Consistancy",
+            "text_tag": "h5",
             "text_custom_width": false,
             "text_width": 700
           }
@@ -135,7 +135,7 @@
         "template--21586457198905__17956961-df93-4fc3-9032-b2fdb57b8c63-description-1": {
           "type": "description",
           "settings": {
-            "text": "We maintain a deep commitment to helping others live well. We aim to redefine your approach to health, beauty, and vitality. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. We do our research, allowing you to focus on living and feeling well.",
+            "text": "We maintain a deep commitment to helping others live well. We aim to redefine your approach to health, beauty, and vitality. Our solution? A vetted system of powerful supplements carefully formulated to work with our bodies in achieving those goals. We do our research, allowing you to focus on forming healthy routines and living well.",
             "text_tag": "p",
             "text_custom_width": true,
             "text_width": 340
