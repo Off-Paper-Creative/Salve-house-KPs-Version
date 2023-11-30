@@ -130,7 +130,7 @@
         "width": 640,
         "color_scheme": "scheme-main",
         "inset": true,
-        "inset_choice": "level-4",
+        "inset_choice": "level-2",
         "alignment": "center",
         "separator": false,
         "separator_width": 100,
@@ -139,8 +139,13 @@
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
         "spacing": true,
-        "spacing_choice": "level-5",
+        "spacing_choice": "level-2",
         "spacing_placement": "1"
+      }
+    },
+    "1fa7ad75-7498-483a-90fc-ac6deb4faebf": {
+      "type": "spacer",
+      "settings": {
       }
     },
     "55e9550a-968d-4a60-beba-32dacc54a14d": {
@@ -1054,6 +1059,7 @@
     "image-banner-1",
     "9fd40724-1098-434f-b9a5-ff47437184fc",
     "fa19f72c-5ec5-43b3-8108-85ae06776bd6",
+    "1fa7ad75-7498-483a-90fc-ac6deb4faebf",
     "55e9550a-968d-4a60-beba-32dacc54a14d",
     "ccc5cf92-a20d-4acb-b111-c6c88321e544",
     "97a01e4f-fe1e-4970-baa7-7ec2af01ce8e",
