@@ -415,7 +415,7 @@
             "slide_button_1_style": "outline",
             "slide_button_1_target": "_self",
             "slide_button_1_custom_width": true,
-            "slide_button_1_width": 200,
+            "slide_button_1_width": 234,
             "slide_button_2_text": "",
             "slide_button_2_url": "",
             "slide_button_2_style": "outline",
@@ -1169,7 +1169,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
