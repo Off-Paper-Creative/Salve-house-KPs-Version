@@ -376,6 +376,14 @@
         "spacing_placement": "1"
       }
     },
+    "08c1bf30-910b-4fe1-ae9d-5bd101bedb99": {
+      "type": "separator",
+      "settings": {
+        "width": 100,
+        "height": 1,
+        "color": "#DAD3C4"
+      }
+    },
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198": {
       "type": "slideshow",
       "blocks": {
@@ -1107,6 +1115,7 @@
     "7e00f6a5-f1da-4bc4-8ff8-d0cbe9fd3aff",
     "6a8dc47c-e03c-4167-b20d-ecbd9ea45cb4",
     "home-multicolumn-1",
+    "08c1bf30-910b-4fe1-ae9d-5bd101bedb99",
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
     "d5b2fb58-e704-41f4-9ced-4cfc20e57e96",
