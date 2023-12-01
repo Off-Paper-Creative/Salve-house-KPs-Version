@@ -8226,9 +8226,9 @@ body:not(.has-layout-margin)
 :root {
 	--theme-color-dark-gray: #635436;
 	--theme-color-alert-error: #fc4f4f;
-	--theme-body-font-size: clamp(14px, 16px, 18px);
-	--theme-body-font-size-small: clamp(10px, 12px, 16px);
-	--theme-body-font-size-large: clamp(17px, 18px, 19px);
+	--theme-body-font-size: clamp(14px, 3.5vw, 18px);
+	--theme-body-font-size-small: clamp(10px, 3vw, 16px);
+	--theme-body-font-size-large: clamp(17px, 4vw, 19px);
 	--theme-body-font-size-x-large: clamp(1.125rem, 4.5vw, 1.25rem);
 	--theme-body-letter-spacing: 0.01em;
 	--theme-body-line-height: 1.6;
@@ -8238,9 +8238,9 @@ body:not(.has-layout-margin)
 	--theme-heading-font-size-h4: 22px;
 	--theme-heading-font-size-h5: 18px;
 	--theme-heading-font-size-h6: 16px;
-	--theme-heading-font-size-special-small: clamp(22px, 24px, 26px);
-	--theme-heading-font-size-special-normal: clamp(26px, 28px, 30px);
-	--theme-heading-font-size-special-large: clamp(30px, 32px, 34px);
+	--theme-heading-font-size-special-small: clamp(22px, 5vw, 26px);
+	--theme-heading-font-size-special-normal: clamp(26px, 7vw, 30px);
+	--theme-heading-font-size-special-large: clamp(30px, 10vw, 34px);
 	--theme-heading-letter-spacing: -0.02em;
 	--theme-heading-line-height: 1.4;
 	--theme-special-letter-spacing: -0.02em;
