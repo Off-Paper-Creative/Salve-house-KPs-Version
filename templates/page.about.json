@@ -108,13 +108,14 @@
         "button_style": "outline",
         "video_source": "internal",
         "video": "shopify:\/\/files\/videos\/1075594589-preview.mp4",
+        "video_url": "",
         "video_alt": "",
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -170,7 +171,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -320,7 +321,6 @@
     },
     "fb2bb9a7-e524-4048-8542-18803188de6c": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "fullwidth": false,
         "width": 2000,
@@ -401,7 +401,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
@@ -558,7 +558,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
