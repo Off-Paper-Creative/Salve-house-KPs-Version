@@ -210,10 +210,11 @@
   @import url("https://use.typekit.net/cty4kbo.css");
   </style>
   <style>
-    @font-face {
-  font-family: 'IBMPlexMono-Terrible';
-  src: url('{{ 'https://cdn.shopify.com/s/files/1/0834/2945/8233/files/IBMPlexMono-Terrible.otf?v=1701461380' }}') format('opentype');
-    }
+ @font-face {
+	font-family: "IBMPlexMono-Terrible";
+	src: url("{{ 'IBMPlexMono-Terrible.otf' | asset_url }}")
+		format("[opentype]");
+}
   </style>
   {%- render 'bold-subscription-widget' -%}
   {{ 'bsub.js' | asset_url | script_tag }}

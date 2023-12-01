@@ -8174,10 +8174,11 @@ body:not(.has-layout-margin)
 .section-slideshow .splide__arrow--next {
 	margin-right: 0;
 }
- @font-face {
-  font-family: 'IBMPlexMono-Terrible';
-  src: url('{{ 'https://cdn.shopify.com/s/files/1/0834/2945/8233/files/IBMPlexMono-Terrible.otf?v=1701461380' }}') format('opentype');
-    }
+@font-face {
+	font-family: "IBMPlexMono-Terrible";
+	src: url("{{ 'IBMPlexMono-Terrible.otf' | asset_url }}") format("[opentype]");
+}
+
 .section-slideshow .splide__arrow--prev {
 	margin-left: 0;
 }
@@ -8314,7 +8315,9 @@ body:not(.has-layout-margin)
 	--theme-block-content-padding-level-4: clamp(1.75rem, 5vw, 3rem);
 	--theme-block-content-padding-level-5: clamp(2rem, 5vw, 4.5rem);
 }
-
+h4 {
+	font-family: "IBMPlexMono-Terrible" !important ;
+}
 .section-testimonials {
 	margin-top: var(
 		--theme-section-spacing-custom-top,

@@ -149,13 +149,13 @@ h2 {
 h3 {
 	font-size: var(--theme-heading-font-size-h3);
 }
- @font-face {
-  font-family: 'IBMPlexMono-Terrible';
-  src: url('{{ 'https://cdn.shopify.com/s/files/1/0834/2945/8233/files/IBMPlexMono-Terrible.otf?v=1701461380' }}') format('opentype');
-    }
+@font-face {
+	font-family: "IBMPlexMono-Terrible";
+	src: url("{{ 'IBMPlexMono-Terrible.otf' | asset_url }}") format("opentype");
+}
 h4 {
-	font-size: 32px;
-	font-family: 'IBMPlexMono-Terrible' !important;
+	font-size: 22px;
+	font-family: "IBMPlexMono-Terrible" !important;
 }
 
 h5 {
