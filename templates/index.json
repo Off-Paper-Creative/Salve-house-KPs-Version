@@ -447,8 +447,8 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-4",
+        "spacing": true,
+        "spacing_choice": "level-1",
         "spacing_placement": "1"
       }
     },
@@ -523,17 +523,9 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#dad3c4",
-        "spacing": false,
-        "spacing_choice": "level-4",
+        "spacing": true,
+        "spacing_choice": "level-1",
         "spacing_placement": "1"
-      }
-    },
-    "08c1bf30-910b-4fe1-ae9d-5bd101bedb99": {
-      "type": "separator",
-      "settings": {
-        "width": 100,
-        "height": 1,
-        "color": "#DAD3C4"
       }
     },
     "d5b2fb58-e704-41f4-9ced-4cfc20e57e96": {
@@ -1135,7 +1127,6 @@
     "ddafaf47-bd56-4c41-9fb1-f2e9ec2a6198",
     "49a9f3ba-3ac3-409a-8ce9-ab828890e4cf",
     "0bfb7428-b525-43d6-9b76-5a250f871b62",
-    "08c1bf30-910b-4fe1-ae9d-5bd101bedb99",
     "d5b2fb58-e704-41f4-9ced-4cfc20e57e96",
     "40f7eefe-4bdb-4538-b6ee-e43e448dab88",
     "6ae32cf3-dbac-46ba-9bbb-d2948354a93f",
