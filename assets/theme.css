@@ -8236,8 +8236,8 @@ body:not(.has-layout-margin)
 	--theme-heading-font-size-h2: 30px;
 	--theme-heading-font-size-h3: 22px;
 	--theme-heading-font-size-h4: 22px;
-	--theme-heading-font-size-h5: 10px;
-	--theme-heading-font-size-h6: 1rem;
+	--theme-heading-font-size-h5: 18px;
+	--theme-heading-font-size-h6: 16px;
 	--theme-heading-font-size-special-small: clamp(22px, 24px, 26px);
 	--theme-heading-font-size-special-normal: clamp(26px, 28px, 30px);
 	--theme-heading-font-size-special-large: clamp(30px, 32px, 34px);
