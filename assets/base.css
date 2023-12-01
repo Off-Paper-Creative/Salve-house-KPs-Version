@@ -132,7 +132,11 @@ h6 {
 	letter-spacing: var(--theme-heading-letter-spacing);
 	font-variation-settings: "wght" var(--theme-heading-font-weight);
 }
-
+@font-face {
+  font-family: 'IBMPlexMono-Terrible';
+  src: url('{{ 'IBMPlexMono-Terrible.otf' | asset_url }}') format('opentype');
+  /* Add more font formats if needed */
+}
 h1,
 h2 {
 	margin-bottom: 1em;
