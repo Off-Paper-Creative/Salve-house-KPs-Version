@@ -1058,10 +1058,10 @@
             "text_3_tag": "p",
             "text_3_custom_width": false,
             "text_3_width": 450,
-            "button_text": "Button text",
-            "button_url": "",
+            "button_text": "Read The Blog",
+            "button_url": "shopify:\/\/blogs\/news",
             "button_target": "_self",
-            "button_style": "outline"
+            "button_style": "fill"
           }
         }
       },
