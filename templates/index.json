@@ -1061,6 +1061,9 @@
         "template--21586457166137__bb495fd4-aa00-4f90-b74f-1d07e533e86b-images-1",
         "template--21586457166137__bb495fd4-aa00-4f90-b74f-1d07e533e86b-content-1"
       ],
+      "custom_css": [
+        ".section-image-with-text-images img {height: 300px;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
