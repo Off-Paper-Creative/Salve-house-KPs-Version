@@ -10,7 +10,7 @@
     "color_border_main": "#171813",
     "color_border_dark": "#3d4236",
     "color_border_lite": "#ffffff",
-    "default_library_font": "assistant_n4",
+    "default_library_font": "amiri_n4",
     "special_library_font": "goudy_old_style_n4",
     "buttons_border_radius": 2,
     "buttons_padding": 80,
