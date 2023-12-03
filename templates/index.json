@@ -439,6 +439,9 @@
       "block_order": [
         "7a44f465-e0e9-4d56-bfa7-50e53594d5fa"
       ],
+      "custom_css": [
+        "h1 {font-size: 20px;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -514,6 +517,9 @@
       },
       "block_order": [
         "template--21212521595193__0bfb7428-b525-43d6-9b76-5a250f871b62-slide-3"
+      ],
+      "custom_css": [
+        "h1 {font-size: 20px;}"
       ],
       "settings": {
         "fullwidth": true,
