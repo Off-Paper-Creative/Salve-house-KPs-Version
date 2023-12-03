@@ -434,10 +434,48 @@
             "slide_button_2_custom_width": true,
             "slide_button_2_width": 200
           }
+        },
+        "291b1bb3-ec9f-4933-b33c-5657ee5ec12d": {
+          "type": "slide",
+          "settings": {
+            "slide_image_mobile": "shopify:\/\/shop_images\/gradient_double.png",
+            "slide_image_mobile_overlay": false,
+            "slide_image_mobile_overlay_color": "#1F2D1F",
+            "slide_image_mobile_overlay_opacity": 62,
+            "slide_image_overlay": false,
+            "slide_image_overlay_color": "#1F2D1F",
+            "slide_image_overlay_opacity": 47,
+            "slide_image_right_enable": false,
+            "slide_image_right_overlay": true,
+            "slide_image_right_overlay_color": "#F8F4EC",
+            "slide_image_right_overlay_opacity": 100,
+            "slide_content_position": "right",
+            "slide_content_vertical_align": "center",
+            "slide_content_horizontal_align": "center",
+            "slide_heading": "Vetted, Reviewed & Tested",
+            "slide_heading_width": 450,
+            "slide_subheading": "",
+            "slide_subheading_width": 420,
+            "slide_description": "<p>Our mission is to demystify wellness products, simplify the science, and present to you a curated line of reviewed products with proven results. We are your trusted partner in the journey towards sustainable health and radiant youth.<\/p>",
+            "slide_description_width": 450,
+            "slide_button_1_text": "Become A Member",
+            "slide_button_1_url": "shopify:\/\/collections\/all",
+            "slide_button_1_style": "outline",
+            "slide_button_1_target": "_self",
+            "slide_button_1_custom_width": true,
+            "slide_button_1_width": 234,
+            "slide_button_2_text": "",
+            "slide_button_2_url": "",
+            "slide_button_2_style": "outline",
+            "slide_button_2_target": "_self",
+            "slide_button_2_custom_width": true,
+            "slide_button_2_width": 200
+          }
         }
       },
       "block_order": [
-        "7a44f465-e0e9-4d56-bfa7-50e53594d5fa"
+        "7a44f465-e0e9-4d56-bfa7-50e53594d5fa",
+        "291b1bb3-ec9f-4933-b33c-5657ee5ec12d"
       ],
       "custom_css": [
         "h1 {font-size: 20px;}"
