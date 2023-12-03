@@ -489,7 +489,7 @@
         "slideshow_autoplay": false,
         "slideshow_transition_interval": 8600,
         "slideshow_loop": false,
-        "slideshow_mouse_drag": false,
+        "slideshow_mouse_drag": true,
         "slideshow_arrows": false,
         "slideshow_dots": false,
         "slideshow_transition_speed": 400,
