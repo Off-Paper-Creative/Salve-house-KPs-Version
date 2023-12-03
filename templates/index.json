@@ -69,6 +69,7 @@
         },
         "85410c06-d882-4767-8be6-edb8c5fee024": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "This is heading",
             "text_tag": "h4",
