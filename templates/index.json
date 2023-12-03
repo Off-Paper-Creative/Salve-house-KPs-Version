@@ -1020,14 +1020,6 @@
         "spacing_placement": "1"
       }
     },
-    "a69c8bdc-0a4d-4428-b362-8fa710522010": {
-      "type": "separator",
-      "settings": {
-        "width": 100,
-        "height": 1,
-        "color": "#DAD3C4"
-      }
-    },
     "bb495fd4-aa00-4f90-b74f-1d07e533e86b": {
       "type": "image-with-text",
       "blocks": {
@@ -1088,6 +1080,14 @@
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
+      }
+    },
+    "a69c8bdc-0a4d-4428-b362-8fa710522010": {
+      "type": "separator",
+      "settings": {
+        "width": 100,
+        "height": 1,
+        "color": "#DAD3C4"
       }
     },
     "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0": {
@@ -1212,8 +1212,8 @@
     "3feddb11-edd3-48ff-a36f-a6d0c2b66fe9",
     "b43f6820-c5d3-4064-ab54-15645b7a3aac",
     "f75802bf-311a-49eb-9d38-f82d4d7de68c",
-    "a69c8bdc-0a4d-4428-b362-8fa710522010",
     "bb495fd4-aa00-4f90-b74f-1d07e533e86b",
+    "a69c8bdc-0a4d-4428-b362-8fa710522010",
     "367d5a6d-9ce6-4d33-8d75-fcf15b1897f0",
     "7b885a2b-7d34-4204-bc35-670a6639b84f",
     "1698960637542b436a"
