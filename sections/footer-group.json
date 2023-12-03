@@ -16,7 +16,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We're your trusted partner towards comprehensive health and beauty.<\/p>",
+            "text": "<p>Your trusted partner towards comprehensive health and beauty.<\/p>",
             "text_custom_width": true,
             "text_width": 300,
             "column_choice": "1"
@@ -73,9 +73,9 @@
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-accent",
         "inset": true,
-        "inset_choice": "level-3",
+        "inset_choice": "level-4",
         "column_1_width": 5,
         "column_2_width": 2,
         "column_3_width": 2,
