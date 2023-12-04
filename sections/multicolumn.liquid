@@ -143,7 +143,7 @@
                 {% render 'section-video', video: block.settings.video %}
               </div>
             {% else %}
-              {{ 'video' }}
+                {{ 'image' | placeholder_svg_tag: 'placeholder placeholder-multicolumn'  }}
             {% endif %}
           {% endif %} 
 
