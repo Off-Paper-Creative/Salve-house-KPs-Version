@@ -443,8 +443,8 @@
             "text_1_width": 450,
             "text_1_display_order": 0,
             "text_2": "This is simple text 2 for multi column section",
-            "column1_video": "shopify:\/\/files\/videos\/stock-footage-happy-s-middle-aged-mature-woman-touching-facial-skin-looking-at-camera-pampering-in-mirror-old.webm",
             "text_2_tag": "p",
+            "column_video": "shopify:\/\/files\/videos\/stock-footage-happy-s-middle-aged-mature-woman-touching-facial-skin-looking-at-camera-pampering-in-mirror-old.webm",
             "text_2_custom_width": false,
             "text_2_width": 450,
             "text_2_display_order": 0,
@@ -538,7 +538,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
