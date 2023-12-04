@@ -204,8 +204,8 @@
         "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-button-1"
       ],
       "custom_css": [
-        "h2 {color: #F8F4EC}",
-        "a {color: #F8F4EC}"
+        "h2 {color: #f8f4ec;}",
+        "a {color: #f8f4ec;}"
       ],
       "settings": {
         "fullwidth": true,
@@ -359,8 +359,8 @@
       ],
       "custom_css": [
         ".section-container {background-color: #966e25; padding: 15px;}",
-        "p {color: white;}",
-        ".section-multicolumns .section-multicolumn {border: solid white;}"
+        "p {color: #F8F4EC;}",
+        ".section-multicolumns .section-multicolumn {border: solid #F8F4EC;}"
       ],
       "settings": {
         "fullwidth": true,
