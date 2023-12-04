@@ -227,7 +227,7 @@
     "fdb9ca76-57df-4939-be56-91db71134f3e": {
       "type": "spacer",
       "custom_css": [
-        ".section-spacer {background-color: #966E25;}"
+        ".section-spacer {background-color: #966e25;}"
       ],
       "settings": {
       }
@@ -246,7 +246,7 @@
     "38b3d836-e3de-4299-bf61-998586e950ef": {
       "type": "spacer",
       "custom_css": [
-
+        ".section-spacer {background-color: #966e25;}"
       ],
       "settings": {
       }
@@ -357,7 +357,7 @@
         "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-3"
       ],
       "custom_css": [
-        ".section-container {background-color: #966e25;}",
+        ".section-container {background-color: #966e25; padding: 15px}",
         "p {color: white;}",
         ".section-multicolumns .section-multicolumn {border: solid white;}"
       ],
