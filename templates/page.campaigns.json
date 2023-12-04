@@ -204,7 +204,8 @@
         "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-button-1"
       ],
       "custom_css": [
-        "h2 {color: white;}"
+        "h2 {color: #F8F4EC}",
+        "a {color: #F8F4EC}"
       ],
       "settings": {
         "fullwidth": true,
