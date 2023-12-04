@@ -140,8 +140,9 @@
           {% if block.settings.video_show %} 
             {% if block.settings.video != blank %}
               <div class="section-multicolumn__video">
-                {% render 'section-video', video: block.settings.video %}
-              </div>
+                {% comment %} {% render 'section-video', video: block.settings.video %} {% endcomment %}
+              {{ section.settings.column_video | youtube }}
+                </div>
             {% else %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder placeholder-multicolumn'  }}
             {% endif %}
