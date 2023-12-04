@@ -428,7 +428,7 @@
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "slideshow_height_mobile": "auto",
+        "slideshow_height_mobile": "900",
         "slideshow_height": "auto",
         "color_scheme": "scheme-accent",
         "slideshow_autoplay": false,
