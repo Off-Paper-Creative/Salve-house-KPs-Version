@@ -137,7 +137,7 @@
             {% endif %}
           {% endif %}
           {% comment %} Adding video           {% endcomment %}
-          {% comment %} {% if block.settings.video_show %} 
+          {% if block.settings.video_show %} 
             {% if block.settings.video != blank %}
               <div class="section-multicolumn__video">
                 {% render 'section-video', video: block.settings.video %}
@@ -145,11 +145,8 @@
             {% else %}
               {{ 'video' | placeholder_svg_tag: 'placeholder placeholder-multicolumn' }}
             {% endif %}
-          {% endif %} {% endcomment %}
-<div class="content">{{ section.settings.column1_content }}</div>
-    <div class="video-container">
-      {{ section.settings.column_video | youtube }}
-    </div>
+          {% endif %} 
+
           {% if block.settings.text_1 != blank %}
             {% case block.settings.text_1_tag %}
               {% when 's1' or 's2' or 's3' %}
