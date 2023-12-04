@@ -1,15 +1,5 @@
 {
   "sections": {
-    "breadcrumbs": {
-      "type": "breadcrumbs",
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3"
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -58,6 +48,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "5ad88f12-47d3-4076-881f-0967d48201f3": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "0d05c380-3849-4441-a916-d2c9d9c1102c": {
           "type": "separator",
           "settings": {
@@ -97,6 +93,7 @@
         "template--15755619565723__main-1672284793b7b17a79-2",
         "template--15755619565723__main-1672284793b7b17a79-5",
         "72fda07d-7039-4e1d-a2c7-a5a454662f94",
+        "5ad88f12-47d3-4076-881f-0967d48201f3",
         "0d05c380-3849-4441-a916-d2c9d9c1102c",
         "template--15755619565723__main-1672284793b7b17a79-10",
         "07f943fc-77a9-4701-a8c1-345d2dfd42e8",
@@ -123,6 +120,16 @@
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "3"
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3"
       }
     },
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435": {
@@ -348,7 +355,6 @@
             "slide_image_overlay_color": "#1F2D1F",
             "slide_image_overlay_opacity": 100,
             "slide_image_right_enable": true,
-            "slide_image_right": "shopify:\/\/shop_images\/3_4034a970-d840-4fdb-8468-ce91323817f6.jpg",
             "slide_image_right_overlay": false,
             "slide_image_right_overlay_color": "#1F2D1F",
             "slide_image_right_overlay_opacity": 100,
@@ -428,8 +434,8 @@
     }
   },
   "order": [
-    "breadcrumbs",
     "main",
+    "breadcrumbs",
     "72d1e1a3-0a7a-4af4-a6ba-17f153544435",
     "327897dd-27a8-423b-8478-249ab68e0aae",
     "194e2789-c2e3-4724-be37-1d13b47b5e9d",
