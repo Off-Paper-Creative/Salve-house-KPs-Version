@@ -205,8 +205,7 @@
       ],
       "custom_css": [
         "h2 {color: #f8f4ec;}",
-        "a {color: #f8f4ec;}",
-        "a{background-color: #F8F4EC }"
+        "a {background-color: #f8f4ec; color: white;}"
       ],
       "settings": {
         "fullwidth": true,
