@@ -50,19 +50,18 @@
           "settings": {
           }
         },
-        "f81aee86-fb73-426e-9e2c-957658b2fdf5": {
-          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "72fda07d-7039-4e1d-a2c7-a5a454662f94": {
           "type": "buy-buttons",
           "settings": {
             "quantity-picker": true,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
+          }
+        },
+        "f81aee86-fb73-426e-9e2c-957658b2fdf5": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "template--15755619565723__main-1672284793b7b17a79-7": {
@@ -116,8 +115,8 @@
         "a6ec1957-2afd-48cb-abcb-88426b624064",
         "template--15755619565723__main-1672284793b7b17a79-2",
         "template--15755619565723__main-1672284793b7b17a79-5",
-        "f81aee86-fb73-426e-9e2c-957658b2fdf5",
         "72fda07d-7039-4e1d-a2c7-a5a454662f94",
+        "f81aee86-fb73-426e-9e2c-957658b2fdf5",
         "template--15755619565723__main-1672284793b7b17a79-7",
         "0d05c380-3849-4441-a916-d2c9d9c1102c",
         "template--15755619565723__main-1672284793b7b17a79-10",
@@ -305,7 +304,7 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "2"
