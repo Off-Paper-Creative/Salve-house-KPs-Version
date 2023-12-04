@@ -146,10 +146,13 @@
               {{ 'video' | placeholder_svg_tag: 'placeholder placeholder-multicolumn' }}
             {% endif %}
           {% endif %} {% endcomment %}
-<div class="content">{{ section.settings.column1_content }}</div>
-    <div class="video-container">
-      {{ section.settings.column_video | youtube }}
-    </div>
+          {% if block.settings.video_show %} 
+            {% if block.settings.video != blank %}
+              <div class="section-multicolumn__video">
+                {{ section.settings.column_content }}</div>
+              <div class="video-container">
+              {{ section.settings.column_video | youtube }}
+              </div>
           {% if block.settings.text_1 != blank %}
             {% case block.settings.text_1_tag %}
               {% when 's1' or 's2' or 's3' %}
@@ -496,6 +499,51 @@ endif
           "default":0,"info":"t:sections.multi_columns.blocks.column.settings.image_display_order.info"
         },
         {
+          "type": "checkbox",
+          "id": "video_show",
+          "label": "Show video",
+          "default": false,
+          "info": "Select a video from the media library"
+        },
+        {
+          "type": "video",
+          "id": "column_video",
+          "label": "Video"
+        },
+        {
+          "type": "select",
+          "id": "video_aspect_ratio",
+          "label": "Select the aspect ratio of the video",
+          "options": [
+            { "value": "auto", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__0.label" },
+            { "value": "1/1", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__1.label" },
+            { "value": "3/2", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__2.label" },
+            { "value": "4/3", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__3.label" },
+            { "value": "5/4", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__4.label"},
+            {"value":"2\/3","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__5.label"},
+            {"value":"3\/4","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__6.label"},
+            {"value":"4\/5","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__7.label"}
+          ],
+            "default":"auto"
+        },
+        {
+          "type":"checkbox",
+          "id":"video_custom_width",
+          "label":"Only applicable if custom width is enabled",
+          "default":false
+        },
+        {
+          "type":"range",
+          "id":"image_width",
+          "min":200,
+          "max":1200,
+          "step":10,
+          "unit":"px",
+          "label":"t:sections.multi_columns.blocks.column.settings.image_width.label",
+          "default":300,
+          "info":"t:sections.multi_columns.blocks.column.settings.image_width.info"
+        },
+        {
           "type":"header",
           "content":"t:sections.multi_columns.blocks.column.settings.header__text_1.content"
         },
@@ -577,11 +625,6 @@ endif
             {"value":"s3","label":"t:sections.multi_columns.blocks.column.settings.text_2_tag.options.option__11.label"}
           ],
           "default":"p"
-          },
-          {
-          "type": "video",
-          "id": "column_video",
-          "label": "Video"
           },
           {
             "type":"checkbox",
