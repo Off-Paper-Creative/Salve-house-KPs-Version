@@ -143,8 +143,6 @@
                 {% comment %} {% render 'section-video', video: block.settings.video %} {% endcomment %}
               {{ section.settings.column_video | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
                 </div>
-            {% else %}
-                {{ 'image' | placeholder_svg_tag: 'placeholder placeholder-multicolumn'  }}
             {% endif %}
           {% endif %} 
 
