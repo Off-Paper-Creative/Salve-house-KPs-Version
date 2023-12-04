@@ -204,7 +204,7 @@
         "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-button-1"
       ],
       "custom_css": [
-
+        "h2{color:white}"
       ],
       "settings": {
         "fullwidth": true,
@@ -213,7 +213,7 @@
         "inset": true,
         "inset_choice": "level-3",
         "alignment": "center",
-        "separator": true,
+        "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
@@ -369,7 +369,7 @@
         "template--21586457002297__0794d9c4-3c1b-47fd-8ff4-24e725a4d584-description-1"
       ],
       "custom_css": [
-        "p {color: white}"
+        "p {color: white;}"
       ],
       "settings": {
         "fullwidth": true,
