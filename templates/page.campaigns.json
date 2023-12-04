@@ -226,6 +226,9 @@
     },
     "fdb9ca76-57df-4939-be56-91db71134f3e": {
       "type": "spacer",
+      "custom_css": [
+        ".section-spacer{background-color: green}"
+      ],
       "settings": {
       }
     },
