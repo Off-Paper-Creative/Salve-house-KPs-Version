@@ -235,7 +235,7 @@
     "6a3b0d50-8f0e-4502-a06f-a5cea32f6f71": {
       "type": "separator",
       "custom_css": [
-
+        "hr{height: 5px}"
       ],
       "settings": {
         "width": 100,
@@ -357,7 +357,7 @@
         "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-3"
       ],
       "custom_css": [
-        ".section-container {background-color: #966e25; padding: 15px}",
+        ".section-container {background-color: #966e25; padding: 15px;}",
         "p {color: white;}",
         ".section-multicolumns .section-multicolumn {border: solid white;}"
       ],
