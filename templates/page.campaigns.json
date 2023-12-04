@@ -235,7 +235,7 @@
     "6a3b0d50-8f0e-4502-a06f-a5cea32f6f71": {
       "type": "separator",
       "custom_css": [
-        "hr{height: 5px}"
+        "hr {height: 3px;}"
       ],
       "settings": {
         "width": 100,
