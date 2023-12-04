@@ -175,7 +175,7 @@
 	--theme-block-content-padding-level-4: clamp(1.75rem, 5vw, 3rem);
 	--theme-block-content-padding-level-5: clamp(2rem, 5vw, 4.5rem);
 
-	--theme-button-background-color-accent: #174248;
+	--theme-button-background-color-accent: #3d4236;
 	--theme-subscribe-cards-vertical-alignment: center;
 }
 
@@ -8054,7 +8054,7 @@ body:not(.has-layout-margin)
 	align-items: center;
 	gap: 20px;
 	text-align: center;
-	padding: 20px;
+	padding: 20px 45px;
 }
 
 .section-slideshow-slide-content .section-slideshow-slide-buttons {

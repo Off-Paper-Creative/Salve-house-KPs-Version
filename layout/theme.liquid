@@ -192,30 +192,7 @@
 
 
   <script src="{{ 'base.js' | asset_url }}" defer></script>
-  <style>
-  /* Evafiya font */
-  @font-face { 
-  font-family: 'Evafiya-Bold';
-  src: url(https://cdn.shopify.com/s/files/1/0834/2945/8233/files/Evafiya-Bold.woff?v=1696966391) format('woff2');
-  } 
-  </style> 
-  <!-- Gravesands Font -->
-  <link rel="stylesheet" href="https://use.typekit.net/jkd4qzc.css">  
-  <style>
-  @import url("https://use.typekit.net/jkd4qzc.css");
-  </style>
-  <!-- “neue-haas-grotesk-display”, sans-serif -->
-  <link rel=“stylesheet” href="https://use.typekit.net/cty4kbo.css">  
-  <style>
-  @import url("https://use.typekit.net/cty4kbo.css");
-  </style>
-  <style>
- @font-face {
-	font-family: "IBMPlexMono-Terrible";
-	src: url("{{ 'IBMPlexMono-Terrible.otf' | asset_url }}")
-		format("[opentype]");
-}
-  </style>
+  
   {%- render 'bold-subscription-widget' -%}
   {{ 'bsub.js' | asset_url | script_tag }}
   {{ 'bsub.css' | asset_url | stylesheet_tag }}
