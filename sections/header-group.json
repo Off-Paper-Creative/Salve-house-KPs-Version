@@ -4,23 +4,6 @@
   "sections": {
     "header": {
       "type": "header",
-      "blocks": {
-        "df8faed4-da3f-4f2f-9346-6de89de4e116": {
-          "type": "mega_menu",
-          "settings": {
-            "mega_menu_index": 4,
-            "mega_menu_card_1_text": "Individual Products",
-            "mega_menu_card_1_link": "shopify:\/\/products\/collagen",
-            "mega_menu_card_1_target": "_self",
-            "mega_menu_card_2_text": "Systems",
-            "mega_menu_card_2_link": "shopify:\/\/products\/the-collagen-c-bundle-1",
-            "mega_menu_card_2_target": "_self"
-          }
-        }
-      },
-      "block_order": [
-        "df8faed4-da3f-4f2f-9346-6de89de4e116"
-      ],
       "settings": {
         "fullwidth": true,
         "width": 2000,
