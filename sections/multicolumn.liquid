@@ -137,7 +137,7 @@
             {% endif %}
           {% endif %}
           {% comment %} Adding video           {% endcomment %}
-          {% if block.settings.video_show %} 
+          {% comment %} {% if block.settings.video_show %} 
             {% if block.settings.video != blank %}
               <div class="section-multicolumn__video">
                 {% render 'section-video', video: block.settings.video %}
@@ -145,8 +145,11 @@
             {% else %}
               {{ 'video' | placeholder_svg_tag: 'placeholder placeholder-multicolumn' }}
             {% endif %}
-          {% endif %}
-
+          {% endif %} {% endcomment %}
+<div class="content">{{ section.settings.column1_content }}</div>
+    <div class="video-container">
+      {{ section.settings.column_video | youtube }}
+    </div>
           {% if block.settings.text_1 != blank %}
             {% case block.settings.text_1_tag %}
               {% when 's1' or 's2' or 's3' %}
@@ -556,11 +559,6 @@ endif
           "default":"This is simple text 2 for multi column section"
         },
         {
-      "type": "video",
-      "id": "column1_video",
-      "label": "Video_1.label"
-    },
-        {
           "type":"select",
           "id":"text_2_tag",
           "label":"t:sections.multi_columns.blocks.column.settings.text_2_tag.label",
@@ -579,6 +577,11 @@ endif
             {"value":"s3","label":"t:sections.multi_columns.blocks.column.settings.text_2_tag.options.option__11.label"}
           ],
           "default":"p"
+          },
+          {
+          "type": "video",
+          "id": "column_video",
+          "label": "Video"
           },
           {
             "type":"checkbox",
