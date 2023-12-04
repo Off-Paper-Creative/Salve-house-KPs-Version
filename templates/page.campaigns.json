@@ -329,6 +329,10 @@
         "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-2",
         "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-3"
       ],
+      "custom_css": [
+        ".section-container {background-color: #966e25;}",
+        "p {color: white;}"
+      ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
@@ -343,7 +347,7 @@
         "separator_height": 1,
         "separator_use_custom_color": false,
         "separator_custom_color": "#966e25",
-        "spacing": true,
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -363,6 +367,9 @@
       },
       "block_order": [
         "template--21586457002297__0794d9c4-3c1b-47fd-8ff4-24e725a4d584-description-1"
+      ],
+      "custom_css": [
+        "p {color: white}"
       ],
       "settings": {
         "fullwidth": true,
