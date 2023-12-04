@@ -213,23 +213,15 @@
         "inset": true,
         "inset_choice": "level-3",
         "alignment": "center",
-        "separator": false,
+        "separator": true,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#966e25",
+        "separator_custom_color": "#F8F4EC",
         "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
-      }
-    },
-    "db005a53-3bd0-4f45-b8c8-041d266aeaee": {
-      "type": "separator",
-      "settings": {
-        "width": 80,
-        "height": 10,
-        "color": "#DAD3C4"
       }
     },
     "f1414266-948a-4b1d-b8d7-3c0464d56da0": {
@@ -350,8 +342,8 @@
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": false,
+        "separator_custom_color": "#966e25",
+        "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -395,7 +387,6 @@
     "main",
     "5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb",
     "1469d5f6-7b0b-4f22-ac4a-1facd35fadc7",
-    "db005a53-3bd0-4f45-b8c8-041d266aeaee",
     "f1414266-948a-4b1d-b8d7-3c0464d56da0",
     "0794d9c4-3c1b-47fd-8ff4-24e725a4d584"
   ]
