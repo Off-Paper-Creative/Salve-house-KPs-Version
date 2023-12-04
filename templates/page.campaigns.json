@@ -130,6 +130,7 @@
         "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-2",
         "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-3"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {color: white;}",
         ".section-handpicked-products-product {margin-top: 15px; margin-bottom: 0px;}"
@@ -174,15 +175,228 @@
         "spacing_placement": "1"
       }
     },
-    "1699284818862a67af": {
-      "type": "apps",
+    "1469d5f6-7b0b-4f22-ac4a-1facd35fadc7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "lve well",
+            "text_tag": "h2",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        },
+        "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Start Here",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "outline",
+            "button_custom_width": false,
+            "button_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-heading-1",
+        "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-button-1"
+      ],
+      "custom_css": [
+
+      ],
       "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-additional",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#966e25",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "db005a53-3bd0-4f45-b8c8-041d266aeaee": {
+      "type": "separator",
+      "settings": {
+        "width": 100,
+        "height": 1,
+        "color": "#DAD3C4"
+      }
+    },
+    "f1414266-948a-4b1d-b8d7-3c0464d56da0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-1": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-additional",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "center",
+            "vertical_align": "center",
+            "text_align": "center",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "",
+            "text_1_tag": "h3",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "Select your subscription package. Each product comes with a 2 month supply of supplements at the recommended dose.",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        },
+        "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-2": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-additional",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "center",
+            "vertical_align": "center",
+            "text_align": "center",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "",
+            "text_1_tag": "h3",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "Receive a 2 month supply of your selected supplements at 25% off, delivered to your door every other month.",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        },
+        "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-3": {
+          "type": "column",
+          "settings": {
+            "color_scheme": "scheme-additional",
+            "inset": true,
+            "inset_choice": "level-3",
+            "width": 33,
+            "horizontal_align": "center",
+            "vertical_align": "center",
+            "text_align": "center",
+            "image_show": false,
+            "image_aspect_ratio": "auto",
+            "image_custom_width": false,
+            "image_width": 300,
+            "image_display_order": 0,
+            "text_1": "",
+            "text_1_tag": "h3",
+            "text_1_custom_width": false,
+            "text_1_width": 450,
+            "text_1_display_order": 0,
+            "text_2": "Enjoy the enhancement in overall well-being, appearance, mobility and more. You will start to see & feel these benefits after 3 month of consistant use.",
+            "text_2_tag": "p",
+            "text_2_custom_width": false,
+            "text_2_width": 450,
+            "text_2_display_order": 0,
+            "button_text": "",
+            "button_url": "",
+            "button_target": "_self",
+            "button_style": "link",
+            "button_display_order": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-1",
+        "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-2",
+        "template--21586457002297__f1414266-948a-4b1d-b8d7-3c0464d56da0-column-3"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "inset": true,
+        "inset_choice": "level-3",
+        "gap": true,
+        "gap_choice": "level-4",
+        "stack_on_mobile": true,
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
+    },
+    "0794d9c4-3c1b-47fd-8ff4-24e725a4d584": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21586457002297__0794d9c4-3c1b-47fd-8ff4-24e725a4d584-description-1": {
+          "type": "description",
+          "settings": {
+            "text": "As a Salve member, you'll unlock exclusive benefits, receive complimentary gifts, and save on your subscription package. Salve Members are dedicated to a path of complete well-being, beauty, and health. When you join Salve, you're not just purchasing supplements; you're making and investment in a happier, healthier you.",
+            "text_tag": "p",
+            "text_custom_width": false,
+            "text_width": 700
+          }
+        }
+      },
+      "block_order": [
+        "template--21586457002297__0794d9c4-3c1b-47fd-8ff4-24e725a4d584-description-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-additional",
+        "inset": true,
+        "inset_choice": "level-3",
+        "alignment": "center",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
       }
     }
   },
   "order": [
     "main",
     "5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb",
-    "1699284818862a67af"
+    "1469d5f6-7b0b-4f22-ac4a-1facd35fadc7",
+    "db005a53-3bd0-4f45-b8c8-041d266aeaee",
+    "f1414266-948a-4b1d-b8d7-3c0464d56da0",
+    "0794d9c4-3c1b-47fd-8ff4-24e725a4d584"
   ]
 }
