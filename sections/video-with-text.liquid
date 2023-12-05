@@ -8,7 +8,6 @@
     {% endunless %}
 
     --theme-video-width: {{ section.settings.video_width }}%;
-    --theme-text-column-width: {{ section.settings.text_column_width }}%;
   }
 
   .section-video-container {
@@ -195,8 +194,8 @@
     {
       "type": "checkbox",
       "id": "fullwidth",
-      "label": "t:sections.video.settings.fullwidth.label",
-      "info": "t:sections.video.settings.fullwidth.info",
+      "label": "Video to display with full width",
+      "info": "Only works if the theme supports full width sections",
       "default": true
     },
      {
@@ -206,20 +205,9 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:sections.video.settings.video_width.label",
+      "label": "Video width",
       "default": 70,
-      "info": "t:sections.video.settings.video_width.info"
-    },
-    {
-      "type": "range",
-      "id": "text_column_width",
-      "min": 20,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "t:sections.video_with_text.settings.text_column_width.label",
-      "default": 30,
-      "info": "t:sections.video_with_text.settings.text_column_width.info"
+      "info": "Select the width of the video within its column"
     },
     {
       "type": "range",
@@ -272,7 +260,7 @@
       "type": "text",
       "id": "heading",
       "label": "t:sections.video.settings.heading.label",
-      "default": "This is Video heading"
+      "default": "This is video heading"
     },
     {
       "type": "select",
