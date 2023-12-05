@@ -440,7 +440,7 @@
             "text_align": "left",
             "image_show": false,
             "image_aspect_ratio": "auto",
-            "image_custom_width": false,
+            "image_custom_width": true,
             "image_width": 300,
             "image_display_order": 0,
             "background_video": "shopify:\/\/files\/videos\/Salve full screen web .mp4",
