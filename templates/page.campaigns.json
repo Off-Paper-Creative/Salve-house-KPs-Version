@@ -424,7 +424,7 @@
       "settings": {
         "fullwidth": true,
         "video_width": 100,
-        "text_column_width": 100,
+        "text_column_width": 20,
         "width": 2000,
         "column_order": "video_first",
         "color_scheme": "scheme-main",
@@ -444,7 +444,7 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1",
         "text_column_header": "Title",
-        "text_column_content": "<p>Paragraph text<\/p>",
+        "text_column_content": "<p>As a Salve member, you'll unlock exclusive benefits, receive complimentary gifts, and save on your subscription package. Salve Members are dedicated to a path of complete well-being, beauty, and health. When you join Salve, you're not just purchasing supplements; you're making and investment in a happier, healthier you.<\/p>",
         "text_column_button_text": "Button",
         "text_column_button_url": "",
         "text_column_button_target": "_self",
