@@ -424,7 +424,7 @@
       "settings": {
         "fullwidth": true,
         "video_width": 100,
-        "text_column_width": 20,
+        "text_column_width": 100,
         "width": 2000,
         "column_order": "video_first",
         "color_scheme": "scheme-main",
@@ -433,6 +433,7 @@
         "heading": "",
         "heading_tag": "h3",
         "video_source": "internal",
+        "video": "shopify:\/\/files\/videos\/Collagen + C Videos For Web.mp4",
         "video_alt": "",
         "separator": false,
         "separator_width": 100,
