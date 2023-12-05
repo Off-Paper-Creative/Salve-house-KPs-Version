@@ -8,6 +8,7 @@
     {% endunless %}
 
     --theme-video-width: {{ section.settings.video_width }}%;
+    --theme-text-width: {{ section.settings.text_width }}%;
   }
 
   .section-video-container {
@@ -211,6 +212,17 @@
     },
     {
       "type": "range",
+      "id": "text_width",
+      "min": 20,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Text width",
+      "default": 70,
+      "info": "Select the width of the text within its column"
+    },
+    {
+      "type": "range",
       "id": "width",
       "min": 500,
       "max": 2000,
@@ -220,6 +232,16 @@
       "default": 1320,
       "info": "t:sections.video.settings.width.info"
     },
+    {
+      "type": "select",
+      "id": "column_order",
+      "label": "Column Order",
+      "options": [
+        {"value": "video_first", "label": "Video First"},
+        {"value": "text_first", "label": "Text First"}
+      ],
+      "default": "video_first"
+    }
     {
       "type": "select",
       "id": "color_scheme",
@@ -416,7 +438,7 @@
       "default": "Title"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "text_column_content",
       "label": "Paragraph",
       "default": "Paragraph text"
