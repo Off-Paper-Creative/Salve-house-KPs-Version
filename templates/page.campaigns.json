@@ -418,45 +418,6 @@
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
-    },
-    "f670e236-3f67-442a-9c3b-8020e1ac10d9": {
-      "type": "video-with-text-salve",
-      "settings": {
-        "text_1": "This is simple text 1",
-        "text_1_tag": "h3",
-        "text_1_custom_width": false,
-        "text_1_width": 450,
-        "text_2": "<p>This is text 2 for Image with text section. <\/p>",
-        "text_2_tag": "p",
-        "text_2_custom_width": false,
-        "text_2_width": 450,
-        "text_3": "<p>bllalalalalalal<\/p>",
-        "text_3_tag": "p",
-        "fullwidth": false,
-        "width": 600,
-        "color_scheme": "scheme-main",
-        "inset": true,
-        "inset_choice": "level-3",
-        "heading": "This is Video heading",
-        "heading_tag": "h3",
-        "button_text": "Button text",
-        "button_url": "",
-        "button_target": "_self",
-        "button_style": "link",
-        "video_source": "internal",
-        "video": "shopify:\/\/files\/videos\/Collagen + C Videos For Web.mp4",
-        "video_url": "",
-        "video_alt": "",
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
     }
   },
   "order": [
@@ -467,7 +428,6 @@
     "6a3b0d50-8f0e-4502-a06f-a5cea32f6f71",
     "38b3d836-e3de-4299-bf61-998586e950ef",
     "f1414266-948a-4b1d-b8d7-3c0464d56da0",
-    "0794d9c4-3c1b-47fd-8ff4-24e725a4d584",
-    "f670e236-3f67-442a-9c3b-8020e1ac10d9"
+    "0794d9c4-3c1b-47fd-8ff4-24e725a4d584"
   ]
 }
