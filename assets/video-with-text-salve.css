@@ -1,0 +1,16 @@
+.section-video-with-text-container.section-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 1rem;
+}
+.section-video-with-text-container {
+	padding: 1rem;
+}
+
+.section-video-text {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
