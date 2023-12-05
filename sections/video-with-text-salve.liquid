@@ -1,27 +1,19 @@
 {% style %}
   #shopify-section-{{ section.id }} {
-    {% unless section.settings.fullwidth %}
-      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
-    {% endunless %}
+
+    {% if section.settings.gap %}
+      --theme-image-with-text-gap: var(--theme-gap-{{ section.settings.gap_choice }});
+    {% else %}
+      --theme-image-with-text-gap: 0;
+    {% endif %}
 
     {% if section.settings.inset %}
       --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
     {% endif %}
+
   }
 {% endstyle %}
 
-{% if section.settings.separator %}
-  {% style %}
-    #shopify-section-{{ section.id }} .separator {
-      --theme-section-separator-width: {{ section.settings.separator_width | append: '%' }};
-      --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
-
-      {% if section.settings.separator_use_custom_color %}
-        --theme-section-separator-color: {{ section.settings.separator_custom_color }};
-      {% endif %}
-    }
-  {% endstyle %}
-{% endif %}
 {% for block in section.blocks %}
   {% if block.type == 'content' %}
 
@@ -48,6 +40,31 @@
   {% endif %}
 {% endfor %}
 
+{% style %}
+  #shopify-section-{{ section.id }} {
+    {% unless section.settings.fullwidth %}
+      --theme-section-custom-width: {{ section.settings.width | append: 'px' }};
+    {% endunless %}
+
+    {% if section.settings.inset %}
+      --theme-section-content-padding: var(--theme-section-content-padding-{{ section.settings.inset_choice }});
+    {% endif %}
+  }
+{% endstyle %}
+
+{% if section.settings.separator %}
+  {% style %}
+    #shopify-section-{{ section.id }} .separator {
+      --theme-section-separator-width: {{ section.settings.separator_width | append: '%' }};
+      --theme-section-separator-height: {{ section.settings.separator_height | append: 'px' }};
+
+      {% if section.settings.separator_use_custom_color %}
+        --theme-section-separator-color: {{ section.settings.separator_custom_color }};
+      {% endif %}
+    }
+  {% endstyle %}
+{% endif %}
+
 {% if section.settings.spacing %}
   {% style %}
     #shopify-section-{{ section.id }} {
@@ -63,9 +80,10 @@
   {% endstyle %}
 {% endif %}
 
-{% assign sections_count = section.sections | size %}
-
-<div class="section-video{% liquid 
+<div class="section-image-with-text{% liquid 
+  if section.settings.stack_on_mobile
+    echo ' has-stack-on-mobile' 
+  endif
 
   if section.settings.fullwidth
     echo ' has-fullwidth'
@@ -78,159 +96,73 @@
   endif
 
   echo ' ' | append: section.settings.color_scheme
-
+  
 %}">
-  <div class="section-video-container section-container">
-    <div class="section-video-header">
-      {% if section.settings.heading != blank %}
-        {% case section.settings.heading_tag %}
-          {% when 's1' or 's2' or 's3' %}
-            <h1 class="section-video-header__heading special-heading-{{ section.settings.heading_tag }}">{{ section.settings.heading }}</h1>
-          {% when 'p1' or 'p2' %}
-            <p class="section-video-header__heading paragraph-{{ section.settings.heading_tag }}">{{ section.settings.heading }}</p>
-          {% else %}
-            <{{ section.settings.heading_tag }} class="section-video-header__heading">
-              {{ section.settings.heading }}</{{ section.settings.heading_tag }}>
-          {% endcase %}
-        {% endif %}
+  <div class="section-image-with-text-container section-container">
+    {% if section.blocks != blank %}
+      {% for block in section.blocks %}
+        {% if block.type == 'content' %}
+          <div class="section-image-with-text-content block-{{ block.id }}" {{ block.shopify_attributes }}>
+            {% if block.settings.text_1 != blank %}
+              {% case block.settings.text_1_tag %}
+                {% when 's1' or 's2' or 's3' %}
+                  <h1 class="section-image-with-text-content__text_1 special-heading-{{ block.settings.text_1_tag }}">{{ block.settings.text_1 }}</h1>
+                {% when 'p1' or 'p2' %}
+                  <p class="section-image-with-text-content__text_1 paragraph-{{ block.settings.text_1_tag }}">{{ block.settings.text_1 }}</p>
+                {% else %}
+                  <{{ block.settings.text_1_tag }} class="section-image-with-text-content__text_1">
+                    {{ block.settings.text_1 }}</{{ block.settings.text_1_tag }}>
+                {% endcase %}
+              {% endif %}
 
-        {% if section.blocks != blank %}
-          {% for block in section.blocks %}
-            {% if block.type == 'content' %}
-              <div class="section-image-with-text-content block-{{ block.id }}" {{ block.shopify_attributes }}>
-                {% if block.settings.text_1 != blank %}
-                  {% case block.settings.text_1_tag %}
+              {% if block.settings.text_2 != blank %}
+                {% case block.settings.text_2_tag %}
+                  {% when 's1' or 's2' or 's3' %}
+                    <h1 class="section-image-with-text-content__text_2 special-heading-{{ block.settings.text_2_tag }}">{{ block.settings.text_2 }}</h1>
+                  {% when 'p1' or 'p2' %}
+                    <p class="section-image-with-text-content__text_2 paragraph-{{ block.settings.text_2_tag }}">{{ block.settings.text_2 }}</p>
+                  {% else %}
+                    <{{ block.settings.text_2_tag }} class="section-image-with-text-content__text_2">
+                      {{ block.settings.text_2 }}</{{ block.settings.text_2_tag }}>
+                  {% endcase %}
+                {% endif %}
+
+                {% if block.settings.text_3 != blank %}
+                  {% case block.settings.text_3_tag %}
                     {% when 's1' or 's2' or 's3' %}
-                      <h1 class="section-image-with-text-content__text_1 special-heading-{{ block.settings.text_1_tag }}">{{ block.settings.text_1 }}</h1>
+                      <h1 class="section-image-with-text-content__text_3 special-heading-{{ block.settings.text_3_tag }}">{{ block.settings.text_3 }}</h1>
                     {% when 'p1' or 'p2' %}
-                      <p class="section-image-with-text-content__text_1 paragraph-{{ block.settings.text_1_tag }}">{{ block.settings.text_1 }}</p>
+                      <p class="section-image-with-text-content__text_3 paragraph-{{ block.settings.text_3_tag }}">{{ block.settings.text_3 }}</p>
                     {% else %}
-                      <{{ block.settings.text_1_tag }} class="section-image-with-text-content__text_1">
-                        {{ block.settings.text_1 }}</{{ block.settings.text_1_tag }}>
+                      <{{ block.settings.text_3_tag }} class="section-image-with-text-content__text_3">
+                        {{ block.settings.text_3 }}</{{ block.settings.text_3_tag }}>
                     {% endcase %}
                   {% endif %}
+                  {% if block.settings.button_text != blank %}
+                    <a
+                      href="{{ block.settings.button_url | default: '#' }}"
+                      class="section-image-with-text-button{% liquid 
+                echo ' btn-' | append: block.settings.button_style
 
-                  {% if block.settings.text_2 != blank %}
-                    {% case block.settings.text_2_tag %}
-                      {% when 's1' or 's2' or 's3' %}
-                        <h1 class="section-image-with-text-content__text_2 special-heading-{{ block.settings.text_2_tag }}">{{ block.settings.text_2 }}</h1>
-                      {% when 'p1' or 'p2' %}
-                        <p class="section-image-with-text-content__text_2 paragraph-{{ block.settings.text_2_tag }}">{{ block.settings.text_2 }}</p>
-                      {% else %}
-                        <{{ block.settings.text_2_tag }} class="section-image-with-text-content__text_2">
-                          {{ block.settings.text_2 }}</{{ block.settings.text_2_tag }}>
-                      {% endcase %}
-                    {% endif %}
-
-                    {% if block.settings.text_3 != blank %}
-                      {% case block.settings.text_3_tag %}
-                        {% when 's1' or 's2' or 's3' %}
-                          <h1 class="section-image-with-text-content__text_3 special-heading-{{ block.settings.text_3_tag }}">{{ block.settings.text_3 }}</h1>
-                        {% when 'p1' or 'p2' %}
-                          <p class="section-image-with-text-content__text_3 paragraph-{{ block.settings.text_3_tag }}">{{ block.settings.text_3 }}</p>
-                        {% else %}
-                          <{{ block.settings.text_3_tag }} class="section-image-with-text-content__text_3">
-                            {{ block.settings.text_3 }}</{{ block.settings.text_3_tag }}>
-                        {% endcase %}
-                      {% endif %}
-
-                      {% if section.settings.button_text != blank %}
-                        <a
-                          href="{{ section.settings.button_url | default: '#' }}"
-                          class="section-video-header__button{% liquid 
-                      echo ' btn-' | append: section.settings.button_style
-
-        %}"
-                          target="{{ section.settings.button_target }}">{{ section.settings.button_text }}</a>
-                      {% endif %}
-                    </div>
+            %}"
+                      target="{{ block.settings.button_target }}">{{ block.settings.button_text }}</a>
                   {% endif %}
-                {% endfor %}
-              {% endif %}
-            </div>
-            <div class="section-video-content">
-              <div class="section-video-player video-player{% liquid 
-        if section.settings.video_source == 'internal'
-          echo ' has-internal-video'
-        else
-          echo ' has-external-video'
-
-          if section.settings.video_url.type == 'youtube'
-            echo ' has-youtube-video'
-          else
-            echo ' has-vimeo-video'
-          endif
-
-        endif
-    
-        if section.settings.cover_image != blank 
-          echo ' has-cover-image'
-        endif
-      %}">
-                {% if section.settings.video_source == 'internal' %}
-                  <div class="section-video-player--internal">
-                    {% if section.settings.video != blank %}
-                      {{ section.settings.video | video_tag }}
-                    {% else %}
-                      <div style="--aspect-ratio: 16/9; width: 100%;">
-                        <iframe
-                          src="https://www.youtube.com/embed/_9VUPq3SxOc"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          allowfullscreen
-                          title="{{ section.settings.video_alt | escape }}"></iframe>
-                      </div>
-                    {% endif %}
-                  </div>
-                {% elsif section.settings.video_source == 'external' %}
-                  <div class="section-video-player--external">
-                    {% if section.settings.video_url.type == 'youtube' %}
-                      <iframe
-                        src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        title="{{ section.settings.video_alt | escape }}"></iframe>
-                    {% else %}
-                      <iframe
-                        src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}"
-                        frameborder="0"
-                        allow="autoplay; fullscreen"
-                        allowfullscreen
-                        title="{{ section.settings.video_alt | escape }}"></iframe>
-                    {% endif %}
-                  </div>
-                {% endif %}
-
-                {% if section.settings.cover_image != blank %}
-                  <div class="section-video-cover-image">
-                    {% render 'section-image-processor'
-                      , image: section.settings.cover_image %}
-                  </div>
-                {% endif %}
-
-                {% if section.settings.cover_image == blank and section.settings.video_url == blank and section.settings.video == blank %}
-                  <div class="section-video-cover-image">
-                    {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder placeholder-video' }}
-                  </div>
-                {% endif %}
-                <div class="section-video-player-controls">
-                  <div class="section-video-player-controls__play video-play">
-                    {% render 'icon-play' %}
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         </div>
-        {% if section.settings.separator %}
-          <div class="section-separator{% liquid 
+      </div>
+      {% if section.settings.separator %}
+        <div class="section-separator{% liquid 
  if section.settings.separator_fullwidth 
 echo ' has-fullwidth'
 endif 
- %}">
-<hr class="separator"></div>
-        {% endif %}
+ %}"><hr class="separator"></div>
+      {% endif %}
+    </div>
+  </div>
+
 
 
         {% schema %}
