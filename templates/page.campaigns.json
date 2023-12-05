@@ -204,13 +204,12 @@
         "template--21586457002297__1469d5f6-7b0b-4f22-ac4a-1facd35fadc7-button-1"
       ],
       "custom_css": [
-        "h2 {color: #f8f4ec;}",
-        "a {color: #f8f4ec;}"
+        "h2 {color: #f8f4ec;}"
       ],
       "settings": {
         "fullwidth": true,
         "width": 1320,
-        "color_scheme": "scheme-additional",
+        "color_scheme": "scheme-complementary",
         "inset": true,
         "inset_choice": "level-3",
         "alignment": "center",
@@ -422,25 +421,26 @@
     "70c96d10-0b6d-4093-88a9-c9ee43081386": {
       "type": "video-with-text",
       "settings": {
-        "fullwidth": true,
+        "fullwidth": false,
         "video_width": 100,
         "text_column_width": 100,
         "width": 2000,
         "column_order": "video_first",
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-accent",
         "inset": true,
         "inset_choice": "level-3",
         "heading": "",
         "heading_tag": "h3",
         "video_source": "internal",
         "video": "shopify:\/\/files\/videos\/Collagen + C Videos For Web.mp4",
+        "video_url": "",
         "video_alt": "",
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
+        "separator_custom_color": "#dad3c4",
         "spacing": true,
         "spacing_choice": "level-3",
         "spacing_placement": "1",
