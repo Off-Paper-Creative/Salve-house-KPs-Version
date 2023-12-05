@@ -145,6 +145,11 @@
                 </div>
             {% endif %}
           {% endif %} 
+          {% if section.settings.background_video != blank %}
+        <div class="section-image-banner-background-video">
+          {{ section.settings.background_video | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
+        </div>
+      {% endif %}
 
           {% if block.settings.text_1 != blank %}
             {% case block.settings.text_1_tag %}
@@ -496,39 +501,39 @@ endif
           "content": "Video"
         },
         {
-          "type": "checkbox",
-          "id": "video_show",
-          "label": "Show video",
-          "default": false,
-          "info": "If set you can use the video to display"
-        },
-        {
-          "type": "video",
-          "id": "column_video",
-          "label": "Video"
-        },
-        {
-          "type": "select",
-          "id": "video_aspect_ratio",
-          "label": "Select the aspect ratio of the video",
-          "options": [
-            { "value": "auto", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__0.label" },
-            { "value": "1/1", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__1.label" },
-            { "value": "3/2", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__2.label" },
-            { "value": "4/3", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__3.label" },
-            { "value": "5/4", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__4.label"},
-            {"value":"2\/3","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__5.label"},
-            {"value":"3\/4","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__6.label"},
-            {"value":"4\/5","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__7.label"}
-          ],
-            "default":"auto"
+          "type":"video",
+          "id":"background_video",
+          "label":"t:sections.image_banner.settings.background_video.label",
+          "info":"t:sections.image_banner.settings.background_video.info"
         },
         {
           "type":"checkbox",
-          "id":"video_custom_width",
-          "label":"Only applicable if custom width is enabled",
+          "id":"background_overlay",
+          "label":"t:sections.image_banner.settings.background_overlay.label",
           "default":false
         },
+        // {
+        //   "type": "select",
+        //   "id": "video_aspect_ratio",
+        //   "label": "Select the aspect ratio of the video",
+        //   "options": [
+        //     { "value": "auto", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__0.label" },
+        //     { "value": "1/1", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__1.label" },
+        //     { "value": "3/2", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__2.label" },
+        //     { "value": "4/3", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__3.label" },
+        //     { "value": "5/4", "label": "t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__4.label"},
+        //     {"value":"2\/3","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__5.label"},
+        //     {"value":"3\/4","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__6.label"},
+        //     {"value":"4\/5","label":"t:sections.multi_columns.blocks.column.settings.image_aspect_ratio.options.option__7.label"}
+        //   ],
+        //     "default":"auto"
+        // },
+        // {
+        //   "type":"checkbox",
+        //   "id":"video_custom_width",
+        //   "label":"Only applicable if custom width is enabled",
+        //   "default":false
+        // },
         {
           "type":"range",
           "id":"video_width",
