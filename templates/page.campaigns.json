@@ -430,7 +430,7 @@
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
-        "heading": "This is video heading",
+        "heading": "",
         "heading_tag": "h3",
         "video_source": "internal",
         "video_alt": "",
