@@ -139,21 +139,20 @@
           {% comment %} Adding video           {% endcomment %}
           {% if block.settings.video_show %} 
             {% if block.settings.video != blank %}
-              <div class="section-multicolumn__video">
+              <div class="section-multicolumn">
                 {% comment %} {% render 'section-video', video: block.settings.video %} {% endcomment %}
               {{ section.settings.column_video | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
                 </div>
             {% endif %}
           {% endif %} 
-          {% comment %} Adding video overlay {% endcomment %}
+
           {% if section.settings.background_video != blank %}
-        <div class="section-image-banner-background-video">
+        <div class="section-multicolumn__video">
           {{ section.settings.background_video | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
         </div>
       {% endif %}
-      </div>
-    {% if section.settings.background_overlay %}
-      <div class="section-image-banner-background-overlay"></div>
+      {% if section.settings.background_overlay %}
+      <div class="section-multicolumn"></div>
     {% endif %}
 
           {% if block.settings.text_1 != blank %}
@@ -508,7 +507,7 @@ endif
         {
           "type":"video",
           "id":"background_video",
-          "label":"t:sections.image_banner.settings.background_video.label",
+          "label":" Select a background video",
           "info":"t:sections.image_banner.settings.background_video.info"
         },
         {
