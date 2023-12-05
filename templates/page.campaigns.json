@@ -425,7 +425,7 @@
         "fullwidth": true,
         "video_width": 100,
         "text_column_width": 100,
-        "width": 1320,
+        "width": 2000,
         "column_order": "video_first",
         "color_scheme": "scheme-main",
         "inset": true,
