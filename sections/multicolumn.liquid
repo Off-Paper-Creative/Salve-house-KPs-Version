@@ -147,7 +147,7 @@
           {% endif %} 
 
           {% if section.settings.background_video != blank %}
-        <div class="section-multicolumn__video">
+        <div class="section-multicolumn">
           {{ section.settings.background_video | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
         </div>
       {% endif %}
