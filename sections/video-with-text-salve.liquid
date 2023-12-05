@@ -68,45 +68,7 @@
         %}" target="{{ section.settings.button_target }}">{{ section.settings.button_text }}</a>
       {% endif %}
     </div>
-    <div class="section-video-content">
-      <div class="section-video-player video-player{% liquid 
-        if section.settings.video_source == 'internal'
-          echo ' has-internal-video'
-        else
-          echo ' has-external-video'
-
-          if section.settings.video_url.type == 'youtube'
-            echo ' has-youtube-video'
-          else
-            echo ' has-vimeo-video'
-          endif
-
-        endif
-    
-        if section.settings.cover_image != blank 
-          echo ' has-cover-image'
-        endif
-      %}">
-        {% if section.settings.video_source == 'internal' %}
-          <div class="section-video-player--internal">
-            {% if section.settings.video != blank %}
-              {{ section.settings.video | video_tag }}
-            {% else %}
-              <div style="--aspect-ratio: 16/9; width: 100%;">
-                <iframe src="https://www.youtube.com/embed/_9VUPq3SxOc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
-              </div>
-            {% endif %}
-          </div>
-        {% elsif section.settings.video_source == 'external' %}
-          <div class="section-video-player--external">
-            {% if section.settings.video_url.type == 'youtube' %}
-              <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
-            {% else %}
-              <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
-            {% endif %}
-          </div>
-        {% endif %}
-        
+    <div class="section-video-content">        
         {% if section.settings.cover_image != blank %}
           <div class="section-video-cover-image">
             {% render 'section-image-processor', image: section.settings.cover_image %}
@@ -266,7 +228,7 @@
                       target="{{ block.settings.button_target }}">{{ block.settings.button_text }}</a>
                   {% endif %}
                 </div>
-              {% elsif block.type == 'images' %}
+              {% elsif block.type == 'video' %}
                 <div class="section-image-with-text-images{% liquid 
           echo ' block-' | append: block.id
 
@@ -276,23 +238,43 @@
           
         %}" {{ block.shopify_attributes }}>
                   {% if block.settings.image_1 != blank %}
-                    <div class="section-image-with-text-images__image-1">
-                      {% render 'section-image-processor'
-                        , image: block.settings.image_1 %}
-                    </div>
-                  {% endif %}
-                  {% if block.settings.image_2 != blank %}
-                    <div class="section-image-with-text-images__image-2">
-                      {% render 'section-image-processor'
-                        , image: block.settings.image_2 %}
-                    </div>
-                  {% endif %}
-                  {% liquid
-                    if block.settings.image_1 == blank and block.settings.image_2 == blank
-                      echo 'lifestyle-1' | placeholder_svg_tag: 'placeholder placeholder-image-with-text'
-                    endif
-                  %}
-                </div>
+                    <div class="section-video-player video-player{% liquid 
+        if section.settings.video_source == 'internal'
+          echo ' has-internal-video'
+        else
+          echo ' has-external-video'
+
+          if section.settings.video_url.type == 'youtube'
+            echo ' has-youtube-video'
+          else
+            echo ' has-vimeo-video'
+          endif
+
+        endif
+    
+        if section.settings.cover_image != blank 
+          echo ' has-cover-image'
+        endif
+      %}">
+        {% if section.settings.video_source == 'internal' %}
+          <div class="section-video-player--internal">
+            {% if section.settings.video != blank %}
+              {{ section.settings.video | video_tag }}
+            {% else %}
+              <div style="--aspect-ratio: 16/9; width: 100%;">
+                <iframe src="https://www.youtube.com/embed/_9VUPq3SxOc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
+              </div>
+            {% endif %}
+          </div>
+        {% elsif section.settings.video_source == 'external' %}
+          <div class="section-video-player--external">
+            {% if section.settings.video_url.type == 'youtube' %}
+              <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
+            {% else %}
+              <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
+            {% endif %}
+          </div>
+        {% endif %}
               {% endif %}
             {% endfor %}
           {% endif %}
@@ -918,10 +900,10 @@ endif
           ],
           "presets": [
             {
-              "name": "Image with text",
+              "name": "Video with text",
               "blocks": [
                 {
-                  "type": "images"
+                  "type": "video"
                 }, {
                   "type": "content"
                 }
