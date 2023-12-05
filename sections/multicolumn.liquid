@@ -145,11 +145,16 @@
                 </div>
             {% endif %}
           {% endif %} 
+          {% comment %} Adding video overlay {% endcomment %}
           {% if section.settings.background_video != blank %}
         <div class="section-image-banner-background-video">
           {{ section.settings.background_video | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
         </div>
       {% endif %}
+      </div>
+    {% if section.settings.background_overlay %}
+      <div class="section-image-banner-background-overlay"></div>
+    {% endif %}
 
           {% if block.settings.text_1 != blank %}
             {% case block.settings.text_1_tag %}
