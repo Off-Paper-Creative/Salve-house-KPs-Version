@@ -418,73 +418,55 @@
         "spacing_placement": "1"
       }
     },
-    "70c96d10-0b6d-4093-88a9-c9ee43081386": {
-      "type": "video-with-text",
+    "d7b237fd-deba-497d-a1c6-b11da1121a94": {
+      "type": "video-with-text-old",
       "disabled": true,
       "settings": {
-        "fullwidth": false,
-        "width": 1320,
-        "color_scheme": "scheme-accent",
-        "inset": true,
-        "inset_choice": "level-3",
-        "gap": true,
-        "gap_choice": "level-4",
-        "stack_on_mobile": true,
-        "images_content_width_split": 67,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
-    "6d2886a9-0cd2-4b51-ae3e-c3e6ee937bbf": {
-      "type": "video",
-      "settings": {
         "fullwidth": true,
+        "video_width": 70,
+        "text_column_width": 30,
         "width": 1320,
+        "column_order": "video_first",
         "color_scheme": "scheme-main",
         "inset": true,
         "inset_choice": "level-3",
-        "heading": "This is Video heading",
+        "heading": "This is video heading",
         "heading_tag": "h3",
-        "button_text": "Button text",
-        "button_url": "",
-        "button_target": "_self",
-        "button_style": "link",
         "video_source": "internal",
-        "video_url": "",
         "video_alt": "",
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
+        "separator_custom_color": "#DAD3C4",
         "spacing": true,
         "spacing_choice": "level-3",
-        "spacing_placement": "1"
+        "spacing_placement": "1",
+        "text_column_header": "Title",
+        "text_column_content": "<p>Paragraph text<\/p>",
+        "text_column_button_text": "Button",
+        "text_column_button_url": "",
+        "text_column_button_target": "_self",
+        "text_column_button_style": "fill"
       }
     },
-    "c5d094a3-e51d-4cd6-ae53-cc291630fb69": {
-      "type": "image-with-text",
+    "1fd3e434-eec5-44fb-b8f6-80b0c67f4314": {
+      "type": "video-with-text",
       "blocks": {
-        "template--21586457002297__c5d094a3-e51d-4cd6-ae53-cc291630fb69-images-1": {
-          "type": "images",
+        "template--21586457002297__1fd3e434-eec5-44fb-b8f6-80b0c67f4314-video-1": {
+          "type": "video",
           "settings": {
             "images_gap": true,
             "images_gap_choice": "level-4",
             "images_width_split": 50,
             "images_stack_on_mobile": true,
-            "image_1_aspect_ratio": "auto",
-            "image_2_aspect_ratio": "auto"
+            "video_source": "internal",
+            "video": "shopify:\/\/files\/videos\/Salve Video SM.mp4",
+            "video_alt": ""
           }
         },
-        "template--21586457002297__c5d094a3-e51d-4cd6-ae53-cc291630fb69-content-1": {
+        "template--21586457002297__1fd3e434-eec5-44fb-b8f6-80b0c67f4314-content-1": {
           "type": "content",
           "settings": {
             "text_1": "This is simple text 1",
@@ -507,8 +489,8 @@
         }
       },
       "block_order": [
-        "template--21586457002297__c5d094a3-e51d-4cd6-ae53-cc291630fb69-images-1",
-        "template--21586457002297__c5d094a3-e51d-4cd6-ae53-cc291630fb69-content-1"
+        "template--21586457002297__1fd3e434-eec5-44fb-b8f6-80b0c67f4314-video-1",
+        "template--21586457002297__1fd3e434-eec5-44fb-b8f6-80b0c67f4314-content-1"
       ],
       "settings": {
         "fullwidth": true,
@@ -541,8 +523,7 @@
     "38b3d836-e3de-4299-bf61-998586e950ef",
     "f1414266-948a-4b1d-b8d7-3c0464d56da0",
     "0794d9c4-3c1b-47fd-8ff4-24e725a4d584",
-    "70c96d10-0b6d-4093-88a9-c9ee43081386",
-    "6d2886a9-0cd2-4b51-ae3e-c3e6ee937bbf",
-    "c5d094a3-e51d-4cd6-ae53-cc291630fb69"
+    "d7b237fd-deba-497d-a1c6-b11da1121a94",
+    "1fd3e434-eec5-44fb-b8f6-80b0c67f4314"
   ]
 }
