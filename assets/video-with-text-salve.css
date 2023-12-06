@@ -1,13 +1,11 @@
 .section-video-with-text-container.section-container {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	margin: 15px;
 	min-width: 90vw;
 	justify-content: center;
 }
 .section-video-with-text-container {
-	padding: 1rem;
 	width: 40vw;
 	max-width: 80vw;
 }
@@ -18,7 +16,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 1rem;
-	max-width: 30vw;
+	width: 40vw;
 }
 .text-column-button {
 	margin: 1rem;
