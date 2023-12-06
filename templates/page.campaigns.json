@@ -451,6 +451,33 @@
         "text_column_button_target": "_self",
         "text_column_button_style": "fill"
       }
+    },
+    "6d2886a9-0cd2-4b51-ae3e-c3e6ee937bbf": {
+      "type": "video",
+      "settings": {
+        "fullwidth": true,
+        "width": 1320,
+        "color_scheme": "scheme-main",
+        "inset": true,
+        "inset_choice": "level-3",
+        "heading": "This is Video heading",
+        "heading_tag": "h3",
+        "button_text": "Button text",
+        "button_url": "",
+        "button_target": "_self",
+        "button_style": "link",
+        "video_source": "internal",
+        "video_alt": "",
+        "separator": false,
+        "separator_width": 100,
+        "separator_fullwidth": false,
+        "separator_height": 1,
+        "separator_use_custom_color": false,
+        "separator_custom_color": "#DAD3C4",
+        "spacing": true,
+        "spacing_choice": "level-3",
+        "spacing_placement": "1"
+      }
     }
   },
   "order": [
@@ -462,6 +489,7 @@
     "38b3d836-e3de-4299-bf61-998586e950ef",
     "f1414266-948a-4b1d-b8d7-3c0464d56da0",
     "0794d9c4-3c1b-47fd-8ff4-24e725a4d584",
-    "70c96d10-0b6d-4093-88a9-c9ee43081386"
+    "70c96d10-0b6d-4093-88a9-c9ee43081386",
+    "6d2886a9-0cd2-4b51-ae3e-c3e6ee937bbf"
   ]
 }
