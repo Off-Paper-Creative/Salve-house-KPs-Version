@@ -1,4 +1,3 @@
-{{ 'video-with-text-salve.css' | asset_url | stylesheet_tag }}
 {% style %}
   #shopify-section-{{ section.id }} {
 
@@ -173,18 +172,18 @@
                       target="{{ block.settings.button_target }}">{{ block.settings.button_text }}</a>
                   {% endif %}
                 </div>
-                {% comment %} Begin video {% endcomment %}
-            {% elsif block.type == 'videos' %}
-  <div class="section-image-with-text-images{% liquid 
-    echo ' block-' | append: block.id
+              {% elsif block.type == 'video' %}
+                <div class=section-video-player-controls>
+                <div class="section-image-with-text-images{% liquid 
+          echo ' block-' | append: block.id
 
-    if block.settings.images_stack_on_mobile
-      echo ' has-stack-on-mobile' 
-    endif
-  %}" {{ block.shopify_attributes }}>
-    {% assign video_count = block.settings.videos | size %}
-     <div class="section-video-content">
-      <div class="section-video-player video-player{% liquid 
+          if block.settings.images_stack_on_mobile
+            echo ' has-stack-on-mobile' 
+          endif
+          
+        %}" {{ block.shopify_attributes }}>
+                  {% if block.settings.video != blank %}
+                    <div class="section-video-player video-player{% liquid 
         if section.settings.video_source == 'internal'
           echo ' has-internal-video'
         else
@@ -197,33 +196,10 @@
           endif
 
         endif
-    
-        if section.settings.cover_image != blank 
-          echo ' has-cover-image'
-        endif
-      %}">
-        {% if section.settings.video_source == 'internal' %}
-          <div class="section-video-player--internal">
-            {% if section.settings.video != blank %}
-              {{ section.settings.video | video_tag }}
-            {% else %}
-              <div style="--aspect-ratio: 16/9; width: 100%;">
-                <iframe src="https://www.youtube.com/embed/_9VUPq3SxOc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
-              </div>
-            {% endif %}
-          </div>
-        {% elsif section.settings.video_source == 'external' %}
-          <div class="section-video-player--external">
-            {% if section.settings.video_url.type == 'youtube' %}
-              <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
-            {% else %}
-              <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="{{ section.settings.video_alt | escape }}"></iframe>
-            {% endif %}
-          </div>
-        {% endif %}
-  </div>
-{% endif %}
-              {% comment %} End video {% endcomment %}
+        %}">
+        </div>
+                  {% endif  %}
+              {% endif %}
             {% endfor %}
           {% endif %}
         </div>
@@ -240,7 +216,7 @@ endif
 
       {% schema %}
         {
-          "name": "t:sections.image_with_text.name",
+          "name": "Video with text",
           "settings": [
             {
               "type": "header",
@@ -473,8 +449,8 @@ endif
           ],
           "blocks": [
             {
-              "name": "t:sections.image_with_text.blocks.images.name",
-              "type": "images",
+              "name": "Video",
+              "type": "video",
               "limit": 1,
               "settings": [
                 {
@@ -511,12 +487,6 @@ endif
                     }, {
                       "value": "level-5",
                       "label": "t:sections.image_with_text.blocks.images.settings.images_gap_choice.options.option__4.label"
-                    }, {
-                      "value": "level-6",
-                      "label": "t:sections.image_with_text.blocks.images.settings.images_gap_choice.options.option__5.label"
-                    }, {
-                      "value": "level-7",
-                      "label": "t:sections.image_with_text.blocks.images.settings.images_gap_choice.options.option__6.label"
                     }
                   ],
                   "default": "level-4",
@@ -541,87 +511,30 @@ endif
                   "type": "header",
                   "content": "t:sections.image_with_text.blocks.images.settings.header__image_1.content"
                 }, {
-                  "type": "image_picker",
-                  "id": "image_1",
-                  "label": "t:sections.image_with_text.blocks.images.settings.image_1.label"
-                }, {
                   "type": "select",
-                  "id": "image_1_aspect_ratio",
-                  "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.label",
+                  "id": "video_source",
+                  "label": "t:sections.video.settings.video_source.label",
                   "options": [
-                    {
-                      "value": "auto",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__0.label"
-                    },
-                    {
-                      "value": "1\/1",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__1.label"
-                    },
-                    {
-                      "value": "3\/2",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__2.label"
-                    },
-                    {
-                      "value": "4\/3",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__3.label"
-                    }, {
-                      "value": "5\/4",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__4.label"
-                    }, {
-                      "value": "2\/3",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__5.label"
-                    }, {
-                      "value": "3\/4",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__6.label"
-                    }, {
-                      "value": "4\/5",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_1_aspect_ratio.options.option__7.label"
-                    }
+                    {"value": "internal", "label": "t:sections.video.settings.video_source.options.option__0.label"},
+                    {"value": "external", "label": "t:sections.video.settings.video_source.options.option__1.label"}
                   ],
-                  "default": "auto"
-                }, {
-                  "type": "header",
-                  "content": "t:sections.image_with_text.blocks.images.settings.header__image_2.content"
-                }, {
-                  "type": "image_picker",
-                  "id": "image_2",
-                  "label": "t:sections.image_with_text.blocks.images.settings.image_2.label",
-                  "info": "t:sections.image_with_text.blocks.images.settings.image_2.info"
-                }, {
-                  "type": "select",
-                  "id": "image_2_aspect_ratio",
-                  "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.label",
-                  "options": [
-                    {
-                      "value": "auto",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__0.label"
-                    },
-                    {
-                      "value": "1\/1",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__1.label"
-                    },
-                    {
-                      "value": "3\/2",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__2.label"
-                    },
-                    {
-                      "value": "4\/3",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__3.label"
-                    }, {
-                      "value": "5\/4",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__4.label"
-                    }, {
-                      "value": "2\/3",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__5.label"
-                    }, {
-                      "value": "3\/4",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__6.label"
-                    }, {
-                      "value": "4\/5",
-                      "label": "t:sections.image_with_text.blocks.images.settings.image_2_aspect_ratio.options.option__7.label"
-                    }
-                  ],
-                  "default": "auto"
+                  "default": "internal"
+                },
+                {
+                  "type": "video",
+                  "id": "video",
+                  "label": "t:sections.video.settings.video.label"
+                },
+                {
+                  "type": "video_url",
+                  "id": "video_url",
+                  "accept": ["youtube", "vimeo"],
+                  "label": "t:sections.video.settings.video_url.label"
+                },
+                {
+                  "type": "text",
+                  "id": "video_alt",
+                  "label": "t:sections.video.settings.video_alt.label"
                 }
               ]
             }, {
@@ -891,10 +804,10 @@ endif
           ],
           "presets": [
             {
-              "name": "Image with text",
+              "name": "Video with text",
               "blocks": [
                 {
-                  "type": "images"
+                  "type": "video"
                 }, {
                   "type": "content"
                 }
