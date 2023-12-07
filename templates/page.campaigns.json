@@ -85,10 +85,10 @@
     "6a3b0d50-8f0e-4502-a06f-a5cea32f6f71": {
       "type": "separator",
       "custom_css": [
-        "hr {height: 3px;}"
+
       ],
       "settings": {
-        "width": 100,
+        "width": 72,
         "height": 5,
         "color": "#DAD3C4"
       }
@@ -96,7 +96,7 @@
     "38b3d836-e3de-4299-bf61-998586e950ef": {
       "type": "spacer",
       "custom_css": [
-        ".section-spacer {background-color: #966e25;}"
+
       ],
       "settings": {
       }
