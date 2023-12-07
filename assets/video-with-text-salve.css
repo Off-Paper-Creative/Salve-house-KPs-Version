@@ -1,23 +1,82 @@
-.section-video-with-text-container.section-container {
-	display: flex;
-	align-items: center;
-	margin: 15px;
-	min-width: 90vw;
-	justify-content: center;
+/* good good */
+.video-player {
+	position: relative;
+	width: 100%; /* Make sure the video takes up 100% of its container */
+	display: block;
 }
-.section-video-with-text-container {
-	width: 40vw;
-	max-width: 80vw;
+.video-play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.section-video-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 1rem;
-	width: 40vw;
+.section-image-with-text-container-video {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
 }
-.text-column-button {
-	margin: 1rem;
+
+.section-video-player-with-text {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	margin: auto;
+}
+
+.video-content-container {
+	flex: 0 0 50%; /* Make the video container take up 50% of the width */
+	max-width: 50%; /* Ensure the video container doesn't exceed 50% */
+	position: relative;
+}
+
+.text-content-container {
+	flex: 0 0 50%; /* Make the text container take up 50% of the width */
+	max-width: 50%; /* Ensure the text container doesn't exceed 50% */
+	padding: 0 20px; /* Optional: Add some padding to the text container */
+}
+
+.clicked {
+	display: none;
+}
+
+/* Media Query for Desktops */
+@media screen and (min-width: 801px) {
+	video {
+		width: 45vw;
+		max-width: 50vw;
+	}
+	.text-content-container {
+		flex: 0 0 50%; /* Make the text container take up 50% of the width */
+		max-width: 50%; /* Ensure the text container doesn't exceed 50% */
+		padding: 0 20px; /* Optional: Add some padding to the text container */
+	}
+	.section-image-with-text-content-video {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+}
+@media screen and (max-width: 800px) {
+	.section-image-with-text-container-video {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	video {
+		width: 100%;
+	}
+	.section-video-player-with-text {
+		width: 100%;
+		display: flex;
+	}
+
+	.text-content-container {
+		flex: 0 0 90%; /* Make the text container take up 90% of the width */
+		max-width: 100%; /* Ensure the text container doesn't exceed 90% */
+		padding: 0 20px;
+	}
 }

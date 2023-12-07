@@ -1,3 +1,5 @@
+{{ 'video-with-text-salve.css' | asset_url | stylesheet_tag }}
+
 {% style %}
   #shopify-section-{{ section.id }} {
 
@@ -122,11 +124,11 @@
   echo ' ' | append: section.settings.color_scheme
   
 %}">
-  <div class="section-image-with-text-container section-container">
+  <div class="section-image-with-text-container-video section-container">
     {% if section.blocks != blank %}
       {% for block in section.blocks %}
         {% if block.type == 'content' %}
-          <div class="section-image-with-text-content block-{{ block.id }}" {{ block.shopify_attributes }}>
+          <div class="section-image-with-text-content-video block-{{ block.id }}" {{ block.shopify_attributes }}>
             {% if block.settings.text_1 != blank %}
               {% case block.settings.text_1_tag %}
                 {% when 's1' or 's2' or 's3' %}
@@ -172,29 +174,35 @@
                       target="{{ block.settings.button_target }}">{{ block.settings.button_text }}</a>
                   {% endif %}
                 </div>
-               {% elsif block.type == 'video' %}
-    <div class="section-video-player video-player{% liquid 
-      if section.settings.video_source == 'internal'
-        echo ' has-internal-video'
-      else
-        echo ' has-external-video'
+              {% elsif block.type == 'video' %}
+  <div class="section-video-player-with-text video-player{% liquid 
+    if section.settings.video_source == 'internal'
+      echo ' has-internal-video'
+    else
+      echo ' has-external-video'
 
-        if section.settings.video_url.type == 'youtube'
-          echo ' has-youtube-video'
-        else
-          echo ' has-vimeo-video'
-        endif
+      if section.settings.video_url.type == 'youtube'
+        echo ' has-youtube-video'
+      else
+        echo ' has-vimeo-video'
       endif
-    %}">
+    endif
+  %}">
       {% if block.settings.video != blank %}
-        {{ block.settings.video | video_tag }}
-      {% else %}
-        <div style="--aspect-ratio: 16/9; width: 100%;">
-          <iframe src="https://www.youtube.com/embed/_9VUPq3SxOc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ block.settings.video_alt | escape }}"></iframe>
+      {{ block.settings.video | video_tag }}
+      <div class="section-video-player-controls__play video-play" onclick="toggleVideo(this)">
+        {% render 'icon-play' %}
+      </div>
+    {% else %}
+      <div style="--aspect-ratio: 16/9; width: 100%;">
+        <iframe src="https://www.youtube.com/embed/_9VUPq3SxOc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="{{ block.settings.video_alt | escape }}"></iframe>
+        <div class="section-video-player-controls__play video-play">
+          {% render 'icon-play' %}
         </div>
-      {% endif %}
-    </div>
-  {% endif %}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
 {% endfor %}
           {% endif %}
         </div>
@@ -207,6 +215,26 @@ endif
  %}">
 <hr class="separator"></div>
       {% endif %}
+
+{% comment %} Play button logic {% endcomment %}
+<script>
+  function toggleVideo(playButton) {
+    // Toggle the 'clicked' class on the play button
+    playButton.classList.toggle('clicked');
+
+    // Get the video element associated with the clicked play button
+    var video = playButton.closest('.section-video-player-with-text').querySelector('video');
+
+    // Check if the video is playing
+    if (video.paused) {
+      // If paused, play the video
+      video.play();
+    } else {
+      // If playing, pause the video
+      video.pause();
+    }
+  }
+</script>
 
 
       {% schema %}
