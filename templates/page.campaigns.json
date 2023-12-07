@@ -96,7 +96,7 @@
     "38b3d836-e3de-4299-bf61-998586e950ef": {
       "type": "spacer",
       "custom_css": [
-
+        ".section-spacer {background-color: #966e25;}"
       ],
       "settings": {
       }
