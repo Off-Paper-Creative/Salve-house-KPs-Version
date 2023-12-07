@@ -23,6 +23,9 @@
 	width: 100%;
 	align-items: center;
 	margin: auto;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .video-content-container {
@@ -44,8 +47,9 @@
 /* Media Query for Desktops */
 @media screen and (min-width: 801px) {
 	video {
-		width: 45vw;
-		max-width: 50vw;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 	.text-content-container {
 		flex: 0 0 50%; /* Make the text container take up 50% of the width */
@@ -53,10 +57,7 @@
 		padding: 0 20px; /* Optional: Add some padding to the text container */
 	}
 	.section-image-with-text-content-video {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
+		display: block;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -71,7 +72,6 @@
 	}
 	.section-video-player-with-text {
 		width: 100%;
-		display: flex;
 	}
 
 	.text-content-container {
