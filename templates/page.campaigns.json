@@ -425,7 +425,7 @@
           "type": "video",
           "settings": {
             "video_source": "internal",
-            "video": "shopify:\/\/files\/videos\/production_id_4873446 (1080p).mp4",
+            "video": "shopify:\/\/files\/videos\/Salve full screen web .mp4",
             "video_alt": ""
           }
         },
@@ -440,7 +440,7 @@
             "text_2_tag": "p",
             "text_2_custom_width": false,
             "text_2_width": 450,
-            "text_3": "<p>This is text  for Image with text section. <\/p>",
+            "text_3": "<p>This is text 3 for Image with text section. <\/p>",
             "text_3_tag": "p",
             "text_3_custom_width": false,
             "text_3_width": 450,
