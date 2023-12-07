@@ -255,7 +255,7 @@
         "width": 1320,
         "color_scheme": "scheme-additional",
         "inset": true,
-        "inset_choice": "level-3",
+        "inset_choice": "level-1",
         "alignment": "center",
         "separator": false,
         "separator_width": 100,
@@ -284,7 +284,7 @@
           "type": "content",
           "settings": {
             "text_1": "This is simple text 1",
-            "text_1_tag": "s2",
+            "text_1_tag": "h4",
             "text_1_custom_width": false,
             "text_1_width": 450,
             "text_2": "<p>This is text 2 for Image with text section. This is text 2 for Image with text section. <\/p>",
@@ -309,7 +309,7 @@
       "settings": {
         "color_scheme": "scheme-accent",
         "inset": true,
-        "inset_choice": "level-5",
+        "inset_choice": "level-2",
         "images_content_width_split": 50,
         "separator": false,
         "separator_width": 100,
