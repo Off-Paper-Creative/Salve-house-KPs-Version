@@ -25,156 +25,6 @@
         "spacing_placement": "1"
       }
     },
-    "5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb": {
-      "type": "membership-products",
-      "blocks": {
-        "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-1": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-4",
-            "width": 23,
-            "horizontal_align": "center",
-            "vertical_align": "center",
-            "text_align": "center",
-            "image_show": false,
-            "image_aspect_ratio": "1\/1",
-            "image_custom_width": false,
-            "image_width": 250,
-            "image_display_order": 0,
-            "text_1": "",
-            "text_1_tag": "h3",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "Select your subscription package. Each product comes with a 2 month supply of supplements at the recommended dose.",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 400,
-            "text_2_display_order": 0,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        },
-        "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-2": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-4",
-            "width": 23,
-            "horizontal_align": "center",
-            "vertical_align": "center",
-            "text_align": "center",
-            "image_show": false,
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 250,
-            "image_display_order": 0,
-            "text_1": "",
-            "text_1_tag": "h3",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "Receive a 2 month supply of your selected supplements at 25% off, delivered to your door every other month.",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        },
-        "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-3": {
-          "type": "column",
-          "settings": {
-            "color_scheme": "scheme-main",
-            "inset": true,
-            "inset_choice": "level-4",
-            "width": 23,
-            "horizontal_align": "center",
-            "vertical_align": "center",
-            "text_align": "center",
-            "image_show": false,
-            "image_aspect_ratio": "auto",
-            "image_custom_width": false,
-            "image_width": 250,
-            "image_display_order": 0,
-            "text_1": "",
-            "text_1_tag": "h3",
-            "text_1_custom_width": false,
-            "text_1_width": 450,
-            "text_1_display_order": 0,
-            "text_2": "Enjoy the enhancement in overall well-being, appearance, mobility and more. You will start to see & feel these benefits after 3 month of consistant use.",
-            "text_2_tag": "p",
-            "text_2_custom_width": false,
-            "text_2_width": 450,
-            "text_2_display_order": 0,
-            "button_text": "",
-            "button_url": "",
-            "button_target": "_self",
-            "button_style": "link",
-            "button_display_order": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-1",
-        "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-2",
-        "template--21540511580473__5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb-column-3"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h3 {color: white;}",
-        ".section-handpicked-products-product {margin-top: 15px; margin-bottom: 0px;}"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "width": 1320,
-        "color_scheme": "scheme-additional",
-        "inset": true,
-        "inset_choice": "level-2",
-        "heading": "Select Your Products:",
-        "heading_tag": "h3",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "link",
-        "products_choice": [
-          "the-collagen-c-bundle-1",
-          "collagen",
-          "vitamin-c"
-        ],
-        "columns_count": 3,
-        "rows_count": 1,
-        "gap": true,
-        "gap_choice": "level-3",
-        "carousel": false,
-        "per_move": 4,
-        "autoplay": true,
-        "interval": 4000,
-        "loop": true,
-        "mouse_drag": true,
-        "arrows": true,
-        "dots": false,
-        "speed": 400,
-        "separator": false,
-        "separator_width": 100,
-        "separator_fullwidth": false,
-        "separator_height": 1,
-        "separator_use_custom_color": false,
-        "separator_custom_color": "#dad3c4",
-        "spacing": true,
-        "spacing_choice": "level-3",
-        "spacing_placement": "1"
-      }
-    },
     "1469d5f6-7b0b-4f22-ac4a-1facd35fadc7": {
       "type": "rich-text",
       "blocks": {
@@ -235,10 +85,10 @@
     "6a3b0d50-8f0e-4502-a06f-a5cea32f6f71": {
       "type": "separator",
       "custom_css": [
-        "hr {height: 3px;}"
+
       ],
       "settings": {
-        "width": 100,
+        "width": 72,
         "height": 5,
         "color": "#DAD3C4"
       }
@@ -405,7 +255,7 @@
         "width": 1320,
         "color_scheme": "scheme-additional",
         "inset": true,
-        "inset_choice": "level-3",
+        "inset_choice": "level-1",
         "alignment": "center",
         "separator": false,
         "separator_width": 100,
@@ -426,6 +276,7 @@
           "settings": {
             "video_source": "internal",
             "video": "shopify:\/\/files\/videos\/Salve full screen web .mp4",
+            "video_url": "",
             "video_alt": ""
           }
         },
@@ -433,7 +284,7 @@
           "type": "content",
           "settings": {
             "text_1": "This is simple text 1",
-            "text_1_tag": "s2",
+            "text_1_tag": "h4",
             "text_1_custom_width": false,
             "text_1_width": 450,
             "text_2": "<p>This is text 2 for Image with text section. This is text 2 for Image with text section. <\/p>",
@@ -456,17 +307,17 @@
         "template--21586457002297__71a51749-6146-46d0-a3df-18ef2938fbdb-content-1"
       ],
       "settings": {
-        "color_scheme": "scheme-main",
+        "color_scheme": "scheme-accent",
         "inset": true,
-        "inset_choice": "level-3",
+        "inset_choice": "level-2",
         "images_content_width_split": 50,
         "separator": false,
         "separator_width": 100,
         "separator_fullwidth": false,
         "separator_height": 1,
         "separator_use_custom_color": false,
-        "separator_custom_color": "#DAD3C4",
-        "spacing": true,
+        "separator_custom_color": "#dad3c4",
+        "spacing": false,
         "spacing_choice": "level-3",
         "spacing_placement": "1"
       }
@@ -474,7 +325,6 @@
   },
   "order": [
     "main",
-    "5fb245a9-8fdb-44e7-b8d8-6fe586eaf6fb",
     "1469d5f6-7b0b-4f22-ac4a-1facd35fadc7",
     "fdb9ca76-57df-4939-be56-91db71134f3e",
     "6a3b0d50-8f0e-4502-a06f-a5cea32f6f71",
