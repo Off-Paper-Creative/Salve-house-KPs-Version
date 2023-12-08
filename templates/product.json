@@ -82,6 +82,12 @@
           "settings": {
             "height": 30
           }
+        },
+        "f953c286-76e7-4e78-afdd-33b43fc10352": {
+          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-product-summary\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -97,7 +103,8 @@
         "0d05c380-3849-4441-a916-d2c9d9c1102c",
         "template--15755619565723__main-1672284793b7b17a79-10",
         "07f943fc-77a9-4701-a8c1-345d2dfd42e8",
-        "bc7fdf5f-e6be-4a98-bd07-4adcd4413204"
+        "bc7fdf5f-e6be-4a98-bd07-4adcd4413204",
+        "f953c286-76e7-4e78-afdd-33b43fc10352"
       ],
       "settings": {
         "fullwidth": true,
